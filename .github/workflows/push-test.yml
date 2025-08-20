@@ -1,0 +1,23 @@
+name: push-test
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "hola $(date -u +%F_%T)" > prueba.txt
+      - name: Push to public repo
+        env:
+          GH_USER: "JoomBall"              # <--- tu usuario
+          GH_REPO: "miEPG-pub"
+          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          set -e
+          git config --global user.name  "github-actions"
+          git config --global user.email "actions@users.noreply.github.com"
+          git clone https://x-access-token:${PUSH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git pub
+          cp prueba.txt pub/
+          cd pub
+          git add -A
+          git commit -m "push-test $(date -u +%F_%T)" || echo "Sin cambios"
+          git push
