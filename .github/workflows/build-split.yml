@@ -3,73 +3,110 @@ name: miEPG-merge-uid-split (to public mirror)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 7,11,15,19 * * *"   # UTC => 09:05, 13:05, 17:05, 21:05 Europa/Madrid aprox.
+    # UTC → 09:05, 13:05, 17:05, 21:05 en Europa/Madrid aprox.
+    - cron: "5 7,11,15,19 * * *"
+
+concurrency:
+  group: miEPG-build
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Setup tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y php-cli
-          chmod +x EPG_script.sh || true
-          echo "== Árbol del repo =="
+          sudo apt-get install -y php-cli wget gzip curl
+          echo "== Árbol raíz =="
           ls -lah
-          echo "== epgs.txt =="
-          [ -f epgs.txt ] && sed -n '1,100p' epgs.txt || echo "NO epgs.txt"
-          echo "== canales.txt =="
-          [ -f canales.txt ] && sed -n '1,100p' canales.txt || echo "NO canales.txt"
+          echo "== epgs.txt (primeras líneas) =="
+          [ -f epgs.txt ] && sed -n '1,50p' epgs.txt || echo "NO epgs.txt"
+          echo "== canales.txt (primeras líneas) =="
+          [ -f canales.txt ] && sed -n '1,50p' canales.txt || echo "NO canales.txt"
+
+      - name: Normalizar finales de línea
+        run: |
+          sed -i 's/\r$//' epgs.txt || true
+          sed -i 's/\r$//' canales.txt || true
+          [ -f countries/es/allowlist.txt ] && sed -i 's/\r$//' countries/es/allowlist.txt || true
+          [ -f countries/gb/allowlist.txt ] && sed -i 's/\r$//' countries/gb/allowlist.txt || true
 
       - name: Probar URLs de epgs.txt (HEAD)
         run: |
-          echo "=== PROBANDO FUENTES ==="
           if [ -f epgs.txt ]; then
+            echo "=== PROBANDO FUENTES ==="
             while IFS= read -r u; do
+              u="${u%%#*}"; u="$(echo -n "$u" | xargs || true)"
               [ -z "$u" ] && continue
               echo "--- $u"
               curl -I --max-time 25 "$u" || true
             done < epgs.txt
+          else
+            echo "Falta epgs.txt en la raíz"; exit 10
           fi
 
-      # --- MERGE (debe crear miEPG.xml) ---
-      - name: Build combined EPG (EPG_script.sh)
+      - name: Build combined EPG (EPG_script.sh en raíz)
         run: |
           set -euo pipefail
-          if [ ! -x ./EPG_script.sh ]; then
-            echo "EPG_script.sh no es ejecutable o no existe"; exit 20;
-          fi
-          bash -x ./EPG_script.sh || { echo "EPG_script.sh falló"; exit 21; }
-          echo "== ficheros XML encontrados tras merge =="
-          find . -maxdepth 2 -type f -name "*.xml" -ls || true
-          [ -s miEPG.xml ] || { echo "FALTA miEPG.xml (merge no generó salida)"; exit 22; }
+          test -f ./EPG_script.sh || { echo "No encuentro EPG_script.sh en raíz"; exit 20; }
+          chmod +x ./EPG_script.sh || true
+          bash -x ./EPG_script.sh
+          echo "== XML tras merge =="
+          find . -maxdepth 1 -type f -name "*.xml" -ls || true
+          test -s miEPG.xml || { echo "miEPG.xml no se generó (revisa epgs.txt/canales.txt y coincidencias de IDs)"; exit 22; }
           mv -f miEPG.xml miEPG_ALL.xml
-          head -n 5 miEPG_ALL.xml || true
+          echo "=== Cabecera miEPG_ALL.xml ==="
+          head -n 8 miEPG_ALL.xml || true
+          echo "=== Muestra IDs de canales (si están en la cabecera) ==="
+          grep -oP '<channel id="[^"]+"' miEPG_ALL.xml | head -n 50 || true
 
-      # --- UID ---
+      - name: Comprobar herramientas PHP
+        run: |
+          test -f tools/xmltv_add_uid.php   || { echo "Falta tools/xmltv_add_uid.php"; exit 30; }
+          test -f tools/xmltv_split.php     || { echo "Falta tools/xmltv_split.php"; exit 31; }
+
       - name: Add ext:uid
         run: |
           php tools/xmltv_add_uid.php miEPG_ALL.xml miEPG_ALL_uid.xml
-          [ -s miEPG_ALL_uid.xml ] || { echo "FALTA miEPG_ALL_uid.xml"; exit 23; }
+          test -s miEPG_ALL_uid.xml || { echo "Falta miEPG_ALL_uid.xml"; exit 23; }
           grep -m1 -n "<ext:uid>" miEPG_ALL_uid.xml || true
 
-      # --- SPLIT (puedes comentar estos dos pasos para publicar solo el combinado) ---
       - name: Split ES
         run: |
-          sed -n '1,100p' countries/es/allowlist.txt || true
-          php tools/xmltv_split.php miEPG_ALL_uid.xml countries/es/allowlist.txt miEPG_ES.xml || true
-          [ -s miEPG_ES.xml ] && echo "OK ES: $(wc -c < miEPG_ES.xml) bytes" || echo "WARNING: ES vacío"
+          if [ -f countries/es/allowlist.txt ]; then
+            echo "== allowlist ES =="
+            sed -n '1,100p' countries/es/allowlist.txt || true
+            php tools/xmltv_split.php miEPG_ALL_uid.xml countries/es/allowlist.txt miEPG_ES.xml || true
+            if [ -s miEPG_ES.xml ]; then
+              echo "OK ES: $(wc -c < miEPG_ES.xml) bytes"
+            else
+              echo "WARNING: ES vacío (revisa allowlist: IDs/nombres reales del XML combinado)"
+            fi
+          else
+            echo "No hay countries/es/allowlist.txt; saltando split ES"
+          fi
 
       - name: Split GB
         run: |
-          sed -n '1,100p' countries/gb/allowlist.txt || true
-          php tools/xmltv_split.php miEPG_ALL_uid.xml countries/gb/allowlist.txt miEPG_GB.xml || true
-          [ -s miEPG_GB.xml ] && echo "OK GB: $(wc -c < miEPG_GB.xml) bytes" || echo "WARNING: GB vacío"
+          if [ -f countries/gb/allowlist.txt ]; then
+            echo "== allowlist GB =="
+            sed -n '1,100p' countries/gb/allowlist.txt || true
+            php tools/xmltv_split.php miEPG_ALL_uid.xml countries/gb/allowlist.txt miEPG_GB.xml || true
+            if [ -s miEPG_GB.xml ]; then
+              echo "OK GB: $(wc -c < miEPG_GB.xml) bytes"
+            else
+              echo "WARNING: GB vacío (revisa allowlist)"
+            fi
+          else
+            echo "No hay countries/gb/allowlist.txt; saltando split GB"
+          fi
 
-      # Artefactos para descargarlos desde la UI aunque falle el push
-      - name: Upload XML artifacts
+      - name: Subir artefactos XML (para depurar)
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -81,10 +118,9 @@ jobs:
             miEPG_GB.xml
           if-no-files-found: warn
 
-      # --- PUBLISH ---
       - name: Verify publish auth
         env:
-          GH_USER: "JoomBall"
+          GH_USER: "JoomBall"               # <--- cambia si tu usuario es otro
           GH_REPO: "miEPG-pub"
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
         run: |
@@ -94,7 +130,7 @@ jobs:
 
       - name: Publish to public mirror
         env:
-          GH_USER: "JoomBall"
+          GH_USER: "JoomBall"               # <--- cambia si tu usuario es otro
           GH_REPO: "miEPG-pub"
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
         run: |
@@ -107,5 +143,5 @@ jobs:
           [ -f miEPG_GB.xml ] && cp -f miEPG_GB.xml pub/ || true
           cd pub
           git add -A
-          git commit -m "update $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "Sin cambios"
+          git commit -m "update $(date -u +%Y-%m-%dT%H:%M:%SZ')" || echo "Sin cambios"
           git push
