@@ -1,0 +1,6 @@
+# IDs o nombres EXACTOS que aparezcan en tu miEPG_ALL_uid.xml
+Antena 3 HD
+Telecinco HD
+TVE 1
+La 2
+DMAX
