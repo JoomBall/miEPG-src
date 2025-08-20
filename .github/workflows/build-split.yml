@@ -1,0 +1,60 @@
+name: miEPG-merge-uid-split (to public mirror)
+
+on:
+  schedule:
+    - cron: "5 7,11,15,19 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout private repo
+        uses: actions/checkout@v4
+
+      - name: Ensure PHP CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y php-cli
+
+      - name: Make EPG_script executable
+        run: chmod +x EPG_script.sh
+
+      # 1) Genera el combinado (usa epgs.txt/canales.txt del repo)
+      - name: Build combined EPG
+        run: |
+          ./EPG_script.sh
+          mv -f miEPG.xml miEPG_ALL.xml
+
+      # 2) Añade ext:uid estable
+      - name: Add ext:uid
+        run: |
+          php tools/xmltv_add_uid.php miEPG_ALL.xml miEPG_ALL_uid.xml
+
+      # 3) Split por países (ES / GB)
+      - name: Split ES
+        run: php tools/xmltv_split.php miEPG_ALL_uid.xml countries/es/allowlist.txt miEPG_ES.xml
+
+      - name: Split GB
+        run: php tools/xmltv_split.php miEPG_ALL_uid.xml countries/gb/allowlist.txt miEPG_GB.xml
+
+      # 4) Publica ficheros al repo público miEPG-pub
+      - name: Publish to public mirror (miEPG-pub)
+        env:
+          GH_USER: "<TU_USUARIO>"   # <-- CAMBIA ESTO
+          GH_REPO: "miEPG-pub"
+          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@users.noreply.github.com"
+
+          # Clona el repo público con el token
+          git clone https://x-access-token:${PUSH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git pub
+
+          # Copia salidas
+          cp miEPG_ALL.xml miEPG_ALL_uid.xml miEPG_ES.xml miEPG_GB.xml pub/
+
+          cd pub
+          git add miEPG_ALL.xml miEPG_ALL_uid.xml miEPG_ES.xml miEPG_GB.xml
+          git commit -m "update XMLs $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "Sin cambios"
+          git push
