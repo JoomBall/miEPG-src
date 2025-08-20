@@ -1,61 +1,111 @@
 name: miEPG-merge-uid-split (to public mirror)
 
 on:
-  schedule:
-    - cron: "5 7,11,15,19 * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "5 7,11,15,19 * * *"   # UTC => 09:05, 13:05, 17:05, 21:05 Europa/Madrid aprox.
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout private repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Ensure PHP CLI
+      - name: Setup tools
         run: |
           sudo apt-get update
           sudo apt-get install -y php-cli
+          chmod +x EPG_script.sh || true
+          echo "== Árbol del repo =="
+          ls -lah
+          echo "== epgs.txt =="
+          [ -f epgs.txt ] && sed -n '1,100p' epgs.txt || echo "NO epgs.txt"
+          echo "== canales.txt =="
+          [ -f canales.txt ] && sed -n '1,100p' canales.txt || echo "NO canales.txt"
 
-      - name: Make EPG_script executable
-        run: chmod +x EPG_script.sh
-
-      # 1) Genera el combinado (usa epgs.txt/canales.txt del repo)
-      - name: Build combined EPG
+      - name: Probar URLs de epgs.txt (HEAD)
         run: |
-          ./EPG_script.sh
-          mv -f miEPG.xml miEPG_ALL.xml
+          echo "=== PROBANDO FUENTES ==="
+          if [ -f epgs.txt ]; then
+            while IFS= read -r u; do
+              [ -z "$u" ] && continue
+              echo "--- $u"
+              curl -I --max-time 25 "$u" || true
+            done < epgs.txt
+          fi
 
-      # 2) Añade ext:uid estable
+      # --- MERGE (debe crear miEPG.xml) ---
+      - name: Build combined EPG (EPG_script.sh)
+        run: |
+          set -euo pipefail
+          if [ ! -x ./EPG_script.sh ]; then
+            echo "EPG_script.sh no es ejecutable o no existe"; exit 20;
+          fi
+          bash -x ./EPG_script.sh || { echo "EPG_script.sh falló"; exit 21; }
+          echo "== ficheros XML encontrados tras merge =="
+          find . -maxdepth 2 -type f -name "*.xml" -ls || true
+          [ -s miEPG.xml ] || { echo "FALTA miEPG.xml (merge no generó salida)"; exit 22; }
+          mv -f miEPG.xml miEPG_ALL.xml
+          head -n 5 miEPG_ALL.xml || true
+
+      # --- UID ---
       - name: Add ext:uid
         run: |
           php tools/xmltv_add_uid.php miEPG_ALL.xml miEPG_ALL_uid.xml
+          [ -s miEPG_ALL_uid.xml ] || { echo "FALTA miEPG_ALL_uid.xml"; exit 23; }
+          grep -m1 -n "<ext:uid>" miEPG_ALL_uid.xml || true
 
-      # 3) Split por países (ES / GB)
+      # --- SPLIT (puedes comentar estos dos pasos para publicar solo el combinado) ---
       - name: Split ES
-        run: php tools/xmltv_split.php miEPG_ALL_uid.xml countries/es/allowlist.txt miEPG_ES.xml
+        run: |
+          sed -n '1,100p' countries/es/allowlist.txt || true
+          php tools/xmltv_split.php miEPG_ALL_uid.xml countries/es/allowlist.txt miEPG_ES.xml || true
+          [ -s miEPG_ES.xml ] && echo "OK ES: $(wc -c < miEPG_ES.xml) bytes" || echo "WARNING: ES vacío"
 
       - name: Split GB
-        run: php tools/xmltv_split.php miEPG_ALL_uid.xml countries/gb/allowlist.txt miEPG_GB.xml
+        run: |
+          sed -n '1,100p' countries/gb/allowlist.txt || true
+          php tools/xmltv_split.php miEPG_ALL_uid.xml countries/gb/allowlist.txt miEPG_GB.xml || true
+          [ -s miEPG_GB.xml ] && echo "OK GB: $(wc -c < miEPG_GB.xml) bytes" || echo "WARNING: GB vacío"
 
-      # 4) Publica ficheros al repo público miEPG-pub
-      - name: Publish to public mirror (miEPG-pub)
+      # Artefactos para descargarlos desde la UI aunque falle el push
+      - name: Upload XML artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xml-out
+          path: |
+            miEPG_ALL.xml
+            miEPG_ALL_uid.xml
+            miEPG_ES.xml
+            miEPG_GB.xml
+          if-no-files-found: warn
+
+      # --- PUBLISH ---
+      - name: Verify publish auth
         env:
-          GH_USER: "JoomBall"   # <-- CAMBIA ESTO
+          GH_USER: "JoomBall"
           GH_REPO: "miEPG-pub"
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
         run: |
-          git config --global user.name "github-actions"
+          set -e
+          git ls-remote https://x-access-token:${PUSH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git HEAD
+          echo "Auth OK contra ${GH_USER}/${GH_REPO}"
+
+      - name: Publish to public mirror
+        env:
+          GH_USER: "JoomBall"
+          GH_REPO: "miEPG-pub"
+          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          set -e
+          git config --global user.name  "github-actions"
           git config --global user.email "actions@users.noreply.github.com"
-
-          # Clona el repo público con el token
           git clone https://x-access-token:${PUSH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git pub
-
-          # Copia salidas
-          cp miEPG_ALL.xml miEPG_ALL_uid.xml miEPG_ES.xml miEPG_GB.xml pub/
-
+          cp -f miEPG_ALL.xml miEPG_ALL_uid.xml pub/ || true
+          [ -f miEPG_ES.xml ] && cp -f miEPG_ES.xml pub/ || true
+          [ -f miEPG_GB.xml ] && cp -f miEPG_GB.xml pub/ || true
           cd pub
-          git add miEPG_ALL.xml miEPG_ALL_uid.xml miEPG_ES.xml miEPG_GB.xml
-          git commit -m "update XMLs $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "Sin cambios"
+          git add -A
+          git commit -m "update $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "Sin cambios"
           git push
-
