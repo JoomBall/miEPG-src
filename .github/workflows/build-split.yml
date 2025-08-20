@@ -41,7 +41,7 @@ jobs:
       # 4) Publica ficheros al repo público miEPG-pub
       - name: Publish to public mirror (miEPG-pub)
         env:
-          GH_USER: "<TU_USUARIO>"   # <-- CAMBIA ESTO
+          GH_USER: "JoomBall"   # <-- CAMBIA ESTO
           GH_REPO: "miEPG-pub"
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
         run: |
@@ -58,3 +58,4 @@ jobs:
           git add miEPG_ALL.xml miEPG_ALL_uid.xml miEPG_ES.xml miEPG_GB.xml
           git commit -m "update XMLs $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "Sin cambios"
           git push
+
