@@ -3,8 +3,8 @@ name: miEPG-merge-uid-split (to public mirror)
 on:
   workflow_dispatch:
   schedule:
-    # UTC → 09:05, 13:05, 17:05, 21:05 Europa/Madrid aprox.
-    - cron: "5 7,11,15,19 * * *"
+    # UTC → 07:05, 11:05, 15:05, 19:05 (aprox. ES)
+    - cron: '5 7,11,15,19 * * *'
 
 concurrency:
   group: miEPG-build
@@ -20,6 +20,7 @@ jobs:
 
       - name: Setup tools
         run: |
+          set -e
           sudo apt-get update
           sudo apt-get install -y php-cli curl gzip
           echo "== Árbol raíz (primeros niveles) =="
@@ -51,35 +52,34 @@ jobs:
           done < epgs.txt
 
       - name: Validar fuentes (HEAD + contenido)
-  run: |
-    echo "=== HEAD con redirecciones ==="
-    while IFS= read -r u; do
-      u="${u%%#*}"; u="$(echo -n "$u" | xargs || true)"
-      [ -z "$u" ] && continue
-      echo "---- $u"
-      curl -IL --max-time 40 "$u" | sed -n '1,12p' || true
-    done < epgs.txt
+        run: |
+          echo "=== HEAD con redirecciones ==="
+          while IFS= read -r u; do
+            u="${u%%#*}"; u="$(echo -n "$u" | xargs || true)"
+            [ -z "$u" ] && continue
+            echo "---- $u"
+            curl -IL --max-time 40 "$u" | sed -n '1,12p' || true
+          done < epgs.txt
 
-    echo "=== Test de contenido real ==="
-    while IFS= read -r u; do
-      u="${u%%#*}"; u="$(echo -n "$u" | xargs || true)"
-      [ -z "$u" ] && continue
-      if echo "$u" | grep -qiE '\.gz($|\?)'; then
-        echo "[gz] $u"
-        if curl -fsSL -A "Mozilla/5.0 (GitHubActions)" --max-time 60 "$u" | gzip -t 2>/dev/null; then
-          echo "OK (gz válido)"
-        else
-          echo "FALLO (gz inválido o HTML/404 comprimido)"
-        fi
-      else
-        echo "[xml] $u"
-        head -c 1200 < <(curl -fsSL -A "Mozilla/5.0 (GitHubActions)" --max-time 60 "$u") | sed -n '1,25p' || echo "FALLO (no descargó)"
-      fi
-    done < epgs.txt
+          echo "=== Test de contenido real ==="
+          while IFS= read -r u; do
+            u="${u%%#*}"; u="$(echo -n "$u" | xargs || true)"
+            [ -z "$u" ] && continue
+            if echo "$u" | grep -qiE '\.gz($|\?)'; then
+              echo "[gz] $u"
+              if curl -fsSL -A "Mozilla/5.0 (GitHubActions)" --max-time 60 "$u" | gzip -t 2>/dev/null; then
+                echo "OK (gz válido)"
+              else
+                echo "FALLO (gz inválido o HTML/404 comprimido)"
+              fi
+            else
+              echo "[xml] $u"
+              head -c 1200 < <(curl -fsSL -A "Mozilla/5.0 (GitHubActions)" --max-time 60 "$u") | sed -n '1,25p' || echo "FALLO (no descargó)"
+            fi
+          done < epgs.txt
 
       - name: Build combined EPG (ruta fija del script)
         env:
-          # IMPORTANTe: indicamos al script dónde están los archivos y la salida
           EPGS_FILE: ${{ github.workspace }}/epgs.txt
           CHANNELS_FILE: ${{ github.workspace }}/canales.txt
           OUTPUT: ${{ github.workspace }}/miEPG.xml
@@ -97,8 +97,8 @@ jobs:
 
       - name: Comprobar herramientas PHP
         run: |
-          test -f tools/xmltv_add_uid.php   || { echo "Falta tools/xmltv_add_uid.php"; exit 30; }
-          test -f tools/xmltv_split.php     || { echo "Falta tools/xmltv_split.php"; exit 31; }
+          test -f tools/xmltv_add_uid.php || { echo "Falta tools/xmltv_add_uid.php"; exit 30; }
+          test -f tools/xmltv_split.php || { echo "Falta tools/xmltv_split.php"; exit 31; }
 
       - name: Add ext:uid
         run: |
@@ -140,8 +140,8 @@ jobs:
 
       - name: Verify publish auth
         env:
-          GH_USER: "JoomBall"      # <--- cambia si tu usuario es otro
-          GH_REPO: "miEPG-pub"
+          GH_USER: JoomBall
+          GH_REPO: miEPG-pub
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
         run: |
           set -e
@@ -150,12 +150,12 @@ jobs:
 
       - name: Publish to public mirror
         env:
-          GH_USER: "JoomBall"      # <--- cambia si tu usuario es otro
-          GH_REPO: "miEPG-pub"
+          GH_USER: JoomBall
+          GH_REPO: miEPG-pub
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
         run: |
           set -e
-          git config --global user.name  "github-actions"
+          git config --global user.name "github-actions"
           git config --global user.email "actions@users.noreply.github.com"
           git clone https://x-access-token:${PUSH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git pub
           cp -f miEPG_ALL.xml miEPG_ALL_uid.xml pub/ || true
@@ -163,6 +163,5 @@ jobs:
           [ -f miEPG_GB.xml ] && cp -f miEPG_GB.xml pub/ || true
           cd pub
           git add -A
-          git commit -m "update $(date -u +%Y-%m-%dT%H:%M:%SZ')" || echo "Sin cambios"
+          git commit -m "update $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "Sin cambios"
           git push
-
