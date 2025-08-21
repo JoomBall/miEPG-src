@@ -1,142 +1,64 @@
-name: miEPG per-country
+name: miEPG (solo ES, diario)
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 6,12,18 * * *'  # varias veces al día (UTC)
-
-concurrency:
-  group: miEPG-per-country
-  cancel-in-progress: false
+    # 02:00 Europe/Madrid = 00:00 UTC (CEST)
+    - cron: '0 0 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        country: [es, gb]
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup tools
+      - name: Preparar herramientas
         run: |
-          sudo apt-get update
-          sudo apt-get install -y curl gzip php-cli
+          sudo apt-get update -y
+          sudo apt-get install -y curl wget gzip sed
 
-      - name: Compute COUNTRY_UP (ES/GB)
+      - name: Mostrar fuentes y canales ES
         run: |
-          echo "COUNTRY_UP=$(echo '${{ matrix.country }}' | tr '[:lower:]' '[:upper:]')" >> $GITHUB_ENV
+          echo "== countries/es/epgs.txt =="
+          cat countries/es/epgs.txt || true
+          echo
+          echo "== countries/es/canales.txt =="
+          cat countries/es/canales.txt || true
 
-      - name: Mostrar listas del país (si existen)
-        run: |
-          set -e
-          echo "== País: ${{ matrix.country }} =="
-          if [ -f "countries/${{ matrix.country }}/epgs.txt" ]; then
-            echo "-- epgs.txt"; sed -n '1,80p' countries/${{ matrix.country }}/epgs.txt
-          else
-            echo "NO existe countries/${{ matrix.country }}/epgs.txt"
-          fi
-          if [ -f "countries/${{ matrix.country }}/canales.txt" ]; then
-            echo "-- canales.txt"; sed -n '1,80p' countries/${{ matrix.country }}/canales.txt
-          else
-            echo "NO existe countries/${{ matrix.country }}/canales.txt"
-          fi
-
-      - name: Debug fuentes (HTTP + programmes)
-        run: |
-          set -e
-          FILE="countries/${{ matrix.country }}/epgs.txt"
-          [ -f "$FILE" ] || { echo "No existe $FILE"; exit 0; }
-          while IFS= read -r u; do
-            [ -z "$u" ] && continue
-            echo "=== Probando: $u"
-            # Cabeceras (HTTP code)
-            curl -I -A "Mozilla/5.0" -s "$u" | head -n 1 || true
-            # Descarga + (si .gz) descompresión
-            if echo "$u" | grep -qiE '\.gz($|\?)'; then
-              curl -A "Mozilla/5.0" -fsSL "$u" | gzip -dc > /tmp/epg_test.xml || true
-            else
-              curl -A "Mozilla/5.0" -fsSL "$u" > /tmp/epg_test.xml || true
-            fi
-            echo "Programmes: $(grep -c '<programme' /tmp/epg_test.xml || echo 0)"
-          done < "$FILE"
-
-      - name: Build EPG (país)
-        env:
-          EPGS_FILE: ${{ github.workspace }}/countries/${{ matrix.country }}/epgs.txt
-          CHANNELS_FILE: ${{ github.workspace }}/countries/${{ matrix.country }}/canales.txt
-          OUTPUT: ${{ github.workspace }}/miEPG_${{ env.COUNTRY_UP }}.xml
-          COUNTRY: ${{ matrix.country }}
-          ALLOW_EMPTY: "1"
+      - name: Construir EPG ES
         run: |
           chmod +x .github/workflows/EPG_script.sh
-          bash -x .github/workflows/EPG_script.sh || true
-          if [ -s "miEPG_${{ env.COUNTRY_UP }}.xml" ]; then
-            echo "OK: generado miEPG_${{ env.COUNTRY_UP }}.xml"
-          else
-            echo "INFO: no se generó XML para ${{ matrix.country }} (se permite vacío)."
-          fi
+          .github/workflows/EPG_script.sh \
+            countries/es/epgs.txt \
+            countries/es/canales.txt \
+            miEPG_ES.xml
 
-      - name: Subir artefacto del país
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: xml-${{ matrix.country }}
-          path: miEPG_${{ env.COUNTRY_UP }}.xml
-          if-no-files-found: ignore
-
-      - name: Publish to public mirror (si hay XML)
-        if: always()
-        env:
-          GH_USER: JoomBall
-          GH_REPO: miEPG-pub
-          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
-          OUTFILE: miEPG_${{ env.COUNTRY_UP }}.xml
-          SUBDIR: ${{ matrix.country }}     # es / gb
+      - name: Comprobar resultado (conteos)
         run: |
-          set -e
-          echo "OUTFILE=$OUTFILE"
-          if [ ! -s "$OUTFILE" ]; then
-            echo "No hay OUTFILE con contenido; salto publicación."
-            exit 0
-          fi
-          if [ -z "$PUSH_TOKEN" ]; then
-            echo "Sin PUSH_TOKEN; salto publicación."
-            exit 0
-          fi
+          test -s miEPG_ES.xml || { echo "miEPG_ES.xml está vacío"; exit 12; }
+          echo "Primeras 40 líneas:"
+          head -n 40 miEPG_ES.xml || true
+          echo
+          echo "Programmes totales:"
+          grep -c "<programme" miEPG_ES.xml || echo 0
 
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@users.noreply.github.com"
+      - name: Publicar en repo público (solo ES)
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          TMPDIR=$(mktemp -d)
+          cd "$TMPDIR"
+          git config --global user.email "bot@github"
+          git config --global user.name  "epg-bot"
+          git clone "https://github.com/JoomBall/miEPG-pub.git"
+          cd miEPG-pub
 
-          echo "Clonando destino: https://github.com/${GH_USER}/${GH_REPO}.git"
-          git clone --depth 1 https://x-access-token:${PUSH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git pub
-          echo "Árbol inicial de 'pub/':"
-          ls -la pub || true
+          mkdir -p es
+          cp "${GITHUB_WORKSPACE}/miEPG_ES.xml" "es/miEPG_ES.xml"
 
-          mkdir -p "pub/${SUBDIR}"
-          cp -f "$OUTFILE" "pub/${SUBDIR}/"
-          echo "Archivo copiado a pub/${SUBDIR}/$(basename "$OUTFILE")"
-          ls -la "pub/${SUBDIR}" || true
-
-          cd pub
           git add -A
-          echo "git status tras add:"
-          git status
-
-          # Si no hay cambios (archivo idéntico), no pasa nada
-          if git diff --cached --quiet; then
-            echo "No hay cambios que commitear (probablemente mismo contenido)."
-            exit 0
-          fi
-
-          git commit -m "update ${SUBDIR} $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git push origin HEAD:main
-
-
-
-
-
-
+          git commit -m "update: ES $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || { echo "Nada que commitear"; exit 0; }
+          git push "https://x-access-token:${GH_TOKEN}@github.com/JoomBall/miEPG-pub.git" HEAD:main
