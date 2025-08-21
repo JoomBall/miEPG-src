@@ -80,70 +80,6 @@ jobs:
             echo "INFO: no se generó XML para ${{ matrix.country }} (se permite vacío)."
           fi
 
-      - name: Validar/Sanear XML ES (antes de post-proceso)
-        if: ${{ matrix.country == 'es' }}
-        run: |
-          if [ ! -s "miEPG_ES.xml" ]; then
-            echo "No existe miEPG_ES.xml"; exit 0
-          fi
-          sudo apt-get update && sudo apt-get install -y libxml2-utils
-          echo "Bytes: $(wc -c < miEPG_ES.xml)"
-          if ! xmllint --noout --encode UTF-8 miEPG_ES.xml; then
-            echo "⚠️  XML inválido; intento de recuperación…"
-            xmllint --recover --encode UTF-8 miEPG_ES.xml > miEPG_ES.recovered.xml || true
-            mv -f miEPG_ES.recovered.xml miEPG_ES.xml
-          fi
-          # Verificación mínima
-          PRG=$(grep -c '<programme ' miEPG_ES.xml || echo 0)
-          if [ "$PRG" -eq 0 ]; then
-            echo "❌ XML sin <programme> tras recuperar. Cabecera y cola:"
-            head -n 60 miEPG_ES.xml || true
-            tail -n 60 miEPG_ES.xml || true
-            exit 3
-          fi
-          echo "OK: XML válido con $PRG programmes."
-
-      - name: Post-proceso ES (UID + limpiar desc + categorías)
-        if: ${{ matrix.country == 'es' }}
-        run: |
-          set -e
-          echo "PWD: $(pwd)"
-          ls -la
-          ls -la .github/scripts || true
-
-          if [ ! -s "miEPG_ES.xml" ]; then
-            echo "miEPG_ES.xml no existe o está vacío; omito post-proceso."
-            exit 0
-          fi
-
-          echo "ANTES: episodios con jb_uid:"
-          (grep -c 'episode-num system="jb_uid"' miEPG_ES.xml || true)
-
-          echo "Ejecutando postproceso IN-PLACE..."
-          php -v
-          # Llamada con 1 solo argumento (in-place), ya soportada por el script
-          php .github/scripts/postprocess_es.php miEPG_ES.xml
-
-          echo "DESPUÉS: episodios con jb_uid:"
-          (grep -c 'episode-num system="jb_uid"' miEPG_ES.xml || true)
-
-          echo "Muestras tras postproceso:"
-          awk 'BEGIN{RS="</programme>";ORS="\n---\n"} /jb_uid/ {print $0; c++; if(c==2) exit}' miEPG_ES.xml | head -n 200
-
-      - name: Filtro allowlist ES (solo canales españoles)
-        if: ${{ matrix.country == 'es' }}
-        run: |
-          if [ -s "miEPG_ES.xml" ] && [ -s "countries/es/allowlist.txt" ]; then
-            php .github/scripts/filter_allowlist.php miEPG_ES.xml countries/es/allowlist.txt miEPG_ES.filtered.xml
-            mv -f miEPG_ES.filtered.xml miEPG_ES.xml
-            echo "Allowlist ES aplicado."
-            # sanity: mostrar conteos
-            echo "Channels ES: $(grep -c '<channel ' miEPG_ES.xml || echo 0)"
-            echo "Programmes ES: $(grep -c '<programme ' miEPG_ES.xml || echo 0)"
-          else
-            echo "Saltando allowlist (no hay XML o no hay countries/es/allowlist.txt)."
-          fi
-
       - name: Subir artefacto del país
         if: always()
         uses: actions/upload-artifact@v4
@@ -198,6 +134,7 @@ jobs:
 
           git commit -m "update ${SUBDIR} $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push origin HEAD:main
+
 
 
 
