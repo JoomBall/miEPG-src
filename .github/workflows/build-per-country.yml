@@ -1,54 +1,88 @@
-name: miEPG (solo ES, diario)
+name: miEPG (ES+GB diario, simple)
 
 on:
   workflow_dispatch:
   schedule:
-    # 02:00 Europe/Madrid = 00:00 UTC (CEST)
-    - cron: '0 0 * * *'
+    # Dos crons en UTC y "time gate" para asegurar 02:00 Europe/Madrid todo el año
+    - cron: '0 0 * * *'   # 02:00 CEST
+    - cron: '0 1 * * *'   # 02:00 CET
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        country: [es, gb]
 
     steps:
+      - id: timecheck
+        name: Ejecutar sólo a las 02:00 Europe/Madrid
+        env:
+          TZ: Europe/Madrid
+        run: |
+          H=$(date +%H)
+          echo "Hora local Europe/Madrid: $H"
+          if [ "$H" = "02" ]; then
+            echo "run=yes" >> $GITHUB_OUTPUT
+          else
+            echo "run=no" >> $GITHUB_OUTPUT
+          fi
+
       - name: Checkout
+        if: steps.timecheck.outputs.run == 'yes'
         uses: actions/checkout@v4
 
       - name: Preparar herramientas
+        if: steps.timecheck.outputs.run == 'yes'
         run: |
           sudo apt-get update -y
           sudo apt-get install -y curl wget gzip sed
 
-      - name: Mostrar fuentes y canales ES
+      - name: Mostrar fuentes y canales (${{ matrix.country }})
+        if: steps.timecheck.outputs.run == 'yes'
         run: |
-          echo "== countries/es/epgs.txt =="
-          cat countries/es/epgs.txt || true
+          echo "== countries/${{ matrix.country }}/epgs.txt =="
+          cat countries/${{ matrix.country }}/epgs.txt || true
           echo
-          echo "== countries/es/canales.txt =="
-          cat countries/es/canales.txt || true
+          echo "== countries/${{ matrix.country }}/canales.txt =="
+          cat countries/${{ matrix.country }}/canales.txt || true
 
-      - name: Construir EPG ES
+      - name: Construir EPG (${{ matrix.country }})
+        if: steps.timecheck.outputs.run == 'yes'
+        env:
+          # Permite que un país sin programmes NO falle el job (simplemente saltará el push)
+          ALLOW_EMPTY: "1"
         run: |
           chmod +x .github/workflows/EPG_script.sh
+          OUT="miEPG_$(echo "${{ matrix.country }}" | tr '[:lower:]' '[:upper:]').xml"
           .github/workflows/EPG_script.sh \
-            countries/es/epgs.txt \
-            countries/es/canales.txt \
-            miEPG_ES.xml
+            "countries/${{ matrix.country }}/epgs.txt" \
+            "countries/${{ matrix.country }}/canales.txt" \
+            "$OUT"
 
-      - name: Comprobar resultado (conteos)
+      - name: Comprobar resultado (conteos ${{ matrix.country }})
+        if: steps.timecheck.outputs.run == 'yes'
         run: |
-          test -s miEPG_ES.xml || { echo "miEPG_ES.xml está vacío"; exit 12; }
-          echo "Primeras 40 líneas:"
-          head -n 40 miEPG_ES.xml || true
-          echo
-          echo "Programmes totales:"
-          grep -c "<programme" miEPG_ES.xml || echo 0
+          OUT="miEPG_$(echo "${{ matrix.country }}" | tr '[:lower:]' '[:upper:]').xml"
+          if [ ! -f "$OUT" ]; then
+            echo "No se generó $OUT (posible falta de fuentes)"; exit 0
+          fi
+          echo "Primeras 30 líneas de $OUT:"
+          head -n 30 "$OUT" || true
+          PRG=$(grep -c "<programme" "$OUT" || echo 0)
+          echo "Programmes totales: $PRG"
 
-      - name: Publicar en repo público (solo ES)
-        if: success()
+      - name: Publicar en repo público (${{ matrix.country }})
+        if: steps.timecheck.outputs.run == 'yes'
         env:
           GH_TOKEN: ${{ secrets.PUSH_TOKEN }}
         run: |
+          OUT="miEPG_$(echo "${{ matrix.country }}" | tr '[:lower:]' '[:upper:]').xml"
+          [ -f "$OUT" ] || { echo "Sin archivo $OUT; nada que publicar"; exit 0; }
+          PRG=$(grep -c "<programme" "$OUT" || echo 0)
+          [ "$PRG" -gt 0 ] || { echo "Sin programmes en $OUT; no publico"; exit 0; }
+
           TMPDIR=$(mktemp -d)
           cd "$TMPDIR"
           git config --global user.email "bot@github"
@@ -56,9 +90,9 @@ jobs:
           git clone "https://github.com/JoomBall/miEPG-pub.git"
           cd miEPG-pub
 
-          mkdir -p es
-          cp "${GITHUB_WORKSPACE}/miEPG_ES.xml" "es/miEPG_ES.xml"
+          mkdir -p "${{ matrix.country }}"
+          cp "${GITHUB_WORKSPACE}/$OUT" "${{ matrix.country }}/$OUT"
 
           git add -A
-          git commit -m "update: ES $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || { echo "Nada que commitear"; exit 0; }
+          git commit -m "update: $OUT $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || { echo "Nada que commitear"; exit 0; }
           git push "https://x-access-token:${GH_TOKEN}@github.com/JoomBall/miEPG-pub.git" HEAD:main
