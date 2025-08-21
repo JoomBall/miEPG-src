@@ -1,3 +1,1 @@
 https://raw.githubusercontent.com/iptv-org/epg/master/guides/es/es.xml.gz
-https://raw.githubusercontent.com/iptv-org/epg/master/guides/gb/uk.xml.gz
-
