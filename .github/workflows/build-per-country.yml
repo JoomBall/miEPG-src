@@ -3,7 +3,7 @@ name: miEPG per-country
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 6,12,18 * * *'  # ejecuta varias veces al día (UTC)
+    - cron: '5 6,12,18 * * *'  # varias veces al día (UTC)
 
 concurrency:
   group: miEPG-per-country
@@ -26,6 +26,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y curl gzip php-cli
 
+      - name: Compute COUNTRY_UP (ES/GB)
+        run: |
+          echo "COUNTRY_UP=$(echo '${{ matrix.country }}' | tr '[:lower:]' '[:upper:]')" >> $GITHUB_ENV
+
       - name: Mostrar listas del país (si existen)
         run: |
           set -e
@@ -41,17 +45,29 @@ jobs:
             echo "NO existe countries/${{ matrix.country }}/canales.txt"
           fi
 
+      - name: Debug fuentes (count programmes)
+        run: |
+          if [ -f "countries/${{ matrix.country }}/epgs.txt" ]; then
+            while IFS= read -r u; do
+              [ -z "$u" ] && continue
+              echo "=== Probando: $u"
+              curl -A "Mozilla/5.0" -fsSL "$u" | tee /tmp/test.xml | head -n 5 || true
+              echo "Programmes: $(grep -c '<programme' /tmp/test.xml || true)"
+            done < countries/${{ matrix.country }}/epgs.txt
+          fi
+
       - name: Build EPG (país)
         env:
           EPGS_FILE: ${{ github.workspace }}/countries/${{ matrix.country }}/epgs.txt
           CHANNELS_FILE: ${{ github.workspace }}/countries/${{ matrix.country }}/canales.txt
-          OUTPUT: ${{ github.workspace }}/miEPG_${{ matrix.country | upper }}.xml
+          OUTPUT: ${{ github.workspace }}/miEPG_${{ env.COUNTRY_UP }}.xml
           COUNTRY: ${{ matrix.country }}
           ALLOW_EMPTY: "1"
         run: |
+          chmod +x .github/workflows/EPG_script.sh
           bash -x .github/workflows/EPG_script.sh || true
-          if [ -s "miEPG_${{ matrix.country | upper }}.xml" ]; then
-            echo "OK: generado miEPG_${{ matrix.country | upper }}.xml"
+          if [ -s "miEPG_${{ env.COUNTRY_UP }}.xml" ]; then
+            echo "OK: generado miEPG_${{ env.COUNTRY_UP }}.xml"
           else
             echo "INFO: no se generó XML para ${{ matrix.country }} (se permite vacío)."
           fi
@@ -61,17 +77,16 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: xml-${{ matrix.country }}
-          path: |
-            miEPG_${{ matrix.country | upper }}.xml
+          path: miEPG_${{ env.COUNTRY_UP }}.xml
           if-no-files-found: ignore
 
       - name: Publish to public mirror (si hay XML)
-        if: success() || always()
+        if: always()
         env:
           GH_USER: JoomBall
           GH_REPO: miEPG-pub
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
-          OUTFILE: miEPG_${{ matrix.country | upper }}.xml
+          OUTFILE: miEPG_${{ env.COUNTRY_UP }}.xml
         run: |
           set -e
           if [ ! -s "$OUTFILE" ]; then
@@ -85,7 +100,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@users.noreply.github.com"
           git clone https://x-access-token:${PUSH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git pub
-          mkdir -p pub/${{ matrix.country }}
+          mkdir -p "pub/${{ matrix.country }}"
           cp -f "$OUTFILE" "pub/${{ matrix.country }}/"
           cd pub
           git add -A
