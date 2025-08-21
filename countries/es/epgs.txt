@@ -1,2 +1,5 @@
-https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml
+https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml.gz
+https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml
 https://raw.githubusercontent.com/davidamalla/EpgSpain/main/miEPG.xml
+# Opcional inestable (dejado como comentario):
+# https://www.tdtchannels.com/epg/TV.xml.gz
