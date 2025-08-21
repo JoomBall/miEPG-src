@@ -1,165 +1,170 @@
-#!/usr/bin/env bash
-set -euo pipefail
+<?php
+declare(strict_types=1);
 
-# ===== Config =====
-COUNTRY="${COUNTRY:-es}"
-COUNTRY_UP="${COUNTRY_UP:-$(echo "${COUNTRY}" | tr '[:lower:]' '[:upper:]')}"
-WORKDIR="${GITHUB_WORKSPACE:-.}"
+/**
+ * postprocess_es.php IN [OUT]
+ * - Si solo se pasa IN => postproceso in-place (IN.tmp.xml -> IN)
+ * - Si se pasa OUT => escribe OUT
+ * Sanea XML y aplica:
+ *   * UID estable en <episode-num system="jb_uid">jb:ES:...</episode-num>
+ *   * Limpieza <desc> (solo sinopsis); mueve metadatos a etiquetas XMLTV
+ *   * Normaliza <category> a conjunto genérico
+ * Sin mbstring. PHP 8.1+.
+ */
 
-# Archivos de entrada (por país o raíz)
-EPGS_FILE="${EPGS_FILE:-${WORKDIR}/countries/${COUNTRY}/epgs.txt}"
-[ -f "${EPGS_FILE}" ] || EPGS_FILE="${WORKDIR}/epgs.txt"
-
-CHANNELS_FILE="${CHANNELS_FILE:-${WORKDIR}/countries/${COUNTRY}/canales.txt}"
-[ -f "${CHANNELS_FILE}" ] || CHANNELS_FILE="${WORKDIR}/canales.txt"
-
-OUTPUT="${OUTPUT:-${WORKDIR}/miEPG_${COUNTRY_UP}.xml}"
-ALLOW_EMPTY="${ALLOW_EMPTY:-0}"
-
-UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Safari/537.36"
-
-echo "== País: ${COUNTRY}  =="
-echo "EPGS_FILE    = ${EPGS_FILE}"
-echo "CHANNELS_FILE= ${CHANNELS_FILE}"
-echo "OUTPUT       = ${OUTPUT}"
-
-# ===== Temp =====
-TMP="$(mktemp -d)"
-trap 'rm -rf "${TMP}"' EXIT
-
-CH_ALL="${TMP}/channels.all.xml"
-PRG_ALL="${TMP}/programmes.all.xml"
-: > "${CH_ALL}"
-: > "${PRG_ALL}"
-
-download_and_clean() {
-  local url="$1"; local out="$2"
-  # Descarga
-  if echo "$url" | grep -qiE '\.gz($|\?)'; then
-    curl -fsSL -A "$UA" "$url" | gzip -dc > "${out}.raw" || return 1
-  else
-    curl -fsSL -A "$UA" "$url" > "${out}.raw" || return 1
-  fi
-
-  # ¿Devolvió HTML?
-  if head -n 1 "${out}.raw" | grep -qi '<!doctype html\|<html'; then
-    echo "   ⚠️  Saltando (HTML recibido): $url" >&2
-    return 2
-  fi
-
-  # Limpieza básica
-  # - Quitar BOM, control chars (salvo \t\r\n), quitar cabeceras XML y <tv> wrappers
-  sed '1s/^\xEF\xBB\xBF//' "${out}.raw" \
-  | tr -d '\000-\010\013\014\016-\037\177' \
-  | sed -E 's/<\?xml[^?]*\?>//g' \
-  | sed -E 's#</?tv[^>]*>##g' \
-  | sed -E 's/&(?!(#[0-9]+;|#x[0-9A-Fa-f]+;|[A-Za-z0-9]+;))/\&amp;/g' \
-  > "${out}.inner"
-
-  # Re-empaquetar para validar y recuperar
-  {
-    echo '<tv>'; cat "${out}.inner"; echo '</tv>';
-  } > "${out}.wrap.xml"
-
-  # Recover para garantizar bien formado
-  xmllint --recover --nowarning "${out}.wrap.xml" > "${out}.ok.xml" 2>/dev/null || true
-
-  # Extraer canales y programas
-  # (No usamos XPath aquí para mantener dependencias mínimas; grep/awk sencillos)
-  # Nota: líneas únicas para patrones
-  sed 's/></>\n</g' "${out}.ok.xml" > "${out}.lines"
-
-  awk '/^<channel /,/<\/channel>/' "${out}.lines" >> "${CH_ALL}"
-  awk '/^<programme /,/<\/programme>/' "${out}.lines" >> "${PRG_ALL}"
-
-  local pc pr
-  pc=$(grep -c '^<channel ' "${out}.lines" || true)
-  pr=$(grep -c '^<programme ' "${out}.lines" || true)
-  echo "   → canales:${pc} programmes:${pr}"
+if ($argc < 2) {
+    fwrite(STDERR, "Uso: php postprocess_es.php <input.xml> [output.xml]\n");
+    exit(1);
 }
 
-# ===== 1) Recorrer fuentes =====
-if [ ! -s "${EPGS_FILE}" ]; then
-  echo "⚠️  ${EPGS_FILE} vacío/inexistente."
-fi
+$in  = $argv[1];
+$out = $argv[2] ?? ($in . '.tmp.xml');
 
-while IFS= read -r url; do
-  [ -z "${url}" ] && continue
-  echo "== Fuente: ${url}"
-  download_and_clean "${url}" "${TMP}/src$(date +%s%N)" || true
-done < "${EPGS_FILE}"
+if (!is_file($in)) { fwrite(STDERR, "No existe $in\n"); exit(2); }
 
-# ===== 2) Si no hay programas, decidir qué hacer =====
-TOTAL_PRG=$(grep -c '^<programme ' "${PRG_ALL}" || echo 0)
-TOTAL_CH=$(grep -c '^<channel ' "${CH_ALL}" || echo 0)
-echo "Totales: channels=${TOTAL_CH} programmes=${TOTAL_PRG}"
+ini_set('memory_limit', '1024M');
+libxml_use_internal_errors(true);
 
-if [ "${TOTAL_PRG}" -eq 0 ] && [ "${ALLOW_EMPTY}" != "1" ]; then
-  echo "❌ No hay programmes tras limpiar/recuperar. Aborto."
-  exit 12
-fi
+function normalize(string $s): string {
+    $s = preg_replace('/\s+/u', ' ', $s);
+    return trim($s ?? '');
+}
+function mapCategory(string $raw): string {
+    $raw = strtolower($raw);
+    $map = [
+        'inform' => 'Información', 'notic' => 'Información',
+        'magac' => 'Entretenimiento', 'entreten' => 'Entretenimiento', 'concurso' => 'Entretenimiento',
+        'serie' => 'Series',
+        'pelí' => 'Películas', 'peli' => 'Películas', 'cine' => 'Películas',
+        'deporte' => 'Deportes',
+        'document' => 'Documentales',
+        'infantil' => 'Infantil', 'animación' => 'Infantil',
+        'musica' => 'Música', 'música' => 'Música',
+        'cultura' => 'Cultura',
+        'telerreal' => 'Telerrealidad',
+        'tecnolog' => 'Tecnología'
+    ];
+    foreach ($map as $needle => $target) if (strpos($raw, $needle) !== false) return $target;
+    return 'Otros';
+}
+function stableUid(string $channel, string $start, string $title): string {
+    $norm = strtolower(normalize($channel.'|'.$start.'|'.$title));
+    return substr(hash('sha1', $norm), 0, 16);
+}
 
-# ===== 3) Mapeo canales (canales.txt) =====
-# Formato: old,new,logo(opcional)
-CH_MAPPED="${TMP}/channels.mapped.xml"
-PRG_MAPPED="${TMP}/programmes.mapped.xml"
-: > "${CH_MAPPED}"
-: > "${PRG_MAPPED}"
+/* --- Saneado previo del XML --- */
+$raw = file_get_contents($in);
+if ($raw === false) { fwrite(STDERR, "No se pudo leer $in\n"); exit(2); }
 
-if [ -s "${CHANNELS_FILE}" ]; then
-  while IFS=, read -r old new logo; do
-    [ -z "${old}" ] && continue
+$origBytes = strlen($raw);
+$raw = preg_replace('/^\xEF\xBB\xBF/u', '', $raw); // BOM
+$raw = preg_replace('/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/', '', $raw); // control chars
+$raw = preg_replace('/<\?xml[^?]*\?>/i', '', $raw); // <?xml ...?>
+$raw = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" . ltrim($raw);
+$raw = preg_replace('/&(?!#\d+;|#x[0-9A-Fa-f]+;|[A-Za-z0-9]+;)/', '&amp;', $raw); // & sueltos
 
-    # Extraer y remodelar canal
-    awk -v o="$old" '
-      BEGIN{RS="</channel>"; ORS="</channel>\n"}
-      $0 ~ "<channel id=\""o"\"" {
-        print $0
-      }
-    ' "${CH_ALL}" > "${TMP}/ch.one.xml" || true
+$sanBytes = strlen($raw);
 
-    if [ -s "${TMP}/ch.one.xml" ]; then
-      if [ -n "${logo:-}" ]; then
-        sed -E "s#<channel id=\"[^\"]+\">#<channel id=\"${new}\">\n  <display-name>${new}</display-name>\n  <icon src=\"${logo}\" />#g" "${TMP}/ch.one.xml" \
-        | sed -E "0,/<display-name>/ s//<display-name>${new}<\/display-name>\n  <icon src=\"${logo}\" \/>/" \
-        >> "${CH_MAPPED}"
-      else
-        sed -E "s#<channel id=\"[^\"]+\">#<channel id=\"${new}\">\n  <display-name>${new}</display-name>#g" "${TMP}/ch.one.xml" \
-        | sed -E "0,/<display-name>/ s//<display-name>${new}<\/display-name>/" \
-        >> "${CH_MAPPED}"
-      fi
-    fi
+$dom = new DOMDocument('1.0', 'UTF-8');
+$dom->preserveWhiteSpace = false;
+$dom->formatOutput = true;
+if (!$dom->loadXML($raw, LIBXML_BIGLINES)) {
+    fwrite(STDERR, "XML inválido tras saneado (bytes $origBytes->$sanBytes).\n");
+    foreach (libxml_get_errors() as $err) fwrite(STDERR, trim($err->message)."\n");
+    exit(3);
+}
 
-    # Programmes para ese canal
-    awk -v o="$old" -v n="$new" '
-      BEGIN{RS="</programme>"; ORS="</programme>\n"}
-      $0 ~ "<programme[^>]*channel=\""o"\"" {
-        gsub("channel=\""o"\"", "channel=\""n"\"");
-        print $0
-      }
-    ' "${PRG_ALL}" >> "${PRG_MAPPED}"
+$xpath = new DOMXPath($dom);
+$progs = $xpath->query('/tv/programme');
+fwrite(STDERR, "Programmes cargados: " . $progs->length . PHP_EOL);
 
-  done < "${CHANNELS_FILE}"
-else
-  # Sin mapeo: pasa tal cual
-  cat "${CH_ALL}" > "${CH_MAPPED}"
-  cat "${PRG_ALL}" > "${PRG_MAPPED}"
-fi
+/* --- Transformaciones --- */
+foreach ($progs as $prog) {
+    /** @var DOMElement $prog */
+    $channel = $prog->getAttribute('channel');
+    $start   = $prog->getAttribute('start');
+    $titleNode = $xpath->query('title', $prog)->item(0);
+    $title = $titleNode?->textContent ?? '';
 
-# Deduplicar entradas idénticas simples
-awk '!seen[$0]++' "${CH_MAPPED}" > "${CH_MAPPED}.uniq"
-awk '!seen[$0]++' "${PRG_MAPPED}" > "${PRG_MAPPED}.uniq"
+    // UID
+    if ($xpath->query('episode-num[@system="jb_uid"]', $prog)->length === 0) {
+        $uid = stableUid($channel, $start, $title);
+        $ep = $dom->createElement('episode-num', 'jb:ES:'.$uid);
+        $ep->setAttribute('system','jb_uid');
+        $ref = $xpath->query('sub-title', $prog)->item(0) ?: $titleNode;
+        if ($ref && $ref->nextSibling) $prog->insertBefore($ep, $ref->nextSibling);
+        else $prog->appendChild($ep);
+    }
 
-# ===== 4) Ensamblar salida =====
-date_stamp="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-{
-  echo '<?xml version="1.0" encoding="UTF-8"?>'
-  echo "<tv generator-info-name=\"miEPG ${date_stamp}\" generator-info-url=\"https://github.com/JoomBall/miEPG-src\">"
-  cat "${CH_MAPPED}.uniq"
-  cat "${PRG_MAPPED}.uniq"
-  echo '</tv>'
-} > "${OUTPUT}"
+    // Desc → solo sinopsis; extrae metadatos del “header” y bullets
+    $descNode = $xpath->query('desc', $prog)->item(0);
+    $desc = $descNode?->textContent ?? '';
+    $lineas = array_values(array_filter(array_map('normalize', preg_split('/\R/u', $desc) ?: []), fn($l)=>$l!==''));
+    $soloDesc = '';
+    $rawHeader = $lineas[0] ?? '';
+    $bullets = [];
+    foreach ($lineas as $l) {
+        if (preg_match('/^\s*·\s*/u', $l)) $bullets[] = preg_replace('/^\s*·\s*/u','', $l);
+        else $soloDesc .= ($soloDesc ? ' ' : '') . $l;
+    }
 
-echo "Salida: ${OUTPUT}"
-echo "Channels: $(grep -c '^  <channel ' "${OUTPUT}" || echo 0)"
-echo "Programmes: $(grep -c '^  <programme ' "${OUTPUT}" || echo 0)"
+    $rating=null; $stars=null; $year=null; $country=null; $icon=null;
+    if (preg_match('/\|\s*(TP|\+?\d{1,2})\b/u', $rawHeader, $m)) $rating = str_replace('+','', $m[1]);
+    if (preg_match('/\*([\d.]+)\/10/u', $rawHeader, $m)) $stars = $m[1].'/10';
+    if (preg_match('/\|\s*(\d{4})\s*(\||$)/u', $rawHeader, $m)) $year = $m[1];
+
+    $presenters=[]; $directors=[]; $actors=[]; $composers=[];
+    foreach ($bullets as $b) {
+        $b = normalize($b);
+        if     (preg_match('/^País:\s*(.+)$/u', $b, $m)) $country = $m[1];
+        elseif (preg_match('/^Presenta:\s*(.+)$/u', $b, $m)) $presenters = array_map('trim', explode(',', $m[1]));
+        elseif (preg_match('/^(Dirección|Director[a]?):\s*(.+)$/u', $b, $m)) $directors = array_map('trim', explode(',', $m[2]));
+        elseif (preg_match('/^(Reparto|Actores?):\s*(.+)$/u', $b, $m)) $actors = array_map('trim', explode(',', $m[2]));
+        elseif (preg_match('/^Música:\s*(.+)$/u', $b, $m)) $composers = array_map('trim', explode(',', $m[1]));
+        elseif (preg_match('/^Icono?:\s*(https?:\/\/\S+)/u', $b, $m)) $icon = $m[1];
+    }
+
+    if ($descNode) $descNode->nodeValue = $soloDesc ?: $desc;
+
+    $catNode = $xpath->query('category', $prog)->item(0);
+    $rawCats = $catNode?->textContent ?? '';
+    $generic = mapCategory($rawCats ?: $rawHeader);
+    if ($catNode) { $catNode->nodeValue = $generic; }
+    else { $tmp = $dom->createElement('category', $generic); $tmp->setAttribute('lang','es'); $prog->appendChild($tmp); }
+
+    if ($year && $xpath->query('date', $prog)->length === 0) $prog->appendChild($dom->createElement('date', $year));
+    if ($country && $xpath->query('country', $prog)->length === 0) $prog->appendChild($dom->createElement('country', $country));
+
+    if ($rating && $xpath->query('rating', $prog)->length === 0) {
+        $r = $dom->createElement('rating'); $r->setAttribute('system','ES');
+        $r->appendChild($dom->createElement('value', $rating));
+        $prog->appendChild($r);
+    }
+    if ($stars && $xpath->query('star-rating', $prog)->length === 0) {
+        $sr = $dom->createElement('star-rating'); $sr->setAttribute('system','ES');
+        $sr->appendChild($dom->createElement('value', $stars));
+        $prog->appendChild($sr);
+    }
+
+    if ($xpath->query('credits', $prog)->length === 0) {
+        if ($presenters || $directors || $actors || $composers) {
+            $cr = $dom->createElement('credits');
+            foreach ($presenters as $p) if ($p !== '') $cr->appendChild($dom->createElement('presenter', $p));
+            foreach ($directors  as $d) if ($d !== '') $cr->appendChild($dom->createElement('director',  $d));
+            foreach ($actors     as $a) if ($a !== '') $cr->appendChild($dom->createElement('actor',     $a));
+            foreach ($composers  as $c) if ($c !== '') $cr->appendChild($dom->createElement('composer',  $c));
+            if ($cr->hasChildNodes()) $prog->appendChild($cr);
+        }
+    }
+    if ($icon && $xpath->query('icon', $prog)->length === 0) {
+        $ic = $dom->createElement('icon'); $ic->setAttribute('src', $icon);
+        $prog->appendChild($ic);
+    }
+}
+
+if (!$dom->save($out)) exit(4);
+
+// Si fue in-place (solo 1 arg), reemplazar el original
+if ($argc === 2) {
+    @rename($out, $in);
+}
