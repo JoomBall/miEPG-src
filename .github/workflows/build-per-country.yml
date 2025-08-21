@@ -87,22 +87,43 @@ jobs:
           GH_REPO: miEPG-pub
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
           OUTFILE: miEPG_${{ env.COUNTRY_UP }}.xml
+          SUBDIR: ${{ matrix.country }}     # es / gb
         run: |
           set -e
+          echo "OUTFILE=$OUTFILE"
           if [ ! -s "$OUTFILE" ]; then
-            echo "Sin fichero $OUTFILE, no publico."
+            echo "No hay OUTFILE con contenido; salto publicación."
             exit 0
           fi
           if [ -z "$PUSH_TOKEN" ]; then
-            echo "Sin PUSH_TOKEN, omito publicación."
+            echo "Sin PUSH_TOKEN; salto publicación."
             exit 0
           fi
+
           git config --global user.name "github-actions"
           git config --global user.email "actions@users.noreply.github.com"
-          git clone https://x-access-token:${PUSH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git pub
-          mkdir -p "pub/${{ matrix.country }}"
-          cp -f "$OUTFILE" "pub/${{ matrix.country }}/"
+
+          echo "Clonando destino: https://github.com/${GH_USER}/${GH_REPO}.git"
+          git clone --depth 1 https://x-access-token:${PUSH_TOKEN}@github.com/${GH_USER}/${GH_REPO}.git pub
+          echo "Árbol inicial de 'pub/':"
+          ls -la pub || true
+
+          mkdir -p "pub/${SUBDIR}"
+          cp -f "$OUTFILE" "pub/${SUBDIR}/"
+          echo "Archivo copiado a pub/${SUBDIR}/$(basename "$OUTFILE")"
+          ls -la "pub/${SUBDIR}" || true
+
           cd pub
           git add -A
-          git commit -m "update ${{ matrix.country }} $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "Sin cambios"
-          git push
+          echo "git status tras add:"
+          git status
+
+          # Si no hay cambios (archivo idéntico), no pasa nada
+          if git diff --cached --quiet; then
+            echo "No hay cambios que commitear (probablemente mismo contenido)."
+            exit 0
+          fi
+
+          git commit -m "update ${SUBDIR} $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          # Ajusta 'main' si tu rama por defecto fuera otra
+          git push origin HEAD:main
