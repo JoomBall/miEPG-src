@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
+# EPG_script.sh (robusto frente a errores por fuente)
 set -euo pipefail
 
-# === Config por entorno (por defecto: raíz del repo) ===
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ROOT_DIR="$SCRIPT_DIR"
+ROOT_DIR="${ROOT_DIR:-$SCRIPT_DIR}"
 
-EPGS_FILE="${EPGS_FILE:-$ROOT_DIR/epgs.txt}"           # permite override por env
-CHANNELS_FILE="${CHANNELS_FILE:-$ROOT_DIR/canales.txt}"
-OUTPUT="${OUTPUT:-$ROOT_DIR/miEPG.xml}"
+EPGS_FILE="${EPGS_FILE:-$ROOT_DIR/../../epgs.txt}"           # ← epgs.txt en la raíz del repo
+CHANNELS_FILE="${CHANNELS_FILE:-$ROOT_DIR/../../canales.txt}" # ← canales.txt en la raíz del repo
+OUTPUT="${OUTPUT:-$ROOT_DIR/../../miEPG.xml}"
 
 TMPDIR="$(mktemp -d)"
 trap 'rm -rf "$TMPDIR"' EXIT
@@ -17,58 +17,77 @@ echo "  EPGS_FILE=$EPGS_FILE"
 echo "  CHANNELS_FILE=$CHANNELS_FILE"
 echo "  OUTPUT=$OUTPUT"
 
-# === Comprobaciones ===
 [ -f "$EPGS_FILE" ] || { echo "No existe $EPGS_FILE"; exit 10; }
 [ -f "$CHANNELS_FILE" ] || { echo "No existe $CHANNELS_FILE"; exit 11; }
 
-# Normaliza CRLF y elimina líneas vacías / comentarios
+# Normaliza CRLF y elimina vacías/comentarios
 sed -i 's/\r$//' "$EPGS_FILE" || true
 sed -i 's/\r$//' "$CHANNELS_FILE" || true
 grep -v -E '^\s*$|^\s*#' "$EPGS_FILE" > "$TMPDIR/epgs.clean"
 grep -v -E '^\s*$|^\s*#' "$CHANNELS_FILE" > "$TMPDIR/canales.clean"
 
-# === Descarga y concatena fuentes ===
 EPG_TEMP_ALL="$TMPDIR/EPG_all.xml"
 : > "$EPG_TEMP_ALL"
 
+# --- Descarga tolerante ---
+HAS_ANY_SOURCE=0
 while IFS= read -r url; do
   url="${url%%#*}"; url="$(echo -n "$url" | xargs || true)"
   [ -z "$url" ] && continue
+
   echo "Fuente: $url"
   if [[ "$url" =~ \.gz($|\?) ]]; then
-    curl -fsSL --max-time 60 "$url" | gzip -dc >> "$EPG_TEMP_ALL"
+    if curl -fsSL --max-time 60 "$url" | gzip -dc >> "$EPG_TEMP_ALL"; then
+      echo "OK (gz) → añadido"
+      HAS_ANY_SOURCE=1
+    else
+      echo "WARN: fallo al descargar/descomprimir $url (continuo)"
+    fi
   else
-    curl -fsSL --max-time 60 "$url" >> "$EPG_TEMP_ALL"
+    if curl -fsSL --max-time 60 "$url" >> "$EPG_TEMP_ALL"; then
+      echo "OK → añadido"
+      HAS_ANY_SOURCE=1
+    else
+      echo "WARN: fallo al descargar $url (continuo)"
+    fi
   fi
   echo >> "$EPG_TEMP_ALL"
 done < "$TMPDIR/epgs.clean"
 
-# Añade saltos entre tags para poder grepear bloques
-sed -i 's/></>\n</g' "$EPG_TEMP_ALL"
-
-# Si el merge quedó vacío, no seguimos
-if ! grep -q "<channel id=" "$EPG_TEMP_ALL"; then
-  echo "No se detectaron <channel> en las fuentes. Revisa epgs.txt"; exit 12
+# Si ninguna fuente funcionó, aborta con mensaje claro
+if [ "$HAS_ANY_SOURCE" -eq 0 ]; then
+  echo "ERROR: ninguna fuente de epgs.txt se pudo descargar correctamente"; exit 12
 fi
 
-# === Mapeo de canales y extracción de programas ===
+# Añade saltos entre tags para grepear bloques
+sed -i 's/></>\n</g' "$EPG_TEMP_ALL"
+
+if ! grep -q "<channel id=" "$EPG_TEMP_ALL"; then
+  echo "ERROR: no se detectaron <channel> en las fuentes (¿XML malformado o vacío?)"; exit 13
+fi
+
+# --- Mapeo de canales ---
 CHANNELS_OUT="$TMPDIR/channels.out.xml"
 PROGS_OUT="$TMPDIR/programmes.out.xml"
 : > "$CHANNELS_OUT"
 : > "$PROGS_OUT"
 
 # Formato: old_id,new_name,logo_url(opcional)
+COUNTER_OK=0
+COUNTER_SKIP=0
+
 while IFS=, read -r old new logo; do
   old="$(echo -n "$old" | xargs)"; [ -z "$old" ] && continue
   new="$(echo -n "$new" | xargs)"
   logo="$(echo -n "${logo:-}" | xargs)"
 
-  # ¿Tiene programas?
   contar_prog="$(grep -c "<programme[^>]*channel=\"${old}\"" "$EPG_TEMP_ALL" || true)"
-  if [ "${contar_prog:-0}" -gt 0 ]; then
-    echo "OK: $old  ->  $new  (programas: $contar_prog)"
 
-    # Canal: toma primer bloque
+  if [ "${contar_prog:-0}" -gt 0 ]; then
+    echo "OK: $old  →  $new  (programas: $contar_prog)"
+    COUNTER_OK=$((COUNTER_OK+1))
+
+    # Canal: primer bloque
     awk -v o="$old" '
       $0 ~ "<channel id=\""o"\">" {inblk=1}
       inblk {print}
@@ -102,11 +121,19 @@ while IFS=, read -r old new logo; do
       ' "$TMPDIR/prog.tmp" >> "$PROGS_OUT"
     fi
   else
-    echo "Saltando canal (sin programas): $old"
+    echo "SKIP (sin programas para id): $old"
+    COUNTER_SKIP=$((COUNTER_SKIP+1))
   fi
 done < "$TMPDIR/canales.clean"
 
-# Dedup canales por id exacto
+echo "Resumen mapeo → OK:$COUNTER_OK  SKIP:$COUNTER_SKIP"
+
+# Si no se añadió ningún canal/programa, mejor fallar con código claro
+if [ "$COUNTER_OK" -eq 0 ]; then
+  echo "ERROR: no se mapeó ningún canal (probable desajuste de OLD ids en canales.txt)"; exit 14
+fi
+
+# Dedup canales por id
 awk '
   /<channel id="/{
     match($0, /<channel id="([^"]+)">/, m);
