@@ -50,6 +50,33 @@ jobs:
             curl -I --max-time 25 "$u" || true
           done < epgs.txt
 
+      - name: Validar fuentes (HEAD + contenido)
+  run: |
+    echo "=== HEAD con redirecciones ==="
+    while IFS= read -r u; do
+      u="${u%%#*}"; u="$(echo -n "$u" | xargs || true)"
+      [ -z "$u" ] && continue
+      echo "---- $u"
+      curl -IL --max-time 40 "$u" | sed -n '1,12p' || true
+    done < epgs.txt
+
+    echo "=== Test de contenido real ==="
+    while IFS= read -r u; do
+      u="${u%%#*}"; u="$(echo -n "$u" | xargs || true)"
+      [ -z "$u" ] && continue
+      if echo "$u" | grep -qiE '\.gz($|\?)'; then
+        echo "[gz] $u"
+        if curl -fsSL -A "Mozilla/5.0 (GitHubActions)" --max-time 60 "$u" | gzip -t 2>/dev/null; then
+          echo "OK (gz válido)"
+        else
+          echo "FALLO (gz inválido o HTML/404 comprimido)"
+        fi
+      else
+        echo "[xml] $u"
+        head -c 1200 < <(curl -fsSL -A "Mozilla/5.0 (GitHubActions)" --max-time 60 "$u") | sed -n '1,25p' || echo "FALLO (no descargó)"
+      fi
+    done < epgs.txt
+
       - name: Build combined EPG (ruta fija del script)
         env:
           # IMPORTANTe: indicamos al script dónde están los archivos y la salida
@@ -138,3 +165,4 @@ jobs:
           git add -A
           git commit -m "update $(date -u +%Y-%m-%dT%H:%M:%SZ')" || echo "Sin cambios"
           git push
+
