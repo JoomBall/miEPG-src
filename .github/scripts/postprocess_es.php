@@ -7,7 +7,7 @@ declare(strict_types=1);
  * - Limpia <desc>
  * - Extrae rating (TP/7/12/16/18), star-rating (x/10), año, país, créditos, icon
  * - Normaliza categoría a un conjunto genérico
- * Sin dependencias externas. PHP 8.1+
+ * Sin dependencias externas (no usa mbstring).
  */
 
 if ($argc < 3) {
@@ -21,6 +21,7 @@ if (!is_file($in)) {
     exit(2);
 }
 
+ini_set('memory_limit', '1024M');
 libxml_use_internal_errors(true);
 $dom = new DOMDocument('1.0', 'UTF-8');
 $dom->preserveWhiteSpace = false;
@@ -33,12 +34,12 @@ if (!$dom->load($in)) {
 $xpath = new DOMXPath($dom);
 
 function normalize(string $s): string {
-    $s = trim(preg_replace('/\s+/u', ' ', $s) ?? '');
-    return $s;
+    $s = preg_replace('/\s+/u', ' ', $s);
+    return trim($s ?? '');
 }
 
 function mapCategory(string $raw): string {
-    $raw = mb_strtolower($raw);
+    $raw = strtolower($raw);
     $map = [
         'inform' => 'Información',
         'notic'  => 'Información',
@@ -47,29 +48,33 @@ function mapCategory(string $raw): string {
         'concurso' => 'Entretenimiento',
         'serie'  => 'Series',
         'pelí'   => 'Películas',
+        'peli'   => 'Películas',
         'cine'   => 'Películas',
         'deporte' => 'Deportes',
         'document' => 'Documentales',
         'infantil' => 'Infantil',
         'animación' => 'Infantil',
+        'musica' => 'Música',
         'música' => 'Música',
         'cultura' => 'Cultura',
         'telerreal' => 'Telerrealidad',
         'tecnolog' => 'Tecnología'
     ];
     foreach ($map as $needle => $target) {
-        if (str_contains($raw, $needle)) return $target;
+        if (strpos($raw, $needle) !== false) return $target;
     }
     return 'Otros';
 }
 
 function stableUid(string $channel, string $start, string $title): string {
-    // UID estable (mismo input => mismo hash)
-    $norm = mb_strtolower(normalize($channel.'|'.$start.'|'.$title));
+    $norm = strtolower(normalize($channel.'|'.$start.'|'.$title));
     return substr(hash('sha1', $norm), 0, 16);
 }
 
-foreach ($xpath->query('/tv/programme') as $prog) {
+$progs = $xpath->query('/tv/programme');
+fwrite(STDERR, "Programmes cargados: " . $progs->length . PHP_EOL);
+
+foreach ($progs as $prog) {
     /** @var DOMElement $prog */
 
     $channel = $prog->getAttribute('channel');
@@ -79,13 +84,11 @@ foreach ($xpath->query('/tv/programme') as $prog) {
     $titleNode = $xpath->query('title', $prog)->item(0);
     $title = $titleNode?->textContent ?? '';
 
-    // UID
+    // UID estable
     $uid = stableUid($channel, $start, $title);
-    // Inserta episode-num system="jb_uid" (si no existe)
     if ($xpath->query('episode-num[@system="jb_uid"]', $prog)->length === 0) {
         $ep = $dom->createElement('episode-num', 'jb:ES:'.$uid);
         $ep->setAttribute('system','jb_uid');
-        // Colocar tras <title>
         $ref = $xpath->query('sub-title', $prog)->item(0) ?: $xpath->query('title', $prog)->item(0);
         if ($ref && $ref->nextSibling) $prog->insertBefore($ep, $ref->nextSibling);
         else $prog->appendChild($ep);
@@ -95,17 +98,20 @@ foreach ($xpath->query('/tv/programme') as $prog) {
     $descNode = $xpath->query('desc', $prog)->item(0);
     $desc = $descNode?->textContent ?? '';
 
-    // Heurística: muchas fuentes meten en <desc> bloques tipo:
-    // "Géneros | Año | TP | *6/10 · Sinopsis … · País: … · Presenta: … · Dirección: …"
-    $lineas = array_map('normalize', preg_split('/\R/u', $desc));
+    // Divide por líneas, limpia y separa "bullets" que empiezan por "·"
+    $lineas = preg_split('/\R/u', $desc);
+    $lineas = array_map('normalize', $lineas ?: []);
     $lineas = array_values(array_filter($lineas, fn($l) => $l !== ''));
 
     $soloDesc = '';
     $rawHeader = $lineas[0] ?? '';
     $bullets = [];
     foreach ($lineas as $l) {
-        if (mb_str_starts_with($l, '·')) $bullets[] = mb_substr($l, 1);
-        else $soloDesc .= ($soloDesc ? ' ' : '') . $l;
+        if (preg_match('/^\s*·\s*/u', $l)) {
+            $bullets[] = preg_replace('/^\s*·\s*/u', '', $l);
+        } else {
+            $soloDesc .= ($soloDesc ? ' ' : '') . $l;
+        }
     }
 
     // Extraer metadatos del "header" y bullets
@@ -141,13 +147,12 @@ foreach ($xpath->query('/tv/programme') as $prog) {
         elseif (preg_match('/^(Reparto|Actores?):\s*(.+)$/u', $b, $m)) $actors = array_map('trim', explode(',', $m[2]));
         elseif (preg_match('/^Música:\s*(.+)$/u', $b, $m)) $composers = array_map('trim', explode(',', $m[1]));
         elseif (preg_match('/^Icono?:\s*(https?:\/\/\S+)/u', $b, $m)) $icon = $m[1];
-        // Ignora "Productora:" (XMLTV no tiene <production-company>)
     }
 
-    // <desc> limpio: deja solo la sinopsis (sin cabecera ni bullets)
+    // <desc> limpio: solo sinopsis
     if ($descNode) $descNode->nodeValue = $soloDesc ?: $desc;
 
-    // <category> → toma la primera lista del header (antes de la primera "|")
+    // <category> genérica
     $catNode = $xpath->query('category', $prog)->item(0);
     $rawCats = $catNode?->textContent ?? '';
     $generic = mapCategory($rawCats ?: $rawHeader);
@@ -184,11 +189,11 @@ foreach ($xpath->query('/tv/programme') as $prog) {
     if ($xpath->query('credits', $prog)->length === 0) {
         if ($presenters || $directors || $actors || $composers) {
             $cr = $dom->createElement('credits');
-            foreach ($presenters as $p) $cr->appendChild($dom->createElement('presenter', $p));
-            foreach ($directors  as $d) $cr->appendChild($dom->createElement('director',  $d));
-            foreach ($actors     as $a) $cr->appendChild($dom->createElement('actor',     $a));
-            foreach ($composers  as $c) $cr->appendChild($dom->createElement('composer',  $c));
-            $prog->appendChild($cr);
+            foreach ($presenters as $p) if ($p !== '') $cr->appendChild($dom->createElement('presenter', $p));
+            foreach ($directors  as $d) if ($d !== '') $cr->appendChild($dom->createElement('director',  $d));
+            foreach ($actors     as $a) if ($a !== '') $cr->appendChild($dom->createElement('actor',     $a));
+            foreach ($composers  as $c) if ($c !== '') $cr->appendChild($dom->createElement('composer',  $c));
+            if ($cr->hasChildNodes()) $prog->appendChild($cr);
         }
     }
 
