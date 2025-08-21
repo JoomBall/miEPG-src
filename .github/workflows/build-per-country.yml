@@ -124,6 +124,19 @@ jobs:
           echo
           echo "OK: Post-proceso aplicado."
 
+      - name: Filtro allowlist ES (solo canales españoles)
+        if: ${{ matrix.country == 'es' }}
+        run: |
+          if [ -s "miEPG_ES.xml" ] && [ -s "countries/es/allowlist.txt" ]; then
+            php .github/scripts/filter_allowlist.php miEPG_ES.xml countries/es/allowlist.txt miEPG_ES.filtered.xml
+            mv -f miEPG_ES.filtered.xml miEPG_ES.xml
+            echo "Allowlist ES aplicado."
+            # sanity: mostrar conteos
+            echo "Channels ES: $(grep -c '<channel ' miEPG_ES.xml || echo 0)"
+            echo "Programmes ES: $(grep -c '<programme ' miEPG_ES.xml || echo 0)"
+          else
+            echo "Saltando allowlist (no hay XML o no hay countries/es/allowlist.txt)."
+          fi
 
       - name: Subir artefacto del país
         if: always()
@@ -179,4 +192,5 @@ jobs:
 
           git commit -m "update ${SUBDIR} $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push origin HEAD:main
+
 
