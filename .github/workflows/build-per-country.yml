@@ -103,50 +103,32 @@ jobs:
           fi
           echo "OK: XML válido con $PRG programmes."
 
-
       - name: Post-proceso ES (UID + limpiar desc + categorías)
         if: ${{ matrix.country == 'es' }}
         run: |
           set -e
+          echo "PWD: $(pwd)"
+          ls -la
+          ls -la .github/scripts || true
+
           if [ ! -s "miEPG_ES.xml" ]; then
             echo "miEPG_ES.xml no existe o está vacío; omito post-proceso."
             exit 0
           fi
 
-          echo "Comprobando ruta de scripts..."
-          ls -la .github/scripts || true
-          test -f .github/scripts/postprocess_es.php || { echo "ERROR: Falta .github/scripts/postprocess_es.php"; exit 1; }
-
-          echo "Copia previa para diff…"
-          cp -f miEPG_ES.xml miEPG_ES.pre.xml
-
           echo "ANTES: episodios con jb_uid:"
           (grep -c 'episode-num system="jb_uid"' miEPG_ES.xml || true)
 
-          echo "Ejecutando postprocess_es.php…"
+          echo "Ejecutando postproceso IN-PLACE..."
           php -v
-          php .github/scripts/postprocess_es.php miEPG_ES.xml miEPG_ES.tmp.xml
+          # Llamada con 1 solo argumento (in-place), ya soportada por el script
+          php .github/scripts/postprocess_es.php miEPG_ES.xml
 
-          echo "DESPUÉS (tmp): episodios con jb_uid:"
-          (grep -c 'episode-num system="jb_uid"' miEPG_ES.tmp.xml || true)
+          echo "DESPUÉS: episodios con jb_uid:"
+          (grep -c 'episode-num system="jb_uid"' miEPG_ES.xml || true)
 
-          echo "Sustituyendo fichero…"
-          mv -f miEPG_ES.tmp.xml miEPG_ES.xml
-
-          CNT=$(grep -c 'episode-num system="jb_uid"' miEPG_ES.xml || echo 0)
-          echo "UIDs añadidos (conteo total): $CNT"
-          if [ "$CNT" -eq 0 ]; then
-            echo "ERROR: No se añadió ningún jb_uid; revisa el script de postproceso."
-            echo "Mostrando primeras líneas del XML resultante:"
-            head -n 60 miEPG_ES.xml || true
-            exit 2
-          fi
-
-          echo "Diff (abreviado) entre pre y post:"
-          # Muestra solo los primeros 3000 caracteres del diff para no saturar logs
-          (diff -u miEPG_ES.pre.xml miEPG_ES.xml || true) | head -c 3000
-          echo
-          echo "OK: Post-proceso aplicado."
+          echo "Muestras tras postproceso:"
+          awk 'BEGIN{RS="</programme>";ORS="\n---\n"} /jb_uid/ {print $0; c++; if(c==2) exit}' miEPG_ES.xml | head -n 200
 
       - name: Filtro allowlist ES (solo canales españoles)
         if: ${{ matrix.country == 'es' }}
@@ -216,6 +198,7 @@ jobs:
 
           git commit -m "update ${SUBDIR} $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push origin HEAD:main
+
 
 
 
