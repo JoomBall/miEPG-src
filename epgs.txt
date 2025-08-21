@@ -1,1 +1,2 @@
-https://raw.githubusercontent.com/iptv-org/epg/master/guides/es/es.xml.gz
+https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml
+https://raw.githubusercontent.com/davidamalla/EpgSpain/main/miEPG.xml
