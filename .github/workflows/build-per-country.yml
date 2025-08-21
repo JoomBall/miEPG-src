@@ -45,16 +45,25 @@ jobs:
             echo "NO existe countries/${{ matrix.country }}/canales.txt"
           fi
 
-      - name: Debug fuentes (count programmes)
-        run: |
-          if [ -f "countries/${{ matrix.country }}/epgs.txt" ]; then
-            while IFS= read -r u; do
-              [ -z "$u" ] && continue
-              echo "=== Probando: $u"
-              curl -A "Mozilla/5.0" -fsSL "$u" | tee /tmp/test.xml | head -n 5 || true
-              echo "Programmes: $(grep -c '<programme' /tmp/test.xml || true)"
-            done < countries/${{ matrix.country }}/epgs.txt
-          fi
+- name: Debug fuentes (HTTP + programmes)
+  run: |
+    set -e
+    FILE="countries/${{ matrix.country }}/epgs.txt"
+    [ -f "$FILE" ] || { echo "No existe $FILE"; exit 0; }
+    while IFS= read -r u; do
+      [ -z "$u" ] && continue
+      echo "=== Probando: $u"
+      # Cabeceras (HTTP code)
+      curl -I -A "Mozilla/5.0" -s "$u" | head -n 1 || true
+      # Descarga + (si .gz) descompresión
+      if echo "$u" | grep -qiE '\.gz($|\?)'; then
+        curl -A "Mozilla/5.0" -fsSL "$u" | gzip -dc > /tmp/epg_test.xml || true
+      else
+        curl -A "Mozilla/5.0" -fsSL "$u" > /tmp/epg_test.xml || true
+      fi
+      echo "Programmes: $(grep -c '<programme' /tmp/epg_test.xml || echo 0)"
+    done < "$FILE"
+
 
       - name: Build EPG (país)
         env:
@@ -127,3 +136,4 @@ jobs:
           git commit -m "update ${SUBDIR} $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           # Ajusta 'main' si tu rama por defecto fuera otra
           git push origin HEAD:main
+
