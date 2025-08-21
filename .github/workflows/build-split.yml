@@ -3,7 +3,7 @@ name: miEPG-merge-uid-split (to public mirror)
 on:
   workflow_dispatch:
   schedule:
-    # UTC → 09:05, 13:05, 17:05, 21:05 en Europa/Madrid aprox.
+    # UTC → 09:05, 13:05, 17:05, 21:05 Europa/Madrid aprox.
     - cron: "5 7,11,15,19 * * *"
 
 concurrency:
@@ -21,48 +21,51 @@ jobs:
       - name: Setup tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y php-cli wget gzip curl
-          echo "== Árbol raíz =="
-          ls -lah
-          echo "== epgs.txt (primeras líneas) =="
-          [ -f epgs.txt ] && sed -n '1,50p' epgs.txt || echo "NO epgs.txt"
-          echo "== canales.txt (primeras líneas) =="
-          [ -f canales.txt ] && sed -n '1,50p' canales.txt || echo "NO canales.txt"
+          sudo apt-get install -y php-cli curl gzip
+          echo "== Árbol raíz (primeros niveles) =="
+          find . -maxdepth 2 -type f | sed -n '1,120p'
 
       - name: Normalizar finales de línea
         run: |
-          sed -i 's/\r$//' epgs.txt || true
-          sed -i 's/\r$//' canales.txt || true
-          [ -f countries/es/allowlist.txt ] && sed -i 's/\r$//' countries/es/allowlist.txt || true
-          [ -f countries/gb/allowlist.txt ] && sed -i 's/\r$//' countries/gb/allowlist.txt || true
+          sed -i 's/\r$//' epgs.txt 2>/dev/null || true
+          sed -i 's/\r$//' canales.txt 2>/dev/null || true
+          sed -i 's/\r$//' countries/es/allowlist.txt 2>/dev/null || true
+          sed -i 's/\r$//' countries/gb/allowlist.txt 2>/dev/null || true
+
+      - name: Verificar rutas fijas
+        run: |
+          test -f .github/workflows/EPG_script.sh || { echo "Falta .github/workflows/EPG_script.sh"; exit 20; }
+          test -f epgs.txt || { echo "Falta epgs.txt en la raíz"; exit 10; }
+          test -f canales.txt || { echo "Falta canales.txt en la raíz"; exit 11; }
+          echo "== epgs.txt (primeras líneas) =="; sed -n '1,50p' epgs.txt || true
+          echo "== canales.txt (primeras líneas) =="; sed -n '1,50p' canales.txt || true
 
       - name: Probar URLs de epgs.txt (HEAD)
         run: |
-          if [ -f epgs.txt ]; then
-            echo "=== PROBANDO FUENTES ==="
-            while IFS= read -r u; do
-              u="${u%%#*}"; u="$(echo -n "$u" | xargs || true)"
-              [ -z "$u" ] && continue
-              echo "--- $u"
-              curl -I --max-time 25 "$u" || true
-            done < epgs.txt
-          else
-            echo "Falta epgs.txt en la raíz"; exit 10
-          fi
+          echo "=== PROBANDO FUENTES ==="
+          while IFS= read -r u; do
+            u="${u%%#*}"; u="$(echo -n "$u" | xargs || true)"
+            [ -z "$u" ] && continue
+            echo "--- $u"
+            curl -I --max-time 25 "$u" || true
+          done < epgs.txt
 
-      - name: Build combined EPG (EPG_script.sh en raíz)
+      - name: Build combined EPG (ruta fija del script)
+        env:
+          # IMPORTANTe: indicamos al script dónde están los archivos y la salida
+          EPGS_FILE: ${{ github.workspace }}/epgs.txt
+          CHANNELS_FILE: ${{ github.workspace }}/canales.txt
+          OUTPUT: ${{ github.workspace }}/miEPG.xml
         run: |
           set -euo pipefail
-          test -f ./EPG_script.sh || { echo "No encuentro EPG_script.sh en raíz"; exit 20; }
-          chmod +x ./EPG_script.sh || true
-          bash -x ./EPG_script.sh
+          bash -x .github/workflows/EPG_script.sh
           echo "== XML tras merge =="
           find . -maxdepth 1 -type f -name "*.xml" -ls || true
-          test -s miEPG.xml || { echo "miEPG.xml no se generó (revisa epgs.txt/canales.txt y coincidencias de IDs)"; exit 22; }
+          test -s miEPG.xml || { echo "miEPG.xml no se generó (revisa epgs/canales y coincidencias de IDs)"; exit 22; }
           mv -f miEPG.xml miEPG_ALL.xml
           echo "=== Cabecera miEPG_ALL.xml ==="
           head -n 8 miEPG_ALL.xml || true
-          echo "=== Muestra IDs de canales (si están en la cabecera) ==="
+          echo "=== IDs de canales (muestra) ==="
           grep -oP '<channel id="[^"]+"' miEPG_ALL.xml | head -n 50 || true
 
       - name: Comprobar herramientas PHP
@@ -79,14 +82,9 @@ jobs:
       - name: Split ES
         run: |
           if [ -f countries/es/allowlist.txt ]; then
-            echo "== allowlist ES =="
-            sed -n '1,100p' countries/es/allowlist.txt || true
+            echo "== allowlist ES =="; sed -n '1,120p' countries/es/allowlist.txt || true
             php tools/xmltv_split.php miEPG_ALL_uid.xml countries/es/allowlist.txt miEPG_ES.xml || true
-            if [ -s miEPG_ES.xml ]; then
-              echo "OK ES: $(wc -c < miEPG_ES.xml) bytes"
-            else
-              echo "WARNING: ES vacío (revisa allowlist: IDs/nombres reales del XML combinado)"
-            fi
+            [ -s miEPG_ES.xml ] && echo "OK ES: $(wc -c < miEPG_ES.xml) bytes" || echo "WARNING: ES vacío"
           else
             echo "No hay countries/es/allowlist.txt; saltando split ES"
           fi
@@ -94,14 +92,9 @@ jobs:
       - name: Split GB
         run: |
           if [ -f countries/gb/allowlist.txt ]; then
-            echo "== allowlist GB =="
-            sed -n '1,100p' countries/gb/allowlist.txt || true
+            echo "== allowlist GB =="; sed -n '1,120p' countries/gb/allowlist.txt || true
             php tools/xmltv_split.php miEPG_ALL_uid.xml countries/gb/allowlist.txt miEPG_GB.xml || true
-            if [ -s miEPG_GB.xml ]; then
-              echo "OK GB: $(wc -c < miEPG_GB.xml) bytes"
-            else
-              echo "WARNING: GB vacío (revisa allowlist)"
-            fi
+            [ -s miEPG_GB.xml ] && echo "OK GB: $(wc -c < miEPG_GB.xml) bytes" || echo "WARNING: GB vacío"
           else
             echo "No hay countries/gb/allowlist.txt; saltando split GB"
           fi
@@ -120,7 +113,7 @@ jobs:
 
       - name: Verify publish auth
         env:
-          GH_USER: "JoomBall"               # <--- cambia si tu usuario es otro
+          GH_USER: "JoomBall"      # <--- cambia si tu usuario es otro
           GH_REPO: "miEPG-pub"
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
         run: |
@@ -130,7 +123,7 @@ jobs:
 
       - name: Publish to public mirror
         env:
-          GH_USER: "JoomBall"               # <--- cambia si tu usuario es otro
+          GH_USER: "JoomBall"      # <--- cambia si tu usuario es otro
           GH_REPO: "miEPG-pub"
           PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
         run: |
