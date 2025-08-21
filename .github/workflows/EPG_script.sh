@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# === Config por entorno (puedes sobreescribir en el workflow) ===
+# === Config por entorno (por defecto: raíz del repo) ===
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$SCRIPT_DIR"
 
-EPGS_FILE="${EPGS_FILE:-$ROOT_DIR/epgs.txt}"           # p.ej: config/epgs.txt
-CHANNELS_FILE="${CHANNELS_FILE:-$ROOT_DIR/canales.txt}" # p.ej: config/canales.txt
+EPGS_FILE="${EPGS_FILE:-$ROOT_DIR/epgs.txt}"           # permite override por env
+CHANNELS_FILE="${CHANNELS_FILE:-$ROOT_DIR/canales.txt}"
 OUTPUT="${OUTPUT:-$ROOT_DIR/miEPG.xml}"
 
 TMPDIR="$(mktemp -d)"
@@ -21,14 +21,14 @@ echo "  OUTPUT=$OUTPUT"
 [ -f "$EPGS_FILE" ] || { echo "No existe $EPGS_FILE"; exit 10; }
 [ -f "$CHANNELS_FILE" ] || { echo "No existe $CHANNELS_FILE"; exit 11; }
 
-# Normaliza CRLF y elimina líneas vacías / espacios
+# Normaliza CRLF y elimina líneas vacías / comentarios
 sed -i 's/\r$//' "$EPGS_FILE" || true
 sed -i 's/\r$//' "$CHANNELS_FILE" || true
-grep -v -E '^\s*$' "$EPGS_FILE" > "$TMPDIR/epgs.clean"
-grep -v -E '^\s*$' "$CHANNELS_FILE" > "$TMPDIR/canales.clean"
+grep -v -E '^\s*$|^\s*#' "$EPGS_FILE" > "$TMPDIR/epgs.clean"
+grep -v -E '^\s*$|^\s*#' "$CHANNELS_FILE" > "$TMPDIR/canales.clean"
 
 # === Descarga y concatena fuentes ===
-EPG_TEMP_ALL="$TMPDIR/EPG_all.txt"
+EPG_TEMP_ALL="$TMPDIR/EPG_all.xml"
 : > "$EPG_TEMP_ALL"
 
 while IFS= read -r url; do
@@ -46,21 +46,29 @@ done < "$TMPDIR/epgs.clean"
 # Añade saltos entre tags para poder grepear bloques
 sed -i 's/></>\n</g' "$EPG_TEMP_ALL"
 
+# Si el merge quedó vacío, no seguimos
+if ! grep -q "<channel id=" "$EPG_TEMP_ALL"; then
+  echo "No se detectaron <channel> en las fuentes. Revisa epgs.txt"; exit 12
+fi
+
 # === Mapeo de canales y extracción de programas ===
-CHANNELS_OUT="$TMPDIR/channels.xml"
-PROGS_OUT="$TMPDIR/programmes.xml"
+CHANNELS_OUT="$TMPDIR/channels.out.xml"
+PROGS_OUT="$TMPDIR/programmes.out.xml"
 : > "$CHANNELS_OUT"
 : > "$PROGS_OUT"
 
-# Formato canales.txt: old_name,new_name,logo_url(opcional)
+# Formato: old_id,new_name,logo_url(opcional)
 while IFS=, read -r old new logo; do
   old="$(echo -n "$old" | xargs)"; [ -z "$old" ] && continue
   new="$(echo -n "$new" | xargs)"
   logo="$(echo -n "${logo:-}" | xargs)"
 
-  contar_channel="$(grep -c "<channel id=\"${old}\">" "$EPG_TEMP_ALL" || true)"
-  if [ "${contar_channel:-0}" -gt 0 ]; then
-    # Canal: toma el primer bloque y ajusta display-name / icon
+  # ¿Tiene programas?
+  contar_prog="$(grep -c "<programme[^>]*channel=\"${old}\"" "$EPG_TEMP_ALL" || true)"
+  if [ "${contar_prog:-0}" -gt 0 ]; then
+    echo "OK: $old  ->  $new  (programas: $contar_prog)"
+
+    # Canal: toma primer bloque
     awk -v o="$old" '
       $0 ~ "<channel id=\""o"\">" {inblk=1}
       inblk {print}
@@ -68,21 +76,19 @@ while IFS=, read -r old new logo; do
     ' "$EPG_TEMP_ALL" > "$TMPDIR/ch.tmp" || true
 
     if [ -s "$TMPDIR/ch.tmp" ]; then
-      # fuerza id/display-name
       {
         echo "  <channel id=\"${new}\">"
         echo "    <display-name>${new}</display-name>"
         if [ -n "$logo" ]; then
           echo "    <icon src=\"${logo}\" />"
         else
-          # intenta conservar un icon existente si lo hubiera
           grep -m1 '<icon ' "$TMPDIR/ch.tmp" || true
         fi
         echo "  </channel>"
       } >> "$CHANNELS_OUT"
     fi
 
-    # Programas: extrae todos los bloques y cambia el atributo channel
+    # Programas: cambia el atributo channel a "new"
     awk -v o="$old" '
       $0 ~ "<programme" && $0 ~ "channel=\""o"\"" {inblk=1; sub("channel=\""o"\"", ""); print; next}
       inblk {print}
@@ -90,23 +96,17 @@ while IFS=, read -r old new logo; do
     ' "$EPG_TEMP_ALL" > "$TMPDIR/prog.tmp" || true
 
     if [ -s "$TMPDIR/prog.tmp" ]; then
-      # reinyecta el channel con el nombre nuevo tras la cabecera de <programme ...>
-      # (quitamos el cierre ">" en la primera línea y lo reabrimos con channel="new"
       awk -v n="$new" '
-        NR==1{
-          sub(/>$/, "", $0);
-          print $0 " channel=\"" n "\">";
-          next
-        }
+        NR==1{ sub(/>$/, "", $0); print $0 " channel=\"" n "\">"; next }
         {print}
       ' "$TMPDIR/prog.tmp" >> "$PROGS_OUT"
     fi
   else
-    echo "Saltando canal: $old (0 coincidencias)"
+    echo "Saltando canal (sin programas): $old"
   fi
 done < "$TMPDIR/canales.clean"
 
-# Dedup canales (por id exacto)
+# Dedup canales por id exacto
 awk '
   /<channel id="/{
     match($0, /<channel id="([^"]+)">/, m);
@@ -119,7 +119,7 @@ awk '
 date_stamp=$(date +"%d/%m/%Y %R")
 {
   echo '<?xml version="1.0" encoding="UTF-8"?>'
-  echo "<tv generator-info-name=\"miEPG ${date_stamp}\" generator-info-url=\"https://github.com/davidmuma/miEPG\">"
+  echo "<tv generator-info-name=\"miEPG ${date_stamp}\" generator-info-url=\"https://github.com/JoomBall/miEPG-src\">"
   cat "$TMPDIR/channels.dedup.xml"
   cat "$PROGS_OUT"
   echo '</tv>'
