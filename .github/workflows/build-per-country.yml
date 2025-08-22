@@ -3,9 +3,7 @@ name: miEPG (ES+GB diario, simple)
 on:
   workflow_dispatch:
   schedule:
-    # Dos crons en UTC y "time gate" para asegurar 02:00 Europe/Madrid todo el año
-    - cron: '0 0 * * *'   # 02:00 CEST
-    - cron: '0 1 * * *'   # 02:00 CET
+    - cron: '0 0 * * *'   # 00:00 UTC (02:00 CEST, 01:00 CET)
 
 jobs:
   build:
@@ -16,31 +14,15 @@ jobs:
         country: [es, gb]
 
     steps:
-      - id: timecheck
-        name: Ejecutar sólo a las 02:00 Europe/Madrid
-        env:
-          TZ: Europe/Madrid
-        run: |
-          H=$(date +%H)
-          echo "Hora local Europe/Madrid: $H"
-          if [ "$H" = "02" ]; then
-            echo "run=yes" >> $GITHUB_OUTPUT
-          else
-            echo "run=no" >> $GITHUB_OUTPUT
-          fi
-
       - name: Checkout
-        if: steps.timecheck.outputs.run == 'yes'
         uses: actions/checkout@v4
 
       - name: Preparar herramientas
-        if: steps.timecheck.outputs.run == 'yes'
         run: |
           sudo apt-get update -y
           sudo apt-get install -y curl wget gzip sed
 
       - name: Mostrar fuentes y canales (${{ matrix.country }})
-        if: steps.timecheck.outputs.run == 'yes'
         run: |
           echo "== countries/${{ matrix.country }}/epgs.txt =="
           cat countries/${{ matrix.country }}/epgs.txt || true
@@ -49,9 +31,8 @@ jobs:
           cat countries/${{ matrix.country }}/canales.txt || true
 
       - name: Construir EPG (${{ matrix.country }})
-        if: steps.timecheck.outputs.run == 'yes'
         env:
-          # Permite que un país sin programmes NO falle el job (simplemente saltará el push)
+          # Si un país no produce programmes, no falles todo el job
           ALLOW_EMPTY: "1"
         run: |
           chmod +x .github/workflows/EPG_script.sh
@@ -62,7 +43,6 @@ jobs:
             "$OUT"
 
       - name: Comprobar resultado (conteos ${{ matrix.country }})
-        if: steps.timecheck.outputs.run == 'yes'
         run: |
           OUT="miEPG_$(echo "${{ matrix.country }}" | tr '[:lower:]' '[:upper:]').xml"
           if [ ! -f "$OUT" ]; then
@@ -74,7 +54,6 @@ jobs:
           echo "Programmes totales: $PRG"
 
       - name: Publicar en repo público (${{ matrix.country }})
-        if: steps.timecheck.outputs.run == 'yes'
         env:
           GH_TOKEN: ${{ secrets.PUSH_TOKEN }}
         run: |
