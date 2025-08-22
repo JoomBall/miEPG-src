@@ -14,9 +14,11 @@ echo "[INFO] OUT_XML: $OUT_XML"
 
 rm -f EPG_temp* || true
 
-EPGS_CLEAN="$(mktemp)"; grep -v '^[[:space:]]*$' "$EPGS_FILE" > "$EPGS_CLEAN" || true
+# Limpieza básica (quitar líneas vacías)
+EPGS_CLEAN="$(mktemp)";    grep -v '^[[:space:]]*$' "$EPGS_FILE"    > "$EPGS_CLEAN"    || true
 CANALES_CLEAN="$(mktemp)"; grep -v '^[[:space:]]*$' "$CANALES_FILE" > "$CANALES_CLEAN" || true
 
+# 1) Descargar y unir fuentes a texto con una etiqueta por línea
 touch EPG_temp.xml
 while IFS= read -r epg_url; do
   [ -z "${epg_url}" ] && continue
@@ -37,7 +39,10 @@ done < "$EPGS_CLEAN"
 TOTAL_PROGRAMMES_ALL=$(grep -c "<programme" EPG_temp.xml || echo 0)
 echo "[INFO] Programmes acumulados: $TOTAL_PROGRAMMES_ALL"
 
-touch EPG_temp1.xml EPG_temp2.xml
+# 2) Mapear canales de forma SEGURA: reconstruimos el bloque <channel> explícitamente
+> EPG_channels_mapped.xml
+> EPG_programmes_mapped.xml
+
 while IFS=, read -r old new logo; do
   old="$(echo "${old:-}" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')"
   new="$(echo "${new:-}" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')"
@@ -45,37 +50,61 @@ while IFS=, read -r old new logo; do
   [ -z "$old" ] && continue
   [ -z "$new" ] && new="$old"
 
-  contar_channel=$(grep -c "<channel id=\"${old}\">" EPG_temp.xml || echo 0)
-  if [ "$contar_channel" -gt 0 ]; then
-    echo "[OK] Canal: '$old' -> '$new' ($contar_channel)"
-    sed -n "/<channel id=\"${old}\">/,/<\/channel>/p" EPG_temp.xml > EPG_temp01.xml
-    if [ -n "$logo" ]; then
-      if grep -q "<icon " EPG_temp01.xml; then
-        sed -E -i "s#<icon src=\"[^\"]*\" ?/?>#<icon src=\"${logo}\" />#g" EPG_temp01.xml
-      else
-        sed -i "/<display-name>/a \ \ \ \ <icon src=\"${logo}\" />" EPG_temp01.xml
-      fi
-    fi
-    sed -i "s#<channel id=\"${old}\">#<channel id=\"${new}\">#" EPG_temp01.xml
-    sed -E -i "s#<display-name>[^<]*</display-name>#<display-name>${new}</display-name>#" EPG_temp01.xml
-    cat EPG_temp01.xml >> EPG_temp1.xml
+  # Extrae el bloque del canal original
+  sed -n "/<channel id=\"$(printf '%s' "$old" | sed 's/[.[\*^$(){}?+|/\\]/\\&/g')\">/,/<\/channel>/p" \
+    EPG_temp.xml > EPG_chan_block.xml || true
 
-    sed -n "/<programme[^\>]*channel=\"${old}\"[^\>]*>/,/<\/programme>/p" EPG_temp.xml > EPG_temp02.xml
-    sed -E -i "s#channel=\"${old}\"#channel=\"${new}\"#g" EPG_temp02.xml
-    cat EPG_temp02.xml >> EPG_temp2.xml
-  else
+  if [ ! -s EPG_chan_block.xml ]; then
     echo "[SKIP] Canal sin coincidencias: '$old'"
+    continue
+  fi
+
+  echo "[OK] Canal: '$old' -> '$new'"
+
+  # 2.1 Construye SIEMPRE la cabecera del canal
+  {
+    echo "  <channel id=\"${new}\">"
+    echo "    <display-name>${new}</display-name>"
+    # Si tenemos logo en canales.txt, úsalo; si no, intenta rescatar el primero del bloque original
+    if [ -n "$logo" ]; then
+      echo "    <icon src=\"${logo}\" />"
+    else
+      grep -m1 -E '^[[:space:]]*<icon ' EPG_chan_block.xml || true
+    fi
+    # Preserva display-name extra del bloque original, excepto el primero (ya añadido)
+    grep -E '^[[:space:]]*<display-name' EPG_chan_block.xml | tail -n +2 || true
+    echo "  </channel>"
+  } >> EPG_channels_mapped.xml
+
+  # 2.2 Programmes del canal remapeados
+  sed -n "/<programme[^\>]*channel=\"$(printf '%s' "$old" | sed 's/[.[\*^$(){}?+|/\\]/\\&/g')\"[^\>]*>/,/<\/programme>/p" \
+    EPG_temp.xml > EPG_prog_block.xml || true
+
+  if [ -s EPG_prog_block.xml ]; then
+    sed -E "s#channel=\"$(printf '%s' "$old" | sed 's/[.[\*^$(){}?+|/\\]/\\&/g')\"#channel=\"${new}\"#g" \
+      EPG_prog_block.xml >> EPG_programmes_mapped.xml
   fi
 done < "$CANALES_CLEAN"
 
+# 3) Ensamblado final
 date_stamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 {
   echo '<?xml version="1.0" encoding="UTF-8"?>'
   echo "<tv generator-info-name=\"miEPG build $(echo "$date_stamp")\" generator-info-url=\"https://github.com/JoomBall/miEPG-src\">"
-  cat EPG_temp1.xml
-  cat EPG_temp2.xml
+  cat EPG_channels_mapped.xml
+  cat EPG_programmes_mapped.xml
   echo '</tv>'
 } > "$OUT_XML"
+
+# 4) Chequeos mínimos de sanidad
+OPEN_TAGS=$(grep -c '<channel id="' "$OUT_XML" || echo 0)
+CLOSE_TAGS=$(grep -c '</channel>'     "$OUT_XML" || echo 0)
+echo "[INFO] Canales abiertos: $OPEN_TAGS | cerrados: $CLOSE_TAGS"
+
+if [ "$OPEN_TAGS" -ne "$CLOSE_TAGS" ]; then
+  echo "[ERROR] Desfase entre <channel> abiertos y cerrados. No publico salida corrupta."
+  exit 20
+fi
 
 TOTAL_PROGRAMMES_OUT=$(grep -c "<programme" "$OUT_XML" || echo 0)
 echo "[INFO] Programmes en salida ($OUT_XML): $TOTAL_PROGRAMMES_OUT"
