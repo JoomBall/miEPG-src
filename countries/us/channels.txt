@@ -1,0 +1,890 @@
+# Canales disponibles en las fuentes EPG
+# Formato: channel_id | display_name
+# Fecha: do.,  7 de sep. de 2025 18:46:02
+
+51c75f7bb6f26ba1cd00002f | Little Stars Universe
+5417a212ff9fba68282fbf5e | GLORY Kickboxing
+5421f71da6af422839419cb3 | CNN HEADLINES
+545943f1c9f133a519bbac92 | MST3K
+5459795fc9f133a519bc0bef | Scripps News
+54ff7ba69222cb1c2624c584 | Bloomberg TV+
+554158e864526b29254ff105 | FailArmy
+55b179af994403942f3061d6 | Newsmax2
+55b285cd2665de274553d66f | Sky News
+5616f9c0ada51f8004c4b091 | World Poker Tour
+56171fafada51f8004c4b40f | Forever Kids
+561c5b0dada51f8004c4d855 | Classic Movies Channel
+561d7d484dc7c8770484914a | Pluto TV Action
+563a970aa1a1f7fe7c9daad7 | Pluto TV Science
+569546031a619b8f07ce6e25 | Pluto TV Horror
+580e87ff497c73ba2f321dd3 | Funny AF
+5812b3a4249444e05d09cc46 | Pluto TV Cars
+5812b7d3249444e05d09cc49 | Pluto TV Anime
+5812bcc8237a6ff45d16c407 | Spike Pluto TV
+5812bd9f249444e05d09cc4e | Naturescape
+5812be1c249444e05d09cc50 | Pluto TV True Crime
+5812bfbe4ced4f7b601b12e6 | BUZZR
+5873fc21cad696fb37aa9054 | Live Music
+58af4c093a41ca9d4ecabe96 | Black Cinema
+58d947b9e420d8656ee101ab | RiffTrax
+58e55b14ad8e9c364d55f717 | Flicks of Fury
+59b722526996084038c01e1b | TNA Wrestling
+5a4d35dfa5c02e717a234f86 | Pluto TV History
+5a4d3a00ad95e4718ae8d8db | Pluto TV Comedy
+5a66795ef91fef2c7031c599 | Pluto TV Romance
+5a6b92f6e22a617379789618 | CBS News 24/7
+5a74b8e1e22a61737979c6bf | FOX Sports
+5adf96e3e738977e2c31cb04 | Pluto TV Paranormal
+5aea40b35126c2157123aa64 | The New Detectives
+5aec96ec5126c2157123c657 | Nosey
+5b4e69e08291147bd04a9fd7 | Pluto TV Thrillers
+5b4e92e4694c027be6ecece1 | Pluto TV Drama
+5b4e94282d4ec87bdcbb87cd | Pluto TV Westerns
+5b4e96a0423e067bd6df6901 | Unsolved Mysteries
+5b4e99f4423e067bd6df6903 | Gordon Ramsay's Hell's Kitchen
+5b4fc274694c027be6ed3eea | Pluto TV Sci-Fi
+5b64a245a202b3337f09e51d | Pluto TV Fantastic
+5ba3fb9c4b078e0f37ad34e8 | Pluto TV Spotlight
+5bb1ad55268cae539bcedb08 | The Pet Collective
+5bb1af6a268cae539bcedb0a | Forensic Files
+5bb3fea0f711fd76340eebff | Pluto TV Military
+5bdcdf1e851dd5632e2c11d1 | QVC
+5bee1a7359ee03633e780238 | Dog the Bounty Hunter
+5c01df1759ee03633e7b272c | Lucha Libre AAA
+5c2d64ffbdf11b71587184b8 | TV Land Sitcoms
+5c37d6712de254456f7ec340 | Cold Case Files by A&amp;E
+5c393cad2de254456f7ef8c2 | Spike Outdoors
+5c665db3e6c01b72c4977bc2 | Pluto TV Cult Films
+5c6dc88fcd232425a6e0f06e | Pluto TV Terror
+5c6eeb85c05dfc257e5a50c4 | Degrassi
+5ca525b650be2571e3943c63 | 80s Rewind
+5ca670f6593a5d78f0e85aed | BET Pluto TV
+5ca671f215a62078d2ec0abf | Comedy Central Pluto TV
+5ca672f515a62078d2ec0ad2 | MTV Pluto TV
+5ca673e0d0bd6c2689c94ce3 | Nickelodeon Pluto TV
+5ca6748a37b88b269472dad9 | Nick Jr. Pluto TV
+5cabdf1437b88b26947346b2 | Pluto TV Backcountry
+5cb0cae7a461406ffe3f5213 | Paramount Movie Channel
+5cbf6a868a1bce4a3d52a5e9 | Midsomer Murders
+5ce4475cd43850831ca91ce7 | Doctor Who Classic
+5ce44810b421747ae467b7cd | Antiques Roadshow UK
+5ce5a8954311f992edbe1da2 | Logo Pluto TV
+5ced7d5df64be98e07ed47b6 | NFL Channel
+5cf0622da00ca1e2f6fac712 | EstrellaTV
+5cf968040ab7d8f181e6a68b | Cine Premiere
+5cf96b1c4f1ca3f0629f4bf0 | Cine en español
+5cf96b8f4f1ca3f0629f4bf1 | Investiga
+5cf96c0222df39f1a338d163 | Pluto TV Novelas
+5cf96cc422df39f1a338d165 | Telemundo telenovelas clásicas
+5cf96d351652631e36d4331f | MTV en español
+5cf96dad1652631e36d43320 | Comedy Central en español
+5d0c16d686454ead733d08f8 | TOTALLY TURTLES
+5d14fb6c84dd37df3b4290c5 | Peppa Pig
+5d14fc31252d35decbc4080b | Yo! MTV
+5d14fd1a252d35decbc4080c | MTV Biggest Pop
+5d14fdb8ca91eedee1633117 | MTV Spankin' New
+5d3609cd6a6c78d7672f2a81 | MTV Flow Latino
+5d40855b3fb0855028c99b6f | DCC: Making the Team
+5d40bebc5e3d2750a2239d7e | TV Land Drama
+5d48678d34ceb37d3c458a55 | Wild 'N Out
+5d48685da7e9f476aa8a1888 | The Challenge
+5d486acc34ceb37d3c458a64 | The First
+5d486b2eeddd9576d66f9066 | TBN
+5d51ddf0369acdb278dfb05e | Love &amp; Hip Hop
+5d51e2bceca5b4b2c0e06c50 | Black Ink Crew
+5d51e791b7dba3b2ae990ab2 | This Old House
+5d695f7db53adf96b78e7ce3 | TODAY All Day
+5d81607ab737153ea3c1c80e | The Addams Family
+5d8beeb39b5d5d5f8c672530 | Pluto TV Lives
+5d8bf0b06d2d855ee15115e3 | Pluto TV Reality
+5d8d08395f39465da6fb3ec4 | Nickelodeon en español
+5d8d164d92e97a5e107638d2 | Cine adrenalina
+5d8d180092e97a5e107638d3 | Cine terror
+5d93b635b43dd1a399b39eee | Vevo Pop
+5da0c85bd2c9c10009370984 | Naruto
+5da0d75e84830900098a1ea0 | Vevo Country
+5da0d83f66c9700009b96d0e | Vevo R&amp;B
+5dae084727c8af0009fe40a4 | Tosh.0
+5dae0b4841a7d0000938ddbd | Court TV
+5dc0c78281eddb0009a02d5e | ET
+5dc1cb279c91420009db261d | Home.Made.Nation
+5dc48170e280c80009a861ab | CBS News New York
+5dc481cda1d430000948a1b4 | CBS News Los Angeles
+5dc9b8223687ff000936ed79 | CBS News New York
+5dc9b875e280c80009a8a44a | CBS News Los Angeles
+5de94dacb394a300099fa22a | PGA TOUR
+5df97894467dfa00091c873c | NBC News NOW
+5e1f7da4bc7d740009831259 | America's Voice News
+5e1f7e089f23700009d66303 | COPS
+5e46fba0c43b0d00096e5ac1 | Blaze Live
+5e54187aae660e00093561d6 | Game Show Central
+5e66968a70f34c0007d050be | MLB
+5e7cf6c7b156d500078c5f44 | OAN Plus
+5e82530945600e0007ca076c | All Reality WE tv
+5e825550e758c700077b0aef | The Rifleman
+5e82bb378601b80007b4bd78 | The Walking Dead en español
+5e84f54a82f05300080e6746 | America's Test Kitchen
+5e8df4bc16e34700077e77d3 | Western TV
+5e94cd036cc69d0007e8a1ba | Crímenes imperfectos
+5e9debf8c881310007d7bde1 | Deal or No Deal
+5e9decb953e157000752321c | Judge Nosey
+5e9f2c05172a0f0007db4786 | CBS Sports HQ
+5eb1aeb2fd4b8a00076c2047 | CBS News Chicago
+5eb1af2ad345340008fccd1e | CBS News Boston
+5eb1afb21486df0007abc57c | CBS News Bay Area
+5eb1b05ea168cc000767ba67 | CBS News Philadelphia
+5eb1b0bf2240d8000732a09c | CBS News Minnesota
+5eb1b12146cba40007aa7e5d | CBS News Colorado
+5eb1b17aa5277e00083f6521 | CBS News Pittsburgh
+5eb301b7395671000780d100 | Little Angel's Playroom
+5ebc8688f3697d00072f7cf8 | Bellator MMA
+5eceb0d4065c240007688ec6 | CBS News Texas
+5ef3977e5d773400077de284 | Three's Company
+5efbd29e4aa26700076c0d06 | CSI
+5efbd39f8c4ce900075d7698 | Star Trek
+5f15e32b297f96000768f928 | Classic TV Comedy
+5f15e3cccf49290007053c67 | Classic TV Drama
+5f21e7b24744c60007c1f6fc | Survivor
+5f21e8a6e2f12b000755afdb | The Amazing Race
+5f21ea08007a49000762d349 | Smithsonian Channel Selects
+5f24662bebe0f0000767de32 | Supernatural Drama
+5f31fd1b4c510e00071c3103 | Pluto TV Crime Drama
+5f32f26bcd8aea00071240e5 | Vevo '70s
+5f36d726234ce10007784f2a | The Bob Ross Channel
+5f4d83e0a382c00007bc02e7 | Beverly Hills 90210
+5f4d8594eb979c0007706de7 | Pluto TV Crime Movies
+5f4d863b98b41000076cd061 | Pluto TV Staff Picks
+5f4d86f519358a00072b978e | 90s Throwback
+5f4d878d3d19b30007d2e782 | 70s Cinema
+5f4d882d5233170007ee880e | Misterios sin resolver
+5f4ec10ed9636f00089b8c89 | Yu-Gi-Oh!
+5f513564e4622a0007c578c0 | Cine ¡¡jaja!!
+5f5136317aedfb0007016f93 | Cine XOXO
+5f68f53eb1e5800007390bf8 | CMT Equal Play
+5f7790b3ed0c88000720b241 | One Piece
+5f7791b8372da90007fd45e6 | The Price Is Right: The Barker Era
+5f77939a630f530007dde654 | Family Ties
+5f7794162a4559000781fc12 | Happy Days
+5f7794a788d29000079d2f07 | The Love Boat
+5f7796e470510900070d4e3d | Beverly Hillbillies
+5f77977bd924d80007eee60c | Mission Impossible
+5f779951372da90007fd45e8 | Classica
+5f8a02476b72230007e62b7d | HSN
+5fb584b7613a31000789de5a | Ryan and Friends
+5fc54366b04b2300072e31af | PokerGO
+5fd7b8bf927e090007685853 | Vevo '80s
+5fd7bb1f86d94a000796e2c2 | Vevo '90s
+5fd7bca3e0a4ee0007a38e8c | Vevo 2K
+5ff8c708653d080007361b14 | Paramount+ Picks
+5fff49cfb5cd4f0007c2b0dc | News 12 New York
+6000a5a9e767980007b497ca | Crime 360 by A&amp;E
+6000a6f4c3f8550008fc9b91 | Xtreme Outdoor Presented by HISTORY
+601a0342dcf4370007566891 | Tiny House Nation
+6036e6e7ac69c400072afca2 | Hot Bench
+6036e7c385749f00075dbd3b | Pluto TV Game Shows
+603fde9026ecbf0007752c2c | Pluto TV Competition
+604928d54a4f730007ff76bc | CSI en Español
+60492e6d7f3f560007ab0f62 | Estrella News
+60493283ffc52f000710edae | Little Angel's Playroom en Español
+605e479d5b8229000763e697 | Sony Canal Escape Perfecto
+60807fd5db701400078219c2 | Ink Master
+609bfa51fbecc1000733152e | Jersey Shore
+60a3d889a5b3690008dc7fe8 | Bar Rescue
+60cb6df2b2ad610008cd5bea | CBS News Sacramento
+60d39387706fe50007fda8e8 | PBR RidePass
+60d393e5579a420007ee553c | Casos de la Dra. Polo
+60f5d389985a0c0007357304 | BritBox Mysteries
+60f74ba51c82ac000776c669 | Lupin the 3rd
+60f75178e7f8aa0007e9c259 | The Andy Griffith Show
+60f754f98185580007eb0754 | Matlock
+60f75771dfc72a00071fd0e0 | Gunsmoke
+60f75919718aed0007250d7a | CBS News Baltimore
+60f760bbdf090700075d7bfe | Best of Dr. Phil
+60f85644a9493e0007a1f035 | Black Classics
+60faf9ddfcc1f200070a5932 | Garfield and Friends
+60faffc3fbbc120007fc4376 | Baby Shark TV
+60fb01a24795a6000762fe83 | LEGO Kids TV
+60fb040d4795a6000762fe8f | Kartoon Channel!
+60fb053712f22a0007ff14d2 | Transformers TV
+60fb299b79498900070b29e0 | CBS News Miami
+60fb2f47c133270007327375 | Pelis y Popcorn
+6127e12ed140e900077e7b6f | Teen Mom
+61325c4f982acd000723287e | Classic TV Crime Drama
+61325d18f5166c00081b84e0 | Classic TV: Families
+613260e4bdb71c00070d63fa | More TV Drama
+6132619f9ddaa50007e7dd86 | More TV Sitcoms
+61326275b3c86a00078e4833 | Black Throwbacks
+615b8ec39e878900073f419a | Antiques Road Trip
+6176f39e709f160007ec61c3 | 48 Hours
+6176fd25e83a5f0007a464c9 | Bounce XL
+617b37b361e0fd0008cfd8c5 | Pluto TV Reaction
+6197086891ddd4000739941a | Perry Mason
+61b3b8c645b45d0007a9bb8d | Blue Bloods
+61d4b38226b8a50007fe03a6 | Vevo Rock
+61d4c2817a823d00070ba53e | Vevo True School Hip-Hop
+61e9af6bfbbcc6000700119b | WeatherNation Los Angeles
+61f07513227feb00073ee6bc | Heartland
+61f33318210549000806a530 | Classic Movie Westerns
+620bfa7df72827000703ddb1 | Stargate
+623a1b5188ecdc0007c9ef5a | XITE Rock x Metal
+623b92a2ccefed0007b1db48 | XITE Classic Country
+623b93628e6ded0007337d4d | XITE Gospel
+6267352efcf21c0007c76642 | Let's Make A Deal
+627d355aa95efd00077afcc7 | Cheaters
+6283d51144ad8f0007fa382d | The Judge Judy Channel
+628e685ba3811100070551a8 | Hallmark Movies &amp; More
+62ba60f059624e000781c436 | 00s Replay
+62cdcd05b9e7a10007399603 | CBS News Sacramento
+62f2ce24f328e00007e7f55a | Stories by AMC
+62f54c11b3af68000702c304 | CSI: Miami
+62f54c6439183b000769fb8f | CSI: NY
+62fa8176b9884200074ef5ae | The Walking Dead Universe
+632b5950b515b000079e6b81 | CSI: Miami en español
+632b606e12a67b0007c9e371 | CSI: NY en español
+632b619c8d2a6c0007ff534e | KIRO Seattle
+633354b63df9700007f6a1b7 | Sitcom Legends
+63335b193583440007c859fb | Movie Favorites By Lifetime
+6334a574605f140007e233c4 | PFL MMA
+634dacf51d90320007fcd5fa | Star Trek Voyager
+634ee8f95aa9870007248333 | Confess by Nosey
+634f2610d5023700078f7dee | CBS News Detroit
+634f3011f4fff20007431641 | I Love Lucy
+634f307c7a068e00072c9982 | Rawhide
+636adc255bcf470007d6e0e2 | Top Gear
+636c2b3c55d2e700074105c4 | PBS Antiques Roadshow
+637413d8531e0c0007442d6d | Dateline 24/7
+637e55347427a40007fac703 | Sailor Moon
+63a0e33a45264d000850ed7e | Golazo Network
+63b48016d9dd51000828fa37 | POWERNATION
+63d025db4e83e700086eaa96 | LiveNOW from FOX
+63d0269d60bc8f000890facc | FOX Deportes
+6400f731d200410008f9b339 | MotorTrend FAST TV
+640a64bd73e013000893d4e0 | PBS Nature
+640a68880e884c0009979cc2 | FOX Weather
+643f035d5a0cd50008361534 | The Price Is Right
+643f03b9d8436e0008edf021 | Family Feud Classic
+6450209d939a5900084dba1d | iCarly TV
+6452c77ed3fdde00080eb3a8 | 90s Kids TV 2
+6452c814939a590008567a3b | 90's Kids
+645e7828e1979c00087b75b4 | MovieSphere by Lionsgate
+649b6898f2ec0000081a9460 | DAZN Ringside
+649ddbfb6f29ec000874ca9e | Supermarket Sweep
+64a765c04ea480000823917a | Big Brother Camera 1
+64a765fb798def0008734632 | Big Brother Camera 2
+64a7665b902f2300085d7901 | Big Brother Camera 3
+64a766a794635e0008626601 | Big Brother Camera 4
+64a766cd798def0008734695 | Big Brother Quad View
+64b585f84ea480000838e446 | Pluto TV Icons
+64b9671cdac71b0008f371df | Cine Clásico
+64d1606b4c5ed80008e3b8b9 | Dynasty
+64d160f53c785e0008df525e | Top Rank Classics
+64d161c93c785e0008df575e | Vevo Íconos Latinos
+64d2b6bf9b414d0008187d83 | Real Disaster Channel
+64dab1f835425100080e1e7b | Acapulco Shore
+64dab5fe35425100080e2991 | Vevo Regional Mexicano
+64dab9df3d48f40008868091 | The Jamie Oliver Channel
+64e561a4354251000823a0e0 | Ghost Hunters
+6508be683a0d700008c534e4 | ABC News Live
+650b68bc2ce8e40008ac9c14 | FanDuel TV Extra
+651f239d9c7aeb0008286823 | Dating Disasters
+65244c403fd33c0008ffff31 | Car Chase
+6532e6a9bdf3cf000887ab29 | More True Crime
+6532e7b290a74c00084a3bb6 | Hallmark en español
+6532e7fa045c3d0008514ca7 | Warner Bros. TV Sweet Escapes
+6532e8342cf13100083b404c | Warner Bros. TV Say Yes to the Dress
+65453f30085df200085883d8 | ION
+65492fc7056b9700088560b5 | American Crimes
+65493029ab052400089e9d2f | GolfPass
+6549306c83595c000815a696 | NBC Sports NOW
+654930a8346f420008d3b0b8 | Oxygen True Crime Archives
+6549310a53fc97000838fcc9 | Bravo Vault
+6549316d2c1d330008631496 | Real Housewives Vault
+6549322e53fc97000838febc | Million Dollar Listing Vault
+654932fa4d6d8f00084c4723 | Bad Girls Club
+6549337183595c000815ad05 | Murder, She Wrote
+654933ac986ad20008a1f406 | Little House on the Prairie
+654933e253fc970008390114 | Universal Action
+6549341853fc9700083901ac | Universal Crime
+65652f7fc0fc88000883537a | Crunchyroll
+656535fc2c46f30008870fae | BBC Earth
+65653817c917a5000844bc30 | Criminal Minds
+656538f8954b020008d389db | UnXplained Zone
+6565413e4261ca0008215320 | Pickers &amp; Pawn
+65654230c917a5000844ce96 | Home Crashers
+656542ae4261ca00082154a8 | Ultimate Builds
+6565430c9d5ac4000822f508 | Rustic Retreats
+6565436c9d5ac4000822f552 | Medical Incredible
+65775af3b3801200084a3aa4 | Feel Good Drama
+65775d29dfed030008cb3db2 | Modern Marvels Presented by HISTORY
+65790cda6e4f6a0008768764 | NBC Los Angeles News
+65790feacbd0d60008fac87a | Telemundo Noticias California
+65a6dafb7bdc8d0008473c85 | The Lone Ranger
+65a9b20f0c7ff50008d3a3b6 | Universal Monsters
+65c69b683ba51e00084534a3 | Monster Jam
+65c69bbfd77d450008c7ffee | Star Trek Deep Space Nine
+65c69bf23ef47d0008583967 | Tough Jobs
+65c69ee3d77d450008c80438 | F1 Channel
+65d92a8c8b24c80008e285c0 | BBC News
+65e23f340d4561000821540d | Mister Rogers' Neighborhood
+65ea8b928145cb0008509426 | UEFA Champions League
+661827ffe8fba800086b217d | Triton Poker
+663946c1b18d700008d9c168 | Black Visionaries
+664e640a0120f40008be4582 | The Wild Wild West
+664fd48894d5580008e45e7c | Dog Whisperer with Cesar Millan
+6661f11a41af6400080e90d8 | Big Brother
+6661f88f3d173b000845958c | Wild West TV
+666b265722acab000885c6aa | BET x Tyler Perry Comedy
+666b38a5efa2a10008b15b3a | BET x Tyler Perry Drama
+666cc97764aca60008c31cd7 | Big Brother
+6675c713fc3a46000863dde7 | Ebony TV Drama
+6675c742ca74680008566b88 | Nash Bridges
+6675c7868768aa0008d7f1c7 | Pokémon
+6675c88da1d7ad00084762cb | Star Trek: The Motion Pictures
+667f2c7b22acab0008b7072b | FOX 11 Los Angeles
+667f3852efa2a10008e1e514 | Go Go Gadget!
+667f393836a2f90008fd17c0 | Strawberry Shortcake and Friends
+668c566d08d5490008075948 | La Familia del Barrio
+668c5cb4f01dbe0008dd4082 | CBS en español
+668c5d3bfd9eb2000882bb50 | ONE Championship TV
+6695a2e4fe11e50008341303 | Star Trek: The Motion Pictures
+66a7f0a78561260008c177f2 | Salem News Channel
+66abefe5d2d50d00082c7d12 | VH1 Queens of Reality
+66b646f9cd0d3100086af83c | 60 Minutes
+66b66b9e14a2bb000872f606 | WOW – Women of Wrestling
+66ba495ffe11e5000881f049 | Cheers + Frasier
+66ba53cda4ee2700083fac09 | Sala de Emergencias: Historias Inéditas
+66c638726838ee00085ac20d | OuterSphere
+66df70cd61dbf00008fa26ff | The Good Wife
+66df8a29b25d2b0008fc5fe0 | Love Nature
+66df8aa7abec540008ca8cb6 | Homeful
+66e0b4536ad04d0008fff4b2 | CNN Originals
+66e0b4866ad04d0008fff4d8 | MythBusters
+66e0b4a3f0f17500085cc268 | Hit Sitcoms
+66fedd65d7de140008dccd66 | El Reino Infantil
+66ff0cf663292d0008320cf8 | No Reservations
+672e4d915534bb0008c50168 | Family Feud
+673247127d5da5000817b4d6 | Pluto TV Trending Now
+673248f9030a2c0008033af8 | CNN XPRESS
+673249215534bb0008c8a012 | Bodas+
+673249433a61d400087a51ed | Construcciones Asombrosas
+6732495dc7626f0008c71e7d | Expedientes Sobrenaturales
+6732497f3a61d400087a53b0 | TuWarner
+6732499ce40c4a0008bb9894 | Crimen
+673249afc7626f0008c7205d | Vidas Extremas
+673249ccc7626f0008c72076 | TuDiscovery
+67352ed93a61d4000881f9fa | The Twilight Zone
+673bf05ddaad7f0008ac7a5c | Dinos 24/7
+674f735a2fb8a100087bf253 | Revry
+677d672ef090ab00085b8e9b | Robot Wars by MECH+
+677d9adfa9a51b0008497fa0 | UFC
+67817323dd7846fe546940dd | QVC2
+67882c1c7b11714b795c2008 | Sketchy AF
+6792c30abc03978b9b8bb832 | The NBA Channel
+6793ea255225b515b4ba91a7 | ALLBLK Gems
+6793eaa4bc03978b9bc63db1 | ANIME x HIDIVE
+67c62ac2095aea2ec805eb34 | The Martha Stewart Channel
+67c63b90a20c0399a381b816 | Inuyasha
+67d07b7b798df95b8e9484b5 | The Emeril Lagasse Channel
+67ed8c15c84f951267dbebc2 | Pluto TV Anime Comedy
+67ed8f7e443f0671bc2b2368 | Pluto TV Anime Movies
+681109b688b9d85d0938c6ba | TennisChannel 2
+6812948d5a1ac24c25fac322 | Kids Anime
+682e43b21295f98347710917 | AWSN
+683df56f5195c2a60a3f5559 | Swerve Sports
+68487fb3f212bedacf5a53e3 | 50 Cent Action
+68509fe882d704acfc5bacd1 | Tastemade Smokehouse
+686c2677ed17cf4c900a496d | Wicked Tuna
+686d61503484d6073283059d | Black Family Sitcoms
+68757c45759366af05b3b199 | America's Next Top Model
+68757c60552299d2b080eab6 | Project Runway
+687ff00ff6bc08130f16ab81 | Beyond the Gates
+US1000003G8 | Yu-Gi-Oh
+US1000004YJ | RugbyPass TV
+US10000135V | SMTOWN
+US1000016Q | The First
+US11000020V | It’s Anime
+US1300001GM | Hallmark en Español
+US1300005MK | PBS Travel
+US130000639 | PBS Genealogy
+US1300007KZ | PBS Nature
+US13000081O | PBS Food
+US1400001WV | MLB Channel
+US14000030Y | Rainy Day Vibes
+US1400007V6 | Island Vibes
+US1400008DW | Unbeaten Sports Channel
+US1400010S0 | Summer Vibes
+US14000119Q | Beach Bonfire Vibes
+US1400012RF | FanDuel TV Extra
+US1400014N9 | Storm Vibes
+US1500002I2 | Campfire Vibes
+US160000159 | Live PD Presents
+US1600002OK | Lifetime Movies Love &amp; Drama
+US17000164B | K-Drama by CJ ENM
+US17000186W | K-Food by CJ ENM
+US1700019P7 | Coreano by CJ ENM
+US170002608 | Mr. Bean Animated
+US1700027JI | BizaarTV
+US1800001D1 | Murder, She Wrote
+US1800002UQ | Telemundo Accion
+US1800003BG | Bravo Vault
+US1800004S5 | Caso Cerrado
+US18000059V | Real Housewives Vault
+US18000078A | Little House on the Prairie
+US1800008PZ | Bad Girls Club
+US18000096O | Saved by the Bell
+US1800010NE | Lassie
+US180001143 | Las Vegas
+US1800012MT | SNL Vault
+US18000133I | E! Keeping Up
+US1800014CG | Alfred Hitchcock Presents
+US1800015K5 | National Lampoon
+US18000163F | Miramax Channel
+US19000017A | American Ninja Warrior
+US1900002QK | Universal Monsters
+US1900005VB | Oxygen True Crimes Archive
+US200001137 | Genie K-Movie
+US2000012KX | Genie K-Drama
+US2000014IC | Naruto
+US2000015Z1 | Sailor Moon
+US21000043S | MeatEater
+US2200001IY | Curiosity Animales
+US22000020U | Curiosity Explora
+US2200003ZN | Curiosity Motores
+US2200004HD | Angelique
+US2200005Y2 | Canal ViX
+US2200006FS | Shaun the Sheep
+US2200007QG | Ninja Kidz
+US240000434 | Team Liquid
+US2600006VY | One Championship TV
+US2600007WJ | NFL Channel
+US2600019IC | Historia
+US26000201N | Biography: The Icons
+US2600024EO | In Depth with Graham Bensinger
+US2700001QY | FOX Sports
+US270000298 | ¿Qué Culpa Tiene Fatmagül?
+US27000033D | Novelas Turcas
+US2700004DX | beIN Sports XTRA ñ
+US270000585 | Hunter x Hunter
+US27000062U | JoJo's Bizarre Adventure
+US2900004L2 | Luxe Fireplace Vibes
+US2900005NW | Cozy Vibes
+US2900006IV | Hot Ones
+US2900007HA | Death Valley Days
+US2900008FP | Mythical 24/7
+US2900010UT | Bondi Rescue
+US2900011CJ | My Little Pony
+US2900012T8 | Power Rangers
+US2900013AY | Hot Wheels Action
+US2900014UU | The Jim Rome Show
+US2900015RO | Kartoon Channel!
+US29000168D | Transformers
+US2900017P2 | UFC
+US3000005RS | Noticias Telemundo Ahora
+US300001UO | Barney and Friends
+US300002BE | The Curse of Oak Island
+US300003S3 | Pawn Stars
+US300062TG | NESN Nation
+US300065DB | Love Pets
+US300067FX | Million Dollar Dream Home
+US300068X7 | Samsung Television Network
+US310000101 | MrBeast
+US3300008FX | The Hill
+US3300010F5 | Ancient Aliens
+US3300011V9 | The First 48
+US3400001FX | Dog Whisperer
+US3400003HI | ducktv
+US34000040T | ESPN8: The Ocho
+US3400005I4 | D&amp;D Adventures
+US350000231 | PFL
+US3500004M7 | FilmRise Anime
+US350000563 | GET Comedy
+US37000017A | Big 12 Studios
+US3700002P0 | Laff More
+US37000036P | TruBlu
+US3700004Y0 | Salem News Channel
+US3700005GP | BBC Drama
+US3700006XE | Dinos 24/7
+US3700007E4 | BritBox Mysteries
+US3800007CR | WildEarth
+US39000038W | K-POP by CJ ENM
+US4000004N1 | Letterman TV
+US400001M2 | PGA Tour
+US400002PS | Animation+
+US4000033L | BBC News
+US4100001KP | Women's Sports Network
+US410000230 | BYUtv
+US4100003MA | Who's The Boss?
+US4100005NW | Dawson's Creek
+US41000060J | WAPA+
+US4100022W9 | FARSCAPE
+US4100023FK | ALF
+US4100024YU | Family Hour TV
+US4400001PL | Game &amp; Fish TV
+US44000027B | Grjngo
+US4500001DM | RIG TV
+US4500002UB | Mattel Jr.
+US4500003B0 | Wild West TV
+US4500004SQ | Mystery Science Theater 3000
+US4500005Z1 | Roku Sports Channel
+US4500009VV | BBC Comedy
+US4500010B0 | Emeril Lagasse Channel
+US4500011SP | The Martha Stewart Channel
+US4600005ST | CG MMA En Español
+US4600006R8 | Combate Global MMA
+US46000072L | XITE Christian Hits
+US4600008JA | XITE Reggae Vibes
+US4600010KE | DP World Tour
+US4700001B4 | Samsung Showcase
+US4700002UF | Stingray Euro Hits
+US4700003DP | Stingray Movie Music
+US4700005EA | Stingray Country Greats
+US4700006XL | Stingray Jukebox Oldies
+US4700007GV | Stingray Soft Hits
+US4800001W5 | ABC 20/20
+US5100003NU | Pokémon
+US600011Q2 | Formula 1 Channel
+US700002ZB | Road Renegades
+US700005ID | WWE Superstar Central
+US700007CV | Caught on Tape
+US700010XK | Witness to Justice
+US700011JL | The UnXplained with William Shatner
+US700012OU | Ocean Vibes
+US70001475 | Dr Phil's MeritTV
+US700020AX | Cutlers Court
+US700021SM | NASCAR Channel
+US7000229B | Let's Make A Deal Classic
+US8000024G | OUTtv Proud
+US800003JM | BBC Kids
+US900001CX | Universe: Mysteries Solved
+US900002IH | Dog the Bounty Hunter
+US9000032J | Blippi
+USAJ17000014C | The Asylum
+USAJ1700009QJ | FreeTV Estelar
+USAJ2200009C2 | Hungry
+USAJ22000130U | MHz Mysteries
+USAJ2200020N4 | Estrella News
+USAJ2200023Z0 | fubo Sports Network
+USAJ26000015Y | Drama Life
+USAJ26000054W | Paramount Movie Channel
+USAJ3000002OC | Sony One Novelas
+USAJ30000039U | Dry Bar Comedy
+USAJ30000041W | Bloomberg Originals
+USAJ3000006X5 | Home.Made.Nation
+USAJ3000007MT | Maverick Black Cinema
+USAJ30000122O | NEW KMOVIES
+USAJ3000013FJ | NEW KPOP
+USAJ30000148W | CINEVAULT
+USAJ34000022E | Nosey
+USAJ340000677 | MagellanTV Wildest
+USAJ3400011A8 | Bloomberg TV+
+USAJ3400012FA | Game Show Central
+USAJ3400014LK | WeatherSpy
+USAJ3400020KC | Tiny House Nation
+USAJ3504502A | Anime All day
+USAJ3504531A | Pluto TV Pixel World
+USAJ3504545A | Cars
+USAJ3504547A | The New Detectives
+USAJ3504701A | Documentary+
+USAJ3504702A | FailArmy
+USAJ3504704A | The Pet Collective
+USAJ3504705A | Stadium
+USAJ3504706A | RiffTrax
+USAJ3504707A | Outside TV
+USAJ3504708A | DangerTV
+USAJ3504714A | Cheddar News
+USAJ3504719A | Sony One Competencias
+USAJ4300001Q7 | beIN SPORTS XTRA
+USAJ4300005PJ | Yahoo Finance
+USAK3508703A | Crime 24/7
+USAK3508705A | Stingray Naturescape
+USAK3508706A | Xtreme Outdoor Presented by HISTORY
+USAK3508709A | CINEVAULT: Westerns
+USAK3508710A | Law &amp; Crime
+USAK3508716A | Kidoodle.TV
+USAK3508724A | Gusto TV
+USBA1600001XM | Always Funny Videos
+USBA2000001BR | Baywatch
+USBA2300001S8 | The LEGO Channel
+USBA3000041ZP | Movie Hub
+USBA3000042O6 | Kitchen Nightmares
+USBA3000043LH | Samsung Wild Life
+USBA3000044BJ | Lucky Dog
+USBA300004TE | Dallas Cowboys Cheer
+USBA300005MK | Pluto TV Westerns
+USBA3000093U | MTV Pluto TV
+USBA3000100X | Wild 'N Out
+USBA3000158L | Nick Pluto TV
+USBA300017PK | Pluto TV Fantastic
+USBA300019WF | TV Land Sitcoms
+USBA300020WC | Love &amp; Hip Hop
+USBA30002142 | TYT Network
+USBA300022JX | INFAST
+USBA300023G8 | InWonder
+USBA300024TN | LiveNOW from FOX
+USBA300028QU | NEWSMAX2
+USBA300031OT | SportsGrid
+USBA300032J7 | FOX SOUL
+USBA300034DB | Pac-12 Insider
+USBA300035FV | Circle
+USBA300040WR | Estrella TV
+USBA3400003IP | Love Nature 4K
+USBA34000049Z | Court TV
+USBA370000104 | CBS News 24/7
+USBA3700002JF | ET
+USBA3800001E0 | Cine Romantico
+USBA3800002KI | America's Test Kitchen
+USBA3800003VP | Revry
+USBA3800004EL | Fireplace Vibes
+USBA3800005NI | Clarity 4K
+USBB1000001XP | TNA Wrestling
+USBB1000002TK | Loupe 4K
+USBB1000003HL | JOURNY TV
+USBB10000047W | Unidentified
+USBB10000058A | SURFER TV
+USBB11000015Q | Moonbug
+USBB1500001GD | USA Today
+USBB19000017U | Highway to Heaven
+USBB1900002KF | Real America's Voice
+USBB1900004J9 | Toon Goggles
+USBB1900006NY | VICE
+USBB2200014DK | NBC News NOW
+USBB2300001QP | ALL ACTION
+USBB2300002Q6 | Fear Factor
+USBB2300003JZ | XITE Just Chill
+USBB2300004KV | XITE Rock x Metal
+USBB2900001P9 | K-Stories by CJ ENM
+USBB2900002Z7 | Hell's Kitchen
+USBB2900003O3 | Heartland
+USBB3200001MG | REELZ Famous &amp; Infamous
+USBB320000397 | 21 Jump Street
+USBB3200004X3 | Dr. G: Medical Examiner
+USBB320000647 | XITE 80s Flashback
+USBB3200007AK | XITE 90s Throwback
+USBB3200015M8 | CINEVAULT: Classics
+USBB3200016HO | Telemundo Al Día
+USBB3200017MY | Forensic Files
+USBB3200018Q6 | Unsolved Mysteries
+USBB32000196O | FilmRise Westerns
+USBB3200024V5 | Million Dollar Listing Vault
+USBB32000251N | TODAY All Day
+USBB3200030CG | Universal Movies
+USBB3500001O6 | The Challenge
+USBB3500002FL | TV Land Drama
+USBB3500003D6 | Family Ties
+USBB3500004RC | Project Runway
+USBB3600001R6 | TG Junior
+USBB36000040M | Crime Zone
+USBB400000145 | GOLFPASS
+USBB40000028E | NBC LX Home
+USBB44000099N | ViX Novelas de romance
+USBB4400015F5 | Vevo 2K
+USBB4400016F9 | All-Out Reality
+USBB4400017N3 | Deal or No Deal
+USBB4400018LR | Wipeout Xtra
+USBB440002055 | Waypoint TV
+USBB4800005VO | CBS Sports HQ
+USBB52000022Q | Sky News
+USBB5200007BY | Dateline 24/7
+USBB5200019FO | Movie Favorites By Lifetime
+USBB5200020Z0 | Ax Men
+USBB520002173 | Ice Road Truckers
+USBB5200022PY | Crimes Cults Killers
+USBB52000236D | Crime ThrillHer
+USBB52000246M | Deal Zone
+USBB5200025DO | Modern Marvels Presented by History
+USBB520002604 | Perform
+USBB5200027Z5 | Torque
+USBB5200028MM | Mysteries Xplored
+USBB800001O7 | PBS Digital Studios
+USBC1000002NP | World’s Most Evil Killers
+USBC1000004G8 | Shades of Black
+USBC100000630 | Alien Nation by DUST
+USBC100001175 | Horror by ALTER
+USBC10000129R | Backstage
+USBC1300005T6 | This Old House Makers
+USBC13000065U | This Old House
+USBC1300008AZ | Plated
+USBC1300009VM | LOL! Network
+USBC1300012VK | Fear Zone
+USBC15000058Z | NBC Dallas Fort Worth News
+USBC1500014UR | WN Dallas/Ft Worth
+USBC2100008DP | Xplore
+USBC2100009GT | The Jack Hanna Channel
+USBC2100010OS | ViX JaJaJa
+USBC2100011WI | ViX Villanos de Novela
+USBC2100012EJ | ViX Grandes Parejas
+USBC2100013WI | TED
+USBC21000142T | Home Refresh
+USBC24000134A | Midsomer Murders
+USBC24000145I | Estrella Games
+USBC2400015DO | Hollywire
+USBC240001823 | Brat TV
+USBC2400019EF | ZooMoo
+USBC24000213P | Grit Xtra
+USBC24000223S | ION Mystery
+USBC2400024FN | Rovr Pets
+USBC2400027NG | Top Gear
+USBC3200019WF | NHRA TV
+USBC3200020QF | Western Bound
+USBC3200022W6 | Tastemade Home
+USBC3600001RQ | Vevo Country
+USBC3600002EK | Vevo Hip-Hop
+USBC3600005U9 | MotorTrend FAST TV
+USBC36000073J | RetroCrush
+USBC3600008WY | Vevo Pop
+USBC3600013PC | PBS Kids
+USBC3600015GF | Vevo Latino
+USBC39000080S | Canela.TV
+USBC3900009K5 | Vevo R&amp;B
+USBC39000171G | ABC News Live
+USBC3900018K6 | MyTime Movie Network
+USBC39000204J | Military Heroes
+USBC3900021HS | Dance Moms
+USBC390002256 | Cold Case Files
+USBC440000193 | Matched Married Meet
+USBC4400002GF | Duck Dynasty
+USBC4400003OU | CBC News
+USBC4400004KK | Just for Laughs GAGS
+USBC4400005HY | Localish
+USBC4400006BR | Haunt TV
+USBC44000072I | HappyKids
+USBC44000087O | Supermarket Sweep
+USBC4400012QS | Strawberry Shortcake
+USBC4400013R7 | Bob the Builder
+USBC4400016CL | Jamie Oliver
+USBC4400018D0 | Telemundo Texas
+USBC44000226R | Bon Appétit
+USBC450000130 | BET Pluto TV
+USBC600001QL | T2
+USBC6000108Z | BBC Food
+USBC600017FG | BBC Home &amp; Garden
+USBC600018CF | Antiques Roadshow
+USBC6000219D | Operation Repo
+USBC6000225M | ElectricNOW
+USBD1200002PM | get TV
+USBD12000038K | Portlandia
+USBD1200004NS | The Walking Dead Universe
+USBD1200005XR | All Weddings We TV
+USBD12000061R | All Reality We TV
+USBD1200007FE | OuterSphere
+USBD1200009JI | History &amp; Warfare Now
+USBD1200013ET | Fox 4 Dallas - Fort Worth
+USBD12000153A | pocket.watch Game-On
+USBD120001614 | Conan O'Brien TV
+USBD12000183X | Billiard TV
+USBD1200020Y4 | Outdoor America
+USBD1200021JM | Shout! TV
+USBD1200022S1 | The Design Network
+USBD12000239N | Ryan and Friends
+USBD120002431 | Vevo 2010s
+USBD12000255B | FIFA+
+USBD1700001RW | BBC Earth
+USBD17000025J | Pursuit UP
+USBD17000040J | Bring It!
+USBD17000051M | Mountain Men
+USBD1700006T2 | Storage Wars: LA
+USBD170000771 | Little Women: LA
+USBD1700008H9 | I Survived…
+USBD1700009P5 | World Poker Tour
+USBD17000117B | MovieSphere
+USBD17000129L | CBS News Texas
+USBD1700014QU | Noticias Univision 24/7
+USBD1700015J1 | Aquí y Ahora
+USBD1700016X9 | Zona TUDN
+USBD17000172A | Las 3 Marías
+USBD1700018II | Rebelde
+USBD1700019RN | RACER Select
+USBD2500012DH | Ebony TV by Lionsgate
+USBD25000138Y | At Home with Family Handyman
+USBD25000161U | ACC Digital Network
+USBD2500017XQ | POWERNATION
+USBD2500018X6 | Stories by AMC
+USBD2500022U5 | Cine Retro
+USBD2700002DU | Galanes
+USBD2700003F3 | Pequenos Gigantes
+USBD2700004ME | Como Dice el Dicho
+USBD2700005KL | Cine de Oro
+USBD2700013UK | Swamp People
+USBD2700014QW | Forged In Fire
+USBD27000156I | Alone By History
+USBD270001633 | Hallmark Movies &amp; More
+USBD300002TU | ION
+USBD300003LK | ION Plus
+USBD300006A6 | Divorce Court
+USBD3000073N | Scripps News
+USBD300008G1 | Bounce XL
+USBD300011KQ | Vevo '70s
+USBD300012YC | Vevo '80s
+USBD3000133M | Vevo '90s
+USBD3000145P | Vevo Rock
+USBD300021B8 | MSG SportsZone
+USBD300022FH | ALLBLK Gems
+USBD3300004RH | XITE Hits
+USBD3300006O3 | XITE Country Today
+USBD3300007PB | XITE Nuevo Latino
+USBD330000948 | XITE R&amp;B Classic Jams
+USBD3300010L9 | XITE Siempre Latino
+USBD3300011UT | XITE Classic Country
+USBD3300012VX | batteryPOP
+USBD3300013KV | Sensical Jr
+USBD3300015BY | Rainbow Ruby
+USBD3300016AK | Rev and Roll
+USBD3300017XB | Sensical Makers
+USBD33000180S | Slugterra
+USBD3300019OU | All Babies Channel
+USBD3300020PM | Sonic The Hedgehog
+USBD3300021KV | Stingray Hot Country
+USBD3300022QK | Stingray Remember the 80s
+USBD3500008IJ | Stingray Flashback 70s
+USBD3500009Y3 | Stingray Today's Latin Pop
+USBD3500010MT | Stingray Hip Hop
+USBD3500011J3 | Stingray Easy Listening
+USBD35000128A | Stingray Smooth Jazz
+USBD3500013DG | Stingray Spa
+USBD35000149S | Stingray Nothin' But 90s
+USBD3500015R5 | Teletubbies
+USBD3500016NH | Stingray Today's K-Pop
+USBD3500017CE | Stingray Romance Latino
+USBD35000180U | Stingray Classic Rock
+USBD3500022DN | Stingray Greatest Hits
+USBD350002338 | Baby Einstein
+USBD3500024YB | Qello Concerts by Stingray
+USBD3500025GS | Stingray DJAZZ
+USBD350002623 | Stingray Classica
+USBD3500027DS | ZenLIFE by Stingray
+USBD3500031F3 | Cheaters
+USBD3500032H0 | Movie Hub Action
+USBD3500033U0 | Movie Hub Romance
+USBD3500036HP | Movie Hub West
+USBD3500038R6 | Stingray Holidayscapes
+USBD350003932 | XITE Celebrates
+USBD3500040WX | Intervention by A&amp;E
+USBD3500041ZF | American Pickers by History
+USBD35000428O | History 365
+USBD3500046GS | WFAA
+USBD42000073E | 60 Days In by A&amp;E
+USBD4200008RS | Flipping Nation by A&amp;E
+USBD4200009Y4 | Hoarders by A&amp;E
+USBD4200011W4 | Hagerty
+USBD42000124T | Fireman Sam
+USBD4200016QR | PickleballTV
+USBD4200017GS | PBS Antiques Roadshow
+USBD420002446 | NBC Sports NOW
+USBD42000250Q | American Crimes
+USBD490000209 | Barbie and Friends
+USBD50000048H | Caillou
+USBD7000017L | AMC en Español
+USBD70000213 | TMZ
+USBD700003L7 | FOX Weather
+USBD70000412 | 4UV
+USBD700010XU | Degrassi
+USBD700011RE | Gravitas Movies
+USBD700012OA | The Bob Ross Channel
+USBD700013BW | DraftKings Network
+USBD7000145C | Comedy Dynamics
+USBD700015LK | Midnight Pulp
+USBD700016JY | Dove Channel
+USBD700017WC | Tastemade Travel
+USBD7000189R | Tastemade
+USBD700021WG | BUZZR
+USBD700022M5 | Homeful
