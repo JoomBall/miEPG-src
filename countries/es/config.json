@@ -1,0 +1,14 @@
+{
+  "country_code": "es",
+  "country_name": "España",
+  "timezone": "Europe/Madrid",
+  "language": "es", 
+  "output_filename": "miEPG_ES.xml",
+  "cron_schedule": "0 1 * * *",
+  "postprocess_enabled": false,
+  "allowlist_enabled": false,
+  "sources_priority": ["davidmuma", "rakuten", "pluto", "plex"],
+  "max_days_epg": 7,
+  "generator_info": "miEPG España - JoomBall",
+  "publish_enabled": true
+}

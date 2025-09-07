@@ -1,0 +1,14 @@
+{
+  "country_code": "gb", 
+  "country_name": "Reino Unido",
+  "timezone": "Europe/London",
+  "language": "en",
+  "output_filename": "miEPG_GB.xml", 
+  "cron_schedule": "0 2 * * *",
+  "postprocess_enabled": false,
+  "allowlist_enabled": false,
+  "sources_priority": ["bbc", "itv", "channel4"],
+  "max_days_epg": 7,
+  "generator_info": "miEPG UK - JoomBall",
+  "publish_enabled": false
+}

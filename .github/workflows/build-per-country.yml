@@ -36,7 +36,7 @@ jobs:
           ALLOW_EMPTY: "1"
         run: |
           chmod +x .github/workflows/EPG_script.sh
-          OUT="miEPG_$(echo "${{ matrix.country }}" | tr '[:lower:]' '[:upper:]').xml"
+          OUT="countries/${{ matrix.country }}/EPG.xml"
           .github/workflows/EPG_script.sh \
             "countries/${{ matrix.country }}/epgs.txt" \
             "countries/${{ matrix.country }}/canales.txt" \
@@ -44,34 +44,24 @@ jobs:
 
       - name: Comprobar resultado (conteos ${{ matrix.country }})
         run: |
-          OUT="miEPG_$(echo "${{ matrix.country }}" | tr '[:lower:]' '[:upper:]').xml"
+          OUT="countries/${{ matrix.country }}/EPG.xml"
           if [ ! -f "$OUT" ]; then
             echo "No se generó $OUT (posible falta de fuentes)"; exit 0
           fi
           echo "Primeras 30 líneas de $OUT:"
           head -n 30 "$OUT" || true
           PRG=$(grep -c "<programme" "$OUT" || echo 0)
-          echo "Programmes totales: $PRG"
+          echo "Programmes totales en ${{ matrix.country }}: $PRG"
 
-      - name: Publicar en repo público (${{ matrix.country }})
-        env:
-          GH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+      - name: Commit y push EPG (${{ matrix.country }})
         run: |
-          OUT="miEPG_$(echo "${{ matrix.country }}" | tr '[:lower:]' '[:upper:]').xml"
-          [ -f "$OUT" ] || { echo "Sin archivo $OUT; nada que publicar"; exit 0; }
+          OUT="countries/${{ matrix.country }}/EPG.xml"
+          [ -f "$OUT" ] || { echo "Sin archivo $OUT; nada que commitear"; exit 0; }
           PRG=$(grep -c "<programme" "$OUT" || echo 0)
-          [ "$PRG" -gt 0 ] || { echo "Sin programmes en $OUT; no publico"; exit 0; }
+          [ "$PRG" -gt 0 ] || { echo "Sin programmes en $OUT; no commiteo"; exit 0; }
 
-          TMPDIR=$(mktemp -d)
-          cd "$TMPDIR"
-          git config --global user.email "bot@github"
-          git config --global user.name  "epg-bot"
-          git clone "https://github.com/JoomBall/miEPG-pub.git"
-          cd miEPG-pub
-
-          mkdir -p "${{ matrix.country }}"
-          cp "${GITHUB_WORKSPACE}/$OUT" "${{ matrix.country }}/$OUT"
-
-          git add -A
-          git commit -m "update: $OUT $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || { echo "Nada que commitear"; exit 0; }
-          git push "https://x-access-token:${GH_TOKEN}@github.com/JoomBall/miEPG-pub.git" HEAD:main
+          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git add "$OUT"
+          git commit -m "update: EPG ${{ matrix.country }} - $(date -u +'%Y-%m-%dT%H:%M:%SZ') - $PRG programmes" || { echo "Nada que commitear"; exit 0; }
+          git push

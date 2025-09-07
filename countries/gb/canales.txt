@@ -1,0 +1,143 @@
+BBC One,BBC One
+BBC Two,BBC Two
+BBC Three,BBC Three
+BBC Four,BBC Four
+CBBC,CBBC
+CBeebies,CBeebies
+BBC News,BBC News
+BBC Parliament,BBC Parliament
+ITV,ITV
+ITV2,ITV2
+ITV3,ITV3
+ITV4,ITV4
+ITVBe,ITVBe
+CITV,CITV
+Channel 4,Channel 4
+E4,E4
+More4,More4
+Film4,Film4
+4Music,4Music
+Channel 5,Channel 5
+5Star,5Star
+5USA,5USA
+5Select,5Select
+Dave,Dave
+Gold,Gold
+W,W
+Yesterday,Yesterday
+Drama,Drama
+Really,Really
+Quest,Quest
+Quest Red,Quest Red
+Food Network,Food Network
+HGTV,HGTV
+Discovery Channel,Discovery Channel
+Discovery Science,Discovery Science
+Discovery History,Discovery History
+Animal Planet,Animal Planet
+TLC,TLC
+Investigation Discovery,Investigation Discovery
+Eurosport 1,Eurosport 1
+Eurosport 2,Eurosport 2
+Sky Sports Main Event,Sky Sports Main Event
+Sky Sports Premier League,Sky Sports Premier League
+Sky Sports Football,Sky Sports Football
+Sky Sports Cricket,Sky Sports Cricket
+Sky Sports Golf,Sky Sports Golf
+Sky Sports F1,Sky Sports F1
+Sky Sports Action,Sky Sports Action
+Sky Sports Arena,Sky Sports Arena
+Sky Sports Mix,Sky Sports Mix
+Sky Sports News,Sky Sports News
+Sky Cinema Premiere,Sky Cinema Premiere
+Sky Cinema Hits,Sky Cinema Hits
+Sky Cinema Greats,Sky Cinema Greats
+Sky Cinema Family,Sky Cinema Family
+Sky Cinema Action,Sky Cinema Action
+Sky Cinema Comedy,Sky Cinema Comedy
+Sky Cinema Thriller,Sky Cinema Thriller
+Sky Cinema Drama,Sky Cinema Drama
+Sky Cinema Sci-Fi & Horror,Sky Cinema Sci-Fi & Horror
+Sky Atlantic,Sky Atlantic
+Sky Max,Sky Max
+Sky Comedy,Sky Comedy
+Sky Crime,Sky Crime
+Sky Documentaries,Sky Documentaries
+Sky History,Sky History
+Sky Nature,Sky Nature
+Sky Arts,Sky Arts
+Sky Witness,Sky Witness
+MTV,MTV
+MTV Music,MTV Music
+MTV Hits,MTV Hits
+MTV Dance,MTV Dance
+MTV Classic,MTV Classic
+Comedy Central,Comedy Central
+Comedy Central Extra,Comedy Central Extra
+Nickelodeon,Nickelodeon
+Nick Jr,Nick Jr
+Nick Jr Too,Nick Jr Too
+Cartoon Network,Cartoon Network
+Cartoon Network Too,Cartoon Network Too
+Boomerang,Boomerang
+Disney Channel,Disney Channel
+Disney Junior,Disney Junior
+Disney XD,Disney XD
+National Geographic,National Geographic
+Nat Geo Wild,Nat Geo Wild
+History,History
+H2,H2
+Crime + Investigation,Crime + Investigation
+Lifetime,Lifetime
+Universal TV,Universal TV
+Syfy,Syfy
+Horror Channel,Horror Channel
+Movies 24,Movies 24
+True Movies,True Movies
+Great! Movies,Great! Movies
+Great! Movies Action,Great! Movies Action
+Talking Pictures TV,Talking Pictures TV
+Film4+1,Film4+1
+Sony Movies,Sony Movies
+Sony Movies Classic,Sony Movies Classic
+Sony Movies Action,Sony Movies Action
+True Crime,True Crime
+True Drama,True Drama
+True Entertainment,True Entertainment
+Pop,Pop
+Tiny Pop,Tiny Pop
+Kix,Kix
+POP Max,POP Max
+Freeview local channels,Freeview local channels
+London Live,London Live
+That's TV,That's TV
+Forces TV,Forces TV
+Ideal World,Ideal World
+QVC,QVC
+Create and Craft,Create and Craft
+TJC,TJC
+Gems TV,Gems TV
+JML Direct,JML Direct
+High Street TV,High Street TV
+RT,RT
+Al Jazeera English,Al Jazeera English
+France 24,France 24
+Deutsche Welle,Deutsche Welle
+CGTN,CGTN
+NHK World,NHK World
+CNN International,CNN International
+BBC World News,BBC World News
+Sky News,Sky News
+GB News,GB News
+talkTV,talktv
+S4C,S4C
+BBC One Wales,BBC One Wales
+BBC Two Wales,BBC Two Wales
+ITV Wales,ITV Wales
+BBC One Scotland,BBC One Scotland
+BBC Two Scotland,BBC Two Scotland
+STV,STV
+BBC One Northern Ireland,BBC One Northern Ireland
+BBC Two Northern Ireland,BBC Two Northern Ireland
+UTV,UTV
+BBC Alba,BBC Alba
