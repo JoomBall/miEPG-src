@@ -1,0 +1,40 @@
+name: Debug AU EPG
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  debug-au:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Preparar herramientas
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y curl wget gzip sed
+
+      - name: Debug Australia EPG
+        run: |
+          chmod +x .github/workflows/debug_au.sh
+          .github/workflows/debug_au.sh
+
+      - name: Test single EPG source manually
+        run: |
+          echo "[DEBUG] Manual test of PlutoTV US (as reference)..."
+          curl -fsSL "https://i.mjh.nz/PlutoTV/us.xml.gz" | gzip -dc | head -30
+          
+          echo "[DEBUG] Testing Australia specific..."
+          echo "Testing au/all/epg.xml.gz:"
+          curl -fsSL --head "https://i.mjh.nz/au/all/epg.xml.gz" || echo "Failed"
+          
+          echo "Testing Foxtel:"
+          curl -fsSL --head "https://i.mjh.nz/Foxtel/epg.xml.gz" || echo "Failed"
