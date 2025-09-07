@@ -67,20 +67,57 @@ jobs:
           [ -f "$OUT" ] || { echo "Sin archivo $OUT; nada que commitear"; exit 0; }
           PRG=$(grep -c "<programme" "$OUT" || echo 0)
           
+          # Configurar git usuario
+          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          
+          # Función para hacer push con reintentos en caso de conflictos
+          safe_push() {
+            local max_attempts=3
+            local attempt=1
+            
+            while [ $attempt -le $max_attempts ]; do
+              echo "Intento $attempt de $max_attempts para push..."
+              
+              # Hacer pull antes del push para sincronizar
+              git pull --rebase origin main || {
+                echo "Error en git pull, reintentando..."
+                attempt=$((attempt + 1))
+                sleep 2
+                continue
+              }
+              
+              # Intentar push
+              if git push origin main; then
+                echo "Push exitoso en intento $attempt"
+                return 0
+              else
+                echo "Push falló en intento $attempt"
+                attempt=$((attempt + 1))
+                sleep 2
+              fi
+            done
+            
+            echo "Error: Push falló después de $max_attempts intentos"
+            return 1
+          }
+          
           # Siempre commitear channels.txt aunque EPG esté vacío (para debug)
           if [ -f "$CHANNELS_LIST" ]; then
             echo "Commiteando lista de canales disponibles: $CHANNELS_LIST"
-            git config --global user.email "actions@github.com"
-            git config --global user.name "github-actions[bot]"
             git add "$CHANNELS_LIST"
-            git commit -m "update: channels list for ${{ matrix.country }} - $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "Sin cambios en channels.txt"
-            git push || echo "Error pushing channels.txt"
+            if git commit -m "update: channels list for ${{ matrix.country }} - $(date -u +'%Y-%m-%dT%H:%M:%SZ')"; then
+              safe_push || echo "Error pushing channels.txt"
+            else
+              echo "Sin cambios en channels.txt"
+            fi
           fi
           
           [ "$PRG" -gt 0 ] || { echo "Sin programmes en $OUT; no commiteo EPG"; exit 0; }
 
-          git config --global user.email "actions@github.com"
-          git config --global user.name "github-actions[bot]"
           git add "$OUT"
-          git commit -m "update: EPG ${{ matrix.country }} - $(date -u +'%Y-%m-%dT%H:%M:%SZ') - $PRG programmes" || { echo "Nada que commitear"; exit 0; }
-          git push
+          if git commit -m "update: EPG ${{ matrix.country }} - $(date -u +'%Y-%m-%dT%H:%M:%SZ') - $PRG programmes"; then
+            safe_push || { echo "Error crítico en push EPG"; exit 1; }
+          else
+            echo "Nada que commitear en EPG"
+          fi
