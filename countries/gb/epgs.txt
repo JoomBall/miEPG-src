@@ -1,5 +1,4 @@
-https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/Freeview/uk.xml.gz
-https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/SkyUK/uk.xml.gz
-https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/Plex/gb.xml.gz
-https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/gb.xml
-https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/SamsungTVPlus/gb.xml.gz
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/gb.xml.gz
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/gb.xml.gz
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/all/all.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz

@@ -658,3 +658,116 @@ Veo en el log que **SÍ se generó el EPG** correctamente:
 
 ---
 
+_**User (2025-09-07 10:34Z)**_
+
+Vale, ahora funciona, el es se rellena igual que antes pero el gb creo que las fuentes no funcionan y no devuelven ningun valor, datos:
+build (gb)
+succeeded 3 minutes ago in 20s
+Search logs
+1s
+Current runner version: '2.328.0'
+Runner Image Provisioner
+Operating System
+Runner Image
+GITHUB_TOKEN Permissions
+Secret source: Actions
+Prepare workflow directory
+Prepare all required actions
+Getting action download info
+Download action repository 'actions/checkout@v4' (SHA:08eba0b27e820071cde6df949e0beb9ba4906955)
+Complete job name: build (gb)
+2s
+Run actions/checkout@v4
+Syncing repository: JoomBall/miEPG-src
+Getting Git version info
+Temporarily overriding HOME='/home/runner/work/_temp/cc18f0b2-56eb-4df6-97fd-4120a07086a1' before making global git config changes
+Adding repository directory to the temporary git global config as a safe directory
+/usr/bin/git config --global --add safe.directory /home/runner/work/miEPG-src/miEPG-src
+Deleting the contents of '/home/runner/work/miEPG-src/miEPG-src'
+Initializing the repository
+Disabling automatic garbage collection
+Setting up auth
+Fetching the repository
+Determining the checkout info
+/usr/bin/git sparse-checkout disable
+/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Checking out the ref
+/usr/bin/git log -1 --format=%H
+1d77e435ab9ebea188b2fa9d0f38061cab9fc0fc
+9s
+Run sudo apt-get update -y
+Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
+Get:6 https://packages.microsoft.com/repos/azure-cli noble InRelease [3564 B]
+Get:7 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:8 https://packages.microsoft.com/repos/azure-cli noble/main amd64 Packages [1568 B]
+Get:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [34.9 kB]
+Get:10 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [51.0 kB]
+Get:11 https://packages.microsoft.com/ubuntu/24.04/prod noble/main armhf Packages [10.2 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1389 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [274 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [14.9 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1481 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [298 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [377 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [31.0 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1791 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [400 kB]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7068 B]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [19.2 kB]
+Get:26 http://azure.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
+Get:27 http://azure.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+Get:28 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Packages [1118 kB]
+Get:29 http://azure.archive.ubuntu.com/ubuntu noble-security/main Translation-en [191 kB]
+Get:30 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Components [21.6 kB]
+Get:31 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [8712 B]
+Get:32 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Packages [879 kB]
+Get:33 http://azure.archive.ubuntu.com/ubuntu noble-security/universe Translation-en [194 kB]
+Get:34 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.2 kB]
+Get:35 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1705 kB]
+Get:36 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [382 kB]
+Get:37 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Components [208 B]
+Get:38 http://azure.archive.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
+Fetched 11.3 MB in 1s (7663 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (8.5.0-2ubuntu10.6).
+wget is already the newest version (1.21.4-1ubuntu4.1).
+0s
+4s
+0s
+0s
+0s
+Post job cleanup.
+/usr/bin/git version
+git version 2.51.0
+Temporarily overriding HOME='/home/runner/work/_temp/11525725-7fc4-462e-9307-a6155a5640a3' before making global git config changes
+Adding repository directory to the temporary git global config as a safe directory
+/usr/bin/git config --global --add safe.directory /home/runner/work/miEPG-src/miEPG-src
+/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+http.https://github.com/.extraheader
+/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+0s
+Cleaning up orphan processes
+
+---
+
+_**Assistant**_
+
+Veo que el workflow de Reino Unido (gb) se ejecutó muy rápido (20 segundos) y no muestra los logs de construcción del EPG. Esto indica que probablemente no encontró programmes y salió temprano debido a las protecciones que tienes.
+
+Vamos a investigar qué pasó revisando las fuentes EPG de Reino Unido: Voy a verificar si estas URLs funcionan probando una manualmente: ¡Ahí está el problema! Las URLs que usé no existen. Necesito verificar las URLs correctas en el repositorio de matthuisman. Vamos a buscar las URLs correctas: Veo que hay carpetas como Plex, PlutoTV, SamsungTVPlus, pero no veo carpetas específicas de Reino Unido como "Freeview" o "SkyUK". Vamos a ver qué hay en las carpetas disponibles: 
+
+---
+
