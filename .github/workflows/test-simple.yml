@@ -1,0 +1,40 @@
+name: Test Simple EPG Download
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test-simple:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Test Direct EPG Download
+        run: |
+          echo "Testing direct EPG download for US..."
+          
+          # Test PlutoTV US directly
+          echo "1. Testing PlutoTV US..."
+          curl -fsSL "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz" | gzip -dc | head -10
+          
+          echo -e "\n2. Testing Samsung TV Plus US..."
+          curl -fsSL "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml.gz" | gzip -dc | head -10
+          
+          echo -e "\n3. Count programmes in PlutoTV US..."
+          PROGRAMMES=$(curl -fsSL "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz" | gzip -dc | grep -c "<programme" || echo 0)
+          echo "PlutoTV US programmes: $PROGRAMMES"
+
+      - name: Test AU Sources
+        run: |
+          echo "Testing Australia sources..."
+          
+          echo "1. Testing AU all EPG..."
+          curl -fsSL "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/au/all/epg.xml.gz" | gzip -dc | head -10
+          
+          PROGRAMMES=$(curl -fsSL "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/au/all/epg.xml.gz" | gzip -dc | grep -c "<programme" || echo 0)
+          echo "AU all programmes: $PROGRAMMES"
