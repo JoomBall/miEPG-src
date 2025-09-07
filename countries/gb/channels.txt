@@ -1,0 +1,873 @@
+# Canales disponibles en las fuentes EPG
+# Formato: channel_id | display_name
+# Fecha: Sun Sep  7 11:11:02 UTC 2025
+
+4seven.uk | 4seven
+5.USA.uk | 5 USA
+5ACTION.uk | 5ACTION
+5SELECT.uk | 5SELECT
+5STAR+1.uk | 5STAR+1
+5STAR.uk | 5STAR
+5USA+1.uk | 5USA+1
+5ad8d1e9e738977e2c310925 | Voyager Documentaries
+5ad8d3a31b95267e225e4e09 | Pluto TV Movies
+5ad8d44cfd87eb3a2717afc5 | MST3K
+5ad8d54be738977e2c310940 | Pluto TV Kids
+5ad8d796e738977e2c31094a | World Poker Tour
+5ad8d883e738977e2c31096b | FailArmy
+5bd05b4694d45d266bc951f2 | Unsolved Mysteries
+5bd8186d53ed2c6334ea0855 | Pluto TV Reality
+5bd833b41843b56328bac189 | Mythbusters
+5c363c2411c5ca053f198f97 | Pluto TV Comedy Movies
+5c5c2b9d8002db3c3e0b1c6d | Pluto TV Retro Toons
+5c5c2e9d8002db3c3e0b1c72 | Homes Under Hammer
+5c5c31f2f21b553c1f673fb0 | Pluto TV Cult Films
+5c99f5810c95814ff92512f9 | Hunter
+5ca1da6c593a5d78f0e7edce | Euronews
+5ca1df0d50be2571e393ad31 | Deadly Women
+5cb6f6f9a461406ffe4022cf | FBI Files
+5d134a74ca91eedee1630faa | Pluto TV Classic TV
+5d2c571faeb3e2738ae27933 | 5 Cops
+5d4ae94ef1a1bbb350ca41bb | Pluto TV Conspiracy
+5d4af1803e7983b391d73b13 | Pluto TV History
+5d4af2ffa9506ab29cf38c38 | Pluto TV Paranormal
+5d4bdb635ce813b38639e6a3 | Pluto TV Westerns
+5d765786aad587cf4d0e2bf6 | Inspector Gadget
+5d767790d0438aceb41d03ae | Pluto TV Crime
+5d9492c77ea6f99188738ff1 | Pluto TV Science
+5dbc2f98777f2e0009934ae7 | Pluto TV Space
+5dbfeb961b411c00090b52b3 | Pluto TV Action
+5dbfedccc563080009b60f4a | Pluto TV Thrillers
+5dc02a44a9518600094273ac | Pluto TV Sci-Fi
+5dc2ba1a9c91420009db4858 | Nosey
+5dc2c00abfed110009d97243 | Pluto TV Sherlock
+5dc3fc6b9133f500099c7d98 | Pluto TV Family Movie Club
+5ddf8ea0d000120009bcad83 | Pluto TV Animals
+5ddf901280e3550009139c86 | 5 Exploring Britain
+5ddf930548ff9b00090d5686 | Pluto TV Food
+5e393d5c696b3b0009775c8b | The New Detectives
+5e6f38792075160007d85823 | Hell's Kitchen
+5e78faa05a0e200007a6f487 | Full Custom Garage
+5e8db96bccae160007c71eec | Andromeda
+5e9ed47c26ebb000074af566 | Sensing Murder
+5ea18cd42ee5410007e349dc | Crime Investigation
+5ea18e5df6dd1d0007cf7bad | McLeod's Daughters
+5f27bbe4779de70007a6d1c1 | Ghost Hunters
+5f6b535a278bfe000799484a | Dog The Bounty Hunter
+5f6b54b9e67cf60007d4cef1 | Duck Dynasty
+600ad9e56c609c0007e2b6d0 | Operation Repo
+604f8f8622166000071a929f | BET Pluto TV
+60804d85858bd00007c5d591 | Paranormal State
+6081648340382e0007f73d45 | Most Haunted
+6081738748d3200007afb24b | Highway to Heaven
+60817936fd2d70000763d2b2 | Wild at Heart
+60e452730e76f20007598de8 | Homicide Hunter
+60e453641239a700071f53a1 | Dog Whisperer
+611e672d4676bf00076a3837 | Baywatch
+611f85396abc84000738417b | Beyond Belief: Fact or Fiction
+612f761008a9e50007984ba0 | Pluto TV Animation
+61559552dd585f0007321eca | Bloomberg TV+
+615af74dfe3d8e0007524511 | On The Case
+619247c34a270700077c8415 | Pluto TV Sci-fi Series
+61c49f1495f417000731cef0 | Inside Crime
+61c4a09d6c959f0007189c93 | Mystery TV
+620f6c60b994540007ddd74b | Moesha
+620f6f9e36a49b000761f0d5 | Location, location, location
+622f48de713e510007f85808 | Dynasty
+622f498d119b4c000719c0b7 | Judge Judy
+6231eb3865be650007f59595 | CBS News 24/7
+624303598e45140007d765c1 | MTV Rocks
+62556bfa3261a300076b0baa | Arthur
+625e8cb585ef320007806caf | Pluto TV Britain at War
+625eaebc2a73a00007d3f855 | Catfish
+625eb3e245f5bc0007810046 | MTV Reality
+6299e5afdd5833000727e795 | 48 Hours
+62ab579258cb950007811aad | Mission Impossible
+62ac405b3874370007419b7f | Barney &amp; Friends
+62ac50e92c48f900071444c9 | Auction Hunters
+62cbdc45d3cb9f0007128df4 | Pluto TV Christmas in Summer
+62d550d81054990007db7798 | Teen Mom
+62e9184439d80c00076e166d | Aftershock
+62f53dc6ee9a0400071dc22b | Pluto TV Sitcoms
+6304f8d5ffb61000071ab478 | CSI: Crime Scene Investigation
+6304fb268bd95300072d2198 | True Crime UK
+6319ee0cf78bb10007ee5e6b | World War TV
+6319f06067a3ee000708af95 | Haunt TV
+635bfb89b5cd9b0007ca9d63 | MTV Classic
+63693fa2bfa0690007ebc880 | Wicked Tuna
+63808dc806aa4700075f319a | Pluto TV Investigation
+639b558c73423d00071ce624 | More TV Crime
+63c1384e829c850007922ca4 | 5 Emergency Rescue
+63d000ef4e83e700086e0d6c | Scorpion
+63d8ed19a9957100086f4d33 | Transformers
+63d91cc58795f30008678e9d | Medical Detectives
+63d91d2560bc8f0008a225e4 | FIFA+
+63d91d624e83e7000881ca8c | Escape to the Country
+63e23143a8b22700082b0a65 | Pluto TV Cops &amp; Convicts
+63fe2ec4dff38e000835f786 | Rookie Blue
+6401d85a49839300087b116c | Moviesphere
+645e00d5d3fdde000829463a | More TV Sci-fi
+6462190b7cb4b1000862dd60 | Pluto TV Alien Invasion
+64634eb42858cb0008fd92d6 | How To Use Pluto TV
+647f09e5f77b61000823ff24 | Tattoo Fixers
+6487148edc7a7600089e92d3 | Pluto TV Hot Summer Nights
+6490254fd2c47c00083a5743 | Now 80's
+64c0d6765dc1660008a3e033 | U&amp;Transport
+64c0d697b0cf5c000824e5d9 | U&amp;The Past
+64c0d6b424ade50008bc8883 | U&amp;Real Heroes
+64c0d6f34096290008132d6b | U&amp;Laughs
+64c378d05dc1660008ab029d | Pointless
+64c37e47dac71b000809abab | Evidence of Evil
+64c37e710e086a0009e824ab | NOW 70's
+64edf6eaa7ec0d000812f58c | South Park
+64ff1d3d3a0d700008b110e9 | Robot Wars by MECH+
+64ff1d92d545e9000877fba4 | A Haunting
+650314f73a0d700008bb07cb | Eggheads
+650315163a0d700008bb07f8 | Born to Kill
+65031534d545e9000881ed10 | British Screen Classics
+6514346fa76507000887d441 | Confess by Nosey
+6568a78d635c3c0008765f41 | Now Rock
+656df2849d5ac400083be647 | 5 Trucking Hell
+656df599c0fc8800089c75ab | Avatar
+656ef4af4261ca00083c8f37 | Totally Turtles
+65a6a5e90c7ff50008cb9815 | Funny AF
+65a6a7a00c7ff50008cba07b | Pluto TV Crime Drama
+65a7af553af63d000828acca | Cash In The Attic
+65a7b01907e03a0008913e8f | Best of Dr. Phil
+65a7b0814a10d800085ff2df | Pluto TV PetrolHeads
+65b14aae0cb1a100087a216e | DAZN Ringside
+65b3895660eb8700089e7f53 | Car Chase
+65c109b4d77d450008b7eee5 | Reuters
+65c4960d11ced7000812c433 | Geordie Shore
+65dde148ec9fda0008b3c541 | Love Pets
+65eeffff8145cb000855a15d | PRIDEtv
+65f0166566eec80008b96f7e | Pluto TV Wildest Adventures
+65f96980f7f0af0008fa6302 | Realmadrid TV
+660be37e7bcd860008793a6a | Bondi Rescue
+660c209e19ca71000846cf38 | NOW 90s00s
+660e5dc60cd4630008f6198a | JAG
+661cf62d24e1d000087dae0d | COPS
+66275e41cee0d900085fde6e | The Love Boat
+66275eed5e23700008f8c8f9 | Melrose Place
+66276091cee0d900085fe053 | Sabrina The Teenage Witch
+6627623e307fa3000810b66e | Ninja Warrior
+664c94e80120f40008b860f0 | POP
+664c951df99922000842870c | Tiny Pop
+664c953db18d700008fcc158 | POP UP
+667ac79c15f35c00088a2409 | Outback Truckers
+667d664815f35c00089489bf | Corner Gas
+6683cd71a1d7ad000866ec6a | Pokémon
+66866fc995e91900088768a5 | MTV Biggest Pop
+6695294632e25300084bb61b | Sister, Sister
+66a10eacfe11e500084c6925 | Flashpoint
+66a10eeb46762a0008201e85 | Teletubbies
+66a10f11a79dea0008aa73b0 | Bob the Builder
+66ba1e23d2d50d00084a1e57 | Crimes That Shook Britain
+66ba1e4446762a000855cd87 | Girlfriends
+66ba1e9fcd0d3100086dc532 | Pluto TV More Movies
+66ba1ef5fe11e50008814383 | Pluto TV Kids Halloween
+66ba1f46d2d50d00084a28c4 | Bitten
+66bb66e2d512590008d728aa | Pluto TV Halloween
+66c45afaa72e7b0008a2b153 | CNNi
+66d717d2abec540008ba7ec4 | Pluto TV 80's Action
+66d82143abec540008bd2b1c | Project Runway
+66d885aef0f17500084b6750 | PGA TOUR
+66dff9d46ad04d0008fda4de | CNN Headlines
+66eaf5a9483d460008e267b5 | Pluto TV Comedy Drama
+66ebf9bc55567d0008de3b29 | The Hotel Inspector
+66ed3e9d5e4a6e0008b346e0 | UFC
+66f1331f9409630008077623 | Earth: Final Conflict
+66f133b3747bfa0008495383 | The Lost World
+66f135b45e4a6e0008b80606 | Antiques Road Trip
+66f137cb483d460008ece053 | Rugby Pass TV
+66fd37885049580008d295b6 | AWSN
+67063e78b2ffb10008195d08 | MODUS Super Series Darts
+67f4fde1fbe45309c7699d6f | Pluto TV Masters of Horror
+67f4fe432ebe80e29299573b | Pluto TV 80's Horror
+67f4ff72dea1c5e0d5c205fe | Pluto TV Slasher Movies
+67f4ffda8ddd60c57dc24e35 | Pluto TV Creature Features
+680bb31c56ff83bcd685d64e | Farscape
+68503cfda1e091e16f000625 | 7th Heaven
+68503d1736c9361b191e7d89 | Gunsmoke
+68503d3bc692373f0158c43f | Hawaii Five-O
+68503d585965a2fd49fc2f0b | MacGyver
+68503da136c9361b191f9366 | Rawhide
+6850408053d981d1fdb01696 | Taxi
+68504098f212bedacf63a7e1 | Touched by an Angel
+685041d936c9361b1921c26c | Pluto TV Fantasy &amp; Horror
+6850426e53d981d1fdb0d966 | Matlock
+685aa802fb6023de7cc56357 | Dominance FC TV
+686cd713e48af72bc250efb8 | America's Next Top Model
+686cd7bd8aeeaaa91a153161 | Britain's Next Top Model
+6882521ac258734a42a60ed0 | DP World Tour
+92.News.uk | 92 News
+A1TV.uk | A1TV
+AAJ.TAK.uk | AAJ TAK
+ARY.Digital.uk | ARY Digital
+ATN.uk | ATN
+Aastha.uk | Aastha
+Absolute.80s.uk | Absolute 80s
+Absolute.90s.uk | Absolute 90s
+Absolute.uk | Absolute
+Adult.Channel.uk | Adult Channel
+Ahlebait.TV.uk | Ahlebait TV
+Ahlulbayt.TV.uk | Ahlulbayt TV
+Akaal.Channel.uk | Akaal Channel
+Al.Jazeera.HD.uk | Al Jazeera HD
+Animal.Planet.uk | Animal Planet
+Animal.Plnt+1.uk | Animal Plnt+1
+Arirang.TV.HD.uk | Arirang TV HD
+Arise.News.uk | Arise News
+Ayozat.TV.uk | Ayozat TV
+B4U.Movies.uk | B4U Movies
+B4U.Music.uk | B4U Music
+BBC.6.Music.uk | BBC 6 Music
+BBC.ALBA.HD.uk | BBC ALBA HD
+BBC.Asian.uk | BBC Asian
+BBC.Four.HD.uk | BBC Four HD
+BBC.NEWS.HD.uk | BBC NEWS HD
+BBC.One.CI.HD.uk | BBC One CI HD
+BBC.One.E.Mid.HD.uk | BBC One E Mid HD
+BBC.One.EastHD.uk | BBC One EastHD
+BBC.One.Lon.HD.uk | BBC One Lon HD
+BBC.One.N.West.HD.uk | BBC One N West HD
+BBC.One.NE.and.C.HD.uk | BBC One NE and C HD
+BBC.One.NI.HD.uk | BBC One NI HD
+BBC.One.S.East.HD.uk | BBC One S East HD
+BBC.One.S.West.HD.uk | BBC One S West HD
+BBC.One.ScotHD.uk | BBC One ScotHD
+BBC.One.Sth.HD.uk | BBC One Sth HD
+BBC.One.WM.HD.uk | BBC One WM HD
+BBC.One.Wal.HD.uk | BBC One Wal HD
+BBC.One.West.HD.uk | BBC One West HD
+BBC.One.Y.and.L.HD.uk | BBC One Y and L HD
+BBC.One.Yorks.HD.uk | BBC One Yorks HD
+BBC.Parliament.HD.uk | BBC Parliament HD
+BBC.R.Cymru.2.uk | BBC R Cymru 2
+BBC.R.Cymru.uk | BBC R Cymru
+BBC.R.Foyle.uk | BBC R Foyle
+BBC.R.Scot..uk | BBC R Scot.
+BBC.R.Ulster.uk | BBC R Ulster
+BBC.R.Wales.uk | BBC R Wales
+BBC.R.n.Gael.uk | BBC R n Gael
+BBC.R1.uk | BBC R1
+BBC.R1X.uk | BBC R1X
+BBC.R2.uk | BBC R2
+BBC.R3.uk | BBC R3
+BBC.R4.Ex.uk | BBC R4 Ex
+BBC.R4.FM.uk | BBC R4 FM
+BBC.R4.LW.uk | BBC R4 LW
+BBC.R5L.uk | BBC R5L
+BBC.R5SX.uk | BBC R5SX
+BBC.RB.1.HD.uk | BBC RB 1 HD
+BBC.RB.1.uk | BBC RB 1
+BBC.RLondon.uk | BBC RLondon
+BBC.Three.HD.uk | BBC Three HD
+BBC.Two.HD.uk | BBC Two HD
+BBC.Two.NI.HD.uk | BBC Two NI HD
+BBC.Two.Wal.HD.uk | BBC Two Wal HD
+BBC.WS.uk | BBC WS
+BBCScotlandHD.uk | BBCScotlandHD
+BFBS.Radio.uk | BFBS Radio
+BLAZE.uk | BLAZE
+Babenation.uk | Babenation
+BabyTV.uk | BabyTV
+Best.Direct.uk | Best Direct
+Bloomberg.HD.uk | Bloomberg HD
+Boomerang+1.uk | Boomerang+1
+Boomerang.HD.uk | Boomerang HD
+Box.Hits.uk | Box Hits
+Brit.Asia.TV.uk | Brit Asia TV
+British.Muslim.uk | British Muslim
+Browse.Shop.uk | Browse Shop
+CBBC.HD.uk | CBBC HD
+CBS.Justice.uk | CBS Justice
+CBeebies.HD.uk | CBeebies HD
+CHSTV.uk | CHSTV
+CITV.uk | CITV
+CN+1.uk | CN+1
+CNBC.HD.uk | CNBC HD
+CNBC.uk | CNBC
+CNN.HD.uk | CNN HD
+CNN.uk | CNN
+COLORS.HD.uk | COLORS HD
+Capital.XTRA.uk | Capital XTRA
+Capital.uk | Capital
+Cartoon.Net.HD.uk | Cartoon Net HD
+Cartoon.Netwrk.uk | Cartoon Netwrk
+Cartoonito.uk | Cartoonito
+Challenge.uk | Challenge
+Channel.4+1.uk | Channel 4+1
+Channel.4.HD.uk | Channel 4 HD
+Channel.44.uk | Channel 44
+Channel.5+1.uk | Channel 5+1
+Channel.5.HD.uk | Channel 5 HD
+Channel.5.uk | Channel 5
+Channel.7.uk | Channel 7
+Channels.24.uk | Channels 24
+Classic.FM.uk | Classic FM
+Classic.Rock.uk | Classic Rock
+Clubland.TV.uk | Clubland TV
+ColorsCineplex.uk | ColorsCineplex
+ColorsGujarati.uk | ColorsGujarati
+ColorsRishtey.uk | ColorsRishtey
+ComedyCent+1.uk | ComedyCent+1
+ComedyCentHD.uk | ComedyCentHD
+ComedyCentral.uk | ComedyCentral
+ComedyXtra.uk | ComedyXtra
+Court.TV.uk | Court TV
+Craft.Extra.uk | Craft Extra
+Create.and.CraftHD.uk | Create and CraftHD
+Crime+Inv+1.uk | Crime+Inv+1
+Crime+Inv.HD.uk | Crime+Inv HD
+Cruise1st.tv.uk | Cruise1st.tv
+DAYSTAR.HD.uk | DAYSTAR HD
+DMAX+1.uk | DMAX+1
+DMAX.uk | DMAX
+Deen.TV.uk | Deen TV
+Direct.Store.TV.uk | Direct Store TV
+Disc.History+1.uk | Disc.History+1
+Disc.History.uk | Disc.History
+Disc.Sci+1.uk | Disc.Sci+1
+Disc.Science.uk | Disc.Science
+Disc.Turbo+1.uk | Disc.Turbo+1
+Disc.Turbo.uk | Disc.Turbo
+Discovery+1.uk | Discovery+1
+Discovery.HD.uk | Discovery HD
+Dunamis.TV.uk | Dunamis TV
+Dunya.News.uk | Dunya News
+E4+1.uk | E4+1
+E4.Extra.uk | E4 Extra
+E4.HD.uk | E4 HD
+EWTN.Catholic.uk | EWTN Catholic
+EarthxTV.HD.uk | EarthxTV HD
+EasterEpicsHD.uk | EasterEpicsHD
+Eman.Channel.uk | Eman Channel
+Euronews.uk | Euronews
+FRANCE.24.HD.uk | FRANCE 24 HD
+Faith.UK.uk | Faith UK
+Faith.World.TV.uk | Faith World TV
+Film4+1.uk | Film4+1
+Film4.HD.uk | Film4 HD
+Food.Network.uk | Food Network
+Food.Netwrk+1.uk | Food Netwrk+1
+Foodxp.uk | Foodxp
+Forces.TV.uk | Forces TV
+G!.romance+1.uk | G! romance+1
+GB.News.HD.uk | GB News HD
+GB1000001G0 | SMTOWN
+GB1100001EB | The Diary Of A CEO
+GB1200002ON | History Hunters
+GB12000037Y | Deal Masters
+GB1200004J4 | Cash in the Attic
+GB12000052F | Icon Film Channel
+GB1200006IV | Talk
+GB1300001RX | DW
+GB1400001E4 | CURIOSITY Now
+GB1600007CB | Rally.TV FAST+
+GB170000351 | POP Up
+GB1700004YC | K-Food by CJ ENM
+GB17000066A | K-Content by CJ ENM
+GB1800002FA | 8 Out Of 10 Cats
+GB2000007ID | LADbible
+GB2000008XP | Ghost Hunters
+GB200000940 | The Hotel Inspector
+GB2000010ML | Tennis+
+GB200005LI | Mythbusters
+GB2100002R7 | Genie K-Drama
+GB21000038X | Genie K-Movie
+GB2100005YU | Rookie Blue
+GB2100006GK | River Monsters
+GB2200001N2 | Fireplace Vibes
+GB2200002CC | GFN Soccer TV
+GB2300002AI | Tipping Point
+GB2400006I0 | Tiny House Nation
+GB2400007FA | Teletubbies
+GB2500002K0 | Cool Summer Channel
+GB26000118T | DFB Play TV
+GB2600012R3 | Drama Movies - Rakuten TV
+GB2600013BO | Sci-Fi - Rakuten TV
+GB2600014LQ | Romance Movies - Rakuten TV
+GB2600015OS | Action Movies - Rakuten TV
+GB2600017PX | Family - Rakuten TV
+GB2600018PD | Top Movies - Rakuten TV
+GB2600019ON | Euronews LIVE
+GB2600020OP | Comedy Movies - Rakuten TV
+GB2600021LP | Reality - Rakuten TV
+GB2700001R6 | Get.Factual
+GB2700002F7 | Intervention
+GB2700003KS | Evolution Earth
+GB2700004BC | Duck Dynasty
+GB27000069E | Dog The Bounty Hunter
+GB2700007YH | Ice Road Truckers
+GB27000089Z | I Survived
+GB2700009R7 | Modern Marvels
+GB2700010NQ | Flipping Nation
+GB2700011DR | Ax Men
+GB2700012HS | Sky Sports Classics
+GB2700013Y7 | Sky Sports Stories
+GB270001473 | PICK Monkey Rescue
+GB270001538 | Emergency 24/7
+GB2700016H5 | Artist of the Year
+GB28000063B | Mayday: Air Disaster
+GB280000829 | Poldark
+GB300001QO | Conan O'Brien TV
+GB300003UI | Sony One Comedy HITS
+GB3000041I | Sony One Action HITS
+GB300005ZR | Sony One Comedy TV
+GB3000061H | Sony One Thriller TV
+GB300007J7 | Sony One FAVES
+GB300008I8 | Sony One Dragons Den
+GB300032DX | Now 70's
+GB300033HI | Now 90's &amp; 00's
+GB30003577 | talkSPORT
+GB300036IM | PGA Tour
+GB3000370X | GREAT! Mystery
+GB3000387J | Antiques Road Trip
+GB32000024G | British Screen Classics
+GB330000144 | RugbyPass TV
+GB3300002NF | Sky News
+GB3400001ND | Video Game Heroes
+GB340000289 | YAAAS!
+GB3400003A9 | Ketchup TV
+GB3700002J0 | Strawberry Shortcake
+GB370000369 | Sonic The Hedgehog
+GB37000041H | Nashville
+GB3700005QK | Hoarders
+GB37000067A | Lifetime Movies
+GB3700007OZ | &amp;TV
+GB3900001TM | K-POP by CJ ENM
+GB3900002DT | Ninja Warrior
+GB3900003W4 | Inside Outside
+GB4000008O5 | Mr Bean Live Action
+GB4000027F | The Graham Norton Show
+GB400003BM | INTRAVEL
+GB430000144 | LooLoo Kids
+GB4600001W9 | Hot Ones
+GB4900001NW | Deadly Women: powered by Banijay
+GB500001HY | Highway Thru Hell : Powered by Banijay
+GB500004YN | H2O &amp; Friends
+GB500006EX | Escape to the Country
+GB500007VM | Family Feud
+GB5100001EW | Heartland
+GB5200001TM | DP World Tour
+GB60000197 | Sky Arts
+GB60000381 | A New Life In The Sun
+GB700004ET | Pocoyo
+GB700006X7 | Terra Mater WILD
+GB900003KR | Mr Bean Animated
+GB900005KI | Demand Drama
+GBAI5000001A | Pluto TV Motor
+GBAJ40003481 | The Pet Collective
+GBAJ40003642 | FailArmy
+GBAJ400042T1 | Sparkle Movies
+GBAJ400045P5 | Popflix
+GBAJ49000197P | GoUSA TV
+GBAJ700001FH | Pluto TV Animals
+GBAJ700002OS | Pluto TV Food
+GBAK3504500A | 5 Cops
+GBAK3504501A | 5 Exploring Britain
+GBAK3504503A | Pluto TV Action
+GBAK3504504A | Pluto TV Movies
+GBAK3504516A | Pluto TV Crime
+GBAK3504518A | Pluto TV Inside
+GBAK3504522A | Pluto TV Romance
+GBAK3504525A | Pluto TV Classic TV
+GBBA1500006H6 | MotorRacing
+GBBA2200005ZA | History Hit
+GBBA220000751 | INWILD
+GBBA3300033C2 | Bloomberg TV+
+GBBA33000356L | Pluto TV Conspiracy
+GBBA33000362J | Pluto TV Paranormal
+GBBA3300038UZ | Homicide Hunter
+GBBA330003941 | Catfish
+GBBA3300050RG | wedo movies
+GBBA33000529G | Tennis Channel
+GBBA33000557H | Moviesphere by Lionsgate
+GBBA3300059BU | MyTime Movie Network
+GBBA3300061ME | Real Crime
+GBBB1000005IO | Real Wild
+GBBB1500004LG | NBC News NOW
+GBBB1600006RS | Are We There Yet?
+GBBB1600008R3 | GB News
+GBBB3800005QO | XITE Hits
+GBBB38000068U | Deal or No Deal US
+GBBB3800007BN | Survivor
+GBBB4600001IK | Project Runway
+GBBB5000002PL | Wild Planet
+GBBC19000017V | Vevo Pop
+GBBC2100002HP | Vevo '90s &amp; '00s
+GBBC2300001X5 | American Idol
+GBBC2300002GG | America's Got Talent
+GBBC2300003ZQ | Entertainment Hub
+GBBC300002SA | Hell's Kitchen
+GBBC300003UQ | WaterBear
+GBBC4000002H3 | The Jamie Oliver Channel
+GBBC430000128 | POP
+GBBC4300005AL | The LEGO Channel
+GBBC900001SC | Trace Urban
+GBBC900003B2 | Now 80s
+GBBC900004G9 | The Wicked Tuna Channel
+GBBC9000062G | Come Dine With Me
+GBBC900007Q5 | Great! Movies
+GBBC900008L9 | Great! romance
+GBBC90001089 | Strongman Champions League
+GBBC900013K9 | Homes Under the Hammer
+GBBC900014LW | Great British Menu
+GBBC900015D3 | Adventure Earth
+GBBD1100001UI | World War TV
+GBBD1100002L5 | FRANCE 24 FAST
+GBBD1100003I0 | Love Pets
+GBBD1100007AC | True Crime UK
+GBBD1100008YW | FIFA+
+GBBD1100009M9 | So…Real
+GBBD1100011V3 | Dennis and Gnasher
+GBBD1100013BJ | Zee One
+GBBD1300001WA | Smurf TV
+GBBD19000026B | Trace UK
+GBBD1900008O3 | CNN Headlines
+GBBD1900009UD | Vevo '70s &amp; '80s
+GBBD2300001C0 | Vevo Hip Hop &amp; R&amp;B
+GBBD23000021U | Transformers
+GBBD2300003IK | Red Bull TV
+GBBD230000420 | Rabbids Invasion
+GBBD25000019N | Masterchef UK: 'Powered by Banijay'
+GBBD2500002QC | Pointless UK: 'Powered by Banijay'
+GBBD25000038Y | Comedy Hub
+GBBD260000189 | Crime &amp; Justice
+GBBD2900001VD | World Poker Tour
+GBBD3000001QB | Wipeout Xtra Powered by Banijay
+GBBD30000038U | DAZN Ringside
+GBBD3000004VR | Def Jam
+GBBD3100001A8 | U&amp;Transport
+GBBD3100002NU | U&amp;Real Heroes
+GBBD3100003J5 | U&amp;Laughs
+GBBD3100004OI | U&amp;The Past
+GBBD3100005RX | Challenge
+GBBD3100006XM | Sky Mix
+GBBD3200001E2 | Earth Touch
+GBBD3200002CG | Eggheads
+GBBD3200003T6 | Tiny POP
+GBBD3600001NO | CNBC
+GBBD3700001AB | DATELINE 24/7
+GBBD4100006KV | Born to Kill
+GBBD4100010H1 | Crime Network
+GBBD4900001RG | Reuters
+GBBD50000084W | Jack Hanna
+GBBD500001F5 | Love the Planet
+GBBD500002R4 | Inside Crime
+GBBD50000320 | Mystery TV
+GBBD500005ZG | Robot Wars by Mech+
+GBBD500007TG | Grjngo - Western Movies
+GBBD5100001HL | SuperToons TV
+GBBD600002XT | Baywatch
+GBBD8000016N | CNN
+GEO.News.uk | GEO News
+GEO.TV.uk | GEO TV
+GINXeSportsTV.uk | GINXeSportsTV
+GOD.Channel.uk | GOD Channel
+GREAT!.action.uk | GREAT! action
+GREAT!.movies+1.uk | GREAT! movies+1
+GREAT!.movies.uk | GREAT! movies
+GREAT!.romance.uk | GREAT! romance
+GREAT!.tv+1.uk | GREAT! tv+1
+GREAT!.tv.uk | GREAT! tv
+GREAT!action+1.uk | GREAT!action+1
+Gemporia.Craft.uk | Gemporia Craft
+Gems.TV.uk | Gems TV
+Get.Lucky.TV.uk | Get Lucky TV
+Good.News.TV.uk | Good News TV
+Greatest.Hits.uk | Greatest Hits
+HGTV+1.uk | HGTV+1
+HGTV.uk | HGTV
+HUM.EUROPE.uk | HUM EUROPE
+HUM.Masala.uk | HUM Masala
+Heart.80s.uk | Heart 80s
+Heart.90s.uk | Heart 90s
+Heart.Dance.uk | Heart Dance
+Heart.uk | Heart
+Hidayat.TV.uk | Hidayat TV
+High.Street.TV.1.uk | High Street TV 1
+High.Street.TV.2.uk | High Street TV 2
+High.Street.TV.3.uk | High Street TV 3
+High.Street.TV.4.uk | High Street TV 4
+Hits.Radio.uk | Hits Radio
+HobbyMaker.uk | HobbyMaker
+ID+1.uk | ID+1
+ID.uk | ID
+IQRA.BANGLA.uk | IQRA BANGLA
+IQRA.TV.uk | IQRA TV
+ITV.Quiz.uk | ITV Quiz
+ITV1+1.uk | ITV1+1
+ITV1.HD.uk | ITV1 HD
+ITV2+1.uk | ITV2+1
+ITV2.HD.uk | ITV2 HD
+ITV3+1.uk | ITV3+1
+ITV3.HD.uk | ITV3 HD
+ITV4+1.uk | ITV4+1
+ITV4.HD.uk | ITV4 HD
+Ideal.Extra.uk | Ideal Extra
+Ideal.World.HD.uk | Ideal World HD
+Inspiration.TV.uk | Inspiration TV
+Iran.Intl.HD.uk | Iran Intl HD
+Islam.Ch.Urdu.uk | Islam Ch Urdu
+Islam.Channel.uk | Islam Channel
+Islam.TV.uk | Islam TV
+Jazz.FM.uk | Jazz FM
+JewelleryMaker.uk | JewelleryMaker
+KICC.TV.uk | KICC TV
+KTV.uk | KTV
+Kanshi.TV.uk | Kanshi TV
+Kerrang!.uk | Kerrang!
+Khushkhabri.uk | Khushkhabri
+LBC.News.uk | LBC News
+LBC.uk | LBC
+LFCTV.HD.uk | LFCTV HD
+Legend.Xtra+1.uk | Legend Xtra+1
+Legend.Xtra.uk | Legend Xtra
+Legend.uk | Legend
+Live.360.uk | Live 360
+London.Live.uk | London Live
+LoveWorld.HD.uk | LoveWorld HD
+MATV.National.uk | MATV National
+MTV.80s.uk | MTV 80s
+MTV.90s.uk | MTV 90s
+MTV.BASE.uk | MTV BASE
+MTV.Classic.uk | MTV Classic
+MTV.HD.uk | MTV HD
+MTV.HITS.uk | MTV HITS
+MTV.Live.HD.uk | MTV Live HD
+MTV.MUSIC.uk | MTV MUSIC
+MUTV.HD.uk | MUTV HD
+Madani.Chnl.uk | Madani Chnl
+More4+1.uk | More4+1
+More4.HD.uk | More4 HD
+Movies24+.uk | Movies24+
+Movies24.uk | Movies24
+NBCNewsNowHD.uk | NBCNewsNowHD
+NDTV.24x7.uk | NDTV 24x7
+NEO.News.uk | NEO News
+NHK.World.HD.uk | NHK World HD
+NOW.70s.uk | NOW 70s
+NOW.80s.uk | NOW 80s
+NOW.90s.uk | NOW 90s
+NTD.uk | NTD
+NTV.uk | NTV
+Nat.Geo+1.uk | Nat Geo+1
+Nat.Geo.HD.uk | Nat Geo HD
+Nat.Geo.Wild.uk | Nat Geo Wild
+NatGeoWild.HD.uk | NatGeoWild HD
+New.Vision.TV.uk | New Vision TV
+Nick.Jr+1.uk | Nick Jr+1
+Nick.Jr..HD.uk | Nick Jr. HD
+Nick.Jr..Too.uk | Nick Jr. Too
+Nickelodeon+1.uk | Nickelodeon+1
+NickelodeonHD.uk | NickelodeonHD
+Nicktoons.uk | Nicktoons
+Noor.TV.uk | Noor TV
+Now.Rock.uk | Now Rock
+PBS.America.uk | PBS America
+PCNE.Chinese.HD.uk | PCNE Chinese HD
+PCNE.Chinese.uk | PCNE Chinese
+POLITICSPUNJAB.uk | POLITICSPUNJAB
+POP+1.uk | POP+1
+POP.Max+1.uk | POP Max+1
+POP.Max.uk | POP Max
+POP.uk | POP
+PTC.PUNJABI.uk | PTC PUNJABI
+PTV.Global.uk | PTV Global
+Panjab.Radio.uk | Panjab Radio
+Pitaara..uk | Pitaara
+Planet.Rock.uk | Planet Rock
+Premier.Sports.1.HD.uk | Premier Sports 1 HD
+Premier.Sports.2.HD.uk | Premier Sports 2 HD
+QUEST+1.uk | QUEST+1
+QUEST.HD.uk | QUEST HD
+QUEST.uk | QUEST
+QVC.Beauty.uk | QVC Beauty
+QVC.Extra.uk | QVC Extra
+QVC.HD.uk | QVC HD
+QVC.Style.HD.uk | QVC Style HD
+Quest.Red+1.uk | Quest Red+1
+Quest.Red.uk | Quest Red
+ROK.uk | ROK
+RTÉ.2FM.uk | RTÉ 2FM
+RTÉ.Lyric.fm.uk | RTÉ Lyric fm
+RTÉ.R.na.G.uk | RTÉ R na G
+RTÉ.Radio.1.uk | RTÉ Radio 1
+Racing.TV.HD.uk | Racing TV HD
+Racing.TV.uk | Racing TV
+Radio.X.uk | Radio X
+Really.uk | Really
+S4C.HD.uk | S4C HD
+S4C.uk | S4C
+SONY.MAX.2.uk | SONY MAX 2
+SONY.MAX.HD.uk | SONY MAX HD
+SONY.SAB.uk | SONY SAB
+SONY.TV.HD.uk | SONY TV HD
+STV.Central.+1.uk | STV Central +1
+STV.Central.uk | STV Central
+STV.HD.uk | STV HD
+STV.North.+1.uk | STV North +1
+STV.North.uk | STV North
+Sangat.uk | Sangat
+Sanskar.uk | Sanskar
+Sikh.Channel.uk | Sikh Channel
+Sky.Action.HD.uk | Sky Action HD
+Sky.Action.uk | Sky Action
+Sky.Adventure.uk | Sky Adventure
+Sky.Arts.HD.uk | Sky Arts HD
+Sky.Atlantic+1.uk | Sky Atlantic+1
+Sky.Atlantic.HD.uk | Sky Atlantic HD
+Sky.Cinema.Hits.HD.uk | Sky Cinema Hits HD
+Sky.Cinema.Select.uk | Sky Cinema Select
+Sky.Comedy.Cinema.uk | Sky Comedy Cinema
+Sky.Comedy.HD.uk | Sky Comedy HD
+Sky.Crime+1.uk | Sky Crime+1
+Sky.Crime.HD.uk | Sky Crime HD
+Sky.Documentaries.HD.uk | Sky Documentaries HD
+Sky.Drama.HD.uk | Sky Drama HD
+Sky.Family.HD.uk | Sky Family HD
+Sky.Greats.HD.uk | Sky Greats HD
+Sky.Greats.uk | Sky Greats
+Sky.History+1.uk | Sky History+1
+Sky.History2.uk | Sky History2
+Sky.HistoryHD.uk | Sky HistoryHD
+Sky.Kids.HD.uk | Sky Kids HD
+Sky.Max.HD.uk | Sky Max HD
+Sky.Mix.HD.uk | Sky Mix HD
+Sky.Nature.HD.uk | Sky Nature HD
+Sky.News.HD.uk | Sky News HD
+Sky.Premiere.uk | Sky Premiere
+Sky.Replay.uk | Sky Replay
+Sky.ScFi/HorHD.uk | Sky ScFi/HorHD
+Sky.Sci-Fi.HD.uk | Sky Sci-Fi HD
+Sky.Showcase.uk | Sky Showcase
+Sky.Sports.Football.HD.uk | Sky Sports Football HD
+Sky.Sports.NFL.uk | Sky Sports NFL
+Sky.Sports.Ultra.HD.1.uk | Sky Sports Ultra HD 1
+Sky.Sports.Ultra.HD.2.uk | Sky Sports Ultra HD 2
+Sky.Thriller.HD.uk | Sky Thriller HD
+Sky.Valentine.uk | Sky Valentine
+Sky.Witness+1.uk | Sky Witness+1
+Sky.Witness.HD.uk | Sky Witness HD
+SkyAdventureHD.uk | SkyAdventureHD
+SkyAnimationHD.uk | SkyAnimationHD
+SkyHistory2HD.uk | SkyHistory2HD
+SkyMegaHitsHD.uk | SkyMegaHitsHD
+SkyNewsArabia.uk | SkyNewsArabia
+SkyPremiere+1.uk | SkyPremiere+1
+SkyPremiereHD.uk | SkyPremiereHD
+SkyShowcase+1.uk | SkyShowcase+1
+SkyShowcaseHD.uk | SkyShowcaseHD
+SkySp+.uk | SkySp+
+SkySp+HD.uk | SkySp+HD
+SkySp.Action.uk | SkySp Action
+SkySp.ActionHD.uk | SkySp ActionHD
+SkySp.Cricket.uk | SkySp Cricket
+SkySp.F1.HD.uk | SkySp F1 HD
+SkySp.F1.uk | SkySp F1
+SkySp.Fball.HD.uk | SkySp Fball HD
+SkySp.Fball.uk | SkySp Fball
+SkySp.Golf.HD.uk | SkySp Golf HD
+SkySp.Golf.uk | SkySp Golf
+SkySp.Mix.HD.uk | SkySp Mix HD
+SkySp.News.HD.uk | SkySp News HD
+SkySp.PL.HD.uk | SkySp PL HD
+SkySp.PL.uk | SkySp PL
+SkySp.Racing.HD.uk | SkySp Racing HD
+SkySp.Racing.uk | SkySp Racing
+SkySp.Tennis.HD.uk | SkySp Tennis HD
+SkySpBoxOff.uk | SkySpBoxOff
+SkySpCricket.HD.uk | SkySpCricket HD
+SkySpMainEv.uk | SkySpMainEv
+SkySpMainEvHD.uk | SkySpMainEvHD
+SkyValentineHD.uk | SkyValentineHD
+Smooth.uk | Smooth
+SonLife.uk | SonLife
+Spider-Man.HD.uk | Spider-Man HD
+SportyStuff.HD.uk | SportyStuff HD
+Spotlight.TV.uk | Spotlight TV
+Studio.66.3.uk | Studio 66 3
+Sukh.Sagar.uk | Sukh Sagar
+TBN.UK.uk | TBN UK
+TCM.Movies+1.uk | TCM Movies+1
+TJC.Beauty.uk | TJC Beauty
+TJC.HD.uk | TJC HD
+TJC.uk | TJC
+TLC+1.uk | TLC+1
+TLC.HD.uk | TLC HD
+TNT.Sport.BoxOffice.HD.uk | TNT Sport BoxOffice HD
+TNT.Sports.1.HD.uk | TNT Sports 1 HD
+TNT.Sports.2.HD.uk | TNT Sports 2 HD
+TNT.Sports.3.HD.uk | TNT Sports 3 HD
+TNT.Sports.4.HD.uk | TNT Sports 4 HD
+TNT.Sports.Ultimate.uk | TNT Sports Ultimate
+TNTSBoxOff2HD.uk | TNTSBoxOff2HD
+TRT.World.HD.uk | TRT World HD
+TRT.World.uk | TRT World
+TV.One.uk | TV One
+TV.Warehouse.uk | TV Warehouse
+TVC.News.uk | TVC News
+TVX.40+.uk | TVX 40+
+TWR.uk | TWR
+Takbeer.TV.uk | Takbeer TV
+TalkTV.HD.uk | TalkTV HD
+TalkingPictures.uk | TalkingPictures
+Television.X.uk | Television X
+Thats.Dance.uk | Thats Dance
+Thats.Melody.uk | Thats Melody
+Thats.TV.2.uk | Thats TV 2
+Thats.TV.3.uk | Thats TV 3
+Thats.TV.uk | Thats TV
+The.Box.uk | The Box
+The.Craft.Store.uk | The Craft Store
+Tiny.Pop+1.uk | Tiny Pop+1
+Tiny.Pop.uk | Tiny Pop
+Together.uk | Together
+Trace.Hits.uk | Trace Hits
+Trace.Vault.uk | Trace Vault
+Travelxp.uk | Travelxp
+True.Crime.+1.uk | True Crime +1
+True.Crime.Xtra.uk | True Crime Xtra
+True.Crime.uk | True Crime
+U.and.Dave.HD.uk | U and Dave HD
+U.and.Dave.ja.vu.uk | U and Dave ja vu
+U.and.Drama+1.uk | U and Drama+1
+U.and.Drama.+1.uk | U and Drama +1
+U.and.Drama.uk | U and Drama
+U.and.Eden+1.uk | U and Eden+1
+U.and.Eden.uk | U and Eden
+U.and.GOLD+1.uk | U and GOLD+1
+U.and.GOLD.HD.uk | U and GOLD HD
+U.and.Gold.uk | Gold
+U.and.W+1.uk | U and W+1
+U.and.W.HD.uk | U and W HD
+U.and.YESTERDAY+1.uk | U and YESTERDAY+1
+U.and.YESTERDAY.uk | U and YESTERDAY
+U.and.alibi.HD.uk | U and alibi HD
+UTV.uk | UTV
+Utsav.Bharat.uk | Utsav Bharat
+Utsav.GOLD.uk | Utsav GOLD
+Utsav.Gold.HD.uk | Utsav Gold HD
+Utsav.Plus.HD.uk | Utsav Plus HD
+Venus.TV.uk | Venus TV
+Virgin.Radio.uk | Virgin Radio
+Vox.Africa.uk | Vox Africa
+WION.HD.uk | WION HD
+WRN.Europe.uk | WRN Europe
+WildEarth.uk | WildEarth
+Word.Network.uk | Word Network
+XXX.College.uk | XXX College
+XXX.Girl.Girl.uk | XXX Girl Girl
+XXX.Mums.uk | XXX Mums
+XXXpublicpikups.uk | XXXpublicpikups
+Xpanded.TV.uk | Xpanded TV
+Zee.Cinema.uk | Zee Cinema
+Zee.TV.HD.uk | Zee TV HD
+alibi+1.uk | alibi+1
+babes.and.brazzers.uk | babes and brazzers
+iON.TV.uk | iON TV
+mta-muslim.tv.uk | mta-muslim tv
+revelation.uk | revelation
+talkSPORT.uk | talkSPORT
