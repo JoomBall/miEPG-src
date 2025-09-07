@@ -1,29 +1,84 @@
-# miEPG   v2.3
+# miEPG Multi-País v3.0
 
-El repositorio hace uso de Github Actions para generar un xml a partir de otros, pudiendo modificar el nombre y el logo en cada canal
+Este repositorio utiliza GitHub Actions para generar EPGs (Electronic Program Guide) independientes para múltiples países a partir de fuentes diversas.
 
-El script se ejecuta todos los días a las 13:30
+## 🌍 **Países soportados:**
 
-***
-- Modifica el fichero epgs.txt con las urls de la EPGs de origen
+| País | Código | URL del EPG | Estado |
+|------|--------|-------------|--------|
+| 🇪🇸 España | `es` | `https://raw.githubusercontent.com/JoomBall/miEPG-src/main/countries/es/EPG.xml` | ✅ Activo |
+| 🇬🇧 Reino Unido | `gb` | `https://raw.githubusercontent.com/JoomBall/miEPG-src/main/countries/gb/EPG.xml` | ✅ Activo |
+| 🇺🇸 Estados Unidos | `us` | `https://raw.githubusercontent.com/JoomBall/miEPG-src/main/countries/us/EPG.xml` | 🚀 Nuevo |
+| 🇦🇺 Australia | `au` | `https://raw.githubusercontent.com/JoomBall/miEPG-src/main/countries/au/EPG.xml` | 🚀 Nuevo |
 
-Si se encuentran canales con el mismo nombre en las distintas EPGs, solo se añadirá la primera coicidencia (la primera EPG tiene prioridad sobre la segunda, y así sucesivamente) 
+## ⏰ **Programación:**
+El script se ejecuta automáticamente todos los días a las **00:00 UTC** para todos los países en paralelo.
 
-- Modifica el fichero canales.txt con los canales que desees y sus nombres
+## 📁 **Estructura por país:**
 
-Los nombres de los canales tienen que ir separados por comas (sin espacios), el primer campo es el nombre del canal de la EPG de origen, el segundo campo es el nuevo nombre que le quieres dar al canal (por ejemplo el de tu lista), y el tercer campo es la url del logo (déjalo en blanco si quieres mantener el logo de la EPG de origen)
+Cada país tiene su propia carpeta bajo `countries/` con:
+- `epgs.txt` - URLs de fuentes EPG
+- `canales.txt` - Mapeo de canales 
+- `allowlist.txt` - Filtros (actualmente deshabilitado)
+- `EPG.xml` - EPG generado
+- `channels.txt` - Lista de canales disponibles (para debug)
 
-· Ejemplo: NombreEPG,NombreLISTA,hffp://raw.githubusercontent.com/Images/logo_dobleM.png
+## 🔧 **Configuración:**
 
-***
-Cuando se ejecute el script obtendrás una url con la EGP creada con tus canales y sus nombres
+### **Modificar fuentes EPG:**
+Edita el archivo `countries/{país}/epgs.txt` con las URLs de las EPGs de origen.
 
-(Cambia el [Username] por el de tu cuenta de GitHub)
+### **Mapear canales:**
+Modifica el archivo `countries/{país}/canales.txt` con los canales deseados.
+
+**Formato:** `NombreEPG,NombreFinal`
+- **NombreEPG**: Nombre exacto del canal en la fuente EPG
+- **NombreFinal**: Nombre que quieres mostrar en tu EPG
+
+**Ejemplo:**
 ```
-https://raw.githubusercontent.com/[Username]/miEPG/master/miEPG.xml
+BBC ONE Lon,BBC One
+CNN International,CNN
+ESPN,ESPN
 ```
 
-***
+### **Prioridad de fuentes:**
+Si se encuentran canales con el mismo nombre en distintas EPGs, solo se añadirá la primera coincidencia (la primera EPG tiene prioridad sobre las siguientes).
+
+## 🚀 **Ventajas del sistema multi-país:**
+
+✅ **Builds paralelos** - Todos los países se procesan simultáneamente
+✅ **Resistente a fallos** - Si falla un país, los otros continúan  
+✅ **Escalable** - Fácil añadir nuevos países
+✅ **Independiente** - Cada país tiene sus propias fuentes y canales
+✅ **Debug integrado** - Archivo `channels.txt` para verificar canales disponibles
+
+## 📝 **Fuentes EPG utilizadas:**
+
+### 🇪🇸 **España:**
+- MovistarPlus EPG
+- TDTChannels 
+- PlutoTV España
+
+### 🇬🇧 **Reino Unido:**
+- PlutoTV UK
+- Samsung TV Plus UK
+- EPGShare UK
+- BBC/ITV/Channel4 oficiales
+
+### 🇺🇸 **Estados Unidos:**
+- PlutoTV US
+- Samsung TV Plus US
+- PBS Network
+- MeTV Network
+- Roku Channels
+- TV Guide
+
+### 🇦🇺 **Australia:**
+- Free-to-Air consolidado (ABC, Seven, Nine, Ten, SBS)
+- Foxtel
+- Samsung TV Plus AU
+- PlutoTV Australia
 
 ### Creando un fork desde GitHub
 

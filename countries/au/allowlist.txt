@@ -1,0 +1,8 @@
+# Allowlist para Australia (actualmente deshabilitado)
+# Un canal por línea
+# Ejemplo:
+# ABC
+# Seven
+# Nine
+# Ten
+# SBS

@@ -1,0 +1,110 @@
+# Canales principales de Australia
+# Formato: channel_id,display_name
+
+# Free-to-Air Networks principales
+ABC,ABC
+Seven,Seven
+Nine,Nine
+Ten,Ten
+SBS,SBS
+
+# Canales ABC
+ABC TV,ABC TV
+ABC Comedy,ABC Comedy
+ABC ME,ABC ME
+ABC News,ABC News
+ABC Kids,ABC Kids
+
+# Seven Network
+Seven,Seven
+7mate,7mate
+7TWO,7TWO
+7flix,7flix
+Racing.com,Racing.com
+
+# Nine Network
+Nine,Nine
+9Gem,9Gem
+9Go!,9Go!
+9Life,9Life
+9Rush,9Rush
+
+# Network Ten
+Ten,Ten
+10 Peach,10 Peach
+10 Bold,10 Bold
+10 Shake,10 Shake
+
+# SBS
+SBS,SBS
+SBS Viceland,SBS Viceland
+SBS Food,SBS Food
+SBS Movies,SBS Movies
+SBS World Movies,SBS World Movies
+NITV,NITV
+
+# Foxtel/Pay TV
+Fox Sports,Fox Sports
+Fox League,Fox League
+Fox Footy,Fox Footy
+Sky News Australia,Sky News Australia
+Fox Sports News,Fox Sports News
+Lifestyle,Lifestyle
+LifeStyle Food,LifeStyle Food
+UKTV,UKTV
+Universal Channel,Universal Channel
+Syfy Australia,Syfy Australia
+Comedy Central Australia,Comedy Central Australia
+
+# Discovery Networks
+Discovery Channel Australia,Discovery Channel Australia
+Animal Planet Australia,Animal Planet Australia
+TLC Australia,TLC Australia
+Investigation Discovery Australia,Investigation Discovery Australia
+
+# Entertainment
+A&E Australia,A&E Australia
+Crime + Investigation Australia,Crime + Investigation Australia
+History Channel Australia,History Channel Australia
+Lifetime Australia,Lifetime Australia
+
+# Kids Channels
+Nickelodeon Australia,Nickelodeon Australia
+Nick Jr Australia,Nick Jr Australia
+Cartoon Network Australia,Cartoon Network Australia
+Disney Channel Australia,Disney Channel Australia
+Disney Junior Australia,Disney Junior Australia
+
+# News and Documentaries
+CNN International,CNN International
+BBC World News,BBC World News
+Al Jazeera English,Al Jazeera English
+National Geographic Australia,National Geographic Australia
+Nat Geo Wild Australia,Nat Geo Wild Australia
+
+# Movies
+Movie One,Movie One
+Movie Extra,Movie Extra
+Movie Greats,Movie Greats
+Premiere,Premiere
+
+# Music
+MTV Australia,MTV Australia
+CMT Australia,CMT Australia
+[V] Hits,V Hits
+
+# Regional/Local
+WIN Television,WIN Television
+Prime7,Prime7
+Southern Cross,Southern Cross
+Imparja Television,Imparja Television
+
+# Streaming (Samsung TV Plus)
+Samsung Free Australia,Samsung Free Australia
+Pluto TV Australia,Pluto TV Australia
+Tubi Australia,Tubi Australia
+
+# Community TV
+C31 Melbourne,C31 Melbourne
+TVS Sydney,TVS Sydney
+WTV Perth,WTV Perth

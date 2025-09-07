@@ -1,0 +1,6 @@
+# Allowlist para Estados Unidos (actualmente deshabilitado)
+# Un canal por línea
+# Ejemplo:
+# CNN
+# ESPN
+# Discovery Channel

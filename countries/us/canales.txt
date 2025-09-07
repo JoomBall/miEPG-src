@@ -1,0 +1,100 @@
+# Canales principales de Estados Unidos
+# Formato: channel_id,display_name
+
+# Networks principales
+ABC,ABC
+CBS,CBS
+NBC,NBC
+FOX,FOX
+The CW,The CW
+PBS,PBS
+
+# Canales de cable principales
+CNN,CNN
+Fox News,Fox News
+MSNBC,MSNBC
+ESPN,ESPN
+TNT,TNT
+TBS,TBS
+AMC,AMC
+FX,FX
+Comedy Central,Comedy Central
+Discovery Channel,Discovery Channel
+National Geographic,National Geographic
+History Channel,History Channel
+A&E,A&E
+
+# Canales de entretenimiento
+Bravo,Bravo
+E!,E!
+TLC,TLC
+HGTV,HGTV
+Food Network,Food Network
+Travel Channel,Travel Channel
+Lifetime,Lifetime
+Hallmark Channel,Hallmark Channel
+USA Network,USA Network
+Syfy,Syfy
+
+# Canales deportivos
+ESPN2,ESPN2
+FS1,FS1
+FS2,FS2
+NFL Network,NFL Network
+NBA TV,NBA TV
+MLB Network,MLB Network
+Golf Channel,Golf Channel
+
+# Canales premium
+HBO,HBO
+Showtime,Showtime
+Starz,Starz
+Cinemax,Cinemax
+
+# Canales de noticias
+CNBC,CNBC
+Bloomberg TV,Bloomberg TV
+HLN,HLN
+Newsmax TV,Newsmax TV
+One America News,One America News
+
+# Canales infantiles
+Disney Channel,Disney Channel
+Nickelodeon,Nickelodeon
+Cartoon Network,Cartoon Network
+Disney XD,Disney XD
+Nick Jr,Nick Jr
+Disney Junior,Disney Junior
+Boomerang,Boomerang
+
+# Streaming y digitales (Pluto TV)
+Pluto TV Movies,Pluto TV Movies
+Pluto TV Drama,Pluto TV Drama
+Pluto TV Comedy,Pluto TV Comedy
+Pluto TV Classic TV,Pluto TV Classic TV
+Pluto TV Kids,Pluto TV Kids
+Pluto TV Sports,Pluto TV Sports
+Pluto TV News,Pluto TV News
+
+# Samsung TV Plus
+Samsung TV Plus Action,Samsung TV Plus Action
+Samsung TV Plus Comedy,Samsung TV Plus Comedy
+Samsung TV Plus Drama,Samsung TV Plus Drama
+Samsung TV Plus Family,Samsung TV Plus Family
+
+# MeTV Network
+MeTV,MeTV
+Movies!,Movies!
+Heroes & Icons,Heroes & Icons
+Start TV,Start TV
+
+# PBS Channels
+PBS Kids,PBS Kids
+PBS World,PBS World
+PBS Create,PBS Create
+
+# Roku Channels
+The Roku Channel,The Roku Channel
+Roku Movies,Roku Movies
+Roku Comedy,Roku Comedy
+Roku Drama,Roku Drama
