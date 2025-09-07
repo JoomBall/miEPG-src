@@ -39,6 +39,45 @@ done < "$EPGS_CLEAN"
 TOTAL_PROGRAMMES_ALL=$(grep -c "<programme" EPG_temp.xml || echo 0)
 echo "[INFO] Programmes acumulados: $TOTAL_PROGRAMMES_ALL"
 
+# DEBUG: Generar archivo con todos los canales disponibles
+COUNTRY_DIR="$(dirname "$OUT_XML")"
+CHANNELS_LIST="$COUNTRY_DIR/channels.txt"
+echo "[INFO] Generando lista de canales disponibles en: $CHANNELS_LIST"
+
+# Extraer todos los IDs de canales únicos y sus display-names
+{
+  echo "# Canales disponibles en las fuentes EPG"
+  echo "# Formato: channel_id | display_name"
+  echo "# Fecha: $(date -u)"
+  echo ""
+  
+  # Obtener todos los canales con sus display-names
+  sed -n '/<channel id=/,/<\/channel>/p' EPG_temp.xml | \
+  awk '
+    /<channel id=/ { 
+      match($0, /id="([^"]*)"/, arr); 
+      id = arr[1]; 
+    }
+    /<display-name[^>]*>/ { 
+      gsub(/<[^>]*>/, ""); 
+      gsub(/^[ \t]*|[ \t]*$/, ""); 
+      if ($0 != "" && id != "") {
+        print id " | " $0;
+        id = "";
+      }
+    }
+  ' | sort -u
+  
+} > "$CHANNELS_LIST"
+
+TOTAL_CHANNELS=$(grep -v '^#' "$CHANNELS_LIST" | grep -v '^$' | wc -l || echo 0)
+echo "[INFO] Total de canales únicos encontrados: $TOTAL_CHANNELS"
+echo "[INFO] Lista guardada en: $CHANNELS_LIST"
+
+# DEBUG: Mostrar algunos canales disponibles
+echo "[DEBUG] Primeros 20 canales disponibles:"
+grep -v '^#' "$CHANNELS_LIST" | head -20 || true
+
 # 2) Mapear canales de forma SEGURA: reconstruimos el bloque <channel> explícitamente
 > EPG_channels_mapped.xml
 > EPG_programmes_mapped.xml

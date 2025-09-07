@@ -62,9 +62,22 @@ jobs:
       - name: Commit y push EPG (${{ matrix.country }})
         run: |
           OUT="countries/${{ matrix.country }}/EPG.xml"
+          CHANNELS_LIST="countries/${{ matrix.country }}/channels.txt"
+          
           [ -f "$OUT" ] || { echo "Sin archivo $OUT; nada que commitear"; exit 0; }
           PRG=$(grep -c "<programme" "$OUT" || echo 0)
-          [ "$PRG" -gt 0 ] || { echo "Sin programmes en $OUT; no commiteo"; exit 0; }
+          
+          # Siempre commitear channels.txt aunque EPG esté vacío (para debug)
+          if [ -f "$CHANNELS_LIST" ]; then
+            echo "Commiteando lista de canales disponibles: $CHANNELS_LIST"
+            git config --global user.email "actions@github.com"
+            git config --global user.name "github-actions[bot]"
+            git add "$CHANNELS_LIST"
+            git commit -m "update: channels list for ${{ matrix.country }} - $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "Sin cambios en channels.txt"
+            git push || echo "Error pushing channels.txt"
+          fi
+          
+          [ "$PRG" -gt 0 ] || { echo "Sin programmes en $OUT; no commiteo EPG"; exit 0; }
 
           git config --global user.email "actions@github.com"
           git config --global user.name "github-actions[bot]"
