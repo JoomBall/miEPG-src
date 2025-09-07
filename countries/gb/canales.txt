@@ -1,56 +1,224 @@
-BBC ONE Lon,BBC One
-BBC TWO,BBC Two
-BBC THREE,BBC Three
-BBC FOUR,BBC Four
-CBBC,CBBC
-CBeebies,CBeebies
-BBC NEWS,BBC News
-BBC Parliament,BBC Parliament
-ITV1,ITV
-ITV2,ITV2
-ITV3,ITV3
-ITV4,ITV4
-ITVBe,ITVBe
-Channel 4,Channel 4
-E4,E4
-More 4,More4
-Film4,Film4
-5,Channel 5
-5STAR,5Star
-5USA,5USA
-5SELECT,5Select
-U&Dave,Dave
-U&DaveJaVu,Gold
-U&W,W
-U&Yesterday,Yesterday
-U&Drama,Drama
-Really,Really
-QUEST,Quest
-Quest Red,Quest Red
-Food Network,Food Network
-HGTV,HGTV
-DMAX,DMAX
-Sky News,Sky News
-Sky Arts,Sky Arts
-Sky Mix,Sky Mix
-GB News,GB News
-Talk,talkTV
-POP,Pop
-Tiny Pop,Tiny Pop
-TalkingPictures TV,Talking Pictures TV
-Film4+1,Film4+1
-GREAT! movies,Great! Movies
-GREAT! action,Great! Movies Action
-TRUE CRIME,True Crime
-TJC,TJC
-Gems TV,Gems TV
-Ideal World,Ideal World
-QVC,QVC
-Al Jazeera English,Al Jazeera English
-FRANCE 24,France 24
-NHK WORLD,NHK World
-London TV,London Live
-That's TV (UK),That's TV
-Together TV,Together TV
-Revelation TV,Forces TV
-PBS America,PBS America
+# Mapeo de canales del Reino Unido
+# Formato: CANAL_ID_EXACTO_DE_FUENTE,NOMBRE_MOSTRAR
+
+# BBC Channels principales
+BBC.One.Lon.HD.uk,BBC One London
+BBC.One.ScotHD.uk,BBC One Scotland  
+BBC.One.Wal.HD.uk,BBC One Wales
+BBC.One.NI.HD.uk,BBC One Northern Ireland
+BBC.One.EastHD.uk,BBC One East
+BBC.One.N.West.HD.uk,BBC One North West
+BBC.One.NE.and.C.HD.uk,BBC One North East & Cumbria
+BBC.One.S.East.HD.uk,BBC One South East
+BBC.One.S.West.HD.uk,BBC One South West
+BBC.One.Sth.HD.uk,BBC One South
+BBC.One.WM.HD.uk,BBC One West Midlands
+BBC.One.West.HD.uk,BBC One West
+BBC.One.Y.and.L.HD.uk,BBC One Yorkshire & Lincolnshire
+BBC.One.Yorks.HD.uk,BBC One Yorkshire
+BBC.One.E.Mid.HD.uk,BBC One East Midlands
+BBC.One.CI.HD.uk,BBC One Channel Islands
+BBC.Two.HD.uk,BBC Two
+BBC.Two.NI.HD.uk,BBC Two Northern Ireland
+BBC.Two.Wal.HD.uk,BBC Two Wales
+BBC.Three.HD.uk,BBC Three
+BBC.Four.HD.uk,BBC Four
+BBC.NEWS.HD.uk,BBC News
+BBC.Parliament.HD.uk,BBC Parliament
+BBC.ALBA.HD.uk,BBC Alba
+BBCScotlandHD.uk,BBC Scotland
+
+# ITV Channels
+ITV1.HD.uk,ITV1
+ITV2.HD.uk,ITV2
+ITV3.HD.uk,ITV3
+ITV4.HD.uk,ITV4
+ITV1+1.uk,ITV1+1
+ITV2+1.uk,ITV2+1
+ITV3+1.uk,ITV3+1
+ITV4+1.uk,ITV4+1
+
+# Channel 4 Group
+Channel.4.HD.uk,Channel 4
+Channel.4+1.uk,Channel 4+1
+E4.HD.uk,E4
+E4+1.uk,E4+1
+Film4.HD.uk,Film4
+Film4+1.uk,Film4+1
+More4.HD.uk,More4
+More4+1.uk,More4+1
+
+# Channel 5 Group  
+Channel.5.HD.uk,Channel 5
+Channel.5+1.uk,Channel 5+1
+5.USA.uk,5USA
+5USA+1.uk,5USA+1
+5STAR.uk,5STAR
+5STAR+1.uk,5STAR+1
+5ACTION.uk,5ACTION
+5SELECT.uk,5SELECT
+
+# Children's Channels
+CBBC.HD.uk,CBBC
+CBeebies.HD.uk,CBeebies
+CITV.uk,CITV
+Cartoon.Net.HD.uk,Cartoon Network
+CN+1.uk,Cartoon Network+1
+Cartoonito.uk,Cartoonito
+NickelodeonHD.uk,Nickelodeon
+Nickelodeon+1.uk,Nickelodeon+1
+Nick.Jr..HD.uk,Nick Jr
+Nick.Jr+1.uk,Nick Jr+1
+Nick.Jr..Too.uk,Nick Jr Too
+Nicktoons.uk,Nicktoons
+POP.uk,POP
+POP+1.uk,POP+1
+POP.Max.uk,POP Max
+POP.Max+1.uk,POP Max+1
+Tiny.Pop.uk,Tiny Pop
+Tiny.Pop+1.uk,Tiny Pop+1
+BabyTV.uk,Baby TV
+Boomerang.HD.uk,Boomerang
+Boomerang+1.uk,Boomerang+1
+
+# Sky Sports
+SkySp.F1.HD.uk,Sky Sports F1
+SkySp.Fball.HD.uk,Sky Sports Football
+SkySp.PL.HD.uk,Sky Sports Premier League
+SkySpMainEvHD.uk,Sky Sports Main Event
+SkySp.Cricket.uk,Sky Sports Cricket
+SkySpCricket.HD.uk,Sky Sports Cricket
+SkySp.Golf.HD.uk,Sky Sports Golf
+SkySp.ActionHD.uk,Sky Sports Action
+SkySp.Mix.HD.uk,Sky Sports Mix
+SkySp.News.HD.uk,Sky Sports News
+SkySp.Racing.HD.uk,Sky Sports Racing
+SkySp.Tennis.HD.uk,Sky Sports Tennis
+
+# Other Sky Channels
+Sky.News.HD.uk,Sky News
+Sky.Arts.HD.uk,Sky Arts
+Sky.Atlantic.HD.uk,Sky Atlantic
+Sky.Atlantic+1.uk,Sky Atlantic+1
+Sky.Max.HD.uk,Sky Max
+Sky.Mix.HD.uk,Sky Mix
+Sky.Comedy.HD.uk,Sky Comedy
+Sky.Crime.HD.uk,Sky Crime
+Sky.Crime+1.uk,Sky Crime+1
+Sky.Drama.HD.uk,Sky Drama
+Sky.Documentaries.HD.uk,Sky Documentaries
+Sky.Family.HD.uk,Sky Family
+Sky.History+1.uk,Sky History+1
+Sky.HistoryHD.uk,Sky History
+Sky.History2.uk,Sky History 2
+Sky.Nature.HD.uk,Sky Nature
+Sky.Sci-Fi.HD.uk,Sky Sci-Fi
+Sky.Witness.HD.uk,Sky Witness
+Sky.Witness+1.uk,Sky Witness+1
+
+# Discovery Channels
+Discovery.HD.uk,Discovery Channel
+Discovery+1.uk,Discovery+1
+Animal.Planet.uk,Animal Planet
+Animal.Plnt+1.uk,Animal Planet+1
+TLC.HD.uk,TLC
+TLC+1.uk,TLC+1
+ID.uk,Investigation Discovery
+ID+1.uk,Investigation Discovery+1
+DMAX.uk,DMAX
+DMAX+1.uk,DMAX+1
+Food.Network.uk,Food Network
+Food.Netwrk+1.uk,Food Network+1
+HGTV.uk,HGTV
+HGTV+1.uk,HGTV+1
+Quest.Red.uk,Quest Red
+Quest.Red+1.uk,Quest Red+1
+QUEST.HD.uk,Quest
+QUEST+1.uk,Quest+1
+
+# Entertainment
+ComedyCentHD.uk,Comedy Central
+ComedyCent+1.uk,Comedy Central+1
+MTV.HD.uk,MTV
+MTV.80s.uk,MTV 80s
+MTV.90s.uk,MTV 90s
+MTV.Classic.uk,MTV Classic
+MTV.HITS.uk,MTV Hits
+Really.uk,Really
+Challenge.uk,Challenge
+U.and.Dave.HD.uk,Dave
+U.and.Drama.uk,Drama
+U.and.GOLD.HD.uk,Gold
+U.and.W.HD.uk,W
+U.and.YESTERDAY.uk,Yesterday
+U.and.Eden.uk,Eden
+U.and.alibi.HD.uk,Alibi
+
+# News Channels
+GB.News.HD.uk,GB News
+CNN.HD.uk,CNN
+CNBC.HD.uk,CNBC
+Bloomberg.HD.uk,Bloomberg
+TalkTV.HD.uk,TalkTV
+Euronews.uk,Euronews
+
+# Documentary/Factual
+Nat.Geo.HD.uk,National Geographic
+Nat.Geo+1.uk,National Geographic+1
+Nat.Geo.Wild.uk,Nat Geographic Wild
+NatGeoWild.HD.uk,Nat Geographic Wild
+PBS.America.uk,PBS America
+
+# Movie Channels
+GREAT!.movies.uk,Great! Movies
+GREAT!.movies+1.uk,Great! Movies+1
+GREAT!.action.uk,Great! Action
+GREAT!action+1.uk,Great! Action+1
+GREAT!.romance.uk,Great! Romance
+TCM.Movies+1.uk,TCM Movies+1
+Movies24.uk,Movies 24
+Movies24+.uk,Movies 24+
+
+# Music Channels
+Box.Hits.uk,Box Hits
+The.Box.uk,The Box
+Kerrang!.uk,Kerrang!
+Trace.Hits.uk,Trace Hits
+Trace.Vault.uk,Trace Vault
+
+# Sports Premium
+Racing.TV.HD.uk,Racing TV
+Premier.Sports.1.HD.uk,Premier Sports 1
+Premier.Sports.2.HD.uk,Premier Sports 2
+TNT.Sports.1.HD.uk,TNT Sports 1
+TNT.Sports.2.HD.uk,TNT Sports 2
+TNT.Sports.3.HD.uk,TNT Sports 3
+TNT.Sports.4.HD.uk,TNT Sports 4
+
+# Regional/Local
+London.Live.uk,London Live
+S4C.HD.uk,S4C
+STV.HD.uk,STV
+UTV.uk,UTV
+
+# Shopping
+TJC.HD.uk,TJC
+Gems.TV.uk,Gems TV
+Ideal.World.HD.uk,Ideal World
+QVC.HD.uk,QVC
+
+# Pluto TV Channels populares
+5ad8d3a31b95267e225e4e09,Pluto TV Movies
+5ad8d54be738977e2c310940,Pluto TV Kids
+5c363c2411c5ca053f198f97,Pluto TV Comedy Movies
+5c5c31f2f21b553c1f673fb0,Pluto TV Cult Films
+5d134a74ca91eedee1630faa,Pluto TV Classic TV
+5d4af1803e7983b391d73b13,Pluto TV History
+5d4af2ffa9506ab29cf38c38,Pluto TV Paranormal
+5d4bdb635ce813b38639e6a3,Pluto TV Westerns
+5d767790d0438aceb41d03ae,Pluto TV Crime
+5dbc2f98777f2e0009934ae7,Pluto TV Space
+5dbfeb961b411c00090b52b3,Pluto TV Action
+5dbfedccc563080009b60f4a,Pluto TV Thrillers
+5dc02a44a9518600094273ac,Pluto TV Sci-Fi
+612f761008a9e50007984ba0
