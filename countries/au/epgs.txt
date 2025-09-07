@@ -1,7 +1,7 @@
 # Fuentes EPG para Australia (AU)
 # Fuentes principales de Free-to-Air y streaming
-https://i.mjh.nz/au/all/epg.xml.gz
-https://i.mjh.nz/Foxtel/epg.xml.gz
-https://i.mjh.nz/SamsungTVPlus/all.xml.gz
-https://i.mjh.nz/PlutoTV/all.xml.gz
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/au/all/epg.xml.gz
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Foxtel/epg.xml.gz
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/all.xml.gz
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/all.xml.gz
 https://i.mjh.nz/generate?site=abc.net.au&region=syd
