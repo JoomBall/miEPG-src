@@ -586,3 +586,75 @@ https://raw.githubusercontent.com/JoomBall/miEPG-src/main/countries/gb/EPG.xml
 
 ---
 
+_**User (2025-09-07 10:24Z)**_
+
+a fallado en esta parte de Commit y push EPG (es):
+1s
+Run OUT="countries/es/EPG.xml"
+[main df98834] update: EPG es - 2025-09-07T10:18:21Z - 31317 programmes
+ 1 file changed, 402382 insertions(+), 2 deletions(-)
+remote: Permission to JoomBall/miEPG-src.git denied to github-actions[bot].
+fatal: unable to access 'https://github.com/JoomBall/miEPG-src/': The requested URL returned error: 403
+Error: Process completed with exit code 128.
+
+
+y luego los 2 archivos creados estan vacios con:
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="miEPG Reino Unido - JoomBall" generator-info-url="https://github.com/JoomBall/miEPG-src">
+  <!-- EPG para Reino Unido - Generado automáticamente -->
+</tv>
+
+---
+
+_**Assistant**_
+
+El problema es que GitHub Actions no tiene permisos para hacer push al repositorio. Esto se soluciona fácilmente añadiendo los permisos necesarios al workflow. 
+```
+
+```
+Ahora también necesitamos usar el token de GitHub para autenticación en el checkout: 
+```
+
+```
+## **¿Qué ha pasado y cómo lo arreglamos?**
+
+### **El problema:**
+```
+remote: Permission to JoomBall/miEPG-src.git denied to github-actions[bot].
+```
+
+GitHub Actions no tenía permisos para hacer push al repositorio.
+
+### **La solución:**
+
+1. **Añadido `permissions: contents: write`** - Da permisos de escritura al workflow
+2. **Añadido `token: ${{ secrets.GITHUB_TOKEN }}`** - Usa el token automático de GitHub
+3. **Añadido `fetch-depth: 0`** - Asegura acceso completo al historial
+
+### **¿Por qué los archivos están vacíos?**
+
+Los archivos `EPG.xml` que creé son **plantillas iniciales vacías**. El workflow los **sobrescribirá** con el contenido real cuando se ejecute correctamente.
+
+## **Verificación de que España funcionó parcialmente:**
+
+Veo en el log que **SÍ se generó el EPG** correctamente:
+```
+[main df98834] update: EPG es - 2025-09-07T10:18:21Z - 31317 programmes
+1 file changed, 402382 insertions(+), 2 deletions(-)
+```
+
+¡Esto significa que:
+- ✅ **31,317 programmes** generados para España
+- ✅ **402,382 líneas** de EPG creadas
+- ❌ **Solo falló el push** por permisos
+
+## **Próximos pasos:**
+
+1. **Guarda el workflow** con los cambios que acabo de hacer
+2. **Ejecuta manualmente** el workflow de nuevo (`Actions` → `Run workflow`)
+3. **Verifica** que ahora sí hace push correctamente
+
+¿Quieres que ejecutemos una prueba manual del workflow para verificar que los permisos funcionan ahora?
+
+---
+
