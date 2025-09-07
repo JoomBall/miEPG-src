@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Sep  7 12:16:48 UTC 2025
+# Fecha: Sun Sep  7 17:31:03 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -424,6 +424,7 @@
 8madrid TV | 8madrid TV
 A3Cine.(Atrescine).es | A3Cine (Atrescine)
 ACL Cornhole TV | ACL Cornhole TV
+AMC Anime | AMC Anime
 AMC Break | AMC Break
 AMC Crime | AMC Crime
 AMC HD | AMC
@@ -582,6 +583,12 @@ DAZN LaLiga 4 | DAZN LaLiga 4
 DAZN LaLiga 5 | DAZN LaLiga 5
 DAZN LaLiga HD | DAZN LaLiga
 DAZN Liga F 2 | DAZN Liga F 2
+DAZN Liga F 3 | DAZN Liga F 3
+DAZN Liga F 4 | DAZN Liga F 4
+DAZN Liga F 5 | DAZN Liga F 5
+DAZN Liga F 6 | DAZN Liga F 6
+DAZN Liga F 7 | DAZN Liga F 7
+DAZN Liga F 8 | DAZN Liga F 8
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
 DAZN Premier League 2 | DAZN Premier League 2
@@ -1043,6 +1050,7 @@ M+ Acción HD | M+ Acción
 M+ Cine Español | M+ Cine Español
 M+ Clásicos HD | M+ Clásicos
 M+ Comedia HD | M+ Comedia
+M+ Cómic | M+ Cómic
 M+ Deportes 2 HD | M+ Deportes 2
 M+ Deportes 3 | M+ Deportes 3
 M+ Deportes 4 | M+ Deportes 4
@@ -1080,7 +1088,6 @@ M+ PopUp | M+ PopUp
 M+ Vacaciones | M+ Vacaciones
 M+ Vamos HD | M+ Vamos
 M+ Wimbledon UHD | M+ Wimbledon
-M+ Wéstern | M+ Wéstern
 M+.Acción.es | M+ Acción
 M+.Cine.Español.es | M+ Cine Español
 M+.Clásicos.es | M+ Clásicos
@@ -1238,6 +1245,7 @@ Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
 Penedès TV | Penedès TV
 Planeta.de.Cine.es | Planeta de Cine
+Playboy TV | Playboy TV
 Popular TV Región de Murcia | Popular TV Región de Murcia
 Popular.TV.Murcia.es | Popular TV Murcia
 PowerSports World | PowerSports World
