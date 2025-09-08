@@ -99,7 +99,7 @@ while IFS=, read -r old new logo; do
   [ -z "$new" ] && new="$old"
 
   # Extrae el bloque del canal original
-  sed -n "/<channel id=\"$(printf '%s' "$old" | sed 's/[.[\*^$(){}?+|/\\]/\\&/g')\">/,/<\/channel>/p" \
+  sed -n "/<channel id=\"$(printf '%s' "$old" | sed 's/[.[\*^$(){}?+|&/\\]/\\&/g')\">/,/<\/channel>/p" \
     EPG_temp.xml > EPG_chan_block.xml || true
 
   if [ ! -s EPG_chan_block.xml ]; then
@@ -125,11 +125,11 @@ while IFS=, read -r old new logo; do
   } >> EPG_channels_mapped.xml
 
   # 2.2 Programmes del canal remapeados
-  sed -n "/<programme[^\>]*channel=\"$(printf '%s' "$old" | sed 's/[.[\*^$(){}?+|/\\]/\\&/g')\"[^\>]*>/,/<\/programme>/p" \
+  sed -n "/<programme[^\>]*channel=\"$(printf '%s' "$old" | sed 's/[.[\*^$(){}?+|&/\\]/\\&/g')\"[^\>]*>/,/<\/programme>/p" \
     EPG_temp.xml > EPG_prog_block.xml || true
 
   if [ -s EPG_prog_block.xml ]; then
-    sed -E "s#channel=\"$(printf '%s' "$old" | sed 's/[.[\*^$(){}?+|/\\]/\\&/g')\"#channel=\"${new}\"#g" \
+    sed -E "s#channel=\"$(printf '%s' "$old" | sed 's/[.[\*^$(){}?+|&/\\]/\\&/g')\"#channel=\"${new}\"#g" \
       EPG_prog_block.xml >> EPG_programmes_mapped.xml
   fi
 done < "$CANALES_CLEAN"
