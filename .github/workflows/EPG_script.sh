@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Uso:
-# Version 1.0.1
+# Version 1.0.2
 #   EPG_script.sh <ruta_epgs.txt> <ruta_canales.txt> <salida_xml>
 set -euo pipefail
 
@@ -130,7 +130,7 @@ while IFS=, read -r old new logo; do
     EPG_temp.xml > EPG_prog_block.xml || true
 
   if [ -s EPG_prog_block.xml ]; then
-    sed -E "s/channel=\"$(printf '%s' "$old" | sed 's/[.[\*^$(){}?+|&#/\\]/\\&/g')\"/channel=\"${new}\"/g" \
+    sed -E "s@channel=\"$(printf '%s' "$old" | sed 's/[.[\*^$(){}?+|&#/\\]/\\&/g')\"@channel=\"${new}\"@g" \
       EPG_prog_block.xml >> EPG_programmes_mapped.xml
   fi
 done < "$CANALES_CLEAN"
