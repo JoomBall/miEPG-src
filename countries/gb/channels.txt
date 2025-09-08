@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep  8 09:04:10 UTC 2025
+# Fecha: Mon Sep  8 15:33:56 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -116,7 +116,6 @@
 64c0d697b0cf5c000824e5d9 | U&amp;The Past
 64c0d6b424ade50008bc8883 | U&amp;Real Heroes
 64c0d6f34096290008132d6b | U&amp;Laughs
-64c378d05dc1660008ab029d | Pointless
 64c37e47dac71b000809abab | Evidence of Evil
 64c37e710e086a0009e824ab | NOW 70's
 64edf6eaa7ec0d000812f58c | South Park
@@ -140,7 +139,6 @@
 65c109b4d77d450008b7eee5 | Reuters
 65c4960d11ced7000812c433 | Geordie Shore
 65dde148ec9fda0008b3c541 | Love Pets
-65eeffff8145cb000855a15d | PRIDEtv
 65f0166566eec80008b96f7e | Pluto TV Wildest Adventures
 65f96980f7f0af0008fa6302 | Realmadrid TV
 660be37e7bcd860008793a6a | Bondi Rescue
