@@ -135,8 +135,115 @@ while IFS=, read -r old new logo; do
   fi
 done < "$CANALES_CLEAN"
 
-# 3) Ensamblado final
+# 3) Proceso de mapeado de canales
 date_stamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+# Procesar cada canal solicitado
+
+# 3.5) Sanitización XML - Limpiar etiquetas programme malformadas
+echo "[INFO] Sanitizando XML - validando etiquetas programme..."
+TEMP_SANITIZED="$(mktemp)"
+
+# Función para sanitizar programmes
+sanitize_programmes() {
+  local input_file="$1"
+  local output_file="$2"
+  local in_programme=false
+  local line_num=0
+  local orphan_content=""
+  local orphan_channel=""
+  
+  while IFS= read -r line; do
+    line_num=$((line_num + 1))
+    
+    # Si encontramos apertura de programme
+    if echo "$line" | grep -q '^[[:space:]]*<programme[[:space:]>]'; then
+      if [ "$in_programme" = true ]; then
+        echo "[WARN] Línea $line_num: <programme> sin cerrar anterior - cerrando automáticamente"
+        echo '</programme>' >> "$output_file"
+      fi
+      echo "$line" >> "$output_file"
+      in_programme=true
+      # Limpiar contenido huérfano acumulado
+      orphan_content=""
+      orphan_channel=""
+      
+    # Si encontramos cierre de programme
+    elif echo "$line" | grep -q '^[[:space:]]*</programme>'; then
+      if [ "$in_programme" = true ]; then
+        echo "$line" >> "$output_file"
+        in_programme=false
+      else
+        # Hay un </programme> huérfano, pero si tenemos contenido acumulado, crear el programme
+        if [ -n "$orphan_content" ]; then
+          echo "[WARN] Línea $line_num: Creando <programme> para contenido huérfano${orphan_channel:+ en canal $orphan_channel}"
+          # Generar apertura con canal si lo detectamos
+          if [ -n "$orphan_channel" ]; then
+            echo "  <programme channel=\"$orphan_channel\">" >> "$output_file"
+          else
+            echo "  <programme>" >> "$output_file"
+          fi
+          # Escribir contenido acumulado
+          echo "$orphan_content" >> "$output_file"
+          # Escribir el cierre
+          echo "$line" >> "$output_file"
+          orphan_content=""
+          orphan_channel=""
+        else
+          echo "[WARN] Línea $line_num: </programme> huérfano sin contenido - ignorando"
+        fi
+      fi
+      
+    # Cualquier otra línea
+    else
+      # Si es contenido de programme y estamos dentro
+      if [ "$in_programme" = true ]; then
+        echo "$line" >> "$output_file"
+      # Si es contenido suelto (title, desc, etc.) fuera de programme
+      elif echo "$line" | grep -qE '^[[:space:]]*<(title|desc|sub-title|category|episode-num|icon|rating|previously-shown|new|subtitles|audio|video|length|url|date|star-rating|review|image)'; then
+        # Acumular contenido huérfano para posible reconstrucción
+        orphan_content="${orphan_content}${orphan_content:+$'\n'}$line"
+        # Intentar extraer canal del contexto anterior si es posible
+        if echo "$line" | grep -q 'channel=' && [ -z "$orphan_channel" ]; then
+          orphan_channel=$(echo "$line" | sed -n 's/.*channel="\([^"]*\)".*/\1/p')
+        fi
+      else
+        # Otras líneas (no contenido de programme)
+        echo "$line" >> "$output_file"
+        # Si no es contenido de programme, limpiar acumulación
+        if [ -n "$orphan_content" ]; then
+          echo "[WARN] Línea $line_num: Contenido huérfano descartado por línea no-programme"
+          orphan_content=""
+          orphan_channel=""
+        fi
+      fi
+    fi
+  done < "$input_file"
+  
+  # Si quedó un programme abierto al final
+  if [ "$in_programme" = true ]; then
+    echo "[WARN] EOF: <programme> sin cerrar - cerrando automáticamente"
+    echo '</programme>' >> "$output_file"
+  fi
+  
+  # Si quedó contenido huérfano al final sin </programme>
+  if [ -n "$orphan_content" ]; then
+    echo "[WARN] EOF: Creando <programme> para contenido huérfano final${orphan_channel:+ en canal $orphan_channel}"
+    if [ -n "$orphan_channel" ]; then
+      echo "  <programme channel=\"$orphan_channel\">" >> "$output_file"
+    else
+      echo "  <programme>" >> "$output_file"
+    fi
+    echo "$orphan_content" >> "$output_file"
+    echo '</programme>' >> "$output_file"
+  fi
+}
+
+# Aplicar sanitización a programmes
+sanitize_programmes "EPG_programmes_mapped.xml" "$TEMP_SANITIZED"
+mv "$TEMP_SANITIZED" "EPG_programmes_mapped.xml"
+
+# 4) Generación del XML final
 {
   echo '<?xml version="1.0" encoding="UTF-8"?>'
   echo "<tv generator-info-name=\"miEPG build $(echo "$date_stamp")\" generator-info-url=\"https://github.com/JoomBall/miEPG-src\">"
@@ -145,14 +252,25 @@ date_stamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
   echo '</tv>'
 } > "$OUT_XML"
 
-# 4) Chequeos mínimos de sanidad
-OPEN_TAGS=$(grep -c '<channel id="' "$OUT_XML" || echo 0)
-CLOSE_TAGS=$(grep -c '</channel>'     "$OUT_XML" || echo 0)
-echo "[INFO] Canales abiertos: $OPEN_TAGS | cerrados: $CLOSE_TAGS"
+# 5) Chequeos de sanidad XML
+OPEN_CHANNELS=$(grep -c '<channel id="' "$OUT_XML" || echo 0)
+CLOSE_CHANNELS=$(grep -c '</channel>'     "$OUT_XML" || echo 0)
+OPEN_PROGRAMMES=$(grep -c '<programme[[:space:]>]' "$OUT_XML" || echo 0)
+CLOSE_PROGRAMMES=$(grep -c '</programme>'     "$OUT_XML" || echo 0)
 
-if [ "$OPEN_TAGS" -ne "$CLOSE_TAGS" ]; then
-  echo "[ERROR] Desfase entre <channel> abiertos y cerrados. No publico salida corrupta."
+echo "[INFO] Validación XML:"
+echo "[INFO] Canales -> abiertos: $OPEN_CHANNELS | cerrados: $CLOSE_CHANNELS"
+echo "[INFO] Programmes -> abiertos: $OPEN_PROGRAMMES | cerrados: $CLOSE_PROGRAMMES"
+
+# Validar que las etiquetas estén balanceadas
+if [ "$OPEN_CHANNELS" -ne "$CLOSE_CHANNELS" ]; then
+  echo "[ERROR] Desfase entre <channel> abiertos ($OPEN_CHANNELS) y cerrados ($CLOSE_CHANNELS)"
   exit 20
+fi
+
+if [ "$OPEN_PROGRAMMES" -ne "$CLOSE_PROGRAMMES" ]; then
+  echo "[ERROR] Desfase entre <programme> abiertos ($OPEN_PROGRAMMES) y cerrados ($CLOSE_PROGRAMMES)"
+  exit 21
 fi
 
 TOTAL_PROGRAMMES_OUT=$(grep -c "<programme" "$OUT_XML" || echo 0)

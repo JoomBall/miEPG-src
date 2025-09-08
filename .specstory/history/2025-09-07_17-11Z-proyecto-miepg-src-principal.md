@@ -2308,7 +2308,7 @@ Esto evita la confusión cuando el texto contiene el carácter `#`.
 
 ---
 
-_**User (2025-09-08 09:02Z)**_
+_**User (2025-09-08 09:03Z)**_
 
 ojo ahora au bien pero us mal:
 [OK] Canal: '5a6b92f6e22a617379789618' -> 'CBS News 24/7'
@@ -2324,7 +2324,280 @@ Error: Process completed with exit code 1.
 
 _**Assistant**_
 
-🚨 **Nuevos problemas con `/`:** Ahora el delimitador `/` 
+🚨 **Nuevos problemas con `/`:** Ahora el delimitador `/` está conflictuando con:
+
+1. **US:** `CBS News 24/7` - contiene `/`
+2. **ES:** `3/24 Catalunya` - contiene `/`
+
+Necesito usar un delimitador que NO aparezca en los nombres de canales. Usaré `@` que es más seguro: 
+```
+
+```
+✅ **Fix aplicado:** He cambiado el delimitador de `/` a `@` que es mucho menos probable que aparezca en nombres de canales.
+
+**Delimitadores probados:**
+- `#` ❌ (conflicto con `Sky Racing #1`)
+- `/` ❌ (conflicto con `CBS News 24/7` y `3/24 Catalunya`) 
+- `@` ✅ (seguro, raro en nombres de canales)
+
+Ahora debería manejar correctamente todos estos casos problemáticos:
+- `Sky Racing #1`
+- `CBS News 24/7`
+- `3/24 Catalunya`
+- `9Mystery&amp;Paranormal`
+
+**El script debería funcionar correctamente para AU, US y ES.**
+
+---
+
+_**User (2025-09-08 09:09Z)**_
+
+ahora a funcionado, en C:\laragon\www\miEPG-src\miEPG-src\.github\workflows creo que has creado archivos test o alguno que no sirve ya para el proyecto, eliminalos
+
+---
+
+_**Assistant**_
+
+¡Perfecto! 🎉 Me alegra que haya funcionado. Vamos a limpiar la carpeta `` de archivos innecesarios. Veo varios archivos que probablemente son de pruebas. Te muestro cuáles creo que podemos eliminar:
+
+🗑️ **Archivos a eliminar (parecen de pruebas/debug):**
+- `debug-au.yml` - workflow de debug específico para AU
+- `debug_au.sh` - script de debug para AU
+- `generate_channels.sh` - script temporal de generación de canales
+- `simple_epg.sh` - script simple de prueba
+- `test-epg-generation.yml` - workflow de prueba
+- `test-simple.yml` - workflow de prueba simple
+
+✅ **Archivos a mantener:**
+- `build-per-country.yml` - workflow principal de producción
+- `EPG_script.sh` - script principal que acabamos de arreglar ✅ **Limpieza completada:** La carpeta `` ahora solo contiene los archivos esenciales:
+
+- `build-per-country.yml` - Workflow principal de GitHub Actions
+- `EPG_script.sh` - Script principal que procesa los EPGs
+
+**Archivos eliminados:**
+- ❌ `debug-au.yml`
+- ❌ `debug_au.sh` 
+- ❌ `generate_channels.sh`
+- ❌ `simple_epg.sh`
+- ❌ `test-epg-generation.yml`
+- ❌ `test-simple.yml`
+
+Ahora el proyecto está limpio y solo conserva los archivos necesarios para la funcionalidad principal. 🧹✨
+
+---
+
+_**User (2025-09-08 15:25Z)**_
+
+Los archivos de Au y Us creados tienen algún problema parecido de no tener por ejemplo etiqueta apertura <programme>
+
+Por ejemplo este de us:
+Línea 15954: </programme> cierra correctamente
+Línea 15955: <title>Cold Case Files Classic</title> aparece sin una etiqueta <programme> de apertura
+Línea 15966: </programme> cierra algo que nunca se abrió
+Línea 15967: Otro <title>Cold Case Files Classic</title> huérfano
+El archivo de en-US también tiene corrupción XML similar al de Australia. La función de sanitización que implementamos en TvchannelModel.php debería funcionar para ambos archivos.
+
+Resumen:
+
+✅ EPG.xml de Australia: Corrupción confirmada (línea ~72299)
+✅ EPG.xml de en-US: Corrupción confirmada (línea ~15955 y posiblemente más)
+
+
+Enytonces crees que se podria realizar algo para que las etiquetas se comprovaran que estuvieran correctamente?
+
+
+---
+
+_**Assistant**_
+
+¡Exacto! 🎯 El problema es que los EPGs generados tienen XML malformado con etiquetas `<programme>` sin cerrar o `</programme>` sin abrir.
+
+**Solución:** Implementar validación y sanitización XML en el script `EPG_script.sh` antes de generar el archivo final. Veo que hay chequeos básicos pero no para `<programme>`. Voy a agregar una función de sanitización XML completa: 
+```
+
+```
+Ahora voy a mejorar también los chequeos de sanidad finales para incluir validación de `<programme>`: Veo que hay un problema en la estructura. La validación está mal ubicada. Necesito arreglar esto: 
+```
+
+```
+Ahora necesito arreglar el final del script: Perfecto. Ahora voy a verificar que la generación del XML final esté correcta: Hay duplicación. Veo que hay dos bloques de generación XML. Necesito eliminar el duplicado: Hay una generación duplicada. Voy a eliminar la primera y dejar solo la que está después de la sanitización: 
+```
+
+```
+✅ **Sanitización XML implementada:** 
+
+**Nuevas funcionalidades agregadas:**
+
+1. **Función `sanitize_programmes()`:**
+   - Detecta `<programme>` sin cerrar y los cierra automáticamente
+   - Ignora `</programme>` huérfanos
+   - Elimina etiquetas sueltas (`<title>`, `<desc>`, etc.) fuera de `<programme>`
+   - Reporta warnings con números de línea
+
+2. **Validación XML mejorada:**
+   - Verifica que `<channel>` y `</channel>` estén balanceados
+   - Verifica que `<programme>` y `</programme>` estén balanceados
+   - Detiene la ejecución si hay desfases
+
+3. **Logs informativos:**
+   - Muestra conteos de etiquetas abiertas vs cerradas
+   - Reporta problemas específicos encontrados
+
+**Esto debería resolver los problemas de XML malformado en AU y US.** 🛠️
+
+El script ahora limpiará automáticamente:
+- ✅ Línea 15955: `<title>Cold Case Files Classic</title>` huérfana → se ignora
+- ✅ Línea 15966: `</programme>` huérfano → se ignora
+- ✅ `<programme>` sin cerrar → se cierra automáticamente
+
+---
+
+_**User (2025-09-08 15:28Z)**_
+
+explica el funcionamiento por ejemplo de este codigo que haria?
+
+<programme channel="Diagnosis Murder" start="20250912131730 +0000" stop="20250912141130 +0000">
+    <title>Diagnosis Murder S4 Ep. 20</title>
+    <icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2019/06/12/a26646080d8e7183e5f0f02f484a7177-282547.jpg"/>
+    <category>Crime</category>
+  </programme>
+    <title>Snake Boss S1 Ep. 2</title>
+    <icon src="https://10-static-assets.global.ssl.fastly.net/ip/pluto/images/series/67daa737e680c6d5f61d6bb9/featuredImage.jpg"/>
+    <category>Documentary</category>
+ </programme>
+
+---
+
+_**Assistant**_
+
+🔍 **Análisis del código XML malformado:**
+
+El ejemplo que muestras tiene **exactamente el problema** que la función de sanitización está diseñada para resolver:
+
+## **Problema identificado:**
+```xml
+<programme channel="Diagnosis Murder" start="20250912131730 +0000" stop="20250912141130 +0000">
+    <title>Diagnosis Murder S4 Ep. 20</title>
+    <icon src="..."/>
+    <category>Crime</category>
+</programme>                    ← ✅ Cierre correcto
+    <title>Snake Boss S1 Ep. 2</title>      ← ❌ HUÉRFANO: sin <programme>
+    <icon src="..."/>                       ← ❌ HUÉRFANO: sin <programme>
+    <category>Documentary</category>        ← ❌ HUÉRFANO: sin <programme>
+</programme>                               ← ❌ HUÉRFANO: cierra algo que nunca se abrió
+```
+
+## **¿Qué haría la función `sanitize_programmes()`?**
+
+**Paso a paso:**
+
+1. **Línea 1:** `<programme channel="Diagnosis Murder"...>`
+   - ✅ Detecta apertura de `<programme>`
+   - ✅ Estado: `in_programme = true`
+   - ✅ Escribe la línea al archivo
+
+2. **Líneas 2-4:** `<title>`, `<icon>`, `<category>`
+   - ✅ Están dentro de `<programme>`
+   - ✅ Las escribe normalmente
+
+3. **Línea 5:** `</programme>`
+   - ✅ Detecta cierre correcto
+   - ✅ Estado: `in_programme = false`
+   - ✅ Escribe la línea
+
+4. **Línea 6:** `<title>Snake Boss S1 Ep. 2</title>`
+   - ❌ Es una etiqueta huérfana (fuera de `<programme>`)
+   - ⚠️ **WARN:** "Etiqueta huérfana ignorada: `<title>Snake Boss S1 Ep. 2</title>`"
+   - 🗑️ **SE IGNORA** (no se escribe)
+
+5. **Líneas 7-8:** `<icon>`, `<category>`
+   - ❌ También son huérfanas
+   - ⚠️ **WARN:** "Etiqueta huérfana ignorada..."
+   - 🗑️ **SE IGNORAN**
+
+6. **Línea 9:** `</programme>`
+   - ❌ Es un cierre huérfano (no hay `<programme>` abierto)
+   - ⚠️ **WARN:** "Línea 9: `</programme>` huérfano - ignorando"
+   - 🗑️ **SE IGNORA**
+
+## **Resultado después de sanitización:**
+```xml
+<programme channel="Diagnosis Murder" start="20250912131730 +0000" stop="20250912141130 +0000">
+    <title>Diagnosis Murder S4 Ep. 20</title>
+    <icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2019/06/12/a26646080d8e7183e5f0f02f484a7177-282547.jpg"/>
+    <category>Crime</category>
+</programme>
+```
+
+## **Logs que verías:**
+```
+[WARN] Línea 6: Etiqueta huérfana ignorada: <title>Snake Boss S1 Ep. 2</title>...
+[WARN] Línea 7: Etiqueta huérfana ignorada: <icon src="https://10-static-assets.global.ssl.fast...
+[WARN] Línea 8: Etiqueta huérfana ignorada: <category>Documentary</category>...
+[WARN] Línea 9: </programme> huérfano - ignorando
+```
+
+**🎯 El resultado:** XML limpio y válido, con solo el programa completo y correctamente formateado, eliminando la corrupción.
+
+---
+
+_**User (2025-09-08 15:32Z)**_
+
+creo que son programas validos y el fallo es que falta la etiqueta de apertura, entonces mejor seria añadir si hay contenido antes del cierre como title, esto deberia incluirse en el xml añadiendo apertura <programme>:
+<title>Snake Boss S1 Ep. 2</title>      ← ❌ HUÉRFANO: sin <programme>
+    <icon src="..."/>                       ← ❌ HUÉRFANO: sin <programme>
+    <category>Documentary</category>        ← ❌ HUÉRFANO: sin <programme>
+</programme> 
+
+---
+
+_**Assistant**_
+
+¡Excelente punto! 🎯 Tienes razón, esos son programas válidos que solo les falta la etiqueta de apertura `<programme>`. Es mejor **reconstruir** el programa completo que descartarlo.
+
+Voy a modificar la función para que cuando detecte contenido huérfano antes de un `</programme>`, genere automáticamente la apertura `<programme>`: 
+```
+
+```
+✅ **Función mejorada:** Ahora la sanitización es más inteligente y **recupera programas válidos** en lugar de descartarlos.
+
+## **¿Qué hace ahora con tu ejemplo?**
+
+**Entrada problemática:**
+```xml
+<programme channel="Diagnosis Murder" start="20250912131730 +0000" stop="20250912141130 +0000">
+    <title>Diagnosis Murder S4 Ep. 20</title>
+    <category>Crime</category>
+</programme>
+    <title>Snake Boss S1 Ep. 2</title>      ← Acumula como huérfano
+    <icon src="..."/>                       ← Acumula como huérfano  
+    <category>Documentary</category>        ← Acumula como huérfano
+</programme>                               ← Detecta cierre huérfano con contenido
+```
+
+**Proceso de sanitización:**
+1. ✅ Procesa primer `<programme>` normalmente
+2. 📝 **Acumula** contenido huérfano: `<title>`, `<icon>`, `<category>`
+3. 🔧 Al encontrar `</programme>` huérfano **CON contenido acumulado**:
+   - Genera `<programme>` de apertura
+   - Escribe contenido acumulado
+   - Escribe `</programme>` de cierre
+
+**Salida reparada:**
+```xml
+<programme channel="Diagnosis Murder" start="20250912131730 +0000" stop="20250912141130 +0000">
+    <title>Diagnosis Murder S4 Ep. 20</title>
+    <category>Crime</category>
+</programme>
+<programme>
+    <title>Snake Boss S1 Ep. 2</title>
+    <icon src="https://10-static-assets.global.ssl.fastly.net/ip/pluto/images/series/67daa737e680c6d5f61d6bb9/featuredImage.jpg"/>
+    <category>Documentary</category>
+</programme>
+```
+
+**🎯 Resultado:** Ambos programas se conservan correctamente formateados, ¡ningún contenido se pierde!
 
 ---
 
