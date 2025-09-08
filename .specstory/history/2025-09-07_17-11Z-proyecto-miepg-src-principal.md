@@ -2601,3 +2601,15 @@ Voy a modificar la función para que cuando detecte contenido huérfano antes de
 
 ---
 
+_**User (2025-09-08 15:57Z)**_
+
+este cambio a hecho que tarde de antes menos de 2 minutos a que ahora tarde 20 minutos pero vamos a ver si los cambios han funcionado. Mira estos 4 archivos abiertos y comprueba que todas las etiquetas abren y cierran correctamente
+
+---
+
+_**Assistant**_
+
+Entiendo que el proceso ahora toma más tiempo debido a la sanitización, pero es importante verificar si ha funcionado correctamente. Voy a revisar los 4 archivos EPG para comprobar que las etiquetas estén balanceadas. 
+
+---
+
