@@ -1,0 +1,5 @@
+# Configuración de canales para Australia
+# Para incluir TODOS los canales disponibles, usar: ALL
+# Para filtrar canales específicos, usar formato: channel_id,display_name
+
+ALL
