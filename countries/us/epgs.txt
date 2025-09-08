@@ -4,3 +4,13 @@ https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz
 https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml.gz
 https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PBS/all.xml.gz
 https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/MeTV/epg.xml.gz
+
+
+# FAST / AVOD (alto % de cobertura)
+# (añade aquí las URLs de i.mjh.nz para US de PlutoTV, Plex, STIRR, etc.)
+# PlutoTV US
+# https://i.mjh.nz/PlutoTV/us.xml.gz
+# Plex US
+# https://i.mjh.nz/Plex/us.xml.gz
+# STIRR US
+# https://i.mjh.nz/STIRR/us.xml.gz
