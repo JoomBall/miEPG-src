@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep  8 09:04:22 UTC 2025
+# Fecha: Mon Sep  8 15:33:53 UTC 2025
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -200,7 +200,7 @@ mjh-all-starcinema-fast | All-Star Cinema
 mjh-allsaints-fast | All Saints
 mjh-anglersparadise-fast | Anglers Paradise
 mjh-art-fast | Antiques Road Trip
-mjh-ausbiz-fast | ausbiz
+mjh-ausbiz-fast | ausbiz-fast
 mjh-bbc-antiques-roadshow-247-fast | BBC Antiques Roadshow
 mjh-bbc-comedy-fast | BBC Comedy
 mjh-bbc-earth-fast | BBC Earth
@@ -254,6 +254,7 @@ mjh-h2-fast | H2
 mjh-hardcorepawn-fast | Hardcore Pawn
 mjh-heki-fast | Hells Kitchen
 mjh-hotones-fast | HOT ONES
+mjh-judgejudy-fast | Judge Judy
 mjh-life-nsw | 9Life
 mjh-life-qld | 9Life
 mjh-life-sa | 9Life
