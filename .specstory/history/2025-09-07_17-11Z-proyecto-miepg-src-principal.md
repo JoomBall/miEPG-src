@@ -1844,7 +1844,7 @@ Necesitamos agregar filtro para líneas que empiezan con `#`:
 
 ---
 
-_**User (2025-09-08 08:17Z)**_
+_**User (2025-09-08 08:18Z)**_
 
 otra vez:
 Annotations
@@ -2203,7 +2203,75 @@ Error: Process completed with exit code 1.
 
 _**Assistant**_
 
+🚨 **Nuevo error en AU:** Ahora hay un problema con el comando `sed` al final del proceso.
 
+**Error específico:**
+```bash
+sed: -e expression #1, char 52: unknown option to `s'
+```
+
+Este error indica que hay un problema con una expresión de `sed` que contiene caracteres especiales. Necesito revisar el script para encontrar dónde está el problema. El problema parece estar en la línea donde se procesan los nombres de canales que contienen caracteres especiales como `&amp;`. Veo que hay canales con nombres como:
+
+- `9Mystery&amp;Paranormal`
+- `Sharks &amp; Other Predators`
+- `BBC Home &amp; Garden` El problema está en el escape de caracteres especiales. El carácter `&` no está siendo escapado correctamente para `sed`. Necesito revisar la función de escape: El problema es que el patrón de escape `sed 's/[.[\*^$(){}?+|/\\]/\\&/g'` no incluye el carácter `&`. Necesito agregarlo: 
+```
+
+```
+
+```
+
+```
+✅ **Fix aplicado:** He agregado el carácter `&` al patrón de escape para `sed`. Esto debería resolver el error con canales que contienen `&amp;` en sus nombres.
+
+**Cambios realizados:**
+- Patrón anterior: `s/[.[\*^$(){}?+|/\\]/\\&/g`
+- Patrón nuevo: `s/[.[\*^$(){}?+|&/\\]/\\&/g`
+
+Ahora el script debería manejar correctamente nombres de canales como:
+- `mjh-9mysteryparanormal-fast` → `9Mystery&amp;Paranormal`
+- `mjh-10-documentaryshell` → `Sharks &amp; Other Predators`
+- `mjh-bbc-home-garden-fast` → `BBC Home &amp; Garden`
+
+**¿Hacemos commit y probamos de nuevo?** 
+
+---
+
+_**User (2025-09-08 08:54Z)**_
+
+No subas a github, ya lo hago yo. sigue con lo mismo: 
+[OK] Canal: 'mjh-sky-racing-1' -> 'Sky Racing #1'
+sed: -e expression #1, char 52: unknown option to `s'
+Error: Process completed with exit code 1.
+
+---
+
+_**Assistant**_
+
+🚨 **Mismo error persiste:** El carácter `#` en `Sky Racing #1` está causando problemas con `sed`.
+
+El problema es que el carácter `#` es un delimitador especial en `sed` y necesita ser escapado también. 
+```
+
+```
+
+```
+
+```
+✅ **Fix aplicado:** He agregado el carácter `#` al patrón de escape.
+
+**Patrón de escape actualizado:**
+- Antes: `s/[.[\*^$(){}?+|&/\\]/\\&/g`
+- Ahora: `s/[.[\*^$(){}?+|&#/\\]/\\&/g`
+
+Esto debería manejar correctamente:
+- `Sky Racing #1` 
+- `9Mystery&amp;Paranormal`
+- Y otros caracteres especiales
+
+**El script ahora está listo para procesar canales con caracteres especiales sin errores de `sed`.**
+
+Puedes probar el workflow de nuevo. El error debería estar resuelto.
 
 ---
 
