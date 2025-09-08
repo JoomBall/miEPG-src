@@ -1,2 +1,6 @@
 # SpecStory explanation file and directory
 .specstory/
+
+# Archivos temporales de EPG
+EPG_*.xml
+countries/*/EPG_test.xml
