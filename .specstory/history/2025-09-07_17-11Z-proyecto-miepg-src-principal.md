@@ -2275,3 +2275,18 @@ Puedes probar el workflow de nuevo. El error debería estar resuelto.
 
 ---
 
+_**User (2025-09-08 08:58Z)**_
+
+lo mismo:
+[OK] Canal: 'mjh-sky-racing-1' -> 'Sky Racing #1'
+sed: -e expression #1, char 52: unknown option to `s'
+Error: Process completed with exit code 1.
+
+---
+
+_**Assistant**_
+
+
+
+---
+
