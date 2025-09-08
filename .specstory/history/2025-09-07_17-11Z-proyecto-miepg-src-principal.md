@@ -1442,3 +1442,393 @@ Necesitamos hacer commit y push de los cambios filtrados en `epgs.txt` para que 
 
 ---
 
+_**User (2025-09-08 08:13Z)**_
+
+a fallado au:
+build (au)
+failed 3 minutes ago in 45s
+Search logs
+0s
+4s
+7s
+0s
+31s
+Run chmod +x .github/workflows/EPG_script.sh
+[INFO] EPGS_FILE: countries/au/epgs.txt
+[INFO] CANALES_FILE: countries/au/canales.txt
+[INFO] OUT_XML: countries/au/EPG.xml
+[INFO] Descargando: # Fuentes EPG para Australia (AU)
+curl: (3) URL rejected: Malformed input to a URL function
+[WARN] Falló descarga: # Fuentes EPG para Australia (AU)
+[INFO] Descargando: # Solo fuentes específicamente australianas
+curl: (3) URL rejected: Malformed input to a URL function
+[WARN] Falló descarga: # Solo fuentes específicamente australianas
+[INFO] Descargando: https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/au/all/epg.xml.gz
+[INFO] Descargando: https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Foxtel/epg.xml.gz
+[INFO] Programmes acumulados: 42627
+[INFO] Generando lista de canales disponibles en: countries/au/channels.txt
+[INFO] Total de canales únicos encontrados: 318
+[INFO] Lista guardada en: countries/au/channels.txt
+[DEBUG] Primeros 20 canales disponibles:
+
+ACC | GOOD.
+ACS | Aussie Classics
+ANI | Animal Planet
+ARN | Arena
+ASP | Sky News Extra
+BCS | British Cinema
+BLM | Bloomberg Television
+BXS | BoxSets
+CIN | Real Crime
+CMT | CMC
+CNB | CNBC
+CNN | CNN International
+DID | Investigation Discovery
+DIS | Discovery Channel
+DIT | Discovery Turbo
+DPS | DocPlay
+DRM | DreamWorks
+DTA | TLC
+ES2 | ESPN2
+[INFO] Encontrado 'ALL' en canales.txt - incluyendo todos los canales disponibles
+[OK] Canal: 'ACC' -> 'GOOD.'
+[OK] Canal: 'ACS' -> 'Aussie Classics'
+[OK] Canal: 'ANI' -> 'Animal Planet'
+[OK] Canal: 'ARN' -> 'Arena'
+[OK] Canal: 'ASP' -> 'Sky News Extra'
+[OK] Canal: 'BCS' -> 'British Cinema'
+[OK] Canal: 'BLM' -> 'Bloomberg Television'
+[OK] Canal: 'BXS' -> 'BoxSets'
+[OK] Canal: 'CIN' -> 'Real Crime'
+[OK] Canal: 'CMT' -> 'CMC'
+[OK] Canal: 'CNB' -> 'CNBC'
+[OK] Canal: 'CNN' -> 'CNN International'
+[OK] Canal: 'DID' -> 'Investigation Discovery'
+[OK] Canal: 'DIS' -> 'Discovery Channel'
+[OK] Canal: 'DIT' -> 'Discovery Turbo'
+[OK] Canal: 'DPS' -> 'DocPlay'
+[OK] Canal: 'DRM' -> 'DreamWorks'
+[OK] Canal: 'DTA' -> 'TLC'
+[OK] Canal: 'ES2' -> 'ESPN2'
+[OK] Canal: 'ESP' -> 'ESPN'
+[OK] Canal: 'F1S' -> 'Foxtel One'
+[OK] Canal: 'FAF' -> 'FOX Footy'
+[OK] Canal: 'FHT' -> 'FashionTV'
+[OK] Canal: 'FKC' -> 'Classics'
+[OK] Canal: 'FNC' -> 'FOX News'
+[OK] Canal: 'FOD' -> 'LifeStyle Food'
+[OK] Canal: 'FOX' -> 'FOX8'
+[OK] Canal: 'FS1' -> 'FOX CRICKET'
+[OK] Canal: 'FS3' -> 'Fox Sports 503'
+[OK] Canal: 'FSN' -> 'FOX SPORTS NEWS'
+[OK] Canal: 'FSP' -> 'Fox Sports 505'
+[OK] Canal: 'FSS' -> 'Fox Sports More'
+[OK] Canal: 'FSU' -> 'British'
+[OK] Canal: 'FXW' -> 'SKY Weather'
+[OK] Canal: 'GBN' -> 'GB News'
+[OK] Canal: 'GRR' -> 'Movies Greats'
+[OK] Canal: 'HAL' -> 'Universal TV'
+[OK] Canal: 'HAR' -> 'Seinfeld'
+[OK] Canal: 'HIT' -> 'Comedy'
+[OK] Canal: 'HST' -> 'Real History'
+[OK] Canal: 'IOI' -> 'Crime'
+[OK] Canal: 'LHO' -> 'LifeStyle Home'
+[OK] Canal: 'LMH' -> 'Movies Life'
+[OK] Canal: 'LST' -> 'LifeStyle'
+[OK] Canal: 'MO6' -> 'Movies Drama'
+[OK] Canal: 'MSN' -> 'MSNBC'
+[OK] Canal: 'MTC' -> 'Retro'
+[OK] Canal: 'MVS' -> 'Movies Hits - Funny Guys'
+[OK] Canal: 'NAP' -> 'Australian Played'
+[OK] Canal: 'NHK' -> 'NHK World'
+[OK] Canal: 'NMU' -> 'Kids'
+[OK] Canal: 'NPO' -> 'Get2Know'
+[OK] Canal: 'NRW' -> 'Max'
+[OK] Canal: 'RLS' -> 'Real Life'
+[OK] Canal: 'RTV' -> 'RACING.COM'
+[OK] Canal: 'SHA' -> 'Movies Action'
+[OK] Canal: 'SHC' -> 'Showcase'
+[OK] Canal: 'SHD' -> 'Movies Romance'
+[OK] Canal: 'SHF' -> 'Movies Family'
+[OK] Canal: 'SHO' -> 'Movies Premiere'
+[OK] Canal: 'SHY' -> 'Movies Comedy'
+[OK] Canal: 'SKY' -> 'SKY NEWS'
+[OK] Canal: 'SP2' -> 'FOX League'
+[OK] Canal: 'SPS' -> 'Fox Sports 506'
+[OK] Canal: 'SR2' -> 'Sky Racing 2'
+[OK] Canal: 'SRA' -> 'Sky Racing 1'
+[OK] Canal: 'SRW' -> 'Sky Racing Thoroughbred Central'
+[OK] Canal: 'SUK' -> 'SKY NEWS UK'
+[OK] Canal: 'TMF' -> 'Trending'
+[OK] Canal: 'TRS' -> 'More Comedy'
+[OK] Canal: 'TVS' -> 'TVSN'
+[OK] Canal: 'UFC' -> 'Main Event UFC'
+[OK] Canal: 'UKT' -> 'UKTV'
+[OK] Canal: 'UP2' -> 'Love It Or List It'
+[OK] Canal: 'VH1' -> 'Club'
+[OK] Canal: 'mjh-10-adultanimation' -> 'Adult Animation'
+[OK] Canal: 'mjh-10-americas-next-top-model' -> 'America's Next Top Model'
+[OK] Canal: 'mjh-10-anthonybourdain' -> 'Anthony Bourdain: Parts Unknown'
+[OK] Canal: 'mjh-10-aussiedramapopup' -> 'Rush'
+[OK] Canal: 'mjh-10-australias-next-top-model' -> 'Australia's Next Top Model'
+[OK] Canal: 'mjh-10-becker' -> 'Becker'
+[OK] Canal: 'mjh-10-buzzfeed-food' -> 'BuzzFeed Food'
+[OK] Canal: 'mjh-10-cheapseats' -> 'The Cheap Seats'
+[OK] Canal: 'mjh-10-cops' -> 'COPS'
+[OK] Canal: 'mjh-10-crime-hunters' -> 'Crime Hunters'
+[OK] Canal: 'mjh-10-crime-time' -> 'Crime Time'
+[OK] Canal: 'mjh-10-deadlywomen' -> 'Deadly Women'
+[OK] Canal: 'mjh-10-diagnosismurder' -> 'Diagnosis Murder'
+[OK] Canal: 'mjh-10-documentaryshell' -> 'Sharks &amp; Other Predators'
+[OK] Canal: 'mjh-10-eightoutof10cats' -> '8 Out Of 10 Cats'
+[OK] Canal: 'mjh-10-embarrassing-bodies' -> 'Embarrassing Bodies'
+[OK] Canal: 'mjh-10-forty-eight-hours' -> '48 Hours'
+[OK] Canal: 'mjh-10-geckotv' -> 'Gecko TV'
+[OK] Canal: 'mjh-10-ghost_hunters' -> 'Ghost Hunters'
+[OK] Canal: 'mjh-10-good-chef-bad-chef' -> 'Good Chef Bad Chef'
+[OK] Canal: 'mjh-10-grahamnorton' -> 'The Graham Norton Show'
+[OK] Canal: 'mjh-10-hardcorepawn' -> 'Hardcore Pawn'
+[OK] Canal: 'mjh-10-haunt-tv' -> 'Haunt TV'
+[OK] Canal: 'mjh-10-haveyoubeenpayingattention' -> 'Have You Been Paying Attention?'
+[OK] Canal: 'mjh-10-highwaythruhell' -> 'Highway Thru Hell'
+[OK] Canal: 'mjh-10-judge-judy' -> 'Judge Judy'
+[OK] Canal: 'mjh-10-masterchef' -> 'MasterChef'
+[OK] Canal: 'mjh-10-medical-emergency' -> 'Medical Emergency'
+[OK] Canal: 'mjh-10-moviesphere' -> 'Moviesphere'
+[OK] Canal: 'mjh-10-mtv-jersey-shore' -> 'MTV Jersey Shore'
+[OK] Canal: 'mjh-10-mtv-reality' -> 'MTV Reality'
+[OK] Canal: 'mjh-10-mtvgeordieshore' -> 'MTV Geordie Shore'
+[OK] Canal: 'mjh-10-mtvridiculousness' -> 'MTV Ridiculousness'
+[OK] Canal: 'mjh-10-naturetime' -> 'NatureTime'
+[OK] Canal: 'mjh-10-nick-jr' -> 'Nick Jr Club'
+[OK] Canal: 'mjh-10-nickteen' -> 'NickTeen'
+[OK] Canal: 'mjh-10-nicktoons' -> 'NickToons'
+[OK] Canal: 'mjh-10-nicktoons-90s' -> 'NickToons 90s'
+[OK] Canal: 'mjh-10-nsw' -> '10'
+[OK] Canal: 'mjh-10-prisoner-cell-block-h' -> 'Prisoner: Cell Block H'
+[OK] Canal: 'mjh-10-projectrunway' -> 'Project Runway'
+[OK] Canal: 'mjh-10-qld' -> '10'
+[OK] Canal: 'mjh-10-sa' -> '10'
+[OK] Canal: 'mjh-10-seasonalmovies' -> 'Thriller Movies'
+[OK] Canal: 'mjh-10-south-park' -> 'South Park'
+[OK] Canal: 'mjh-10-south-park-two' -> 'South Park: Stan Collection'
+[OK] Canal: 'mjh-10-spongebobsquarepants' -> 'SpongeBob SquarePants'
+[OK] Canal: 'mjh-10-thankgodyourehere' -> 'Thank God You're Here'
+[OK] Canal: 'mjh-10-the-twilight-zone' -> 'The Twilight Zone'
+[OK] Canal: 'mjh-10-thedoghouse' -> 'The Dog House'
+[OK] Canal: 'mjh-10-theonlywayisessex' -> 'The Only Way Is Essex'
+[OK] Canal: 'mjh-10-true-stories' -> 'True Stories'
+[OK] Canal: 'mjh-10-undercoverboss' -> 'Undercover Boss'
+[OK] Canal: 'mjh-10-vic' -> '10'
+[OK] Canal: 'mjh-10-wa' -> '10'
+[OK] Canal: 'mjh-10-wicked-tuna' -> 'Wicked Tuna'
+[OK] Canal: 'mjh-10-world-of-survivor' -> 'World Of Survivor'
+[OK] Canal: 'mjh-10-youtv' -> 'YouTV'
+[OK] Canal: 'mjh-10bold-nsw' -> '10 Drama'
+[OK] Canal: 'mjh-10bold-qld' -> '10 Drama'
+[OK] Canal: 'mjh-10bold-sa' -> '10 Drama'
+[OK] Canal: 'mjh-10bold-vic' -> '10 Drama'
+[OK] Canal: 'mjh-10bold-wa' -> '10 Drama'
+[OK] Canal: 'mjh-10peach-nsw' -> '10 Comedy'
+[OK] Canal: 'mjh-10peach-qld' -> '10 Comedy'
+[OK] Canal: 'mjh-10peach-sa' -> '10 Comedy'
+[OK] Canal: 'mjh-10peach-vic' -> '10 Comedy'
+[OK] Canal: 'mjh-10peach-wa' -> '10 Comedy'
+[OK] Canal: 'mjh-10shake-nsw' -> 'Nickelodeon'
+[OK] Canal: 'mjh-10shake-qld' -> 'Nickelodeon'
+[OK] Canal: 'mjh-10shake-sa' -> 'Nickelodeon'
+[OK] Canal: 'mjh-10shake-vic' -> 'Nickelodeon'
+[OK] Canal: 'mjh-10shake-wa' -> 'Nickelodeon'
+[OK] Canal: 'mjh-2gb-sydney' -> '2GB Sydney'
+[OK] Canal: 'mjh-3aw-melbourne' -> '3AW Melbourne'
+[OK] Canal: 'mjh-4bc-brisbane' -> '4BC Brisbane'
+[OK] Canal: 'mjh-60-minutes-australia-fast' -> '60 Minutes Australia'
+[OK] Canal: 'mjh-6pr-perth' -> '6PR Perth'
+[OK] Canal: 'mjh-7afl-fast' -> '7AFL'
+[OK] Canal: 'mjh-7bravo-fast' -> '7Bravo'
+[OK] Canal: 'mjh-7flix-ade' -> '7flix'
+[OK] Canal: 'mjh-7flix-bri' -> '7flix'
+[OK] Canal: 'mjh-7flix-mel' -> '7flix'
+[OK] Canal: 'mjh-7flix-per' -> '7flix'
+[OK] Canal: 'mjh-7flix-regional' -> '7flix Regional'
+[OK] Canal: 'mjh-7flix-syd' -> '7flix'
+[OK] Canal: 'mjh-7mate-ade' -> '7mate'
+[OK] Canal: 'mjh-7mate-bri' -> '7mate'
+[OK] Canal: 'mjh-7mate-mel' -> '7mate'
+[OK] Canal: 'mjh-7mate-per' -> '7mate'
+[OK] Canal: 'mjh-7mate-regional' -> '7mate Regional'
+[OK] Canal: 'mjh-7mate-syd' -> '7mate'
+[OK] Canal: 'mjh-7now-fast' -> '7now'
+[OK] Canal: 'mjh-7two-ade' -> '7two'
+[OK] Canal: 'mjh-7two-bri' -> '7two'
+[OK] Canal: 'mjh-7two-mel' -> '7two'
+[OK] Canal: 'mjh-7two-per' -> '7two'
+[OK] Canal: 'mjh-7two-regional' -> '7two Regional'
+[OK] Canal: 'mjh-7two-syd' -> '7two'
+[OK] Canal: 'mjh-9crime-fast' -> '9Crime'
+[OK] Canal: 'mjh-9mysteryparanormal-fast' -> '9Mystery&amp;Paranormal'
+[OK] Canal: 'mjh-abc-90-seconds-business' -> 'ABC Business in 90 Seconds'
+[OK] Canal: 'mjh-abc-90-seconds-news' -> 'ABC News in 90 Seconds'
+[OK] Canal: 'mjh-abc-90-seconds-sport' -> 'ABC Sport in 90 Seconds'
+[OK] Canal: 'mjh-abc-90-seconds-weather' -> 'ABC Weather in 90 Seconds'
+[OK] Canal: 'mjh-abc-act' -> 'ABC TV'
+[OK] Canal: 'mjh-abc-kids' -> 'ABC Kids'
+[OK] Canal: 'mjh-abc-me' -> 'ABC Entertains'
+[OK] Canal: 'mjh-abc-news' -> 'ABC NEWS'
+[OK] Canal: 'mjh-abc-nsw' -> 'ABC TV'
+[OK] Canal: 'mjh-abc-nt' -> 'ABC TV'
+[OK] Canal: 'mjh-abc-qld' -> 'ABC TV'
+[OK] Canal: 'mjh-abc-sa' -> 'ABC TV'
+[OK] Canal: 'mjh-abc-tas' -> 'ABC TV'
+[OK] Canal: 'mjh-abc-tv-plus' -> 'ABC Family'
+[OK] Canal: 'mjh-abc-vic' -> 'ABC TV'
+[OK] Canal: 'mjh-abc-wa' -> 'ABC TV'
+[OK] Canal: 'mjh-acountrypractice-fast' -> 'A Country Practice'
+[OK] Canal: 'mjh-al-jazeera' -> 'Al Jazeera'
+[OK] Canal: 'mjh-all-starcinema-fast' -> 'All-Star Cinema'
+[OK] Canal: 'mjh-allsaints-fast' -> 'All Saints'
+[OK] Canal: 'mjh-anglersparadise-fast' -> 'Anglers Paradise'
+[OK] Canal: 'mjh-art-fast' -> 'Antiques Road Trip'
+[OK] Canal: 'mjh-ausbiz-fast' -> 'ausbiz'
+[OK] Canal: 'mjh-bbc-antiques-roadshow-247-fast' -> 'BBC Antiques Roadshow'
+[OK] Canal: 'mjh-bbc-comedy-fast' -> 'BBC Comedy'
+[OK] Canal: 'mjh-bbc-earth-fast' -> 'BBC Earth'
+[OK] Canal: 'mjh-bbc-food-fast' -> 'BBC Food'
+[OK] Canal: 'mjh-bbc-home-garden-fast' -> 'BBC Home &amp; Garden'
+[OK] Canal: 'mjh-bbc-news' -> 'BBC News'
+[OK] Canal: 'mjh-bbc-top-gear-247-fast' -> 'BBC Top Gear'
+[OK] Canal: 'mjh-belowdeckvault-fast' -> 'BelowDeckVault'
+[OK] Canal: 'mjh-betterhomesandgardens-fast' -> 'Better Homes And Gardens'
+[OK] Canal: 'mjh-bigbrother-fast' -> 'Big Brother'
+[OK] Canal: 'mjh-bloomberg-tv' -> 'Bloomberg TV'
+[OK] Canal: 'mjh-blueheelers-fast' -> 'Blue Heelers'
+[OK] Canal: 'mjh-bluelight-fast' -> 'Blue Light'
+[OK] Canal: 'mjh-bordersecurityaustralia-fast' -> 'Border Security Australia'
+[OK] Canal: 'mjh-btv-fast' -> 'btv-fast'
+[OK] Canal: 'mjh-c31' -> 'Channel 31'
+[OK] Canal: 'mjh-c44' -> 'Channel 44'
+[OK] Canal: 'mjh-cas21-fast' -> 'Ghost Hunters'
+[OK] Canal: 'mjh-cas24-fast' -> 'Bondi Vet'
+[OK] Canal: 'mjh-cas25-fast' -> 'Australia's Got Talent'
+[OK] Canal: 'mjh-cas26-fast' -> 'Home and Away Classics'
+[OK] Canal: 'mjh-cas29-fast' -> 'Cooking &amp; Culture'
+[OK] Canal: 'mjh-cas32-fast' -> '7NEWS Spotlight'
+[OK] Canal: 'mjh-cas33-fast' -> 'The Yorkshire Vet'
+[OK] Canal: 'mjh-channel-9-gold-coast' -> 'Channel 9 (Gold Coast)'
+[OK] Canal: 'mjh-channel-9-lismore' -> 'Channel 9 (Norther Rivers)'
+[OK] Canal: 'mjh-channel-9-newcastle' -> 'Channel 9 (Newcastle)'
+[OK] Canal: 'mjh-channel-9-nsw' -> 'Channel 9'
+[OK] Canal: 'mjh-channel-9-qld' -> 'Channel 9'
+[OK] Canal: 'mjh-channel-9-sa' -> 'Channel 9'
+[OK] Canal: 'mjh-channel-9-vic' -> 'Channel 9'
+[OK] Canal: 'mjh-channel-9-wa' -> 'Channel 9'
+[OK] Canal: 'mjh-channel-news-asia' -> 'Channel News Asia (CNA)'
+[OK] Canal: 'mjh-csicrimesceneinvestigation-fast' -> 'CSI Crime Scene Investigation'
+[OK] Canal: 'mjh-dance-moms-247-fast' -> 'Dance Moms 24/7'
+[OK] Canal: 'mjh-drive-fast' -> 'Drive'
+[OK] Canal: 'mjh-dw-news' -> 'DW English'
+[OK] Canal: 'mjh-etc-fast' -> 'Escape to the Country'
+[OK] Canal: 'mjh-gem-nsw' -> '9Gem'
+[OK] Canal: 'mjh-gem-qld' -> '9Gem'
+[OK] Canal: 'mjh-gem-sa' -> '9Gem'
+[OK] Canal: 'mjh-gem-vic' -> '9Gem'
+[OK] Canal: 'mjh-gem-wa' -> '9Gem'
+[OK] Canal: 'mjh-go-nsw' -> '9Go!'
+[OK] Canal: 'mjh-go-qld' -> '9Go!'
+[OK] Canal: 'mjh-go-sa' -> '9Go!'
+[OK] Canal: 'mjh-go-vic' -> '9Go!'
+[OK] Canal: 'mjh-go-wa' -> '9Go!'
+[OK] Canal: 'mjh-good-dot' -> 'GOOD.'
+[OK] Canal: 'mjh-h2-fast' -> 'H2'
+[OK] Canal: 'mjh-hardcorepawn-fast' -> 'Hardcore Pawn'
+[OK] Canal: 'mjh-heki-fast' -> 'Hells Kitchen'
+[OK] Canal: 'mjh-hotones-fast' -> 'HOT ONES'
+[OK] Canal: 'mjh-life-nsw' -> '9Life'
+[OK] Canal: 'mjh-life-qld' -> '9Life'
+[OK] Canal: 'mjh-life-sa' -> '9Life'
+[OK] Canal: 'mjh-life-vic' -> '9Life'
+[OK] Canal: 'mjh-life-wa' -> '9Life'
+[OK] Canal: 'mjh-livgolfreplays-fast' -> 'LIV Golf Replays'
+[OK] Canal: 'mjh-lmn-fast' -> 'LMN'
+[OK] Canal: 'mjh-married-at-first-sight-fast' -> 'Married At First Sight'
+[OK] Canal: 'mjh-medicalnrescue-fast' -> 'Medical And Rescue'
+[OK] Canal: 'mjh-mightymachines-fast' -> 'Mighty Machines'
+[OK] Canal: 'mjh-mythbusters-fast' -> 'Mythbusters'
+[OK] Canal: 'mjh-onthecase-fast' -> 'On The Case'
+[OK] Canal: 'mjh-outbacktruckers-fast' -> 'Outback Truckers'
+[OK] Canal: 'mjh-propertydreams-fast' -> 'Property Dreams'
+[OK] Canal: 'mjh-racing-fast' -> 'Racing.com'
+[OK] Canal: 'mjh-racingwa-fast' -> 'Racing WA'
+[OK] Canal: 'mjh-redbull-tv' -> 'Redbull TV'
+[OK] Canal: 'mjh-rmc-fast' -> 'River Monsters'
+[OK] Canal: 'mjh-rush-nsw' -> '9Rush'
+[OK] Canal: 'mjh-rush-qld' -> '9Rush'
+[OK] Canal: 'mjh-rush-sa' -> '9Rush'
+[OK] Canal: 'mjh-rush-vic' -> '9Rush'
+[OK] Canal: 'mjh-rush-wa' -> '9Rush'
+[OK] Canal: 'mjh-sbs-2syd' -> 'SBS VICELAND'
+[OK] Canal: 'mjh-sbs-3syd' -> 'SBS Food'
+[OK] Canal: 'mjh-sbs-4syd' -> 'SBS World Movies'
+[OK] Canal: 'mjh-sbs-5nsw' -> 'NITV'
+[OK] Canal: 'mjh-sbs-6nat' -> 'SBS WorldWatch'
+[OK] Canal: 'mjh-sbs-7faa' -> 'Planet Luke Nguyen'
+[OK] Canal: 'mjh-sbs-euronews' -> 'euronews'
+[OK] Canal: 'mjh-sbs-france24' -> 'France 24'
+[OK] Canal: 'mjh-sbs-sbs-chill' -> 'SBS Chill'
+[OK] Canal: 'mjh-sbs-sbs-pop-araby' -> 'SBS Arabic'
+[OK] Canal: 'mjh-sbs-sbs-pop-asia' -> 'SBS PopAsia'
+[OK] Canal: 'mjh-sbs-sbs-pop-desi' -> 'SBS South Asian'
+[OK] Canal: 'mjh-sbs-sbs-radio-1' -> 'SBS Radio 1'
+[OK] Canal: 'mjh-sbs-sbs-radio-2' -> 'SBS Radio 2'
+[OK] Canal: 'mjh-sbs-sbs-radio-3' -> 'SBS Radio 3'
+[OK] Canal: 'mjh-sbs-sbst' -> 'SBS'
+[OK] Canal: 'mjh-sbs-sysdata_s_p_a_fifa_6' -> 'FIFA+'
+[OK] Canal: 'mjh-seinfeld-fast' -> 'Seinfeld'
+[OK] Canal: 'mjh-seven-ade' -> 'Seven'
+[OK] Canal: 'mjh-seven-bri' -> 'Seven'
+[OK] Canal: 'mjh-seven-cns' -> 'Seven Cairns'
+[OK] Canal: 'mjh-seven-mel' -> 'Seven'
+[OK] Canal: 'mjh-seven-mky' -> 'Seven Mackay'
+[OK] Canal: 'mjh-seven-per' -> 'Seven'
+[OK] Canal: 'mjh-seven-rky' -> 'Seven Rockhampton'
+[OK] Canal: 'mjh-seven-ssc' -> 'Seven Sunshine Coast'
+[OK] Canal: 'mjh-seven-syd' -> 'Seven'
+[OK] Canal: 'mjh-seven-tsv' -> 'Seven Townsville'
+[OK] Canal: 'mjh-seven-twb' -> 'Seven Toowoomba'
+[OK] Canal: 'mjh-seven-wby' -> 'Seven Wide Bay'
+[OK] Canal: 'mjh-sky-news-now' -> 'Sky News Now'
+[OK] Canal: 'mjh-sky-racing-1' -> 'Sky Racing #1'
+sed: -e expression #1, char 52: unknown option to `s'
+Error: Process completed with exit code 1.
+0s
+0s
+0s
+Post job cleanup.
+/usr/bin/git version
+git version 2.51.0
+Temporarily overriding HOME='/home/runner/work/_temp/8cc88e2f-edcb-4d03-91be-e34bc232dfb4' before making global git config changes
+Adding repository directory to the temporary git global config as a safe directory
+/usr/bin/git config --global --add safe.directory /home/runner/work/miEPG-src/miEPG-src
+/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+http.https://github.com/.extraheader
+/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+
+---
+
+_**Assistant**_
+
+🚨 **Error encontrado en AU:** El problema es que el script está intentando descargar las líneas de comentarios como URLs.
+
+**Error específico:**
+```bash
+[INFO] Descargando: # Fuentes EPG para Australia (AU)
+curl: (3) URL rejected: Malformed input to a URL function
+```
+
+El script está leyendo **todas las líneas** del archivo `epgs.txt`, incluyendo los comentarios que empiezan con `#`. **Problema identificado:** El script `EPG_script.sh` no está filtrando las líneas de comentarios. 
+
+---
+

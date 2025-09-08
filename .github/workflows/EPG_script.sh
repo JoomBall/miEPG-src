@@ -14,8 +14,8 @@ echo "[INFO] OUT_XML: $OUT_XML"
 
 rm -f EPG_temp* || true
 
-# Limpieza básica (quitar líneas vacías)
-EPGS_CLEAN="$(mktemp)";    grep -v '^[[:space:]]*$' "$EPGS_FILE"    > "$EPGS_CLEAN"    || true
+# Limpieza básica (quitar líneas vacías y comentarios)
+EPGS_CLEAN="$(mktemp)";    grep -v -E '^[[:space:]]*$|^[[:space:]]*#' "$EPGS_FILE"    > "$EPGS_CLEAN"    || true
 CANALES_CLEAN="$(mktemp)"; grep -v '^[[:space:]]*$' "$CANALES_FILE" > "$CANALES_CLEAN" || true
 
 # 1) Descargar y unir fuentes a texto con una etiqueta por línea
