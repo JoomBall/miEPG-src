@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep  8 09:04:06 UTC 2025
+# Fecha: Mon Sep  8 15:33:54 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -384,7 +384,6 @@
 65ddec1ef7f0af0008be4b65 | Pluto TV Series Sci-Fi
 65dded6966eec80008947157 | Call the Midwife
 65dded9a0d456100081417ae | Primeval
-65eeffc50d4561000836f191 | PRIDEtv
 65f96cd34e01740008ef1c97 | Realmadrid TV
 660c29f80cd4630008f1547c | FIFA+
 662a69daa0a74e00087a1c72 | Pluto TV Telenovelas Clásicas
