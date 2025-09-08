@@ -78,6 +78,15 @@ echo "[INFO] Lista guardada en: $CHANNELS_LIST"
 echo "[DEBUG] Primeros 20 canales disponibles:"
 grep -v '^#' "$CHANNELS_LIST" | head -20 || true
 
+# Verificar si canales.txt contiene "ALL" (incluir todos los canales)
+if grep -q "^ALL$" "$CANALES_CLEAN"; then
+  echo "[INFO] Encontrado 'ALL' en canales.txt - incluyendo todos los canales disponibles"
+  # Crear archivo temporal con todos los canales en formato old,new
+  TEMP_ALL_CHANNELS="$(mktemp)"
+  grep -v '^#' "$CHANNELS_LIST" | grep -v '^$' | sed 's/ | /,/' > "$TEMP_ALL_CHANNELS"
+  CANALES_CLEAN="$TEMP_ALL_CHANNELS"
+fi
+
 # 2) Mapear canales de forma SEGURA: reconstruimos el bloque <channel> explícitamente
 > EPG_channels_mapped.xml
 > EPG_programmes_mapped.xml
