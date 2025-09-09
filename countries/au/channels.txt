@@ -1,82 +1,7 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep  8 15:33:53 UTC 2025
+# Fecha: Tue Sep  9 00:15:27 UTC 2025
 
-ACC | GOOD.
-ACS | Aussie Classics
-ANI | Animal Planet
-ARN | Arena
-ASP | Sky News Extra
-BCS | British Cinema
-BLM | Bloomberg Television
-BXS | BoxSets
-CIN | Real Crime
-CMT | CMC
-CNB | CNBC
-CNN | CNN International
-DID | Investigation Discovery
-DIS | Discovery Channel
-DIT | Discovery Turbo
-DPS | DocPlay
-DRM | DreamWorks
-DTA | TLC
-ES2 | ESPN2
-ESP | ESPN
-F1S | Foxtel One
-FAF | FOX Footy
-FHT | FashionTV
-FKC | Classics
-FNC | FOX News
-FOD | LifeStyle Food
-FOX | FOX8
-FS1 | FOX CRICKET
-FS3 | Fox Sports 503
-FSN | FOX SPORTS NEWS
-FSP | Fox Sports 505
-FSS | Fox Sports More
-FSU | British
-FXW | SKY Weather
-GBN | GB News
-GRR | Movies Greats
-HAL | Universal TV
-HAR | Seinfeld
-HIT | Comedy
-HST | Real History
-IOI | Crime
-LHO | LifeStyle Home
-LMH | Movies Life
-LST | LifeStyle
-MO6 | Movies Drama
-MSN | MSNBC
-MTC | Retro
-MVS | Movies Hits - Funny Guys
-NAP | Australian Played
-NHK | NHK World
-NMU | Kids
-NPO | Get2Know
-NRW | Max
-RLS | Real Life
-RTV | RACING.COM
-SHA | Movies Action
-SHC | Showcase
-SHD | Movies Romance
-SHF | Movies Family
-SHO | Movies Premiere
-SHY | Movies Comedy
-SKY | SKY NEWS
-SP2 | FOX League
-SPS | Fox Sports 506
-SR2 | Sky Racing 2
-SRA | Sky Racing 1
-SRW | Sky Racing Thoroughbred Central
-SUK | SKY NEWS UK
-TMF | Trending
-TRS | More Comedy
-TVS | TVSN
-UFC | Main Event UFC
-UKT | UKTV
-UP2 | Love It Or List It
-VH1 | Club
 mjh-10-adultanimation | Adult Animation
 mjh-10-americas-next-top-model | America's Next Top Model
 mjh-10-anthonybourdain | Anthony Bourdain: Parts Unknown
@@ -200,7 +125,7 @@ mjh-all-starcinema-fast | All-Star Cinema
 mjh-allsaints-fast | All Saints
 mjh-anglersparadise-fast | Anglers Paradise
 mjh-art-fast | Antiques Road Trip
-mjh-ausbiz-fast | ausbiz-fast
+mjh-ausbiz-fast | ausbiz
 mjh-bbc-antiques-roadshow-247-fast | BBC Antiques Roadshow
 mjh-bbc-comedy-fast | BBC Comedy
 mjh-bbc-earth-fast | BBC Earth
@@ -268,7 +193,7 @@ mjh-mightymachines-fast | Mighty Machines
 mjh-mythbusters-fast | Mythbusters
 mjh-onthecase-fast | On The Case
 mjh-outbacktruckers-fast | Outback Truckers
-mjh-propertydreams-fast | Property Dreams
+mjh-qrl-hostplus-cup-2025-fast | QRL Hostplus Cup 2025
 mjh-racing-fast | Racing.com
 mjh-racingwa-fast | Racing WA
 mjh-redbull-tv | Redbull TV
