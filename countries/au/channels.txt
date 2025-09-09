@@ -1,248 +1,79 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep  9 00:15:27 UTC 2025
+# Fecha: Tue Sep  9 10:16:51 UTC 2025
 
-mjh-10-adultanimation | Adult Animation
-mjh-10-americas-next-top-model | America's Next Top Model
-mjh-10-anthonybourdain | Anthony Bourdain: Parts Unknown
-mjh-10-aussiedramapopup | Rush
-mjh-10-australias-next-top-model | Australia's Next Top Model
-mjh-10-becker | Becker
-mjh-10-buzzfeed-food | BuzzFeed Food
-mjh-10-cheapseats | The Cheap Seats
-mjh-10-cops | COPS
-mjh-10-crime-hunters | Crime Hunters
-mjh-10-crime-time | Crime Time
-mjh-10-deadlywomen | Deadly Women
-mjh-10-diagnosismurder | Diagnosis Murder
-mjh-10-documentaryshell | Sharks &amp; Other Predators
-mjh-10-eightoutof10cats | 8 Out Of 10 Cats
-mjh-10-embarrassing-bodies | Embarrassing Bodies
-mjh-10-forty-eight-hours | 48 Hours
-mjh-10-geckotv | Gecko TV
-mjh-10-ghost_hunters | Ghost Hunters
-mjh-10-good-chef-bad-chef | Good Chef Bad Chef
-mjh-10-grahamnorton | The Graham Norton Show
-mjh-10-hardcorepawn | Hardcore Pawn
-mjh-10-haunt-tv | Haunt TV
-mjh-10-haveyoubeenpayingattention | Have You Been Paying Attention?
-mjh-10-highwaythruhell | Highway Thru Hell
-mjh-10-judge-judy | Judge Judy
-mjh-10-masterchef | MasterChef
-mjh-10-medical-emergency | Medical Emergency
-mjh-10-moviesphere | Moviesphere
-mjh-10-mtv-jersey-shore | MTV Jersey Shore
-mjh-10-mtv-reality | MTV Reality
-mjh-10-mtvgeordieshore | MTV Geordie Shore
-mjh-10-mtvridiculousness | MTV Ridiculousness
-mjh-10-naturetime | NatureTime
-mjh-10-nick-jr | Nick Jr Club
-mjh-10-nickteen | NickTeen
-mjh-10-nicktoons | NickToons
-mjh-10-nicktoons-90s | NickToons 90s
-mjh-10-nsw | 10
-mjh-10-prisoner-cell-block-h | Prisoner: Cell Block H
-mjh-10-projectrunway | Project Runway
-mjh-10-qld | 10
-mjh-10-sa | 10
-mjh-10-seasonalmovies | Thriller Movies
-mjh-10-south-park | South Park
-mjh-10-south-park-two | South Park: Stan Collection
-mjh-10-spongebobsquarepants | SpongeBob SquarePants
-mjh-10-thankgodyourehere | Thank God You're Here
-mjh-10-the-twilight-zone | The Twilight Zone
-mjh-10-thedoghouse | The Dog House
-mjh-10-theonlywayisessex | The Only Way Is Essex
-mjh-10-true-stories | True Stories
-mjh-10-undercoverboss | Undercover Boss
-mjh-10-vic | 10
-mjh-10-wa | 10
-mjh-10-wicked-tuna | Wicked Tuna
-mjh-10-world-of-survivor | World Of Survivor
-mjh-10-youtv | YouTV
-mjh-10bold-nsw | 10 Drama
-mjh-10bold-qld | 10 Drama
-mjh-10bold-sa | 10 Drama
-mjh-10bold-vic | 10 Drama
-mjh-10bold-wa | 10 Drama
-mjh-10peach-nsw | 10 Comedy
-mjh-10peach-qld | 10 Comedy
-mjh-10peach-sa | 10 Comedy
-mjh-10peach-vic | 10 Comedy
-mjh-10peach-wa | 10 Comedy
-mjh-10shake-nsw | Nickelodeon
-mjh-10shake-qld | Nickelodeon
-mjh-10shake-sa | Nickelodeon
-mjh-10shake-vic | Nickelodeon
-mjh-10shake-wa | Nickelodeon
-mjh-2gb-sydney | 2GB Sydney
-mjh-3aw-melbourne | 3AW Melbourne
-mjh-4bc-brisbane | 4BC Brisbane
-mjh-60-minutes-australia-fast | 60 Minutes Australia
-mjh-6pr-perth | 6PR Perth
-mjh-7afl-fast | 7AFL
-mjh-7bravo-fast | 7Bravo
-mjh-7flix-ade | 7flix
-mjh-7flix-bri | 7flix
-mjh-7flix-mel | 7flix
-mjh-7flix-per | 7flix
-mjh-7flix-regional | 7flix Regional
-mjh-7flix-syd | 7flix
-mjh-7mate-ade | 7mate
-mjh-7mate-bri | 7mate
-mjh-7mate-mel | 7mate
-mjh-7mate-per | 7mate
-mjh-7mate-regional | 7mate Regional
-mjh-7mate-syd | 7mate
-mjh-7now-fast | 7now
-mjh-7two-ade | 7two
-mjh-7two-bri | 7two
-mjh-7two-mel | 7two
-mjh-7two-per | 7two
-mjh-7two-regional | 7two Regional
-mjh-7two-syd | 7two
-mjh-9crime-fast | 9Crime
-mjh-9mysteryparanormal-fast | 9Mystery&amp;Paranormal
-mjh-abc-90-seconds-business | ABC Business in 90 Seconds
-mjh-abc-90-seconds-news | ABC News in 90 Seconds
-mjh-abc-90-seconds-sport | ABC Sport in 90 Seconds
-mjh-abc-90-seconds-weather | ABC Weather in 90 Seconds
-mjh-abc-act | ABC TV
-mjh-abc-kids | ABC Kids
-mjh-abc-me | ABC Entertains
-mjh-abc-news | ABC NEWS
-mjh-abc-nsw | ABC TV
-mjh-abc-nt | ABC TV
-mjh-abc-qld | ABC TV
-mjh-abc-sa | ABC TV
-mjh-abc-tas | ABC TV
-mjh-abc-tv-plus | ABC Family
-mjh-abc-vic | ABC TV
-mjh-abc-wa | ABC TV
-mjh-acountrypractice-fast | A Country Practice
-mjh-al-jazeera | Al Jazeera
-mjh-all-starcinema-fast | All-Star Cinema
-mjh-allsaints-fast | All Saints
-mjh-anglersparadise-fast | Anglers Paradise
-mjh-art-fast | Antiques Road Trip
-mjh-ausbiz-fast | ausbiz
-mjh-bbc-antiques-roadshow-247-fast | BBC Antiques Roadshow
-mjh-bbc-comedy-fast | BBC Comedy
-mjh-bbc-earth-fast | BBC Earth
-mjh-bbc-food-fast | BBC Food
-mjh-bbc-home-garden-fast | BBC Home &amp; Garden
-mjh-bbc-news | BBC News
-mjh-bbc-top-gear-247-fast | BBC Top Gear
-mjh-belowdeckvault-fast | BelowDeckVault
-mjh-betterhomesandgardens-fast | Better Homes And Gardens
-mjh-bigbrother-fast | Big Brother
-mjh-bloomberg-tv | Bloomberg TV
-mjh-blueheelers-fast | Blue Heelers
-mjh-bluelight-fast | Blue Light
-mjh-bordersecurityaustralia-fast | Border Security Australia
-mjh-btv-fast | btv-fast
-mjh-c31 | Channel 31
-mjh-c44 | Channel 44
-mjh-cas21-fast | Ghost Hunters
-mjh-cas24-fast | Bondi Vet
-mjh-cas25-fast | Australia's Got Talent
-mjh-cas26-fast | Home and Away Classics
-mjh-cas29-fast | Cooking &amp; Culture
-mjh-cas32-fast | 7NEWS Spotlight
-mjh-cas33-fast | The Yorkshire Vet
-mjh-channel-9-gold-coast | Channel 9 (Gold Coast)
-mjh-channel-9-lismore | Channel 9 (Norther Rivers)
-mjh-channel-9-newcastle | Channel 9 (Newcastle)
-mjh-channel-9-nsw | Channel 9
-mjh-channel-9-qld | Channel 9
-mjh-channel-9-sa | Channel 9
-mjh-channel-9-vic | Channel 9
-mjh-channel-9-wa | Channel 9
-mjh-channel-news-asia | Channel News Asia (CNA)
-mjh-csicrimesceneinvestigation-fast | CSI Crime Scene Investigation
-mjh-dance-moms-247-fast | Dance Moms 24/7
-mjh-drive-fast | Drive
-mjh-dw-news | DW English
-mjh-etc-fast | Escape to the Country
-mjh-gem-nsw | 9Gem
-mjh-gem-qld | 9Gem
-mjh-gem-sa | 9Gem
-mjh-gem-vic | 9Gem
-mjh-gem-wa | 9Gem
-mjh-go-nsw | 9Go!
-mjh-go-qld | 9Go!
-mjh-go-sa | 9Go!
-mjh-go-vic | 9Go!
-mjh-go-wa | 9Go!
-mjh-good-dot | GOOD.
-mjh-h2-fast | H2
-mjh-hardcorepawn-fast | Hardcore Pawn
-mjh-heki-fast | Hells Kitchen
-mjh-hotones-fast | HOT ONES
-mjh-judgejudy-fast | Judge Judy
-mjh-life-nsw | 9Life
-mjh-life-qld | 9Life
-mjh-life-sa | 9Life
-mjh-life-vic | 9Life
-mjh-life-wa | 9Life
-mjh-livgolfreplays-fast | LIV Golf Replays
-mjh-lmn-fast | LMN
-mjh-married-at-first-sight-fast | Married At First Sight
-mjh-medicalnrescue-fast | Medical And Rescue
-mjh-mightymachines-fast | Mighty Machines
-mjh-mythbusters-fast | Mythbusters
-mjh-onthecase-fast | On The Case
-mjh-outbacktruckers-fast | Outback Truckers
-mjh-qrl-hostplus-cup-2025-fast | QRL Hostplus Cup 2025
-mjh-racing-fast | Racing.com
-mjh-racingwa-fast | Racing WA
-mjh-redbull-tv | Redbull TV
-mjh-rmc-fast | River Monsters
-mjh-rush-nsw | 9Rush
-mjh-rush-qld | 9Rush
-mjh-rush-sa | 9Rush
-mjh-rush-vic | 9Rush
-mjh-rush-wa | 9Rush
-mjh-sbs-2syd | SBS VICELAND
-mjh-sbs-3syd | SBS Food
-mjh-sbs-4syd | SBS World Movies
-mjh-sbs-5nsw | NITV
-mjh-sbs-6nat | SBS WorldWatch
-mjh-sbs-7faa | Planet Luke Nguyen
-mjh-sbs-euronews | euronews
-mjh-sbs-france24 | France 24
-mjh-sbs-sbs-chill | SBS Chill
-mjh-sbs-sbs-pop-araby | SBS Arabic
-mjh-sbs-sbs-pop-asia | SBS PopAsia
-mjh-sbs-sbs-pop-desi | SBS South Asian
-mjh-sbs-sbs-radio-1 | SBS Radio 1
-mjh-sbs-sbs-radio-2 | SBS Radio 2
-mjh-sbs-sbs-radio-3 | SBS Radio 3
-mjh-sbs-sbst | SBS
-mjh-sbs-sysdata_s_p_a_fifa_6 | FIFA+
-mjh-seinfeld-fast | Seinfeld
-mjh-seven-ade | Seven
-mjh-seven-bri | Seven
-mjh-seven-cns | Seven Cairns
-mjh-seven-mel | Seven
-mjh-seven-mky | Seven Mackay
-mjh-seven-per | Seven
-mjh-seven-rky | Seven Rockhampton
-mjh-seven-ssc | Seven Sunshine Coast
-mjh-seven-syd | Seven
-mjh-seven-tsv | Seven Townsville
-mjh-seven-twb | Seven Toowoomba
-mjh-seven-wby | Seven Wide Bay
-mjh-sky-news-now | Sky News Now
-mjh-sky-racing-1 | Sky Racing #1
-mjh-sky-racing-2 | Sky Racing #2
-mjh-sky-racing-thoroughbred | Sky Racing - Thoroughbred Central
-mjh-snowy-mountains | Snowy Mountains Television
-mjh-taste-fast | Taste
-mjh-the-block-247-fast | The Block 24/7
-mjh-travelaus-fast | Travel Australia
-mjh-truecrimefiles-fast | True Crime Files
-mjh-tvsn-fast | TVSN
-mjh-waterrats-fast | Water Rats
-mjh-winnersnlosers-fast | Winners and Losers
-mjh-wtn-fast | Wicked Tuna
+ACC | GOOD.
+ACS | Aussie Classics
+ANI | Animal Planet
+ARN | Arena
+ASP | Sky News Extra
+BCS | British Cinema
+BLM | Bloomberg Television
+BXS | BoxSets
+CIN | Real Crime
+CMT | CMC
+CNB | CNBC
+CNN | CNN International
+DID | Investigation Discovery
+DIS | Discovery Channel
+DIT | Discovery Turbo
+DPS | DocPlay
+DRM | DreamWorks
+DTA | TLC
+ES2 | ESPN2
+ESP | ESPN
+F1S | Foxtel One
+FAF | FOX Footy
+FHT | FashionTV
+FKC | Classics
+FNC | FOX News
+FOD | LifeStyle Food
+FOX | FOX8
+FS1 | FOX CRICKET
+FS3 | Fox Sports 503
+FSN | FOX SPORTS NEWS
+FSP | Fox Sports 505
+FSS | Fox Sports More
+FSU | British
+FXW | SKY Weather
+GBN | GB News
+GRR | Movies Greats
+HAL | Universal TV
+HAR | Seinfeld
+HIT | Comedy
+HST | Real History
+IOI | Crime
+LHO | LifeStyle Home
+LMH | Movies Life
+LST | LifeStyle
+MO6 | Movies Drama
+MSN | MSNBC
+MTC | Retro
+MVS | Movies Hits - Funny Guys
+NAP | Australian Played
+NHK | NHK World
+NMU | Kids
+NPO | Get2Know
+NRW | Max
+RLS | Real Life
+RTV | RACING.COM
+SHA | Movies Action
+SHC | Showcase
+SHD | Movies Romance
+SHF | Movies Family
+SHO | Movies Premiere
+SHY | Movies Comedy
+SKY | SKY NEWS
+SP2 | FOX League
+SPS | Fox Sports 506
+SR2 | Sky Racing 2
+SRA | Sky Racing 1
+SRW | Sky Racing Thoroughbred Central
+SUK | SKY NEWS UK
+TMF | Trending
+TRS | More Comedy
+TVS | TVSN
+UFC | Main Event UFC
+UKT | UKTV
+UP2 | Love It Or List It
+VH1 | Club
