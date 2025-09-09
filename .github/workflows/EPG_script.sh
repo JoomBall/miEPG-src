@@ -252,13 +252,76 @@ mv "$TEMP_SANITIZED" "EPG_programmes_mapped.xml"
   echo '</tv>'
 } > "$OUT_XML"
 
-# 5) Chequeos de sanidad XML
+# 5) MEJORA DE CALIDAD EPG - Eliminar duplicados y optimizar horarios
+echo "[INFO] Aplicando mejoras de calidad EPG..."
+
+# Función para eliminar duplicados por canal+horario
+remove_duplicate_programmes() {
+  local input_file="$1"
+  local output_file="$2"
+  
+  echo "[INFO] Eliminando programas duplicados..."
+  
+  # Usar Python para procesar duplicados de manera más eficiente
+  python3 -c "
+import xml.etree.ElementTree as ET
+import sys
+from collections import defaultdict
+
+try:
+    tree = ET.parse('$input_file')
+    root = tree.getroot()
+    
+    # Crear diccionario para detectar duplicados
+    seen_programmes = set()
+    programmes_to_remove = []
+    
+    for prog in root.findall('programme'):
+        channel = prog.get('channel', '')
+        start = prog.get('start', '')
+        stop = prog.get('stop', '')
+        
+        # Crear clave única basada en canal + horarios
+        key = f'{channel}|{start}|{stop}'
+        
+        if key in seen_programmes:
+            programmes_to_remove.append(prog)
+        else:
+            seen_programmes.add(key)
+    
+    # Remover duplicados
+    duplicates_count = len(programmes_to_remove)
+    for prog in programmes_to_remove:
+        root.remove(prog)
+    
+    # Guardar XML limpio
+    tree.write('$output_file', encoding='utf-8', xml_declaration=True)
+    print(f'[INFO] Duplicados eliminados: {duplicates_count}')
+    
+except Exception as e:
+    print(f'[ERROR] Error procesando duplicados: {e}')
+    # En caso de error, copiar archivo original
+    import shutil
+    shutil.copy('$input_file', '$output_file')
+"
+}
+
+# Crear archivo temporal para procesamiento
+TEMP_DEDUP="${OUT_XML}.dedup"
+remove_duplicate_programmes "$OUT_XML" "$TEMP_DEDUP"
+
+# Reemplazar archivo original con versión sin duplicados
+if [ -f "$TEMP_DEDUP" ]; then
+  mv "$TEMP_DEDUP" "$OUT_XML"
+fi
+
+# 6) Chequeos de sanidad XML
 OPEN_CHANNELS=$(grep -c '<channel id="' "$OUT_XML" || echo 0)
 CLOSE_CHANNELS=$(grep -c '</channel>'     "$OUT_XML" || echo 0)
 OPEN_PROGRAMMES=$(grep -c '<programme[[:space:]>]' "$OUT_XML" || echo 0)
 CLOSE_PROGRAMMES=$(grep -c '</programme>'     "$OUT_XML" || echo 0)
 
-echo "[INFO] Validación XML:"
+echo "[INFO] Validación XML final:"
 echo "[INFO] Canales -> abiertos: $OPEN_CHANNELS | cerrados: $CLOSE_CHANNELS"
 echo "[INFO] Programmes -> abiertos: $OPEN_PROGRAMMES | cerrados: $CLOSE_PROGRAMMES"
 

@@ -1,9 +1,21 @@
-# Fuentes EPG para Estados Unidos (US)
-# Fuentes principales de streaming y TV
-https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz
-https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml.gz
-https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PBS/all.xml.gz
+# Fuentes EPG para Estados Unidos (US) - VERSIÓN OPTIMIZADA
+# REDUCIENDO FUENTES PARA EVITAR DUPLICADOS Y CONFLICTOS
+
+# FUENTE PRINCIPAL - MeTV (muy confiable, sin duplicados)
 https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/MeTV/epg.xml.gz
+
+# FUENTE SECUNDARIA - PlutoTV US (amplia cobertura)
+https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz
+
+# Fuentes alternativas EPG - iptv-org/epg
+# Nota: Las fuentes de iptv-org/epg requieren procesamiento específico
+# y pueden necesitar configuración adicional de canales
+# https://raw.githubusercontent.com/iptv-org/epg/master/sites/tvtv.us/tvtv.us.channels.xml
+# https://raw.githubusercontent.com/iptv-org/epg/master/sites/zap2it.com/zap2it.com.channels.xml
+# https://raw.githubusercontent.com/iptv-org/epg/master/sites/pluto.tv/pluto.tv.channels.xml
+# https://raw.githubusercontent.com/iptv-org/epg/master/sites/samsungtvplus.com/samsungtvplus.com.channels.xml
+# https://raw.githubusercontent.com/iptv-org/epg/master/sites/xumo.tv/xumo.tv.channels.xml
+
 
 
 # FAST / AVOD (alto % de cobertura)
