@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep  9 10:16:51 UTC 2025
+# Fecha: Wed Sep 10 00:15:05 UTC 2025
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -49,7 +49,7 @@ LST | LifeStyle
 MO6 | Movies Drama
 MSN | MSNBC
 MTC | Retro
-MVS | Movies Hits - Funny Guys
+MVS | Movies Hits - Science Fiction
 NAP | Australian Played
 NHK | NHK World
 NMU | Kids
