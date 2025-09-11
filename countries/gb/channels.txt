@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Sep 10 00:15:03 UTC 2025
+# Fecha: Thu Sep 11 00:15:16 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -420,7 +420,7 @@ GB300032DX | Now 70's
 GB300033HI | Now 90's &amp; 00's
 GB30003577 | talkSPORT
 GB300036IM | PGA Tour
-GB3000370X | GREAT! Mystery
+GB3000370X | GREAT! Christmas
 GB3000387J | Antiques Road Trip
 GB32000024G | British Screen Classics
 GB330000144 | RugbyPass TV
