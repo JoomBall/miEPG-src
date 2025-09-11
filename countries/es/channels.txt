@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Sep 10 00:15:03 UTC 2025
+# Fecha: Thu Sep 11 00:15:35 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -180,7 +180,7 @@
 643054b1fc3be59477853717-621672e42c2627c068e73ad8 | Galxy TV
 643054b1fc3be59477853717-621674502c2627c068e73ada | FrightFlix
 643054b1fc3be59477853717-621674f168c966be92737ce6 | El Conflicto TV
-643054b1fc3be59477853717-6216ae22c3bbca2de8704f65 | CampusLore Sports
+643054b1fc3be59477853717-6216ae22c3bbca2de8704f65 | Sports Illustrated TV
 643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9 | Euronews Portuguese
 643054b1fc3be59477853717-6245efe9f137de43897ea1ae | Euronews Deutsch
 643054b1fc3be59477853717-6245f06793b402a3d1097787 | Euronews Français
@@ -582,11 +582,6 @@ DAZN LaLiga 4 | DAZN LaLiga 4
 DAZN LaLiga 5 | DAZN LaLiga 5
 DAZN LaLiga HD | DAZN LaLiga
 DAZN Liga F 2 | DAZN Liga F 2
-DAZN Liga F 3 | DAZN Liga F 3
-DAZN Liga F 4 | DAZN Liga F 4
-DAZN Liga F 5 | DAZN Liga F 5
-DAZN Liga F 6 | DAZN Liga F 6
-DAZN Liga F 7 | DAZN Liga F 7
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
 DAZN Premier League 2 | DAZN Premier League 2
@@ -1411,6 +1406,8 @@ action-rakuten-tv | Películas de Acción
 actualidad-360 | Actualidad 360
 africanews-eng | Africanews
 ana-y-los-7 | Ana y los 7
+animevision | AnimeVisión
+animevision-classics | AnimeVisión Classics
 baby-shark-tv | Baby Shark TV
 bbc-drama-es | BBC Drama
 bbc-top-gear-spa | Top Gear en español
@@ -1440,6 +1437,8 @@ el-conquistador | El Conquistador
 el-pais | El País
 euronews-live-spa | Euronews EN DIRECTO
 family-rakuten-tv | En Familia
+fashion-tv | Fashion TV
+feel-good-tv | Feel Good TV
 feelgood | FeelGood
 fifa-plus-es-new | FIFA+
 filmco | Film&amp;Co
@@ -1525,6 +1524,7 @@ trailers | Trailers
 travelxp-es | Travelxp
 tvmataró | tvmataró
 vaya-semanita | Vaya semanita
+verdi-tv | Verdi TV
 vevo-latino-es | Vevo Latino
 vevo-pop-es | Vevo Pop
 vive-kanal-d-drama | Vive Kanal D Drama
