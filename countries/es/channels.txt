@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Sep 11 00:15:35 UTC 2025
+# Fecha: Fri Sep 12 00:15:20 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -237,6 +237,7 @@
 643054b1fc3be59477853717-643f0ecd76de2b4015ae6c01 | PFL MMA
 643054b1fc3be59477853717-64487696af92c31f4a190bc4 | MyTime Movie Network
 643054b1fc3be59477853717-6448ba1baf92c31f4a190c27 | JAIL
+643054b1fc3be59477853717-6449369eb3ff17382cae5801 | Dick Van Dyke
 643054b1fc3be59477853717-644b13a3a1c0a5b2024c8403 | Strongman Champions
 643054b1fc3be59477853717-64694d52f73356567a64ce8c | Corazón
 643054b1fc3be59477853717-6469502df73356567a64ce8e | Clic
@@ -427,6 +428,7 @@ AMC Anime | AMC Anime
 AMC Break | AMC Break
 AMC Crime | AMC Crime
 AMC HD | AMC
+AMC+ Connect | AMC+ Connect
 AMC.Break.es | AMC Break
 AMC.Crime.es | AMC Crime
 AMC.es | AMC
@@ -544,7 +546,6 @@ Cines.Verdi.TV.es | Cines Verdi TV
 Clan | Clan
 Clan.es | Clan
 Classica HD | Classica
-Club MTV | Club MTV
 Club.MTV.International.es | Club MTV International
 Clásicos atresplayer | Clásicos atresplayer
 Comedia atresplayer | Comedia atresplayer
@@ -959,6 +960,7 @@ Hits.por.M+.es | Hits por M+
 Hollywood.+1.es | Hollywood +1
 Hollywood.es | Hollywood
 Horse TV | Horse TV
+Huelva TV | Huelva TV
 IB3 TV Illes Balears | IB3 TV Illes Balears
 Iberalia TV | Iberalia TV
 Iberalia caza | Iberalia caza
@@ -1068,17 +1070,25 @@ M+ LaLiga 5 | M+ LaLiga 5
 M+ LaLiga 6 | M+ LaLiga 6
 M+ LaLiga HD | M+ LaLiga
 M+ LaLiga HDR | M+ LaLiga HDR
+M+ Liga de Campeones 10 | M+ Liga de Campeones 10
+M+ Liga de Campeones 11 | M+ Liga de Campeones 11
+M+ Liga de Campeones 12 | M+ Liga de Campeones 12
+M+ Liga de Campeones 13 | M+ Liga de Campeones 13
 M+ Liga de Campeones 2 HD | M+ Liga de Campeones 2
 M+ Liga de Campeones 2 HDR | M+ Liga de Campeones 2 HDR
 M+ Liga de Campeones 3 HD | M+ Liga de Campeones 3
 M+ Liga de Campeones 4 | M+ Liga de Campeones 4
 M+ Liga de Campeones 5 | M+ Liga de Campeones 5
+M+ Liga de Campeones 6 | M+ Liga de Campeones 6
+M+ Liga de Campeones 7 | M+ Liga de Campeones 7
+M+ Liga de Campeones 8 | M+ Liga de Campeones 8
+M+ Liga de Campeones 9 | M+ Liga de Campeones 9
 M+ Liga de Campeones HD | M+ Liga de Campeones
 M+ Liga de Campeones HDR | M+ Liga de Campeones HDR
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
-M+ Vacaciones | M+ Vacaciones
+M+ San Sebastián | M+ Vacaciones
 M+ Vamos HD | M+ Vamos
 M+ Wimbledon UHD | M+ Wimbledon
 M+.Acción.es | M+ Acción
@@ -1126,11 +1136,8 @@ M+.Originales.es | M+ Originales
 M+.Vamos.es | M+ Vamos
 M6 | M6
 MTV 00s | MTV 00s
-MTV 80s | MTV 80s
-MTV 90s | MTV 90s
 MTV Classic | MTV Classic
 MTV España | MTV España
-MTV Hits HD | MTV Hits
 MTV Live | MTV Live
 MTV.80s.es | MTV 80s
 MTV.90s.es | MTV 90s
