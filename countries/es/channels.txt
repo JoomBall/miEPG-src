@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Sep 13 00:14:10 UTC 2025
+# Fecha: Sun Sep 14 00:16:17 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -956,6 +956,7 @@ GolStadium | GolStadium
 Gulli | Gulli
 HBO Max Avances | HBO Max Avances
 HBO.Max.Avances.es | HBO Max Avances
+HIT TV | HIT TV
 Heritage+.es | Heritage+
 Historia y Vida | Historia y Vida
 Historia | Historia
@@ -1079,6 +1080,12 @@ M+ Liga de Campeones 10 | M+ Liga de Campeones 10
 M+ Liga de Campeones 11 | M+ Liga de Campeones 11
 M+ Liga de Campeones 12 | M+ Liga de Campeones 12
 M+ Liga de Campeones 13 | M+ Liga de Campeones 13
+M+ Liga de Campeones 14 | M+ Liga de Campeones 14
+M+ Liga de Campeones 15 | M+ Liga de Campeones 15
+M+ Liga de Campeones 16 | M+ Liga de Campeones 16
+M+ Liga de Campeones 17 | M+ Liga de Campeones 17
+M+ Liga de Campeones 18 | M+ Liga de Campeones 18
+M+ Liga de Campeones 19 | M+ Liga de Campeones 19
 M+ Liga de Campeones 2 HD | M+ Liga de Campeones 2
 M+ Liga de Campeones 2 HDR | M+ Liga de Campeones 2 HDR
 M+ Liga de Campeones 3 HD | M+ Liga de Campeones 3
@@ -1322,6 +1329,7 @@ TUDN (Estados Unidos) | TUDN (Estados Unidos)
 TUDN (México) | TUDN (México)
 TV Berguedà | TV Berguedà
 TV Canaria | TV Canaria
+TV Ceuta | TV Ceuta
 TV Chile | TV Chile
 TV Costa Brava | TV Costa Brava
 TV Girona | TV Girona
