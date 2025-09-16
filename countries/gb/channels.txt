@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep 15 00:16:38 UTC 2025
+# Fecha: Tue Sep 16 00:14:48 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -110,7 +110,6 @@
 6462190b7cb4b1000862dd60 | Pluto TV Alien Invasion
 64634eb42858cb0008fd92d6 | How To Use Pluto TV
 647f09e5f77b61000823ff24 | Tattoo Fixers
-6487148edc7a7600089e92d3 | Pluto TV Hot Summer Nights
 6490254fd2c47c00083a5743 | Now 80's
 64c0d6765dc1660008a3e033 | U&amp;Transport
 64c0d697b0cf5c000824e5d9 | U&amp;The Past
@@ -131,6 +130,7 @@
 656ef4af4261ca00083c8f37 | Totally Turtles
 65a6a5e90c7ff50008cb9815 | Funny AF
 65a6a7a00c7ff50008cba07b | Pluto TV Crime Drama
+65a7ab137bdc8d0008487dfb | Pluto TV Erotica
 65a7af553af63d000828acca | Cash In The Attic
 65a7b01907e03a0008913e8f | Best of Dr. Phil
 65a7b0814a10d800085ff2df | Pluto TV PetrolHeads
