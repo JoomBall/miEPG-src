@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Sep 17 00:15:04 UTC 2025
+# Fecha: Thu Sep 18 00:14:47 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -401,4 +401,5 @@
 68758038552299d2b08162e3 | Law &amp; Order
 687fea9a4fa995eff284a1c8 | Más adrenalina
 687ff00ff6bc08130f16ab81 | Beyond the Gates
+68939e206727ec919bb39061 | Hogan's Heroes
 metv | MeTV
