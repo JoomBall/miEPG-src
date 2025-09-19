@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Sep 18 00:14:47 UTC 2025
+# Fecha: Fri Sep 19 00:15:20 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -396,10 +396,16 @@
 686c1c873ffa5e0c91a85938 | Cine Crimen
 686c2677ed17cf4c900a496d | Wicked Tuna
 686d61503484d6073283059d | Black Family Sitcoms
+686d8dd294a028da3ac59566 | Women's Sports Network
 68757c45759366af05b3b199 | America's Next Top Model
 68757c60552299d2b080eab6 | Project Runway
 68758038552299d2b08162e3 | Law &amp; Order
 687fea9a4fa995eff284a1c8 | Más adrenalina
 687ff00ff6bc08130f16ab81 | Beyond the Gates
+6887a4e01067b66fa16966ec | Live PD Presents
+6887a86be3703b7d42b3eca3 | Matched Married Meet by Lifetime
+6887a8fd8e92b5e0a7244e88 | Ancient Aliens
+6887aaade3703b7d42b64be8 | The First 48 by A&amp;E
+6887aaf4e3703b7d42b71a1e | Storage Wars by A&amp;E
 68939e206727ec919bb39061 | Hogan's Heroes
 metv | MeTV
