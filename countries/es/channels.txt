@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Sep 19 00:15:26 UTC 2025
+# Fecha: Sat Sep 20 00:14:44 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -115,7 +115,6 @@
 643054b1fc3be59477853717-5ef4e1b40d9ad000423c4430 | Maverick Black Cinema
 643054b1fc3be59477853717-5efe1de6e0b3f5003f5d9f82 | The Boat Show
 643054b1fc3be59477853717-5efe1de6e0b3f5003f5d9f88 | The Bob Ross Channel
-643054b1fc3be59477853717-5efe1de7e0b3f5003f5d9f8e | Gravitas Movies
 643054b1fc3be59477853717-5f0641d3e8ffda004033b16e | The Design Network
 643054b1fc3be59477853717-5f07e9fdf313eb0041bbecda | Cooking Panda
 643054b1fc3be59477853717-5f0ff262d71dcb00449ec015 | Nosey
@@ -358,6 +357,8 @@
 643054b1fc3be59477853717-688b7f47c8caf40b4a62239f | Newsmax en Español
 643054b1fc3be59477853717-688d3402a6fe30698ab42007 | ITV Deportes
 643054b1fc3be59477853717-689e1f0dd84bfb3d54b6756f | Bizaar
+643054b1fc3be59477853717-68b9f334fc12601028c5651e | World Billiards TV
+643054b1fc3be59477853717-68b9f5a3d60e5dd29263c7ac | NEW KFOOD
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -1251,7 +1252,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV NBA | PT | Sport TV NBA
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
