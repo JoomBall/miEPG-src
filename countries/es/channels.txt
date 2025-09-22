@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Sep 21 00:16:48 UTC 2025
+# Fecha: Mon Sep 22 00:16:44 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -590,6 +590,11 @@ DAZN LaLiga 5 | DAZN LaLiga 5
 DAZN LaLiga HD | DAZN LaLiga
 DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F 3 | DAZN Liga F 3
+DAZN Liga F 4 | DAZN Liga F 4
+DAZN Liga F 5 | DAZN Liga F 5
+DAZN Liga F 6 | DAZN Liga F 6
+DAZN Liga F 7 | DAZN Liga F 7
+DAZN Liga F 8 | DAZN Liga F 8
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
 DAZN Premier League 2 | DAZN Premier League 2
