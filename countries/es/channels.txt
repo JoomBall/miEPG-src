@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep 22 00:16:44 UTC 2025
+# Fecha: Tue Sep 23 00:15:30 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -18,9 +18,9 @@
 24 horas Canarias | 24 horas Canarias
 24 horas Cataluña | 24 horas Cataluña
 3/24.es | 3/24
-324 Catalunya | 324 Catalunya
-324 | 324
 324.es | 324
+3CatInfo Catalunya | 3CatInfo Catalunya
+3CatInfo | 3CatInfo
 4K.Travel.TV.es | 4K Travel TV
 5-minutes-craft-es | Ideas en 5 minutos
 5f1aa9bcd8160700076d45d1 | Pluto TV Junior
@@ -614,20 +614,22 @@ DBike | DBike
 DE | ARTE | DE | ARTE
 DE | DAZN 1 | DE | DAZN 1
 DE | DAZN 2 | DE | DAZN 2
-DE | DAZN | DE | DAZN
 DE | Das Erste | DE | Das Erste
 DE | Eurosport 1 | DE | Eurosport 1
 DE | Eurosport 2 | DE | Eurosport 2
 DE | KiKA | DE | KiKA
-DE | MOTORVISION.TV | DE | MOTORVISION.TV
+DE | MS Sport | DE | MS Sport
 DE | MTV | DE | MTV
+DE | MagentaSport | DE | MagentaSport
+DE | More Than Sports TV | DE | More Than Sports TV
+DE | Motorvision+ | DE | Motorvision+
 DE | QVC | DE | QVC
 DE | RTL | DE | RTL
 DE | Rally TV | DE | Rally TV
+DE | Red Bull TV Motorsport | DE | Red Bull TV Motorsport
 DE | Red Bull TV | DE | Red Bull TV
-DE | SPORT1+ | DE | SPORT1+
+DE | SPORT1 | DE | SPORT1
 DE | SPORTDIGITAL FUSSBALL | DE | SPORTDIGITAL FUSSBALL
-DE | Servus TV Motorsport | DE | Servus TV Motorsport
 DE | Sky Sport 1 | DE | Sky Sport 1
 DE | Sky Sport 10 | DE | Sky Sport 10
 DE | Sky Sport 2 | DE | Sky Sport 2
@@ -638,7 +640,14 @@ DE | Sky Sport 6 | DE | Sky Sport 6
 DE | Sky Sport 7 | DE | Sky Sport 7
 DE | Sky Sport 8 | DE | Sky Sport 8
 DE | Sky Sport 9 | DE | Sky Sport 9
-DE | Sky Sport Austria | DE | Sky Sport Austria
+DE | Sky Sport Austria 1 | DE | Sky Sport Austria 1
+DE | Sky Sport Austria 2 | DE | Sky Sport Austria 2
+DE | Sky Sport Austria 3 | DE | Sky Sport Austria 3
+DE | Sky Sport Austria 4 | DE | Sky Sport Austria 4
+DE | Sky Sport Austria 5 | DE | Sky Sport Austria 5
+DE | Sky Sport Austria 6 | DE | Sky Sport Austria 6
+DE | Sky Sport Austria 7 | DE | Sky Sport Austria 7
+DE | Sky Sport Austria 8 | DE | Sky Sport Austria 8
 DE | Sky Sport Bundesliga 1 | DE | Sky Sport Bundesliga 1
 DE | Sky Sport Bundesliga 10 | DE | Sky Sport Bundesliga 10
 DE | Sky Sport Bundesliga 2 | DE | Sky Sport Bundesliga 2
@@ -652,14 +661,16 @@ DE | Sky Sport Bundesliga 9 | DE | Sky Sport Bundesliga 9
 DE | Sky Sport Bundesliga | DE | Sky Sport Bundesliga
 DE | Sky Sport F1 | DE | Sky Sport F1
 DE | Sky Sport Golf | DE | Sky Sport Golf
+DE | Sky Sport Kompakt 1 | DE | Sky Sport Kompakt 1
 DE | Sky Sport Mix | DE | Sky Sport Mix
 DE | Sky Sport News | DE | Sky Sport News
 DE | Sky Sport Premier League | DE | Sky Sport Premier League
 DE | Sky Sport Tennis | DE | Sky Sport Tennis
 DE | Sky Sport Top Event | DE | Sky Sport Top Event
+DE | Sportdigital1+ | DE | Sportdigital1+
 DE | TRT Türk HD | DE | TRT Türk
 DE | ZDF | DE | ZDF
-DE | eSPORTS1 | DE | eSPORTS1
+DE | eSportsONE | DE | eSportsONE
 DKISS | DKISS
 DMAX | DMAX
 DMAX.es | DMAX
