@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep 23 00:15:27 UTC 2025
+# Fecha: Wed Sep 24 00:15:14 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -399,6 +399,7 @@
 686d8dd294a028da3ac59566 | Women's Sports Network
 68757c45759366af05b3b199 | America's Next Top Model
 68757c60552299d2b080eab6 | Project Runway
+68757effdf333e336be1e49f | Tony Robbins Network
 68758038552299d2b08162e3 | Law &amp; Order
 687fea9a4fa995eff284a1c8 | Más adrenalina
 687ff00ff6bc08130f16ab81 | Beyond the Gates
