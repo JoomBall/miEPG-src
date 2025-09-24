@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep 23 00:15:30 UTC 2025
+# Fecha: Wed Sep 24 00:15:13 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -188,7 +188,6 @@
 643054b1fc3be59477853717-627ec46a92d8e6a705784bd1 | Ninja Kidz TV
 643054b1fc3be59477853717-62ab5aabbb869dd0df6a3487 | TED
 643054b1fc3be59477853717-62ba4aaff663580a7238f327 | Sonic TV
-643054b1fc3be59477853717-62c8a2d2d774648bcc76a116 | Fite 24/7
 643054b1fc3be59477853717-62d1a58e520656fda09e609d | Shemaroo Bollywood
 643054b1fc3be59477853717-62d7f68fb19cbf65dc7bef7c | Qello Concerts
 643054b1fc3be59477853717-62d7f68fb19cbf65dc7bef7d | Stingray Classica Stream
@@ -593,8 +592,6 @@ DAZN Liga F 3 | DAZN Liga F 3
 DAZN Liga F 4 | DAZN Liga F 4
 DAZN Liga F 5 | DAZN Liga F 5
 DAZN Liga F 6 | DAZN Liga F 6
-DAZN Liga F 7 | DAZN Liga F 7
-DAZN Liga F 8 | DAZN Liga F 8
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
 DAZN Premier League 2 | DAZN Premier League 2
@@ -1572,7 +1569,6 @@ verdi-tv | Verdi TV
 vevo-latino-es | Vevo Latino
 vevo-pop-es | Vevo Pop
 vive-kanal-d-drama | Vive Kanal D Drama
-vive-kanal-d-drama-0 | Vive Kanal D Drama
 vivir-con-gatos | Vivir con gatos
 vivir-con-perros | Vivir con perros
 weather-spy-new | Weather Spy
