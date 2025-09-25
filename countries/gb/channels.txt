@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Sep 24 00:15:14 UTC 2025
+# Fecha: Thu Sep 25 00:15:06 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -374,6 +374,7 @@ GB2000010ML | Tennis+
 GB200005LI | Mythbusters
 GB2100002R7 | Genie K-Drama
 GB21000038X | Genie K-Movie
+GB2100004H5 | NatureTime
 GB2100005YU | Rookie Blue
 GB2100006GK | River Monsters
 GB2200001N2 | Fireplace Vibes
@@ -387,7 +388,7 @@ GB2600012R3 | Drama Movies - Rakuten TV
 GB2600013BO | Sci-Fi - Rakuten TV
 GB2600014LQ | Romance Movies - Rakuten TV
 GB2600015OS | Action Movies - Rakuten TV
-GB2600017PX | Family - Rakuten TV
+GB2600017PX | 100% Christmas - Rakuten TV
 GB2600018PD | Top Movies - Rakuten TV
 GB2600019ON | Euronews LIVE
 GB2600020OP | Comedy Movies - Rakuten TV
