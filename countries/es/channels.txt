@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Sep 25 00:15:24 UTC 2025
+# Fecha: Fri Sep 26 00:15:01 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1501,6 +1501,7 @@ i24.News.es | i24 News
 iConcerts | iConcerts
 iConcerts.es | iConcerts
 ice-pilots-es | Pilotos del Ártico
+inter-24-7-eng | INTER 24/7
 interalmería TV | interalmería TV
 jade-fever-es | La fiebre del jade
 jukin-fail-army-new | Fail Army
