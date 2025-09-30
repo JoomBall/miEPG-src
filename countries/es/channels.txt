@@ -1,12 +1,16 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep 29 00:16:13 UTC 2025
+# Fecha: Tue Sep 30 00:15:39 UTC 2025
 
 /esaguila-roja | Águila Roja
+/esmytime-movie-network | MyTime Movie Network
 /esruntime | Runtime
 /esruntime-accion | Runtime Acción
+/esruntime-clasicos | Runtime Clásicos
 /esruntime-comedia | Runtime Comedia
+/esruntime-romance | Runtime Romance
 /esruntime-series | Runtime Series
+/esruntime-thriller | Runtime Thriller
 1+1 International | 1+1 International
 1-1-travel | 1+1 Travel
 13.TV.es | 13 TV
@@ -1463,8 +1467,10 @@ cgtn-documentary | CGTN Documentary
 cgtn-es | CGTN
 cine-friki | Cine Friki
 cine-western-es | Cine Western
+cines-verdi | Cines Verdi
 comedy-rakuten-tv | Comedia
 cops-en-espanol | Cops En Español
+corazon | Corazón
 crime-rakuten-tv | Crimen
 crimenes-reales | Crímenes Reales
 curro-jimenez | Curro Jiménez
@@ -1480,6 +1486,7 @@ fashion-tv | Fashion TV
 feel-good-tv | Feel Good TV
 feelgood | FeelGood
 fifa-plus-es-new | FIFA+
+filmco | Film&amp;Co
 filmrise-forensic-files-spa | Archivos Forenses
 filmrise-sci-fi-es | FilmRise Sci-Fi
 filmrise-unsolved-mysteries-es | Misterios sin resolver
@@ -1536,7 +1543,9 @@ red-bull-tv-es | Red Bull TV
 revry | Revry
 revry-news | Revry News
 romance-rakuten-tv | Películas Románticas
+runtime-crimen | Runtime Crimen
 runtime-familia-1 | Runtime Familia
+sangre-fria | Sangre Fría
 sci-fi-rakuten-tv | Sci-Fi
 spanish-cinema-rakuten-tv | Cine Español
 stingray-greatest-hits | Stingray Greatest Hits
