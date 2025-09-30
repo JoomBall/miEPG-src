@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep 29 00:16:14 UTC 2025
+# Fecha: Tue Sep 30 00:15:39 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -9,7 +9,6 @@
 5STAR+1.uk | 5STAR+1
 5STAR.uk | 5STAR
 5USA+1.uk | 5USA+1
-5ad8d1e9e738977e2c310925 | Voyager Documentaries
 5ad8d3a31b95267e225e4e09 | Pluto TV Movies
 5ad8d44cfd87eb3a2717afc5 | MST3K
 5ad8d54be738977e2c310940 | Pluto TV Kids
@@ -51,7 +50,6 @@
 5e8db96bccae160007c71eec | Andromeda
 5e9ed47c26ebb000074af566 | Sensing Murder
 5ea18cd42ee5410007e349dc | Crime Investigation
-5ea18e5df6dd1d0007cf7bad | McLeod's Daughters
 5f27bbe4779de70007a6d1c1 | Ghost Hunters
 5f6b535a278bfe000799484a | Dog The Bounty Hunter
 5f6b54b9e67cf60007d4cef1 | Duck Dynasty
@@ -103,13 +101,11 @@
 63d91cc58795f30008678e9d | Medical Detectives
 63d91d2560bc8f0008a225e4 | FIFA+
 63d91d624e83e7000881ca8c | Escape to the Country
-63e23143a8b22700082b0a65 | Pluto TV Cops &amp; Convicts
 63fe2ec4dff38e000835f786 | Rookie Blue
 6401d85a49839300087b116c | Moviesphere
 645e00d5d3fdde000829463a | More TV Sci-fi
 6462190b7cb4b1000862dd60 | Pluto TV Alien Invasion
 64634eb42858cb0008fd92d6 | How To Use Pluto TV
-647f09e5f77b61000823ff24 | Tattoo Fixers
 6490254fd2c47c00083a5743 | Now 80's
 64c0d6765dc1660008a3e033 | U&amp;Transport
 64c0d697b0cf5c000824e5d9 | U&amp;The Past
@@ -162,7 +158,6 @@
 66a10f11a79dea0008aa73b0 | Bob the Builder
 66ba1e23d2d50d00084a1e57 | Crimes That Shook Britain
 66ba1e4446762a000855cd87 | Girlfriends
-66ba1e9fcd0d3100086dc532 | Pluto TV More Movies
 66ba1ef5fe11e50008814383 | Pluto TV Kids Halloween
 66ba1f46d2d50d00084a28c4 | Bitten
 66bb66e2d512590008d728aa | Pluto TV Halloween
@@ -175,7 +170,6 @@
 66ebf9bc55567d0008de3b29 | The Hotel Inspector
 66ed3e9d5e4a6e0008b346e0 | UFC
 66f1331f9409630008077623 | Earth: Final Conflict
-66f133b3747bfa0008495383 | The Lost World
 66f135b45e4a6e0008b80606 | Antiques Road Trip
 66f137cb483d460008ece053 | Rugby Pass TV
 66fd37885049580008d295b6 | AWSN
