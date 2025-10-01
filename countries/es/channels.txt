@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep 30 00:15:39 UTC 2025
+# Fecha: Wed Oct  1 00:17:55 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -442,6 +442,7 @@ AMC.Break.es | AMC Break
 AMC.Crime.es | AMC Crime
 AMC.es | AMC
 ATRESplayer PREMIUM | ATRESplayer PREMIUM
+ATV Andorra Televisión | ATV Andorra Televisión
 ATV.es | ATV
 AXN HD | AXN
 AXN Movies HD | AXN Movies
@@ -692,6 +693,7 @@ Disney Junior | Disney Junior
 Disney.Channel.+1.es | Disney Channel +1
 Disney.Channel.es | Disney Channel
 Disney.Junior.es | Disney Junior
+Distrito TV | Distrito TV
 Distrito.TV.es | Distrito TV
 Divinity | Divinity
 Divinity.es | Divinity
@@ -1277,6 +1279,7 @@ Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
 Penedès TV | Penedès TV
 Planeta.de.Cine.es | Planeta de Cine
+Play Melilla | Play Melilla
 Playboy TV | Playboy TV
 Popular TV Cantabria | Popular TV Cantabria
 Popular TV Región de Murcia | Popular TV Región de Murcia
@@ -1450,6 +1453,7 @@ a-haunting-spa | Historias de ultratumba
 action-rakuten-tv | Películas de Acción
 actualidad-360 | Actualidad 360
 africanews-eng | Africanews
+aguila-roja-rakuten-tv | Águila Roja
 ana-y-los-7 | Ana y los 7
 animevision | AnimeVisión
 animevision-classics | AnimeVisión Classics
@@ -1543,6 +1547,7 @@ red-bull-tv-es | Red Bull TV
 revry | Revry
 revry-news | Revry News
 romance-rakuten-tv | Películas Románticas
+rookie-blue-spa | Rookie Blue
 runtime-crimen | Runtime Crimen
 runtime-familia-1 | Runtime Familia
 sangre-fria | Sangre Fría
@@ -1557,7 +1562,6 @@ surf-channel | Surf Channel
 tastemade-sp | Tastemade
 teleSUR.es | teleSUR
 the-design-network-new | The Design Network
-the-guardian-3d0e32e7-aa40-49e5-b9d9-c433151fa61a | The Guardian
 the-pet-collective-new | The Pet Collective
 the-reuters-60 | The Reuters 60
 thriller-rakuten-tv | Thrillers
