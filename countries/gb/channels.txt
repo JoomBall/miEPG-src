@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep 30 00:15:39 UTC 2025
+# Fecha: Wed Oct  1 00:17:58 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -120,6 +120,7 @@
 650315163a0d700008bb07f8 | Born to Kill
 65031534d545e9000881ed10 | British Screen Classics
 6514346fa76507000887d441 | Confess by Nosey
+655b7cbb2c46f300086f0afa | Pluto TV Snooker 900
 6568a78d635c3c0008765f41 | Now Rock
 656df2849d5ac400083be647 | 5 Trucking Hell
 656df599c0fc8800089c75ab | Avatar
@@ -146,7 +147,6 @@
 66276091cee0d900085fe053 | Sabrina The Teenage Witch
 6627623e307fa3000810b66e | Ninja Warrior
 664c94e80120f40008b860f0 | POP
-664c951df99922000842870c | Tiny Pop
 664c953db18d700008fcc158 | POP UP
 667ac79c15f35c00088a2409 | Outback Truckers
 667d664815f35c00089489bf | Corner Gas
