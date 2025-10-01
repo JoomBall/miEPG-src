@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep 30 00:15:42 UTC 2025
+# Fecha: Wed Oct  1 00:17:53 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -89,7 +89,6 @@
 5d48678d34ceb37d3c458a55 | Wild 'N Out
 5d48685da7e9f476aa8a1888 | The Challenge
 5d486acc34ceb37d3c458a64 | The First
-5d486b2eeddd9576d66f9066 | TBN
 5d51ddf0369acdb278dfb05e | Love &amp; Hip Hop
 5d51e2bceca5b4b2c0e06c50 | Black Ink Crew
 5d51e791b7dba3b2ae990ab2 | This Old House
