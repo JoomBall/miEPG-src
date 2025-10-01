@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep 30 00:15:44 UTC 2025
+# Fecha: Wed Oct  1 00:17:56 UTC 2025
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -51,6 +51,7 @@ MSN | MSNBC
 MTC | Retro
 MVS | Movies Hits - Science Fiction
 NAP | Australian Played
+NAT | Nature Time
 NHK | NHK World
 NMU | Kids
 NPO | Get2Know
