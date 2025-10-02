@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct  1 00:17:53 UTC 2025
+# Fecha: Thu Oct  2 00:14:35 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -25,7 +25,7 @@
 5812be1c249444e05d09cc50 | Pluto TV True Crime
 5812bfbe4ced4f7b601b12e6 | BUZZR
 5873fc21cad696fb37aa9054 | Live Music
-58af4c093a41ca9d4ecabe96 | Black Cinema
+58af4c093a41ca9d4ecabe96 | BET Cinema
 58d947b9e420d8656ee101ab | RiffTrax
 58e55b14ad8e9c364d55f717 | Flicks of Fury
 59b722526996084038c01e1b | TNA Wrestling
@@ -138,6 +138,7 @@
 5eb301b7395671000780d100 | Little Angel's Playroom
 5ebc8688f3697d00072f7cf8 | Bellator MMA
 5eceb0d4065c240007688ec6 | CBS News Texas
+5ef3958c66ac540007d6e6a7 | Dark Shadows
 5ef3977e5d773400077de284 | Three's Company
 5efbd29e4aa26700076c0d06 | CSI
 5efbd39f8c4ce900075d7698 | Star Trek
@@ -199,7 +200,7 @@
 60f75771dfc72a00071fd0e0 | Gunsmoke
 60f75919718aed0007250d7a | CBS News Baltimore
 60f760bbdf090700075d7bfe | Best of Dr. Phil
-60f85644a9493e0007a1f035 | Black Classics
+60f85644a9493e0007a1f035 | BET Classics
 60faf9ddfcc1f200070a5932 | Garfield and Friends
 60faffc3fbbc120007fc4376 | Baby Shark TV
 60fb01a24795a6000762fe83 | LEGO Kids TV
@@ -212,7 +213,7 @@
 61325d18f5166c00081b84e0 | Classic TV: Families
 613260e4bdb71c00070d63fa | More TV Drama
 6132619f9ddaa50007e7dd86 | More TV Sitcoms
-61326275b3c86a00078e4833 | Black Throwbacks
+61326275b3c86a00078e4833 | BET Throwbacks
 615b8ec39e878900073f419a | Antiques Road Trip
 6176f39e709f160007ec61c3 | 48 Hours
 6176fd25e83a5f0007a464c9 | Bounce XL
@@ -278,6 +279,7 @@
 64dab5fe35425100080e2991 | Vevo Regional Mexicano
 64dab9df3d48f40008868091 | The Jamie Oliver Channel
 64e561a4354251000823a0e0 | Ghost Hunters
+65033c4b98020f0008547124 | S.W.A.T.
 6508be683a0d700008c534e4 | ABC News Live
 650b68bc2ce8e40008ac9c14 | FanDuel TV Extra
 651f239d9c7aeb0008286823 | Dating Disasters
@@ -322,7 +324,7 @@
 65e23f340d4561000821540d | Mister Rogers' Neighborhood
 65ea8b928145cb0008509426 | UEFA Champions League
 661827ffe8fba800086b217d | Triton Poker
-663946c1b18d700008d9c168 | Black Visionaries
+663946c1b18d700008d9c168 | BET Visionaries
 664e640a0120f40008be4582 | The Wild Wild West
 664fd48894d5580008e45e7c | Dog Whisperer with Cesar Millan
 6661f11a41af6400080e90d8 | Big Brother
@@ -332,14 +334,12 @@
 6675c713fc3a46000863dde7 | Ebony TV Drama
 6675c742ca74680008566b88 | Nash Bridges
 6675c7868768aa0008d7f1c7 | Pokémon
-6675c88da1d7ad00084762cb | Star Trek: The Motion Pictures
 667f2c7b22acab0008b7072b | FOX 11 Los Angeles
 667f3852efa2a10008e1e514 | Go Go Gadget!
 667f393836a2f90008fd17c0 | Strawberry Shortcake and Friends
 668c566d08d5490008075948 | La Familia del Barrio
 668c5cb4f01dbe0008dd4082 | CBS en español
 668c5d3bfd9eb2000882bb50 | ONE Championship TV
-6695a2e4fe11e50008341303 | Star Trek: The Motion Pictures
 66a7f0a78561260008c177f2 | Salem News Channel
 66abefe5d2d50d00082c7d12 | VH1 Queens of Reality
 66b646f9cd0d3100086af83c | 60 Minutes
@@ -402,4 +402,5 @@
 6887aaade3703b7d42b64be8 | The First 48 by A&amp;E
 6887aaf4e3703b7d42b71a1e | Storage Wars by A&amp;E
 68939e206727ec919bb39061 | Hogan's Heroes
+68c32d88f56983aba40052bd | BET Comedy Movies
 metv | MeTV
