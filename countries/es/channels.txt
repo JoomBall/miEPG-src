@@ -1,10 +1,9 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct  1 00:17:55 UTC 2025
+# Fecha: Thu Oct  2 00:14:36 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
-/esruntime | Runtime
 /esruntime-accion | Runtime Acción
 /esruntime-clasicos | Runtime Clásicos
 /esruntime-comedia | Runtime Comedia
@@ -395,7 +394,9 @@
 6682bd9b8768aa0008f25be5 | Los misterios de Murdoch
 6686796619311200085310a0 | MTV Flow Latino
 66b0dfa1d512590008bfa7fd | Pluto TV Gore &amp; Slasher
+66b0e00814a2bb00085f5934 | Pluto TV Terror Clásico
 66c45c0de7f5e80008b82005 | CNN Headlines
+66c4a5cf1e11410009b382c3 | MTV Halloween
 66d71c656b63480008cf0427 | Cherif
 66d71f8ee5de930008016f83 | Alice Nevers
 67164414e40c4a00087f450d | MODUS Super Series Darts
@@ -410,6 +411,7 @@
 680ba8992472a7200a183eb5 | One Piece
 680ba8c3a48b3ead0db701cc | Los caballeros del Zodiaco
 6812206e1b3e3be031a5c363 | Águila Roja
+68345650e8377f86acdeda83 | Pluto TV Series de Terror
 683456acf59cc6a13212f1c1 | Pluto TV Descubre
 6834570d00b60028d2dfd5f8 | Pluto TV Series Policiacas
 68345769bbc703dfd45a8564 | Pluto TV Tuning &amp; Tattoos
@@ -1478,7 +1480,7 @@ corazon | Corazón
 crime-rakuten-tv | Crimen
 crimenes-reales | Crímenes Reales
 curro-jimenez | Curro Jiménez
-dark-matter-es-new | Dark Matter - Horror Visión
+dark-matter-es-new | Dark Matter
 deluxe-lounge-hd | Deluxe Lounge HD
 drama-rakuten-tv | Películas de Drama
 ducktv | ducktv
@@ -1543,6 +1545,7 @@ qwest-tv | Qwest TV
 racer-international | RACER International
 rakuten-viki-es | Rakuten VIKI
 rantaro-ninja-boy-rakuten-tv | Rantaró, el ninja boy
+rebelde | Rebelde
 red-bull-tv-es | Red Bull TV
 revry | Revry
 revry-news | Revry News
