@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct  1 00:17:56 UTC 2025
+# Fecha: Thu Oct  2 00:14:34 UTC 2025
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -75,5 +75,5 @@ TMF | Trending
 TVS | TVSN
 UFC | Main Event UFC
 UKT | UKTV
-UP2 | Love It Or List It
+UP2 | P Bros Pop Up
 VH1 | Club
