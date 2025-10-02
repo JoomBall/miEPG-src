@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct  1 00:17:58 UTC 2025
+# Fecha: Thu Oct  2 00:14:35 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -191,7 +191,10 @@
 685aa802fb6023de7cc56357 | Dominance FC TV
 686cd713e48af72bc250efb8 | America's Next Top Model
 686cd7bd8aeeaaa91a153161 | Britain's Next Top Model
+686f7fa794a8f8fdc6db806a | MTV Halloween
 6882521ac258734a42a60ed0 | DP World Tour
+68b5a5402155bfc3488dc457 | Saw
+68b5a5900777559fa5bc13f0 | Leprechaun
 92.News.uk | 92 News
 A1TV.uk | A1TV
 AAJ.TAK.uk | AAJ TAK
@@ -738,8 +741,6 @@ Sky.Sci-Fi.HD.uk | Sky Sci-Fi HD
 Sky.Showcase.uk | Sky Showcase
 Sky.Sports.Football.HD.uk | Sky Sports Football HD
 Sky.Sports.NFL.uk | Sky Sports NFL
-Sky.Sports.Ultra.HD.1.uk | Sky Sports Ultra HD 1
-Sky.Sports.Ultra.HD.2.uk | Sky Sports Ultra HD 2
 Sky.Thriller.HD.uk | Sky Thriller HD
 Sky.Valentine.uk | Sky Valentine
 Sky.Witness+1.uk | Sky Witness+1
@@ -792,9 +793,18 @@ TLC+1.uk | TLC+1
 TLC.HD.uk | TLC HD
 TNT.Sport.BoxOffice.HD.uk | TNT Sport BoxOffice HD
 TNT.Sports.1.HD.uk | TNT Sports 1 HD
+TNT.Sports.10.HD.uk | TNT Sports 10 HD
 TNT.Sports.2.HD.uk | TNT Sports 2 HD
 TNT.Sports.3.HD.uk | TNT Sports 3 HD
 TNT.Sports.4.HD.uk | TNT Sports 4 HD
+TNT.Sports.5.HD.uk | TNT Sports 5 HD
+TNT.Sports.6.HD.uk | TNT Sports 6 HD
+TNT.Sports.7.HD.uk | TNT Sports 7 HD
+TNT.Sports.8.HD.uk | TNT Sports 8 HD
+TNT.Sports.9.HD.uk | TNT Sports 9 HD
+TNT.Sports.Box.Office.2.uk | TNT Sports Box Office 2
+TNT.Sports.Box.Office.uk | TNT Sports Box Office
+TNT.Sports.Ultimate.HD.uk | TNT Sports Ultimate HD
 TNT.Sports.Ultimate.uk | TNT Sports Ultimate
 TNTSBoxOff2HD.uk | TNTSBoxOff2HD
 TRT.World.HD.uk | TRT World HD
