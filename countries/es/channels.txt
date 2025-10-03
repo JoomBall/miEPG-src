@@ -1,9 +1,10 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct  2 00:14:36 UTC 2025
+# Fecha: Fri Oct  3 00:14:35 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
+/esruntime | Runtime
 /esruntime-accion | Runtime Acción
 /esruntime-clasicos | Runtime Clásicos
 /esruntime-comedia | Runtime Comedia
@@ -559,6 +560,7 @@ Cines.Verdi.TV.es | Cines Verdi TV
 Clan | Clan
 Clan.es | Clan
 Classica HD | Classica
+Club MTV | Club MTV
 Club.MTV.International.es | Club MTV International
 Clásicos atresplayer | Clásicos atresplayer
 Comedia atresplayer | Comedia atresplayer
@@ -589,6 +591,8 @@ DAZN Bundesliga 4 | DAZN Bundesliga 4
 DAZN Bundesliga | DAZN Bundesliga
 DAZN F1 BAR | DAZN F1 BAR
 DAZN F1 HD | DAZN F1
+DAZN LALIGA EA SPORTS 2 | DAZN LALIGA EA SPORTS 2
+DAZN LALIGA EA SPORTS | DAZN LALIGA EA SPORTS
 DAZN LaLiga 2 HD | DAZN LaLiga 2
 DAZN LaLiga 3 | DAZN LaLiga 3
 DAZN LaLiga 4 | DAZN LaLiga 4
@@ -598,6 +602,36 @@ DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F 3 | DAZN Liga F 3
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
+DAZN NFL Game Pass 10 | DAZN NFL Game Pass 10
+DAZN NFL Game Pass 11 | DAZN NFL Game Pass 11
+DAZN NFL Game Pass 12 | DAZN NFL Game Pass 12
+DAZN NFL Game Pass 13 | DAZN NFL Game Pass 13
+DAZN NFL Game Pass 14 | DAZN NFL Game Pass 14
+DAZN NFL Game Pass 15 | DAZN NFL Game Pass 15
+DAZN NFL Game Pass 16 | DAZN NFL Game Pass 16
+DAZN NFL Game Pass 17 | DAZN NFL Game Pass 17
+DAZN NFL Game Pass 18 | DAZN NFL Game Pass 18
+DAZN NFL Game Pass 19 | DAZN NFL Game Pass 19
+DAZN NFL Game Pass 2 | DAZN NFL Game Pass 2
+DAZN NFL Game Pass 20 | DAZN NFL Game Pass 20
+DAZN NFL Game Pass 21 | DAZN NFL Game Pass 21
+DAZN NFL Game Pass 3 | DAZN NFL Game Pass 3
+DAZN NFL Game Pass 4 | DAZN NFL Game Pass 4
+DAZN NFL Game Pass 5 | DAZN NFL Game Pass 5
+DAZN NFL Game Pass 6 | DAZN NFL Game Pass 6
+DAZN NFL Game Pass 7 | DAZN NFL Game Pass 7
+DAZN NFL Game Pass 8 | DAZN NFL Game Pass 8
+DAZN NFL Game Pass 9 | DAZN NFL Game Pass 9
+DAZN NFL Game Pass | DAZN NFL Game Pass
+DAZN National League 2 | DAZN National League 2
+DAZN National League 3 | DAZN National League 3
+DAZN National League 4 | DAZN National League 4
+DAZN National League 5 | DAZN National League 5
+DAZN National League 6 | DAZN National League 6
+DAZN National League 7 | DAZN National League 7
+DAZN National League 8 | DAZN National League 8
+DAZN National League 9 | DAZN National League 9
+DAZN National League | DAZN National League
 DAZN Premier League 2 | DAZN Premier League 2
 DAZN Premier League 3 | DAZN Premier League 3
 DAZN Premier League 4 | DAZN Premier League 4
@@ -979,6 +1013,7 @@ GolStadium | GolStadium
 Gulli | Gulli
 HBO Max Avances | HBO Max Avances
 HBO.Max.Avances.es | HBO Max Avances
+HIT TV | HIT TV
 Heritage+.es | Heritage+
 Historia y Vida | Historia y Vida
 Historia | Historia
@@ -1170,8 +1205,11 @@ M+.Originales.es | M+ Originales
 M+.Vamos.es | M+ Vamos
 M6 | M6
 MTV 00s | MTV 00s
+MTV 80s | MTV 80s
+MTV 90s | MTV 90s
 MTV Classic | MTV Classic
 MTV España | MTV España
+MTV Hits | MTV Hits
 MTV Live | MTV Live
 MTV.80s.es | MTV 80s
 MTV.90s.es | MTV 90s
@@ -1211,6 +1249,7 @@ MyTime Movie Network (Rakuten TV) | MyTime Movie Network (Rakuten TV)
 NATV.1.es | NATV 1
 NATV.2.es | NATV 2
 NFL Network | NFL Network
+NHK WORLD | NHK WORLD
 NOW.70's.es | NOW 70's
 NOW.80's.es | NOW 80's
 NOW.Rock.es | NOW Rock
@@ -1239,6 +1278,7 @@ Nova | Nova
 Nova.es | Nova
 Nuestra Tele Internacional | Nuestra Tele Internacional
 Náutica TV | Náutica TV
+Nós Televisión | Nós Televisión
 Odisea | Odisea
 Odisea.es | Odisea
 Oficios.perdidos.es | Oficios perdidos
@@ -1249,6 +1289,7 @@ Onda.Algeciras.TV.es | Onda Algeciras TV
 Onetoro | Onetoro
 PDC Darts | PDC Darts
 PLL Network | PLL Network
+PRO TV RUMANIA | PRO TV RUMANIA
 PT | Canal 11 | PT | Canal 11
 PT | DAZN 1 | PT | DAZN 1
 PT | DAZN 2 | PT | DAZN 2
@@ -1274,6 +1315,7 @@ PT | TRACE Urban HD | PT | TRACE Urban
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
+PTV Sevilla | PTV Sevilla
 Padel 24h | Padel 24h
 Paramount Network | Paramount Network
 Paramount.Network.es | Paramount Network
@@ -1298,8 +1340,10 @@ Qello.Concerts.es | Qello Concerts
 Qwest.TV.es | Qwest TV
 REKTV | REKTV
 RNA.es | RNA
+RTP Internacional | RTP Internacional
 Real Madrid TV | Real Madrid TV
 Real.Madrid.TV.es | Real Madrid TV
+Record | Record
 Record.TV.es | Record TV
 Red Bull TV (Rakuten TV) | Red Bull TV (Rakuten TV)
 Red Bull TV | Red Bull TV
@@ -1344,6 +1388,7 @@ TAC12 | TAC12
 TCM HD | TCM
 TCM.+1.es | TCM +1
 TCM.es | TCM
+TELEVIGO | TELEVIGO
 TPA Asturias | TPA Asturias
 TPA7 Asturias | TPA7 Asturias
 TPA8 Asturias | TPA8 Asturias
@@ -1432,6 +1477,7 @@ UK | TNT Sports Ultimate | UK | TNT Sports Ultimate
 Unbeaten | Unbeaten
 VE PLUS TV | VE PLUS TV
 VE.PLUS.TV.es | VE PLUS TV
+VINX | VINX
 Vallès Visió | Vallès Visió
 Vamos BAR 2 | Vamos BAR 2
 Vamos BAR | Vamos BAR
