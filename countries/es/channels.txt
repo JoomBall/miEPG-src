@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Oct  3 00:14:35 UTC 2025
+# Fecha: Sat Oct  4 00:14:31 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -320,7 +320,6 @@
 643054b1fc3be59477853717-67200026769d5ec4bf51d63e | Crimen Y Historia
 643054b1fc3be59477853717-672948f0297d4ea7584a2e13 | The Martha Stewart Channel
 643054b1fc3be59477853717-67294a601055ef3897c73477 | The Emeril Lagasse Channel
-643054b1fc3be59477853717-673675909564224797d5b598 | FLOU Detonación
 643054b1fc3be59477853717-674f6a6cf44561420465f9f3 | Animation+
 643054b1fc3be59477853717-6761f91555e174e95ccc4e4c | Tennis+
 643054b1fc3be59477853717-67642f277c5e3b38af72dcdb | Cirque du Soleil
@@ -358,6 +357,7 @@
 643054b1fc3be59477853717-689e1f0dd84bfb3d54b6756f | Bizaar
 643054b1fc3be59477853717-68b9f334fc12601028c5651e | World Billiards TV
 643054b1fc3be59477853717-68b9f5a3d60e5dd29263c7ac | NEW KFOOD
+643054b1fc3be59477853717-68c98e7460586565cc56baab | Crime Beat TV
 643054b1fc3be59477853717-68caada21fabab6eb2e99331 | Bassmaster
 643054b1fc3be59477853717-68d15e51c80ec69e0bd8965b | MrBeast
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
@@ -428,6 +428,7 @@
 68751b556dce17bae3b6b98f | La vuelta al mundo de Willy Fog
 687799f86255fd1c0c419c84 | Marco
 68779a09c691b3f0964127c6 | Heidi
+68adc3fdd8f7693ae347a63a | Los Gipsy Kings
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
@@ -608,13 +609,7 @@ DAZN NFL Game Pass 12 | DAZN NFL Game Pass 12
 DAZN NFL Game Pass 13 | DAZN NFL Game Pass 13
 DAZN NFL Game Pass 14 | DAZN NFL Game Pass 14
 DAZN NFL Game Pass 15 | DAZN NFL Game Pass 15
-DAZN NFL Game Pass 16 | DAZN NFL Game Pass 16
-DAZN NFL Game Pass 17 | DAZN NFL Game Pass 17
-DAZN NFL Game Pass 18 | DAZN NFL Game Pass 18
-DAZN NFL Game Pass 19 | DAZN NFL Game Pass 19
 DAZN NFL Game Pass 2 | DAZN NFL Game Pass 2
-DAZN NFL Game Pass 20 | DAZN NFL Game Pass 20
-DAZN NFL Game Pass 21 | DAZN NFL Game Pass 21
 DAZN NFL Game Pass 3 | DAZN NFL Game Pass 3
 DAZN NFL Game Pass 4 | DAZN NFL Game Pass 4
 DAZN NFL Game Pass 5 | DAZN NFL Game Pass 5
@@ -1096,7 +1091,6 @@ Levante TV | Levante TV
 Levante.TV.es | Levante TV
 Libertad Digital TV | Libertad Digital TV
 Libertad.Digital.TV.es | Libertad Digital TV
-Liga de Campeones BAR 2 | Liga de Campeones BAR 2
 Lleida TV | Lleida TV
 Lolly Kids | Lolly Kids
 Los Conciertos de Radio 3 | Los Conciertos de Radio 3
