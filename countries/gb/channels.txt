@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Oct  3 00:14:33 UTC 2025
+# Fecha: Sat Oct  4 00:14:30 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -125,6 +125,7 @@
 656df2849d5ac400083be647 | 5 Trucking Hell
 656df599c0fc8800089c75ab | Avatar
 656ef4af4261ca00083c8f37 | Totally Turtles
+65a6939b4a10d800085cee92 | MTV: Best of
 65a6a5e90c7ff50008cb9815 | Funny AF
 65a6a7a00c7ff50008cba07b | Pluto TV Crime Drama
 65a7ab137bdc8d0008487dfb | Pluto TV Erotica
@@ -774,7 +775,6 @@ SkySp.Racing.uk | SkySp Racing
 SkySp.Tennis.HD.uk | SkySp Tennis HD
 SkySpBoxOff.uk | SkySpBoxOff
 SkySpCricket.HD.uk | SkySpCricket HD
-SkySpMainEv.uk | SkySpMainEv
 SkySpMainEvHD.uk | SkySpMainEvHD
 SkyValentineHD.uk | SkyValentineHD
 Smooth.uk | Smooth
