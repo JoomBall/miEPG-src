@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Oct  6 00:15:48 UTC 2025
+# Fecha: Tue Oct  7 00:15:33 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -234,6 +234,7 @@
 6283d51144ad8f0007fa382d | The Judge Judy Channel
 628e685ba3811100070551a8 | Hallmark Movies &amp; More
 62ba60f059624e000781c436 | 00s Replay
+62cdc8fdb05d2b0007ef5035 | CBS News Miami
 62f2ce24f328e00007e7f55a | Stories by AMC
 62f54c11b3af68000702c304 | CSI: Miami
 62f54c6439183b000769fb8f | CSI: NY
@@ -246,7 +247,6 @@
 6334a574605f140007e233c4 | PFL MMA
 634dacf51d90320007fcd5fa | Star Trek Voyager
 634ee8f95aa9870007248333 | Confess by Nosey
-634f24cf3ce5fa0007c68f39 | CBS News Detroit
 634f2610d5023700078f7dee | CBS News Detroit
 634f3011f4fff20007431641 | I Love Lucy
 634f307c7a068e00072c9982 | Rawhide
@@ -361,7 +361,6 @@
 673249215534bb0008c8a012 | Bodas+
 673249433a61d400087a51ed | Construcciones Asombrosas
 6732495dc7626f0008c71e7d | Expedientes Sobrenaturales
-6732497f3a61d400087a53b0 | TuWarner
 6732499ce40c4a0008bb9894 | Crimen
 673249afc7626f0008c7205d | Vidas Extremas
 673249ccc7626f0008c72076 | TuDiscovery
