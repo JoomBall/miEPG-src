@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Oct  6 00:15:47 UTC 2025
+# Fecha: Tue Oct  7 00:15:38 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -429,6 +429,7 @@
 687799f86255fd1c0c419c84 | Marco
 68779a09c691b3f0964127c6 | Heidi
 68adc3fdd8f7693ae347a63a | Los Gipsy Kings
+68c188f73efb41cd97793105 | Saw
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
@@ -604,12 +605,6 @@ DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F 3 | DAZN Liga F 3
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
-DAZN NFL Game Pass 10 | DAZN NFL Game Pass 10
-DAZN NFL Game Pass 11 | DAZN NFL Game Pass 11
-DAZN NFL Game Pass 12 | DAZN NFL Game Pass 12
-DAZN NFL Game Pass 13 | DAZN NFL Game Pass 13
-DAZN NFL Game Pass 14 | DAZN NFL Game Pass 14
-DAZN NFL Game Pass 15 | DAZN NFL Game Pass 15
 DAZN NFL Game Pass 2 | DAZN NFL Game Pass 2
 DAZN NFL Game Pass 3 | DAZN NFL Game Pass 3
 DAZN NFL Game Pass 4 | DAZN NFL Game Pass 4
@@ -617,7 +612,6 @@ DAZN NFL Game Pass 5 | DAZN NFL Game Pass 5
 DAZN NFL Game Pass 6 | DAZN NFL Game Pass 6
 DAZN NFL Game Pass 7 | DAZN NFL Game Pass 7
 DAZN NFL Game Pass 8 | DAZN NFL Game Pass 8
-DAZN NFL Game Pass 9 | DAZN NFL Game Pass 9
 DAZN NFL Game Pass | DAZN NFL Game Pass
 DAZN National League 2 | DAZN National League 2
 DAZN National League 3 | DAZN National League 3
@@ -1313,7 +1307,6 @@ PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
 PTV Sevilla | PTV Sevilla
-Padel 24h | Padel 24h
 Paramount Network | Paramount Network
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
