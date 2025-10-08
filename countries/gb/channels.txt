@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Oct  7 00:15:52 UTC 2025
+# Fecha: Wed Oct  8 00:15:17 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -16,8 +16,10 @@
 5ad8d883e738977e2c31096b | FailArmy
 5bd05b4694d45d266bc951f2 | Unsolved Mysteries
 5bd8186d53ed2c6334ea0855 | Pluto TV Reality
+5bd81b1053ed2c6334ea0856 | Strongman
 5bd833b41843b56328bac189 | Mythbusters
 5c363c2411c5ca053f198f97 | Pluto TV Comedy Movies
+5c45f5a9d40d58066869fa60 | Ghost Dimension
 5c5c2b9d8002db3c3e0b1c6d | Pluto TV Retro Toons
 5c5c2e9d8002db3c3e0b1c72 | Homes Under Hammer
 5c5c31f2f21b553c1f673fb0 | Pluto TV Cult Films
@@ -66,9 +68,11 @@
 612f761008a9e50007984ba0 | Pluto TV Animation
 61559552dd585f0007321eca | Bloomberg TV+
 615af74dfe3d8e0007524511 | On The Case
+619243059541940007d1ff86 | Pimp my Ride
 619247c34a270700077c8415 | Pluto TV Sci-fi Series
 61c49f1495f417000731cef0 | Inside Crime
 61c4a09d6c959f0007189c93 | Mystery TV
+620bb260821a860007b2d3df | Family Ties
 620f6c60b994540007ddd74b | Moesha
 620f6f9e36a49b000761f0d5 | Location, location, location
 622f48de713e510007f85808 | Dynasty
@@ -742,6 +746,8 @@ Sky.Sci-Fi.HD.uk | Sky Sci-Fi HD
 Sky.Showcase.uk | Sky Showcase
 Sky.Sports.Football.HD.uk | Sky Sports Football HD
 Sky.Sports.NFL.uk | Sky Sports NFL
+Sky.Sports.Ultra.HD.1.uk | Sky Sports Ultra HD 1
+Sky.Sports.Ultra.HD.2.uk | Sky Sports Ultra HD 2
 Sky.Thriller.HD.uk | Sky Thriller HD
 Sky.Valentine.uk | Sky Valentine
 Sky.Witness+1.uk | Sky Witness+1
