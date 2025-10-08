@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Oct  7 00:15:38 UTC 2025
+# Fecha: Wed Oct  8 00:15:21 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -478,8 +478,10 @@ Atrescine | Atrescine
 Atreseries | Atreseries
 Atreseries.es | Atreseries
 BBC Drama | BBC Drama
+BBC Earth | BBC Earth
 BBC Food | BBC Food
 BBC History | BBC History
+BBC Lifestyle | BBC Lifestyle
 BBC Top Gear | BBC Top Gear
 BBC World News Europe HD | BBC World News Europe
 BBC.News.es | BBC News
@@ -706,7 +708,6 @@ DSPORTS | DSPORTS
 DSPORTS+ | DSPORTS+
 Dark Rojo | Dark Rojo
 Dark.es | Dark
-DePelícula | DePelícula
 Decasa | Decasa
 Decasa.es | Decasa
 DejateTV | DejateTV
@@ -1099,7 +1100,6 @@ M+ Acción HD | M+ Acción
 M+ Cine Español | M+ Cine Español
 M+ Clásicos HD | M+ Clásicos
 M+ Comedia HD | M+ Comedia
-M+ Cómic | M+ Cómic
 M+ Deportes 2 HD | M+ Deportes 2
 M+ Deportes 3 | M+ Deportes 3
 M+ Deportes 4 | M+ Deportes 4
@@ -1148,7 +1148,8 @@ M+ Liga de Campeones HDR | M+ Liga de Campeones HDR
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
-M+ San Sebastián | M+ San Sebastián
+M+ Romance | M+ Romance
+M+ Terror | M+ Terror
 M+ Vamos HD | M+ Vamos
 M+ Wimbledon UHD | M+ Wimbledon
 M+.Acción.es | M+ Acción
