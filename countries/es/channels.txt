@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct  8 00:15:21 UTC 2025
+# Fecha: Thu Oct  9 00:15:13 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -503,7 +503,6 @@ Boing | Boing
 Boing.es | Boing
 Bon Dia TV | Bon Dia TV
 Bon.Dia.TV.es | Bon Dia TV
-Boxing TV | Boxing TV
 Buen.viaje.es | Buen viaje
 BuenViaje | BuenViaje
 C.Hollywood.es | C Hollywood
@@ -607,13 +606,28 @@ DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F 3 | DAZN Liga F 3
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
+DAZN NFL Game Pass 10 | DAZN NFL Game Pass 10
+DAZN NFL Game Pass 11 | DAZN NFL Game Pass 11
+DAZN NFL Game Pass 12 | DAZN NFL Game Pass 12
+DAZN NFL Game Pass 13 | DAZN NFL Game Pass 13
+DAZN NFL Game Pass 14 | DAZN NFL Game Pass 14
+DAZN NFL Game Pass 15 | DAZN NFL Game Pass 15
+DAZN NFL Game Pass 16 | DAZN NFL Game Pass 16
+DAZN NFL Game Pass 17 | DAZN NFL Game Pass 17
+DAZN NFL Game Pass 18 | DAZN NFL Game Pass 18
+DAZN NFL Game Pass 19 | DAZN NFL Game Pass 19
 DAZN NFL Game Pass 2 | DAZN NFL Game Pass 2
+DAZN NFL Game Pass 20 | DAZN NFL Game Pass 20
+DAZN NFL Game Pass 21 | DAZN NFL Game Pass 21
+DAZN NFL Game Pass 22 | DAZN NFL Game Pass 22
+DAZN NFL Game Pass 23 | DAZN NFL Game Pass 23
 DAZN NFL Game Pass 3 | DAZN NFL Game Pass 3
 DAZN NFL Game Pass 4 | DAZN NFL Game Pass 4
 DAZN NFL Game Pass 5 | DAZN NFL Game Pass 5
 DAZN NFL Game Pass 6 | DAZN NFL Game Pass 6
 DAZN NFL Game Pass 7 | DAZN NFL Game Pass 7
 DAZN NFL Game Pass 8 | DAZN NFL Game Pass 8
+DAZN NFL Game Pass 9 | DAZN NFL Game Pass 9
 DAZN NFL Game Pass | DAZN NFL Game Pass
 DAZN National League 2 | DAZN National League 2
 DAZN National League 3 | DAZN National League 3
@@ -708,6 +722,7 @@ DSPORTS | DSPORTS
 DSPORTS+ | DSPORTS+
 Dark Rojo | Dark Rojo
 Dark.es | Dark
+DePelícula | DePelícula
 Decasa | Decasa
 Decasa.es | Decasa
 DejateTV | DejateTV
