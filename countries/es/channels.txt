@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct  9 00:15:13 UTC 2025
+# Fecha: Fri Oct 10 00:15:46 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -621,6 +621,7 @@ DAZN NFL Game Pass 20 | DAZN NFL Game Pass 20
 DAZN NFL Game Pass 21 | DAZN NFL Game Pass 21
 DAZN NFL Game Pass 22 | DAZN NFL Game Pass 22
 DAZN NFL Game Pass 23 | DAZN NFL Game Pass 23
+DAZN NFL Game Pass 24 | DAZN NFL Game Pass 24
 DAZN NFL Game Pass 3 | DAZN NFL Game Pass 3
 DAZN NFL Game Pass 4 | DAZN NFL Game Pass 4
 DAZN NFL Game Pass 5 | DAZN NFL Game Pass 5
