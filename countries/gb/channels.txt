@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Oct 10 00:15:41 UTC 2025
+# Fecha: Sat Oct 11 00:14:29 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -53,8 +53,10 @@
 5e9ed47c26ebb000074af566 | Sensing Murder
 5ea18cd42ee5410007e349dc | Crime Investigation
 5f27bbe4779de70007a6d1c1 | Ghost Hunters
+5f6b51af068f49000746e432 | Master Chef Australia
 5f6b535a278bfe000799484a | Dog The Bounty Hunter
 5f6b54b9e67cf60007d4cef1 | Duck Dynasty
+5f6b5568dfb9ee0007f3a389 | The Wahlburgers
 600ad9e56c609c0007e2b6d0 | Operation Repo
 604f8f8622166000071a929f | BET Pluto TV
 60804d85858bd00007c5d591 | Paranormal State
@@ -70,6 +72,7 @@
 615af74dfe3d8e0007524511 | On The Case
 619243059541940007d1ff86 | Pimp my Ride
 619247c34a270700077c8415 | Pluto TV Sci-fi Series
+6193c353d46f7e0007cfb770 | Iron Chef
 61c49f1495f417000731cef0 | Inside Crime
 61c4a09d6c959f0007189c93 | Mystery TV
 620bb260821a860007b2d3df | Family Ties
@@ -105,6 +108,7 @@
 63d91cc58795f30008678e9d | Medical Detectives
 63d91d2560bc8f0008a225e4 | FIFA+
 63d91d624e83e7000881ca8c | Escape to the Country
+63fe2ea349839300086d6d3e | Crime Scene Solvers
 63fe2ec4dff38e000835f786 | Rookie Blue
 6401d85a49839300087b116c | Moviesphere
 645e00d5d3fdde000829463a | More TV Sci-fi
@@ -138,7 +142,6 @@
 65a7b0814a10d800085ff2df | Pluto TV PetrolHeads
 65b14aae0cb1a100087a216e | DAZN Ringside
 65b3895660eb8700089e7f53 | Car Chase
-65c109b4d77d450008b7eee5 | Reuters
 65c4960d11ced7000812c433 | Geordie Shore
 65dde148ec9fda0008b3c541 | Love Pets
 65f0166566eec80008b96f7e | Pluto TV Wildest Adventures
@@ -200,6 +203,9 @@
 6882521ac258734a42a60ed0 | DP World Tour
 68b5a5402155bfc3488dc457 | Saw
 68b5a5900777559fa5bc13f0 | Leprechaun
+68e3b6112baff9f069d02540 | Relic Hunter
+68e3b8c846e8a33b6839e981 | Renegade
+68e3c37c19f32ffa27bae948 | Unsolved Mysteries with Dennis Farina
 92.News.uk | 92 News
 A1TV.uk | A1TV
 AAJ.TAK.uk | AAJ TAK
