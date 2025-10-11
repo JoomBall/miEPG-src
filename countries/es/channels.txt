@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Oct 10 00:15:46 UTC 2025
+# Fecha: Sat Oct 11 00:14:28 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -81,6 +81,7 @@
 619b9f16b8fee4000832d447 | El Detective Endeavour
 61b87bc867b03a0007864e0d | Pluto TV Reality
 61b9edc4a4ca6100070bb407 | Ice Pilots
+61bb2814ac085a00074309a6 | Unidad de investigación
 61cd7b49543066000713b620 | Pluto TV Historia
 61ea759737679900078ff559 | MTV Party Music
 622f42b831233300078658cc | Ciudadanos por el mundo
@@ -360,6 +361,7 @@
 643054b1fc3be59477853717-68c98e7460586565cc56baab | Crime Beat TV
 643054b1fc3be59477853717-68caada21fabab6eb2e99331 | Bassmaster
 643054b1fc3be59477853717-68d15e51c80ec69e0bd8965b | MrBeast
+643054b1fc3be59477853717-68d7f9b53b1f329cea126993 | Dude Perfect
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -622,6 +624,7 @@ DAZN NFL Game Pass 21 | DAZN NFL Game Pass 21
 DAZN NFL Game Pass 22 | DAZN NFL Game Pass 22
 DAZN NFL Game Pass 23 | DAZN NFL Game Pass 23
 DAZN NFL Game Pass 24 | DAZN NFL Game Pass 24
+DAZN NFL Game Pass 25 | DAZN NFL Game Pass 25
 DAZN NFL Game Pass 3 | DAZN NFL Game Pass 3
 DAZN NFL Game Pass 4 | DAZN NFL Game Pass 4
 DAZN NFL Game Pass 5 | DAZN NFL Game Pass 5
@@ -1621,7 +1624,6 @@ the-design-network-new | The Design Network
 the-pet-collective-new | The Pet Collective
 the-reuters-60 | The Reuters 60
 thriller-rakuten-tv | Thrillers
-tlnovelas | tlnovelas
 todo-crimen | Todo Crimen
 todo-novelas | Todo Novelas
 top-barca-es | TOP Barça
