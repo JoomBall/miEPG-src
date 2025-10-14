@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Oct 13 00:16:46 UTC 2025
+# Fecha: Tue Oct 14 00:15:03 UTC 2025
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -66,7 +66,7 @@ SHO | Movies Premiere
 SHY | Movies Comedy
 SKY | SKY NEWS
 SP2 | FOX League
-SPS | Bathurst Channel
+SPS | Fox Sports 506
 SR2 | Sky Racing 2
 SRA | Sky Racing 1
 SRW | Sky Racing Thoroughbred Central
