@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Oct 13 00:16:43 UTC 2025
+# Fecha: Tue Oct 14 00:15:00 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -17,6 +17,7 @@
 5bd05b4694d45d266bc951f2 | Unsolved Mysteries
 5bd8186d53ed2c6334ea0855 | Pluto TV Reality
 5bd81b1053ed2c6334ea0856 | Strongman
+5bd8282253ed2c6334ea10fa | Fireplace
 5bd833b41843b56328bac189 | Mythbusters
 5c363c2411c5ca053f198f97 | Pluto TV Comedy Movies
 5c45f5a9d40d58066869fa60 | Ghost Dimension
@@ -30,10 +31,12 @@
 5d134a74ca91eedee1630faa | Pluto TV Classic TV
 5d2c571faeb3e2738ae27933 | 5 Cops
 5d4ae94ef1a1bbb350ca41bb | Pluto TV Conspiracy
+5d4af00df345adb154b7a1f4 | 21 Jump Street
 5d4af1803e7983b391d73b13 | Pluto TV History
 5d4af2ffa9506ab29cf38c38 | Pluto TV Paranormal
 5d4bdb635ce813b38639e6a3 | Pluto TV Westerns
 5d765786aad587cf4d0e2bf6 | Inspector Gadget
+5d765984438d93d01eaf107f | Degrassi Next Gen
 5d767790d0438aceb41d03ae | Pluto TV Crime
 5d9492c77ea6f99188738ff1 | Pluto TV Science
 5dbc2f98777f2e0009934ae7 | Pluto TV Space
@@ -108,6 +111,7 @@
 63d91cc58795f30008678e9d | Medical Detectives
 63d91d2560bc8f0008a225e4 | FIFA+
 63d91d624e83e7000881ca8c | Escape to the Country
+63fe249f49839300086d4888 | Punk'd
 63fe2ea349839300086d6d3e | Crime Scene Solvers
 63fe2ec4dff38e000835f786 | Rookie Blue
 6401d85a49839300087b116c | Moviesphere
@@ -177,6 +181,7 @@
 66eaf5a9483d460008e267b5 | Pluto TV Comedy Drama
 66ebf9bc55567d0008de3b29 | The Hotel Inspector
 66ed3e9d5e4a6e0008b346e0 | UFC
+66f12a69913b8e0008cc7365 | Mutant X
 66f1331f9409630008077623 | Earth: Final Conflict
 66f135b45e4a6e0008b80606 | Antiques Road Trip
 66f137cb483d460008ece053 | Rugby Pass TV
