@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Oct 14 00:15:00 UTC 2025
+# Fecha: Wed Oct 15 00:16:10 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -378,7 +378,10 @@ GB1400001E4 | CURIOSITY Now
 GB1600007CB | Rally.TV FAST+
 GB170000351 | POP Up
 GB1700004YC | K-Food by CJ ENM
+GB1700005U8 | BABY SHARK TV
 GB17000066A | K-Content by CJ ENM
+GB1700007PK | NEW K-MOVIES
+GB17000088V | NEW KPOP
 GB1800002FA | 8 Out Of 10 Cats
 GB2000007ID | LADbible
 GB2000008XP | Ghost Hunters
@@ -395,6 +398,7 @@ GB2200002CC | GFN Soccer TV
 GB2300002AI | Tipping Point
 GB2400006I0 | Tiny House Nation
 GB2400007FA | Teletubbies
+GB2400008GK | Dennis and Gnasher
 GB2500002K0 | Cool Summer Channel
 GB26000118T | DFB Play TV
 GB2600012R3 | Drama Movies - Rakuten TV
@@ -423,6 +427,7 @@ GB270001538 | Emergency 24/7
 GB2700016H5 | Artist of the Year
 GB28000063B | Mayday: Air Disaster
 GB280000829 | Poldark
+GB29000059T | Location Location Location
 GB300001QO | Conan O'Brien TV
 GB300003UI | Sony One Comedy HITS
 GB3000041I | Sony One Action HITS
@@ -437,17 +442,21 @@ GB300036IM | PGA Tour
 GB3000370X | GREAT! Christmas
 GB3000387J | Antiques Road Trip
 GB32000024G | British Screen Classics
+GB3200005SO | Autentic History
 GB330000144 | RugbyPass TV
 GB3300002NF | Sky News
 GB3400001ND | Video Game Heroes
 GB340000289 | YAAAS!
 GB3400003A9 | Ketchup TV
+GB3600003B3 | Dhar Mann TV
 GB3700002J0 | Strawberry Shortcake
 GB370000369 | Sonic The Hedgehog
 GB37000041H | Nashville
 GB3700005QK | Hoarders
 GB37000067A | Lifetime Movies
 GB3700007OZ | &amp;TV
+GB3700008XB | Cops &amp; Docs
+GB3700009AO | Untold Stories of the ER
 GB3900001TM | K-POP by CJ ENM
 GB3900002DT | Ninja Warrior
 GB3900003W4 | Inside Outside
@@ -515,6 +524,7 @@ GBBC2300003ZQ | Entertainment Hub
 GBBC300002SA | Hell's Kitchen
 GBBC300003UQ | WaterBear
 GBBC4000002H3 | The Jamie Oliver Channel
+GBBC400000345 | Festive Hub
 GBBC430000128 | POP
 GBBC4300005AL | The LEGO Channel
 GBBC900001SC | Trace Urban
@@ -533,7 +543,6 @@ GBBD1100003I0 | Love Pets
 GBBD1100007AC | True Crime UK
 GBBD1100008YW | FIFA+
 GBBD1100009M9 | So…Real
-GBBD1100011V3 | Dennis and Gnasher
 GBBD1100013BJ | Zee One
 GBBD1300001WA | Smurf TV
 GBBD19000026B | Trace UK
@@ -564,6 +573,7 @@ GBBD3600001NO | CNBC
 GBBD3700001AB | DATELINE 24/7
 GBBD4100006KV | Born to Kill
 GBBD4100010H1 | Crime Network
+GBBD4100011RE | K-Drama+
 GBBD4900001RG | Reuters
 GBBD50000084W | Jack Hanna
 GBBD500001F5 | Love the Planet
