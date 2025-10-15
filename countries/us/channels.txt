@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Oct 14 00:15:04 UTC 2025
+# Fecha: Wed Oct 15 00:16:08 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -328,7 +328,6 @@
 664e640a0120f40008be4582 | The Wild Wild West
 664fd48894d5580008e45e7c | Dog Whisperer with Cesar Millan
 6661f11a41af6400080e90d8 | Big Brother
-6661f88f3d173b000845958c | Wild West TV
 666b265722acab000885c6aa | BET x Tyler Perry Comedy
 666b38a5efa2a10008b15b3a | BET x Tyler Perry Drama
 6675c713fc3a46000863dde7 | Ebony TV Drama
@@ -401,5 +400,12 @@
 6887aaade3703b7d42b64be8 | The First 48 by A&amp;E
 6887aaf4e3703b7d42b71a1e | Storage Wars by A&amp;E
 68939e206727ec919bb39061 | Hogan's Heroes
+68bb162bb3900870ec364cbe | Beach Day
+68bb164fb3900870ec368759 | Living With Evil
+68bb167e00a2f063fdf7ee8f | Best of Bobby Flay by Food Network
+68bb16916523408b14bac7f8 | Home Cooking by Food Network
+68bb16a500a2f063fdf89f8c | Chef vs Chef by Food Network
+68bb16ba3efb41cd971f3ce6 | Delicious Eats by Food Network
+68bb16e7f89c82a68bcc4397 | Chip &amp; Jo: Feels Like Home by Magnolia Network
 68c32d88f56983aba40052bd | BET Comedy Movies
 metv | MeTV
