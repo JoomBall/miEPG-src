@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct 15 00:16:10 UTC 2025
+# Fecha: Thu Oct 16 00:15:38 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -208,6 +208,7 @@
 6882521ac258734a42a60ed0 | DP World Tour
 68b5a5402155bfc3488dc457 | Saw
 68b5a5900777559fa5bc13f0 | Leprechaun
+68d67005bdb33359705bbed3 | SUMO London 2025
 68e3b6112baff9f069d02540 | Relic Hunter
 68e3b8c846e8a33b6839e981 | Renegade
 68e3c37c19f32ffa27bae948 | Unsolved Mysteries with Dennis Farina
