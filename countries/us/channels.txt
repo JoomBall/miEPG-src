@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct 15 00:16:08 UTC 2025
+# Fecha: Thu Oct 16 00:15:40 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -306,10 +306,8 @@
 65653817c917a5000844bc30 | Criminal Minds
 656538f8954b020008d389db | UnXplained Zone
 6565413e4261ca0008215320 | Pickers &amp; Pawn
-65654230c917a5000844ce96 | Home Crashers
 656542ae4261ca00082154a8 | Ultimate Builds
 6565430c9d5ac4000822f508 | Rustic Retreats
-6565436c9d5ac4000822f552 | Medical Incredible
 65775af3b3801200084a3aa4 | Feel Good Drama
 65775d29dfed030008cb3db2 | Modern Marvels Presented by HISTORY
 65790cda6e4f6a0008768764 | NBC Los Angeles News
@@ -357,12 +355,9 @@
 672e4d915534bb0008c50168 | Family Feud
 673247127d5da5000817b4d6 | Pluto TV Trending Now
 673248f9030a2c0008033af8 | CNN XPRESS
-673249215534bb0008c8a012 | Bodas+
 673249433a61d400087a51ed | Construcciones Asombrosas
-6732495dc7626f0008c71e7d | Expedientes Sobrenaturales
 6732499ce40c4a0008bb9894 | Crimen
 673249afc7626f0008c7205d | Vidas Extremas
-673249ccc7626f0008c72076 | TuDiscovery
 67352ed93a61d4000881f9fa | The Twilight Zone
 673bf05ddaad7f0008ac7a5c | Dinos 24/7
 674f735a2fb8a100087bf253 | Revry
