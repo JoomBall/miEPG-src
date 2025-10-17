@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct 16 00:15:42 UTC 2025
+# Fecha: Fri Oct 17 00:16:00 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -479,11 +479,11 @@ Arirang TV HD | Arirang TV
 Atrescine | Atrescine
 Atreseries | Atreseries
 Atreseries.es | Atreseries
-BBC Drama | BBC Drama
 BBC Earth | BBC Earth
 BBC Food | BBC Food
 BBC History | BBC History
 BBC Lifestyle | BBC Lifestyle
+BBC Series | BBC Series
 BBC Top Gear | BBC Top Gear
 BBC World News Europe HD | BBC World News Europe
 BBC.News.es | BBC News
@@ -1228,7 +1228,6 @@ MTV.Hits.es | MTV Hits
 MTV.Live.es | MTV Live
 MTV.Music.es | MTV Music
 MTV00.es | MTV00
-Matchroom Boxing | Matchroom Boxing
 Mega | Mega
 Mega.es | Mega
 Mezzo Live HD | Mezzo Live
@@ -1296,7 +1295,6 @@ Onda Algeciras TV | Onda Algeciras TV
 Onda Cádiz TV | Onda Cádiz TV
 Onda.Algeciras.TV.es | Onda Algeciras TV
 Onetoro | Onetoro
-PDC Darts | PDC Darts
 PLL Network | PLL Network
 PRO TV RUMANIA | PRO TV RUMANIA
 PT | Canal 11 | PT | Canal 11
