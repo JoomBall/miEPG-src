@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct 16 00:15:41 UTC 2025
+# Fecha: Fri Oct 17 00:15:56 UTC 2025
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -72,6 +72,7 @@ SRA | Sky Racing 1
 SRW | Sky Racing Thoroughbred Central
 SUK | SKY NEWS UK
 TMF | Trending
+TRS | Murder, She Wrote HD
 TVS | TVSN
 UFC | Main Event UFC
 UKT | UKTV
