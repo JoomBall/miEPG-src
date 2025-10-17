@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct 16 00:15:40 UTC 2025
+# Fecha: Fri Oct 17 00:15:57 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -340,7 +340,6 @@
 66a7f0a78561260008c177f2 | Salem News Channel
 66abefe5d2d50d00082c7d12 | VH1 Queens of Reality
 66b646f9cd0d3100086af83c | 60 Minutes
-66b66b9e14a2bb000872f606 | WOW – Women of Wrestling
 66ba495ffe11e5000881f049 | Cheers + Frasier
 66ba53cda4ee2700083fac09 | Sala de Emergencias: Historias Inéditas
 66c638726838ee00085ac20d | OuterSphere
@@ -403,4 +402,6 @@
 68bb16ba3efb41cd971f3ce6 | Delicious Eats by Food Network
 68bb16e7f89c82a68bcc4397 | Chip &amp; Jo: Feels Like Home by Magnolia Network
 68c32d88f56983aba40052bd | BET Comedy Movies
+68c85164b7af374ee483210f | Wrestling Central
+68c8a5c6b3900870ec0de73a | Universal Movies
 metv | MeTV
