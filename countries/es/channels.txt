@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Oct 19 00:17:24 UTC 2025
+# Fecha: Mon Oct 20 00:17:04 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -618,6 +618,7 @@ DAZN NFL Game Pass 14 | DAZN NFL Game Pass 14
 DAZN NFL Game Pass 15 | DAZN NFL Game Pass 15
 DAZN NFL Game Pass 16 | DAZN NFL Game Pass 16
 DAZN NFL Game Pass 17 | DAZN NFL Game Pass 17
+DAZN NFL Game Pass 18 | DAZN NFL Game Pass 18
 DAZN NFL Game Pass 2 | DAZN NFL Game Pass 2
 DAZN NFL Game Pass 3 | DAZN NFL Game Pass 3
 DAZN NFL Game Pass 4 | DAZN NFL Game Pass 4
@@ -1321,7 +1322,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV NBA | PT | Sport TV NBA
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
 PTV Sevilla | PTV Sevilla
