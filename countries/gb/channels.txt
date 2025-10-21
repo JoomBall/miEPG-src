@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Oct 20 00:17:03 UTC 2025
+# Fecha: Tue Oct 21 00:15:53 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -147,7 +147,6 @@
 65b14aae0cb1a100087a216e | DAZN Ringside
 65b3895660eb8700089e7f53 | Car Chase
 65c4960d11ced7000812c433 | Geordie Shore
-65dde148ec9fda0008b3c541 | Love Pets
 65f0166566eec80008b96f7e | Pluto TV Wildest Adventures
 65f96980f7f0af0008fa6302 | Realmadrid TV
 660be37e7bcd860008793a6a | Bondi Rescue
@@ -157,6 +156,7 @@
 66275e41cee0d900085fde6e | The Love Boat
 66275eed5e23700008f8c8f9 | Melrose Place
 66276091cee0d900085fe053 | Sabrina The Teenage Witch
+6627621d56fc840008e47c90 | Tennis Channel
 6627623e307fa3000810b66e | Ninja Warrior
 664c94e80120f40008b860f0 | POP
 664c953db18d700008fcc158 | POP UP
