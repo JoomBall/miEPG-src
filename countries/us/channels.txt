@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Oct 20 00:17:02 UTC 2025
+# Fecha: Tue Oct 21 00:15:54 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -234,7 +234,7 @@
 6283d51144ad8f0007fa382d | The Judge Judy Channel
 628e685ba3811100070551a8 | Hallmark Movies &amp; More
 62ba60f059624e000781c436 | 00s Replay
-62cdc813f5def500070361eb | CBS News Texas
+62cdcac1be7a970008781a64 | CBS News Pittsburgh
 62f2ce24f328e00007e7f55a | Stories by AMC
 62f54c11b3af68000702c304 | CSI: Miami
 62f54c6439183b000769fb8f | CSI: NY
@@ -351,6 +351,7 @@
 66e0b4a3f0f17500085cc268 | Hit Sitcoms
 66fedd65d7de140008dccd66 | El Reino Infantil
 66ff0cf663292d0008320cf8 | No Reservations
+66ff1d5a565d3a000892bdcd | Stingray Holidayscapes
 672e4d915534bb0008c50168 | Family Feud
 673247127d5da5000817b4d6 | Pluto TV Trending Now
 673248f9030a2c0008033af8 | CNN XPRESS
