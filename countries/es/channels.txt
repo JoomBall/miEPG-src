@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Oct 21 00:15:54 UTC 2025
+# Fecha: Wed Oct 22 00:16:14 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -611,6 +611,11 @@ DAZN Liga F 3 | DAZN Liga F 3
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
 DAZN NFL Game Pass 2 | DAZN NFL Game Pass 2
+DAZN NFL Game Pass 3 | DAZN NFL Game Pass 3
+DAZN NFL Game Pass 4 | DAZN NFL Game Pass 4
+DAZN NFL Game Pass 5 | DAZN NFL Game Pass 5
+DAZN NFL Game Pass 6 | DAZN NFL Game Pass 6
+DAZN NFL Game Pass 7 | DAZN NFL Game Pass 7
 DAZN NFL Game Pass | DAZN NFL Game Pass
 DAZN National League 2 | DAZN National League 2
 DAZN National League 3 | DAZN National League 3
@@ -1306,6 +1311,7 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV NBA | PT | Sport TV NBA
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
+PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
 PTV Sevilla | PTV Sevilla
@@ -1433,7 +1439,6 @@ Telemadrid.es | Telemadrid
 Telesur HD | Telesur
 Televisió de Badalona | Televisió de Badalona
 Televisió de l'Hospitalet | Televisió de l'Hospitalet
-Televisió del Ripollès | Televisió del Ripollès
 TelevisiónCanaria.es | TelevisiónCanaria
 Ten | Ten
 Ten.es | Ten
@@ -1470,6 +1475,7 @@ Unbeaten | Unbeaten
 VE PLUS TV | VE PLUS TV
 VE.PLUS.TV.es | VE PLUS TV
 VINX | VINX
+VOTV | VOTV
 Vallès Visió | Vallès Visió
 Vamos BAR 2 | Vamos BAR 2
 Vamos BAR | Vamos BAR
@@ -1519,6 +1525,8 @@ crime-rakuten-tv | Crimen
 crimenes-reales | Crímenes Reales
 curro-jimenez | Curro Jiménez
 dark-matter-es-new | Dark Matter
+daystar-eng | Daystar TV
+daystar-spa | Daystar Español
 deluxe-lounge-hd | Deluxe Lounge HD
 drama-rakuten-tv | Películas de Drama
 ducktv | ducktv
