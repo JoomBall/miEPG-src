@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct 23 00:15:42 UTC 2025
+# Fecha: Fri Oct 24 00:14:24 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -274,6 +274,10 @@ BBC.R5SX.uk | BBC R5SX
 BBC.RB.1.HD.uk | BBC RB 1 HD
 BBC.RB.1.uk | BBC RB 1
 BBC.RLondon.uk | BBC RLondon
+BBC.Radio.Bristol.104.6FM.uk | BBC Radio Bristol 104.6FM
+BBC.Radio.Bristol.94.9FM.uk | BBC Radio Bristol 94.9FM
+BBC.Radio.Bristol.DAB.uk | BBC Radio Bristol DAB
+BBC.Radio.Sussex.uk | BBC Radio Sussex
 BBC.Three.HD.uk | BBC Three HD
 BBC.Two.HD.uk | BBC Two HD
 BBC.Two.NI.HD.uk | BBC Two NI HD
@@ -600,6 +604,7 @@ Gemporia.Craft.uk | Gemporia Craft
 Gems.TV.uk | Gems TV
 Get.Lucky.TV.uk | Get Lucky TV
 Good.News.TV.uk | Good News TV
+Greatest.Hits.Radio.(West.Sussex).uk | Greatest Hits Radio (West Sussex)
 Greatest.Hits.uk | Greatest Hits
 HGTV+1.uk | HGTV+1
 HGTV.uk | HGTV
@@ -608,6 +613,7 @@ HUM.Masala.uk | HUM Masala
 Heart.80s.uk | Heart 80s
 Heart.90s.uk | Heart 90s
 Heart.Dance.uk | Heart Dance
+Heart.Sussex.uk | Heart Sussex
 Heart.uk | Heart
 Hidayat.TV.uk | Hidayat TV
 High.Street.TV.1.uk | High Street TV 1
@@ -663,6 +669,7 @@ MTV.Live.HD.uk | MTV Live HD
 MTV.MUSIC.uk | MTV MUSIC
 MUTV.HD.uk | MUTV HD
 Madani.Chnl.uk | Madani Chnl
+More.Radio.Mid.Sussex.uk | More Radio Mid Sussex
 More4+1.uk | More4+1
 More4.HD.uk | More4 HD
 Movies24+.uk | Movies24+
