@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct 23 00:15:56 UTC 2025
+# Fecha: Fri Oct 24 00:14:23 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -405,4 +405,5 @@
 68c32d88f56983aba40052bd | BET Comedy Movies
 68c85164b7af374ee483210f | Wrestling Central
 68c8a5c6b3900870ec0de73a | Universal Movies
+68ee9a999938143525bfc385 | Shop LC
 metv | MeTV
