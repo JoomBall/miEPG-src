@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Oct 27 00:17:26 UTC 2025
+# Fecha: Tue Oct 28 00:15:27 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -211,6 +211,9 @@
 68d67005bdb33359705bbed3 | SUMO London 2025
 68e3b6112baff9f069d02540 | Relic Hunter
 68e3b8c846e8a33b6839e981 | Renegade
+68e3bf280989820fd0c7228a | Teen Mom UK
+68e3bf7480f586b45f6fb563 | Catfish UK
+68e3bfc6c5a50ef76a2393d2 | Wardens
 68e3c37c19f32ffa27bae948 | Unsolved Mysteries with Dennis Farina
 92.News.uk | 92 News
 A1TV.uk | A1TV
