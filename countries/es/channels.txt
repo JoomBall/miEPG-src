@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct 30 00:16:41 UTC 2025
+# Fecha: Fri Oct 31 00:16:07 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -112,7 +112,6 @@
 643054b1fc3be59477853717-5ef11487d33ab9004048a1d3 | Choppertown
 643054b1fc3be59477853717-5ef11487d33ab9004048a1d6 | Popstar! TV
 643054b1fc3be59477853717-5ef11487d33ab9004048a1d9 | Revry
-643054b1fc3be59477853717-5ef4e1b10d9ad000423c4421 | Always Funny en Español
 643054b1fc3be59477853717-5ef4e1b40d9ad000423c4430 | Maverick Black Cinema
 643054b1fc3be59477853717-5efe1de6e0b3f5003f5d9f82 | The Boat Show
 643054b1fc3be59477853717-5efe1de6e0b3f5003f5d9f88 | The Bob Ross Channel
@@ -362,6 +361,7 @@
 643054b1fc3be59477853717-68caada21fabab6eb2e99331 | Bassmaster
 643054b1fc3be59477853717-68d15e51c80ec69e0bd8965b | MrBeast
 643054b1fc3be59477853717-68d7f9b53b1f329cea126993 | Dude Perfect
+643054b1fc3be59477853717-68e0371d8bbd79d66c631ab2 | The Wiggles
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -624,6 +624,7 @@ DAZN NFL Game Pass 19 | DAZN NFL Game Pass 19
 DAZN NFL Game Pass 2 | DAZN NFL Game Pass 2
 DAZN NFL Game Pass 20 | DAZN NFL Game Pass 20
 DAZN NFL Game Pass 21 | DAZN NFL Game Pass 21
+DAZN NFL Game Pass 22 | DAZN NFL Game Pass 22
 DAZN NFL Game Pass 3 | DAZN NFL Game Pass 3
 DAZN NFL Game Pass 4 | DAZN NFL Game Pass 4
 DAZN NFL Game Pass 5 | DAZN NFL Game Pass 5
@@ -1635,7 +1636,6 @@ todo-crimen | Todo Crimen
 todo-novelas | Todo Novelas
 top-barca-es | TOP Barça
 top-movies-rakuten-tv | Pelis Top
-trailers | Trailers
 travelxp-es | Travelxp
 tvmataró | tvmataró
 vaya-semanita | Vaya semanita
