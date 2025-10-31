@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct 30 00:16:40 UTC 2025
+# Fecha: Fri Oct 31 00:16:20 UTC 2025
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -44,7 +44,6 @@ HIT | Comedy
 HST | Real History
 IOI | Crime
 LHO | LifeStyle Home
-LMH | Movies Life
 LST | LifeStyle
 MO6 | Movies Drama
 MSN | MSNBC
