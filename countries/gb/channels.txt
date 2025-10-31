@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct 30 00:16:41 UTC 2025
+# Fecha: Fri Oct 31 00:16:10 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -214,7 +214,9 @@
 68e3bf280989820fd0c7228a | Teen Mom UK
 68e3bf7480f586b45f6fb563 | Catfish UK
 68e3bfc6c5a50ef76a2393d2 | Wardens
+68e3c18130ee729844af1fca | Monkey
 68e3c37c19f32ffa27bae948 | Unsolved Mysteries with Dennis Farina
+68e8ffee9d1d49e672fe790f | The Yellow Couch with Jeremy Lynch
 92.News.uk | 92 News
 A1TV.uk | A1TV
 AAJ.TAK.uk | AAJ TAK
