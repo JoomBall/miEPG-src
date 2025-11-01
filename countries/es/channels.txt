@@ -1,10 +1,9 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Oct 31 00:16:07 UTC 2025
+# Fecha: Sat Nov  1 00:17:57 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
-/esruntime | Runtime
 /esruntime-accion | Runtime Acción
 /esruntime-clasicos | Runtime Clásicos
 /esruntime-comedia | Runtime Comedia
@@ -362,6 +361,7 @@
 643054b1fc3be59477853717-68d15e51c80ec69e0bd8965b | MrBeast
 643054b1fc3be59477853717-68d7f9b53b1f329cea126993 | Dude Perfect
 643054b1fc3be59477853717-68e0371d8bbd79d66c631ab2 | The Wiggles
+643054b1fc3be59477853717-68e9436dda6bb987138625c7 | Metal.Rocks
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -611,28 +611,6 @@ DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F 3 | DAZN Liga F 3
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
-DAZN NFL Game Pass 10 | DAZN NFL Game Pass 10
-DAZN NFL Game Pass 11 | DAZN NFL Game Pass 11
-DAZN NFL Game Pass 12 | DAZN NFL Game Pass 12
-DAZN NFL Game Pass 13 | DAZN NFL Game Pass 13
-DAZN NFL Game Pass 14 | DAZN NFL Game Pass 14
-DAZN NFL Game Pass 15 | DAZN NFL Game Pass 15
-DAZN NFL Game Pass 16 | DAZN NFL Game Pass 16
-DAZN NFL Game Pass 17 | DAZN NFL Game Pass 17
-DAZN NFL Game Pass 18 | DAZN NFL Game Pass 18
-DAZN NFL Game Pass 19 | DAZN NFL Game Pass 19
-DAZN NFL Game Pass 2 | DAZN NFL Game Pass 2
-DAZN NFL Game Pass 20 | DAZN NFL Game Pass 20
-DAZN NFL Game Pass 21 | DAZN NFL Game Pass 21
-DAZN NFL Game Pass 22 | DAZN NFL Game Pass 22
-DAZN NFL Game Pass 3 | DAZN NFL Game Pass 3
-DAZN NFL Game Pass 4 | DAZN NFL Game Pass 4
-DAZN NFL Game Pass 5 | DAZN NFL Game Pass 5
-DAZN NFL Game Pass 6 | DAZN NFL Game Pass 6
-DAZN NFL Game Pass 7 | DAZN NFL Game Pass 7
-DAZN NFL Game Pass 8 | DAZN NFL Game Pass 8
-DAZN NFL Game Pass 9 | DAZN NFL Game Pass 9
-DAZN NFL Game Pass | DAZN NFL Game Pass
 DAZN National League 2 | DAZN National League 2
 DAZN National League 3 | DAZN National League 3
 DAZN National League 4 | DAZN National League 4
@@ -1550,7 +1528,7 @@ ducktv | ducktv
 el-conquistador | El Conquistador
 el-pais | El País
 euronews-live-spa | Euronews EN DIRECTO
-family-rakuten-tv | En Familia
+family-rakuten-tv | 100% Navidad
 fashion-tv | Fashion TV
 feel-good-tv | Feel Good TV
 feelgood | FeelGood
