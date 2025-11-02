@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Nov  1 00:17:55 UTC 2025
+# Fecha: Sun Nov  2 00:17:39 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -50,6 +50,7 @@
 5bb3fea0f711fd76340eebff | Pluto TV Military
 5bdcdf1e851dd5632e2c11d1 | QVC
 5bee1a7359ee03633e780238 | Dog the Bounty Hunter
+5bf48085851dd5632e2f7b4d | Crackling Fireplace
 5c01df1759ee03633e7b272c | Lucha Libre AAA
 5c2d64ffbdf11b71587184b8 | TV Land Sitcoms
 5c37d6712de254456f7ec340 | Cold Case Files by A&amp;E
@@ -89,6 +90,7 @@
 5d48678d34ceb37d3c458a55 | Wild 'N Out
 5d48685da7e9f476aa8a1888 | The Challenge
 5d486acc34ceb37d3c458a64 | The First
+5d4db961034718b2f52f9e52 | Pluto TV 007
 5d51ddf0369acdb278dfb05e | Love &amp; Hip Hop
 5d51e2bceca5b4b2c0e06c50 | Black Ink Crew
 5d51e791b7dba3b2ae990ab2 | This Old House
@@ -99,6 +101,7 @@
 5d8d08395f39465da6fb3ec4 | Nickelodeon en español
 5d8d164d92e97a5e107638d2 | Cine adrenalina
 5d8d180092e97a5e107638d3 | Cine terror
+5d93b58e7ea6f9918873886f | Pluto TV 007 en español
 5d93b635b43dd1a399b39eee | Vevo Pop
 5da0c85bd2c9c10009370984 | Naruto
 5da0d75e84830900098a1ea0 | Vevo Country
@@ -138,7 +141,6 @@
 5eb301b7395671000780d100 | Little Angel's Playroom
 5ebc8688f3697d00072f7cf8 | Bellator MMA
 5eceb0d4065c240007688ec6 | CBS News Texas
-5ef3958c66ac540007d6e6a7 | Dark Shadows
 5ef3977e5d773400077de284 | Three's Company
 5efbd29e4aa26700076c0d06 | CSI
 5efbd39f8c4ce900075d7698 | Star Trek
@@ -214,6 +216,7 @@
 613260e4bdb71c00070d63fa | More TV Drama
 6132619f9ddaa50007e7dd86 | More TV Sitcoms
 61326275b3c86a00078e4833 | BET Throwbacks
+614501c653ceee000772b0ca | Festive Fireplace
 615b8ec39e878900073f419a | Antiques Road Trip
 6176f39e709f160007ec61c3 | 48 Hours
 6176fd25e83a5f0007a464c9 | Bounce XL
@@ -232,7 +235,7 @@
 6267352efcf21c0007c76642 | Let's Make A Deal
 627d355aa95efd00077afcc7 | Cheaters
 6283d51144ad8f0007fa382d | The Judge Judy Channel
-628e685ba3811100070551a8 | Hallmark Movies &amp; More
+628e685ba3811100070551a8 | Hallmark Movies &amp; More Holiday Favorites
 62ba60f059624e000781c436 | 00s Replay
 62cdcd05b9e7a10007399603 | CBS News Sacramento
 62f2ce24f328e00007e7f55a | Stories by AMC
@@ -243,7 +246,11 @@
 632b606e12a67b0007c9e371 | CSI: NY en español
 632b619c8d2a6c0007ff534e | KIRO Seattle
 633354b63df9700007f6a1b7 | Sitcom Legends
-63335b193583440007c859fb | Movie Favorites By Lifetime
+63335b193583440007c859fb | Holiday Movie Favorites By Lifetime
+63335df531a7590007c226b9 | Pluto TV Christmas
+6334a3355471ee0007609e21 | Home for the Holidays
+6334a3ffdc283500076acf92 | Vevo Holiday
+6334a4d7ae975100073994a2 | Cine navideño
 6334a574605f140007e233c4 | PFL MMA
 634dacf51d90320007fcd5fa | Star Trek Voyager
 634ee8f95aa9870007248333 | Confess by Nosey
@@ -279,7 +286,6 @@
 64dab5fe35425100080e2991 | Vevo Regional Mexicano
 64dab9df3d48f40008868091 | The Jamie Oliver Channel
 64e561a4354251000823a0e0 | Ghost Hunters
-65033c4b98020f0008547124 | S.W.A.T.
 6508be683a0d700008c534e4 | ABC News Live
 650b68bc2ce8e40008ac9c14 | FanDuel TV Extra
 651f239d9c7aeb0008286823 | Dating Disasters
@@ -406,4 +412,5 @@
 68c85164b7af374ee483210f | Wrestling Central
 68c8a5c6b3900870ec0de73a | Universal Movies
 68ee9a999938143525bfc385 | Shop LC
+68f690e7a25ba0aab32bed92 | BET Holiday Movies
 metv | MeTV
