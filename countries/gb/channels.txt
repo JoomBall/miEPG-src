@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Nov  3 00:17:18 UTC 2025
+# Fecha: Tue Nov  4 00:16:05 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -17,6 +17,7 @@
 5bd05b4694d45d266bc951f2 | Unsolved Mysteries
 5bd8186d53ed2c6334ea0855 | Pluto TV Reality
 5bd81b1053ed2c6334ea0856 | Strongman
+5bd8273953ed2c6334ea10f8 | Pluto TV Christmas
 5bd8282253ed2c6334ea10fa | Fireplace
 5bd833b41843b56328bac189 | Mythbusters
 5c363c2411c5ca053f198f97 | Pluto TV Comedy Movies
@@ -43,6 +44,7 @@
 5dbfeb961b411c00090b52b3 | Pluto TV Action
 5dbfedccc563080009b60f4a | Pluto TV Thrillers
 5dc02a44a9518600094273ac | Pluto TV Sci-Fi
+5dc039c65b56d0000945af0e | Pluto TV Mistletoe
 5dc2ba1a9c91420009db4858 | Nosey
 5dc2c00abfed110009d97243 | Pluto TV Sherlock
 5dc3fc6b9133f500099c7d98 | Pluto TV Family Movie Club
@@ -70,6 +72,7 @@
 60e453641239a700071f53a1 | Dog Whisperer
 611e672d4676bf00076a3837 | Baywatch
 611f85396abc84000738417b | Beyond Belief: Fact or Fiction
+612cda102f5f18000705e0bf | Pluto TV Horror
 612f761008a9e50007984ba0 | Pluto TV Animation
 61559552dd585f0007321eca | Bloomberg TV+
 615af74dfe3d8e0007524511 | On The Case
@@ -93,7 +96,6 @@
 62ab579258cb950007811aad | Mission Impossible
 62ac405b3874370007419b7f | Barney &amp; Friends
 62ac50e92c48f900071444c9 | Auction Hunters
-62cbdc45d3cb9f0007128df4 | Pluto TV Christmas in Summer
 62d550d81054990007db7798 | Teen Mom
 62e9184439d80c00076e166d | Aftershock
 62f53dc6ee9a0400071dc22b | Pluto TV Sitcoms
@@ -101,6 +103,7 @@
 6304fb268bd95300072d2198 | True Crime UK
 6319ee0cf78bb10007ee5e6b | World War TV
 6319f06067a3ee000708af95 | Haunt TV
+635bfa457176da0007355017 | MTV Xmas
 635bfb89b5cd9b0007ca9d63 | MTV Classic
 63693fa2bfa0690007ebc880 | Wicked Tuna
 63808dc806aa4700075f319a | Pluto TV Investigation
@@ -108,7 +111,7 @@
 63c1384e829c850007922ca4 | 5 Emergency Rescue
 63d000ef4e83e700086e0d6c | Scorpion
 63d8ed19a9957100086f4d33 | Transformers
-63d91cc58795f30008678e9d | Medical Detectives
+63d91cc58795f30008678e9d | Bloodline Detectives
 63d91d2560bc8f0008a225e4 | FIFA+
 63d91d624e83e7000881ca8c | Escape to the Country
 63fe249f49839300086d4888 | Punk'd
@@ -170,15 +173,11 @@
 66a10f11a79dea0008aa73b0 | Bob the Builder
 66ba1e23d2d50d00084a1e57 | Crimes That Shook Britain
 66ba1e4446762a000855cd87 | Girlfriends
-66ba1ef5fe11e50008814383 | Pluto TV Kids Halloween
-66ba1f46d2d50d00084a28c4 | Bitten
-66bb66e2d512590008d728aa | Pluto TV Halloween
 66c45afaa72e7b0008a2b153 | CNNi
 66d717d2abec540008ba7ec4 | Pluto TV 80's Action
 66d82143abec540008bd2b1c | Project Runway
 66d885aef0f17500084b6750 | PGA TOUR
 66dff9d46ad04d0008fda4de | CNN Headlines
-66eaf5a9483d460008e267b5 | Pluto TV Comedy Drama
 66ebf9bc55567d0008de3b29 | The Hotel Inspector
 66ed3e9d5e4a6e0008b346e0 | UFC
 66f12a69913b8e0008cc7365 | Mutant X
@@ -187,9 +186,12 @@
 66f137cb483d460008ece053 | Rugby Pass TV
 66fd37885049580008d295b6 | AWSN
 67063e78b2ffb10008195d08 | MODUS Super Series Darts
+677fb08f5b68381e2dbfd5af | The Bionic Woman
+677fb0b33a225c2d0d8a17be | Xena: Warrior Princess
+677fb0e93a225c2d0d8a45bf | Northern Exposure
+677fb115a4af36ad50113e56 | The Real Housewives
+677fb3432952c1163bf1a539 | Million Dollar Listing
 67f4fde1fbe45309c7699d6f | Pluto TV Masters of Horror
-67f4fe432ebe80e29299573b | Pluto TV 80's Horror
-67f4ff72dea1c5e0d5c205fe | Pluto TV Slasher Movies
 67f4ffda8ddd60c57dc24e35 | Pluto TV Creature Features
 680bb31c56ff83bcd685d64e | Farscape
 68503cfda1e091e16f000625 | 7th Heaven
@@ -204,11 +206,15 @@
 685aa802fb6023de7cc56357 | Dominance FC TV
 686cd713e48af72bc250efb8 | America's Next Top Model
 686cd7bd8aeeaaa91a153161 | Britain's Next Top Model
-686f7fa794a8f8fdc6db806a | MTV Halloween
+686fc8fe1889b4ad04604704 | Icons Unearthed+
 6882521ac258734a42a60ed0 | DP World Tour
 68b5a5402155bfc3488dc457 | Saw
 68b5a5900777559fa5bc13f0 | Leprechaun
-68d67005bdb33359705bbed3 | SUMO London 2025
+68b5a97fc8ef6afa31138718 | The Smurfs
+68d113f9184f1a0620c8101c | Medical Detectives
+68e38aaf8082ad3760def7bc | Hercules: The Legendary Journeys
+68e38b005c876cf730fcbf0f | Six Million Dollar Man
+68e38b6e20115bbaf9c91083 | The Incredible Hulk
 68e3b6112baff9f069d02540 | Relic Hunter
 68e3b8c846e8a33b6839e981 | Renegade
 68e3bf280989820fd0c7228a | Teen Mom UK
