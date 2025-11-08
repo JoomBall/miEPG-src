@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Nov  7 00:16:55 UTC 2025
+# Fecha: Sat Nov  8 00:15:13 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -423,6 +423,7 @@
 683457e5f59cc6a13212fce4 | Lupin
 685a995b460ac82fa504342c | The Good Wife
 685a996c7c4f2ad40cb4f276 | Dragon Ball
+686cd8bb9d079f48dbbdfecb | Metal Rocks
 68751a3bfd6704e9d3cc7b3d | Pequeños aventureros de Pluto TV
 68751aab3484d607323b6d50 | El mundo de los Gnomos de Pluto TV
 68751b006dce17bae3b694f0 | RETRO KIDS de Pluto TV
@@ -609,6 +610,7 @@ DAZN LaLiga HD | DAZN LaLiga
 DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F 3 | DAZN Liga F 3
 DAZN Liga F | DAZN Liga F
+DAZN MotoGP 2 | DAZN MotoGP 2
 DAZN MotoGP | DAZN MotoGP
 DAZN National League 2 | DAZN National League 2
 DAZN National League 3 | DAZN National League 3
@@ -1147,11 +1149,11 @@ M+ Liga de Campeones 8 | M+ Liga de Campeones 8
 M+ Liga de Campeones 9 | M+ Liga de Campeones 9
 M+ Liga de Campeones HD | M+ Liga de Campeones
 M+ Liga de Campeones HDR | M+ Liga de Campeones HDR
+M+ Nicolas Cage | M+ Nicolas Cage
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
 M+ Romance | M+ Romance
-M+ Terror | M+ Terror
 M+ Vamos HD | M+ Vamos
 M+ Wimbledon UHD | M+ Wimbledon
 M+.Acción.es | M+ Acción
@@ -1304,7 +1306,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV NBA | PT | Sport TV NBA
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
