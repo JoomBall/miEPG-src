@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Nov 10 00:17:10 UTC 2025
+# Fecha: Tue Nov 11 00:17:02 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -129,7 +129,6 @@
 64c37e47dac71b000809abab | Evidence of Evil
 64c37e710e086a0009e824ab | NOW 70's
 64edf6eaa7ec0d000812f58c | South Park
-64ff1d3d3a0d700008b110e9 | Robot Wars by MECH+
 64ff1d92d545e9000877fba4 | A Haunting
 650314f73a0d700008bb07cb | Eggheads
 650315163a0d700008bb07f8 | Born to Kill
@@ -178,6 +177,7 @@
 66d82143abec540008bd2b1c | Project Runway
 66d885aef0f17500084b6750 | PGA TOUR
 66dff9d46ad04d0008fda4de | CNN Headlines
+66e06576abec540008cc17a9 | The Graham Norton Show
 66ebf9bc55567d0008de3b29 | The Hotel Inspector
 66ed3e9d5e4a6e0008b346e0 | UFC
 66f12a69913b8e0008cc7365 | Mutant X
@@ -194,6 +194,7 @@
 67f4fde1fbe45309c7699d6f | Pluto TV Masters of Horror
 67f4ffda8ddd60c57dc24e35 | Pluto TV Creature Features
 680bb31c56ff83bcd685d64e | Farscape
+682453731295f98347e92da8 | River Monsters
 68503cfda1e091e16f000625 | 7th Heaven
 68503d1736c9361b191e7d89 | Gunsmoke
 68503d3bc692373f0158c43f | Hawaii Five-O
@@ -210,6 +211,7 @@
 6882521ac258734a42a60ed0 | DP World Tour
 68b5a5402155bfc3488dc457 | Saw
 68b5a5900777559fa5bc13f0 | Leprechaun
+68b5a7b69ac85c428f54c441 | Curzon Cinema
 68b5a97fc8ef6afa31138718 | The Smurfs
 68d113f9184f1a0620c8101c | Medical Detectives
 68e38aaf8082ad3760def7bc | Hercules: The Legendary Journeys
