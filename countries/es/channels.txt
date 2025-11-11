@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Nov 10 00:17:13 UTC 2025
+# Fecha: Tue Nov 11 00:17:06 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -452,6 +452,7 @@ AMC.Break.es | AMC Break
 AMC.Crime.es | AMC Crime
 AMC.es | AMC
 ATRESplayer PREMIUM | ATRESplayer PREMIUM
+ATV Andorra Televisión | ATV Andorra Televisión
 ATV.es | ATV
 AXN HD | AXN
 AXN Movies HD | AXN Movies
@@ -718,6 +719,7 @@ Disney Junior | Disney Junior
 Disney.Channel.+1.es | Disney Channel +1
 Disney.Channel.es | Disney Channel
 Disney.Junior.es | Disney Junior
+Distrito TV | Distrito TV
 Distrito.TV.es | Distrito TV
 Divinity | Divinity
 Divinity.es | Divinity
@@ -1024,6 +1026,7 @@ Iberalia caza | Iberalia caza
 Iberalia pesca | Iberalia pesca
 Iberalia.es | Iberalia
 Imas.TV.es | Imas TV
+Imás TV | Imás TV
 Infinity Comedia | Infinity Comedia
 Infinity En la calle | Infinity En la calle
 Infinity Top Series | Infinity Top Series
@@ -1087,8 +1090,8 @@ LaLiga TV Hypermotion 3 | LaLiga TV Hypermotion 3
 LaLiga TV Hypermotion HD | LaLiga TV Hypermotion
 Levante TV | Levante TV
 Levante.TV.es | Levante TV
+Libertad Digital TV | Libertad Digital TV
 Libertad.Digital.TV.es | Libertad Digital TV
-Liga de Campeones BAR 2 | Liga de Campeones BAR 2
 Lleida TV | Lleida TV
 Lolly Kids | Lolly Kids
 Los Conciertos de Radio 3 | Los Conciertos de Radio 3
@@ -1299,7 +1302,7 @@ PT | Sport TV 3 | PT | Sport TV 3
 PT | Sport TV 4 | PT | Sport TV 4
 PT | Sport TV 5 | PT | Sport TV 5
 PT | Sport TV 6 | PT | Sport TV 6
-PT | Sport TV NBA | PT | Sport TV NBA
+PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
 PTV Granada | PTV Granada
@@ -1322,6 +1325,7 @@ PowerSports World | PowerSports World
 Primera Federación | Primera Federación
 Pro TV | Pro TV
 Pro.TV.Internacional.es | Pro TV Internacional
+Punt 3 | Punt 3
 Punt.3.es | Punt 3
 QWest Mix | QWest Mix
 Qello.Concerts.es | Qello Concerts
