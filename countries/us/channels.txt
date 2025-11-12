@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Nov 11 00:17:01 UTC 2025
+# Fecha: Wed Nov 12 00:17:00 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -103,6 +103,7 @@
 5d8d180092e97a5e107638d3 | Cine terror
 5d93b58e7ea6f9918873886f | Pluto TV 007 en español
 5d93b635b43dd1a399b39eee | Vevo Pop
+5d9ccd538661290009ecbdb7 | Pluto TV Mistletoe
 5da0c85bd2c9c10009370984 | Naruto
 5da0d75e84830900098a1ea0 | Vevo Country
 5da0d83f66c9700009b96d0e | Vevo R&amp;B
