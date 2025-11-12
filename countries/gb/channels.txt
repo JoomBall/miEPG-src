@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Nov 11 00:17:02 UTC 2025
+# Fecha: Wed Nov 12 00:17:01 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -204,6 +204,8 @@
 68504098f212bedacf63a7e1 | Touched by an Angel
 685041d936c9361b1921c26c | Pluto TV Fantasy &amp; Horror
 6850426e53d981d1fdb0d966 | Matlock
+6852811933a52de120f8b89d | Mayday Air Disaster
+6852854bce36f0644f37d765 | A New Life in the Sun
 685aa802fb6023de7cc56357 | Dominance FC TV
 686cd713e48af72bc250efb8 | America's Next Top Model
 686cd7bd8aeeaaa91a153161 | Britain's Next Top Model
