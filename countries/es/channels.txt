@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Nov 12 00:16:59 UTC 2025
+# Fecha: Thu Nov 13 00:16:40 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -160,7 +160,7 @@
 643054b1fc3be59477853717-6196c8c01d310bf925e02615 | Music Legends
 643054b1fc3be59477853717-6196c9241d310bf925e02616 | Lone Star
 643054b1fc3be59477853717-61a945156547ba4d6d238dc9 | Racing America
-643054b1fc3be59477853717-61aa97d4113e1e5137fd5325 | Stingray Greatest Hits
+643054b1fc3be59477853717-61aa97d4113e1e5137fd5325 | Greatest Holiday Hits
 643054b1fc3be59477853717-61aa9e73784a2161d3caf7f9 | Hot Country
 643054b1fc3be59477853717-61aa9f50784a2161d3caf7fb | Remember the ‘80s
 643054b1fc3be59477853717-61aaa014784a2161d3caf7fd | Hit List
@@ -746,6 +746,7 @@ ES17000065P | BABY SHARK TV
 ES20000065W | Tennis+
 ES2200001SF | Fireplace Vibes
 ES2200003DA | Runtime Clásicos
+ES2300004XW | Al Jazeera
 ES2300005G7 | Cine Western
 ES24000028L | Ice Pilots
 ES2500001F9 | Cool Summer Channel
@@ -766,6 +767,7 @@ ES2800001G7 | Planeta de Cine
 ES2800002MM | Mayday: Catástrofe Aérea
 ES2900001DQ | BBC Series
 ES2900002JG | Los Gipsy Kings - Rakuten TV
+ES2900003S3 | Piel Salvaje
 ES3000008O8 | Cine Español - Rakuten TV
 ES30000091V | MyPadel TV
 ES30000145 | Sony One Series Comedia
@@ -797,8 +799,10 @@ ES34000039I | CNN en Español
 ES3400004SS | Sky News International
 ES35000016A | Vevo Navidad
 ES3600001Y7 | Rebelde
+ES3800002V5 | Dhar Mann TV
 ES3900001QG | K-POP by CJ ENM
 ES400002P5 | Cuéntame cómo pasó
+ES4100001XD | Mark Rober TV
 ES4700001VS | 2M
 ES4800002OZ | Caillou
 ES5000001CS | LooLoo Kids
@@ -1114,6 +1118,7 @@ M+ Deportes HD | M+ Deportes
 M+ Documentales HD | M+ Documentales
 M+ Drama HD | M+ Drama
 M+ Ellas Vamos HD | M+ Ellas Vamos
+M+ En juego | M+ En juego
 M+ Estrenos HD | M+ Estrenos
 M+ Golf 2 HD | M+ Golf 2
 M+ Golf HD | M+ Golf
@@ -1152,7 +1157,7 @@ M+ Nicolas Cage | M+ Nicolas Cage
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
-M+ Romance | M+ Romance
+M+ Vamos 2 | M+ Vamos 2
 M+ Vamos HD | M+ Vamos
 M+ Wimbledon UHD | M+ Wimbledon
 M+.Acción.es | M+ Acción
@@ -1224,7 +1229,6 @@ Moto ADV | Moto ADV
 Moto.GP.es | Moto GP
 Motorvision TV | Motorvision TV
 Motorvision | Motorvision
-Movistar Plus+ 2 HD | Movistar Plus+ 2
 Movistar Plus+ HD | Movistar Plus+
 Movistar.Acción.es | Movistar Acción
 Movistar.Cine.Español.es | Movistar Cine Español
@@ -1236,6 +1240,7 @@ Movistar.Golf.es | Movistar Golf
 Movistar.Plus+.es | Movistar Plus+
 Movistar.Plus.es | Movistar Plus
 Movistar.Series.es | Movistar Series
+Mr Bean Animated | Mr Bean Animated
 Multicine atresplayer | Multicine atresplayer
 Musicales.por.M+.\n.es | Musicales por M+ \n
 MyPadel TV | MyPadel TV
@@ -1367,6 +1372,13 @@ Sol Música | Sol Música
 Somos Cine | Somos Cine
 Somos | Somos
 Somos.es | Somos
+Sony One Hits Acción | Sony One Hits Acción
+Sony One Hits Comedia | Sony One Hits Comedia
+Sony One Series Comedia | Sony One Series Comedia
+Sony One Series Thriller | Sony One Series Thriller
+Sony One Shark Tank | Sony One Shark Tank
+Sony One The Blacklist | Sony One The Blacklist
+Sony One Éxitos | Sony One Éxitos
 Squirrel TV | Squirrel TV
 Star TVE HD | Star TVE
 Star.es | Star
