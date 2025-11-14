@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Nov 13 00:16:40 UTC 2025
+# Fecha: Fri Nov 14 00:16:36 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1338,6 +1338,7 @@ Qwest.TV.es | Qwest TV
 REKTV | REKTV
 RNA.es | RNA
 RTP Internacional | RTP Internacional
+Rally.TV | Rally.TV
 Real Madrid TV | Real Madrid TV
 Real.Madrid.TV.es | Real Madrid TV
 Record | Record
@@ -1449,6 +1450,7 @@ TelevisiónCanaria.es | TelevisiónCanaria
 Ten | Ten
 Ten.es | Ten
 Tennis Channel | Tennis Channel
+Tennis+ | Tennis+
 The.Pet.Collective.es | The Pet Collective
 Thrillers (Rakuten TV) | Thrillers (Rakuten TV)
 Todo Crimen (Rakuten TV) | Todo Crimen (Rakuten TV)
