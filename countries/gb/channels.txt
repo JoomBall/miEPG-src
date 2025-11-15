@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Nov 14 00:16:40 UTC 2025
+# Fecha: Sat Nov 15 00:16:13 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -165,7 +165,6 @@
 667ac79c15f35c00088a2409 | Outback Truckers
 667d664815f35c00089489bf | Corner Gas
 6683cd71a1d7ad000866ec6a | Pokémon
-66866fc995e91900088768a5 | MTV Biggest Pop
 6695294632e25300084bb61b | Sister, Sister
 66a10eacfe11e500084c6925 | Flashpoint
 66a10eeb46762a0008201e85 | Teletubbies
