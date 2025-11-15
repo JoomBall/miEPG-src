@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Nov 14 00:16:36 UTC 2025
+# Fecha: Sat Nov 15 00:16:13 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -44,6 +44,7 @@
 5f1acdaa8ba90f0007d5e760 | Pluto TV Cocina
 5f28009b150b2500077766b8 | Vaya semanita
 5f6a38eaa5b68b0007a00e7a | Pluto TV Sci-Fi
+5f984b18dfe75800070e8645 | Pluto TV Cine Navideño
 5f984f4a09e92d0007d74647 | Archivos Forenses
 5f9853138d19af0007104a8d | Pluto TV Series Comedia
 5f98537a5a4341000733aefe | MTV Embarazada a los 16
@@ -399,7 +400,6 @@
 664c76520120f40008b81db9 | Los vigilantes de la playa
 664c76d68ea5560008c6c7a4 | Alerta Cobra
 6682bd9b8768aa0008f25be5 | Los misterios de Murdoch
-6686796619311200085310a0 | MTV Flow Latino
 66b0dfa1d512590008bfa7fd | Pluto TV Gore &amp; Slasher
 66c45c0de7f5e80008b82005 | CNN Headlines
 66d71c656b63480008cf0427 | Cherif
@@ -459,7 +459,6 @@ AXN Movies HD | AXN Movies
 AXN.Movies.es | AXN Movies
 AXN.es | AXN
 Acción (Rakuten TV) | Acción (Rakuten TV)
-Acontra+ | Acontra+
 Acontra+.es | Acontra+
 Al Jazeera English HD | Al Jazeera English
 Al.Jazeera.English.es | Al Jazeera English
@@ -610,7 +609,6 @@ DAZN LaLiga HD | DAZN LaLiga
 DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F 3 | DAZN Liga F 3
 DAZN Liga F | DAZN Liga F
-DAZN MotoGP 2 | DAZN MotoGP 2
 DAZN MotoGP | DAZN MotoGP
 DAZN National League 2 | DAZN National League 2
 DAZN National League 3 | DAZN National League 3
@@ -986,6 +984,7 @@ FR | beIN SPORTS MAX 8 | FR | beIN SPORTS MAX 8
 FR | beIN SPORTS MAX 9 | FR | beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Festival 4K | Festival 4K
 Fight Box HD | Fight Box
@@ -1227,6 +1226,7 @@ Mezzo.Live.es | Mezzo Live
 Mezzo.es | Mezzo
 Moto ADV | Moto ADV
 Moto.GP.es | Moto GP
+Motorvision TV en Español | Motorvision TV en Español
 Motorvision TV | Motorvision TV
 Motorvision | Motorvision
 Movistar Plus+ HD | Movistar Plus+
@@ -1310,6 +1310,7 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
+PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
