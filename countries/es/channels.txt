@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Nov 16 00:17:54 UTC 2025
+# Fecha: Mon Nov 17 00:16:53 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1226,7 +1226,6 @@ Mezzo.Live.es | Mezzo Live
 Mezzo.es | Mezzo
 Moto ADV | Moto ADV
 Moto.GP.es | Moto GP
-Motorvision TV en Español | Motorvision TV en Español
 Motorvision TV | Motorvision TV
 Motorvision | Motorvision
 Movistar Plus+ HD | Movistar Plus+
