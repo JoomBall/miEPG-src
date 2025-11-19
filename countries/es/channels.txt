@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Nov 18 00:16:46 UTC 2025
+# Fecha: Wed Nov 19 00:16:50 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1096,6 +1096,7 @@ Levante TV | Levante TV
 Levante.TV.es | Levante TV
 Libertad Digital TV | Libertad Digital TV
 Libertad.Digital.TV.es | Libertad Digital TV
+Liga de Campeones BAR 2 | Liga de Campeones BAR 2
 Lleida TV | Lleida TV
 Lolly Kids | Lolly Kids
 Los Conciertos de Radio 3 | Los Conciertos de Radio 3
@@ -1247,6 +1248,7 @@ MyPadel TV | MyPadel TV
 MyTime Movie Network (Rakuten TV) | MyTime Movie Network (Rakuten TV)
 NATV.1.es | NATV 1
 NATV.2.es | NATV 2
+NFL Network | NFL Network
 NHK WORLD | NHK WORLD
 NOW.70's.es | NOW 70's
 NOW.80's.es | NOW 80's
