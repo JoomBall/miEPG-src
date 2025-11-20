@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Nov 19 00:16:50 UTC 2025
+# Fecha: Thu Nov 20 00:16:34 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -385,7 +385,6 @@
 6578836cdfed030008ce5bdb | Sí quiero ese vestido
 65b91e530d9ab40008340d8d | Al salir de clase
 65bd0f53dc10a40008e68b96 | Pluto TV Gasolina
-65c347ae3a116800078c93c5 | Monster Jam
 65ce480a78df2200131c597b | Pluto TV Psycho
 65cf6ab58145cb0008129ca8 | Pluto TV Series criminales
 65ddec1ef7f0af0008be4b65 | Pluto TV Series Sci-Fi
@@ -1346,6 +1345,7 @@ Real.Madrid.TV.es | Real Madrid TV
 Record | Record
 Record.TV.es | Record TV
 Red Bull TV (Rakuten TV) | Red Bull TV (Rakuten TV)
+Red Bull TV | Red Bull TV
 RunTime Clásicos | RunTime Clásicos
 RunTime Familia | RunTime Familia
 Runtime Acción | Runtime Acción
@@ -1480,6 +1480,7 @@ UK | TNT Sports 2 | UK | TNT Sports 2
 UK | TNT Sports 3 | UK | TNT Sports 3
 UK | TNT Sports 4 | UK | TNT Sports 4
 UK | TNT Sports Ultimate | UK | TNT Sports Ultimate
+Unbeaten | Unbeaten
 VE PLUS TV | VE PLUS TV
 VE.PLUS.TV.es | VE PLUS TV
 VINX | VINX
