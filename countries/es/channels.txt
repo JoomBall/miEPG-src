@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Nov 20 00:16:34 UTC 2025
+# Fecha: Fri Nov 21 00:16:21 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -46,6 +46,7 @@
 5f6a38eaa5b68b0007a00e7a | Pluto TV Sci-Fi
 5f984b18dfe75800070e8645 | Pluto TV Cine Navideño
 5f984f4a09e92d0007d74647 | Archivos Forenses
+5f984fdc470d460007a67094 | MTV Hits Navidad
 5f9853138d19af0007104a8d | Pluto TV Series Comedia
 5f98537a5a4341000733aefe | MTV Embarazada a los 16
 600169ec77e6f70008fa9cf0 | MTV Dating
