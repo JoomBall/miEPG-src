@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Nov 21 00:16:21 UTC 2025
+# Fecha: Sat Nov 22 00:15:50 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -255,7 +255,6 @@
 643054b1fc3be59477853717-64d4e82ac5d4668c9cb7b5df | Novelisima
 643054b1fc3be59477853717-64d79408e5f67b0fab47ff24 | Misterios sin Resolver
 643054b1fc3be59477853717-64f0d9a7c2bc9b9001d46ea6 | Saborear TV
-643054b1fc3be59477853717-64f0dad7c2bc9b9001d46ea8 | Butaca TV
 643054b1fc3be59477853717-64f0db77c2bc9b9001d46eaa | Oro TV
 643054b1fc3be59477853717-650b5bb3f4b2d9579946a500 | Mythical 24/7
 643054b1fc3be59477853717-652875586425fdb1f32d2169 | World Surf League 24/7
@@ -435,6 +434,7 @@
 68adc697116b783a33f99e6c | Pluto TV Impacto
 68c188f73efb41cd97793105 | Saw
 68d27949793c71d988ca624c | Los Pitufos
+68de3db35fc0afe85de0b843 | Comedia a lo bestia de Pluto TV
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
