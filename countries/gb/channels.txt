@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Nov 22 00:15:51 UTC 2025
+# Fecha: Sun Nov 23 00:18:55 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -777,9 +777,9 @@ Sky.Adventure.uk | Sky Adventure
 Sky.Arts.HD.uk | Sky Arts HD
 Sky.Atlantic+1.uk | Sky Atlantic+1
 Sky.Atlantic.HD.uk | Sky Atlantic HD
+Sky.Cinema.Comedy.uk | Sky Cinema Comedy
 Sky.Cinema.Hits.HD.uk | Sky Cinema Hits HD
 Sky.Cinema.Select.uk | Sky Cinema Select
-Sky.Comedy.Cinema.uk | Sky Comedy Cinema
 Sky.Comedy.HD.uk | Sky Comedy HD
 Sky.Crime+1.uk | Sky Crime+1
 Sky.Crime.HD.uk | Sky Crime HD
