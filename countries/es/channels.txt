@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Nov 22 00:15:50 UTC 2025
+# Fecha: Sun Nov 23 00:18:57 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -12,6 +12,7 @@
 /esruntime-thriller | Runtime Thriller
 1+1 International | 1+1 International
 1-1-travel | 1+1 Travel
+100% Navidad (Rakuten TV) | 100% Navidad (Rakuten TV)
 13.TV.es | 13 TV
 24 Horas | 24 Horas
 24 horas Canarias | 24 horas Canarias
@@ -926,7 +927,6 @@ El.Trece.Internacional.es | El Trece Internacional
 Elche 7 TV | Elche 7 TV
 Elche.7.TV.es | Elche 7 TV
 EmpordaTV | EmpordaTV
-En Familia (Rakuten TV) | En Familia (Rakuten TV)
 En.familia.es | En familia
 Energy | Energy
 Energy.es | Energy
