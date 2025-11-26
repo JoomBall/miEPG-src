@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Nov 25 00:15:25 UTC 2025
+# Fecha: Wed Nov 26 00:16:32 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -365,6 +365,13 @@
 643054b1fc3be59477853717-68e0371d8bbd79d66c631ab2 | The Wiggles
 643054b1fc3be59477853717-68e9436dda6bb987138625c7 | Metal.Rocks
 643054b1fc3be59477853717-69011e71d320237a5a2d9f63 | INTER 24/7
+643054b1fc3be59477853717-6922322350fe592fd6d5b7e6 | Sony One | Hits Acción
+643054b1fc3be59477853717-692232ee5cbe620c1f9b6bc5 | Sony One | Hits Comedia
+643054b1fc3be59477853717-6922338150fe592fd6d5b7e8 | Sony One | Series Comedia
+643054b1fc3be59477853717-692234015028288613484a8a | Sony One | Éxitos
+643054b1fc3be59477853717-692235265cbe620c1f9b6bc7 | Sony One | Series Thriller
+643054b1fc3be59477853717-692235eb50fe592fd6d5b7ea | The Blacklist
+643054b1fc3be59477853717-6922366b50fe592fd6d5b7ec | Shark Tank
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -1228,7 +1235,6 @@ Mezzo.Live.es | Mezzo Live
 Mezzo.es | Mezzo
 Moto ADV | Moto ADV
 Moto.GP.es | Moto GP
-Motorvision TV | Motorvision TV
 Motorvision | Motorvision
 Movistar Plus+ HD | Movistar Plus+
 Movistar.Acción.es | Movistar Acción
