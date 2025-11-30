@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Nov 29 00:16:07 UTC 2025
+# Fecha: Sun Nov 30 00:18:50 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -712,6 +712,7 @@ DSPORTS | DSPORTS
 DSPORTS+ | DSPORTS+
 Dark Rojo | Dark Rojo
 Dark.es | Dark
+DePelícula | DePelícula
 Decasa | Decasa
 Decasa.es | Decasa
 DejateTV | DejateTV
