@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Dec  1 00:20:13 UTC 2025
+# Fecha: Tue Dec  2 00:17:00 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -50,6 +50,7 @@
 5dc3fc6b9133f500099c7d98 | Pluto TV Family Movie Club
 5ddf8ea0d000120009bcad83 | Pluto TV Animals
 5ddf901280e3550009139c86 | 5 Exploring Britain
+5ddf91149880d60009d35d27 | Pluto TV Drama
 5ddf930548ff9b00090d5686 | Pluto TV Food
 5e393d5c696b3b0009775c8b | The New Detectives
 5e6f38792075160007d85823 | Hell's Kitchen
@@ -138,6 +139,7 @@
 656df2849d5ac400083be647 | 5 Trucking Hell
 656df599c0fc8800089c75ab | Avatar
 656ef4af4261ca00083c8f37 | Totally Turtles
+65819f83a620e300080f692a | Weird or What? With William Shatner
 65a6939b4a10d800085cee92 | MTV: Best of
 65a6a5e90c7ff50008cb9815 | Funny AF
 65a6a7a00c7ff50008cba07b | Pluto TV Crime Drama
@@ -149,7 +151,6 @@
 65b3895660eb8700089e7f53 | Car Chase
 65c4960d11ced7000812c433 | Geordie Shore
 65f0166566eec80008b96f7e | Pluto TV Wildest Adventures
-65f96980f7f0af0008fa6302 | Realmadrid TV
 660be37e7bcd860008793a6a | Bondi Rescue
 660c209e19ca71000846cf38 | NOW 90s00s
 660e5dc60cd4630008f6198a | JAG
@@ -170,11 +171,13 @@
 66a10f11a79dea0008aa73b0 | Bob the Builder
 66ba1e23d2d50d00084a1e57 | Crimes That Shook Britain
 66ba1e4446762a000855cd87 | Girlfriends
+66ba28993a4ad20008287be2 | Rise of the Footsoldier
 66c45afaa72e7b0008a2b153 | CNNi
 66d717d2abec540008ba7ec4 | Pluto TV 80's Action
 66d82143abec540008bd2b1c | Project Runway
 66d885aef0f17500084b6750 | PGA TOUR
 66dff9d46ad04d0008fda4de | CNN Headlines
+66e03cd715d2c60008e0b219 | Twilight Saga
 66e06576abec540008cc17a9 | The Graham Norton Show
 66ebf9bc55567d0008de3b29 | The Hotel Inspector
 66ed3e9d5e4a6e0008b346e0 | UFC
@@ -226,6 +229,7 @@
 68e3c18130ee729844af1fca | Monkey
 68e3c37c19f32ffa27bae948 | Unsolved Mysteries with Dennis Farina
 68e8ffee9d1d49e672fe790f | The Yellow Couch with Jeremy Lynch
+69038c2ee0e0c5f8208c033a | Murdertown
 690dc8ed1ee9b6ac66607ce2 | America's Funniest Home Videos: Holiday Edition
 92.News.uk | 92 News
 A1TV.uk | A1TV
