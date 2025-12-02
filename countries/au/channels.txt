@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Dec  1 00:20:09 UTC 2025
+# Fecha: Tue Dec  2 00:16:58 UTC 2025
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -54,7 +54,7 @@ NAT | Nature Time
 NHK | NHK World
 NMU | Kids
 NPO | Get2Know
-NRW | Max
+NRW | Max Christmas
 PUH | PULP
 RLS | Real Life
 RTV | RACING.COM
