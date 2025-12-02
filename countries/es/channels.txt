@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Dec  1 00:20:10 UTC 2025
+# Fecha: Tue Dec  2 00:17:00 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -48,7 +48,6 @@
 5f984b18dfe75800070e8645 | Pluto TV Cine Navideño
 5f984f4a09e92d0007d74647 | Archivos Forenses
 5f984fdc470d460007a67094 | MTV Hits Navidad
-5f9853138d19af0007104a8d | Pluto TV Series Comedia
 5f98537a5a4341000733aefe | MTV Embarazada a los 16
 600169ec77e6f70008fa9cf0 | MTV Dating
 600ae6a78d801e0007117d21 | Pluto TV Animales
@@ -293,7 +292,7 @@
 643054b1fc3be59477853717-6684011fcd6f1d394094114d | Runtime Series
 643054b1fc3be59477853717-66840253cd6f1d394094114f | Runtime
 643054b1fc3be59477853717-668402fa702b9db9f8177254 | Runtime Romance
-643054b1fc3be59477853717-66840486cd6f1d3940941151 | Runtime Familia
+643054b1fc3be59477853717-66840486cd6f1d3940941151 | Runtime Christmas
 643054b1fc3be59477853717-66840707cd6f1d3940941153 | Curro Jimenez
 643054b1fc3be59477853717-66840a26cd6f1d3940941155 | Runtime Crimen
 643054b1fc3be59477853717-66841966702b9db9f8177256 | Runtime Comedia
@@ -417,7 +416,6 @@
 6745f0643a61d40008a61510 | Rookie Blue
 67517f923a61d40008c451f0 | Historia y Vida
 67517fae5534bb0008187997 | Actualidad 360
-67586a552fb8a100088f7703 | Pluto TV Miniseries
 676e7b4a4bd636000819c6a7 | SensaCine TV x Pluto
 67921b873de7c8cf94233f52 | UFC
 67b4ade18344dd9333978a1f | La Abeja Maya
@@ -440,8 +438,8 @@
 6880aa28164eb4890282e803 | Pluto TV Toons
 68adc3fdd8f7693ae347a63a | Los Gipsy Kings
 68adc697116b783a33f99e6c | Pluto TV Impacto
-68c188f73efb41cd97793105 | Saw
 68d27949793c71d988ca624c | Los Pitufos
+68d566603d3a9580eb461251 | Paramount Network de Pluto TV
 68de3db35fc0afe85de0b843 | Comedia a lo bestia de Pluto TV
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
 7.Región.de.Murcia.es | 7 Región de Murcia
@@ -1323,7 +1321,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
@@ -1619,8 +1616,8 @@ revry | Revry
 revry-news | Revry News
 romance-rakuten-tv | Películas Románticas
 rookie-blue-spa | Rookie Blue
+runtime-christmas | Runtime Christmas
 runtime-crimen | Runtime Crimen
-runtime-familia-1 | Runtime Familia
 sangre-fria | Sangre Fría
 sci-fi-rakuten-tv | Sci-Fi
 spanish-cinema-rakuten-tv | Cine Español
