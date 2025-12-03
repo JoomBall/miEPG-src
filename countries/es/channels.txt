@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Dec  2 00:17:00 UTC 2025
+# Fecha: Wed Dec  3 00:16:52 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -535,6 +535,8 @@ Canal Blau | Canal Blau
 Canal Cocina | Canal Cocina
 Canal Extremadura SAT | Canal Extremadura SAT
 Canal Extremadura | Canal Extremadura
+Canal FlixOlé 1 | Canal FlixOlé 1
+Canal FlixOlé 2 | Canal FlixOlé 2
 Canal Hollywood HD | Canal Hollywood
 Canal Reus TV | Canal Reus TV
 Canal Sur Andalucía | Canal Sur Andalucía
@@ -599,6 +601,9 @@ DAZN 2 BAR | DAZN 2 BAR
 DAZN 2 HD | DAZN 2
 DAZN 3 HD | DAZN 3
 DAZN 4 HD | DAZN 4
+DAZN Baloncesto 2 | DAZN Baloncesto 2
+DAZN Baloncesto 3 | DAZN Baloncesto 3
+DAZN Baloncesto | DAZN Baloncesto
 DAZN Bundesliga 2 | DAZN Bundesliga 2
 DAZN Bundesliga 3 | DAZN Bundesliga 3
 DAZN Bundesliga 4 | DAZN Bundesliga 4
@@ -996,7 +1001,6 @@ Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
 FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
-Festival 4K | Festival 4K
 Fight Box HD | Fight Box
 Fight Sports | Fight Sports
 Fight Time | Fight Time
@@ -1016,6 +1020,7 @@ Gametoon | Gametoon
 Garage TV | Garage TV
 Global Telenovelas | Global Telenovelas
 Global Tendencias | Global Tendencias
+Gol Classics | Gol Classics
 Gol.TV.es | Gol TV
 GolStadium BAR | GolStadium BAR
 GolStadium | GolStadium
@@ -1165,7 +1170,7 @@ M+ Liga de Campeones 8 | M+ Liga de Campeones 8
 M+ Liga de Campeones 9 | M+ Liga de Campeones 9
 M+ Liga de Campeones HD | M+ Liga de Campeones
 M+ Liga de Campeones HDR | M+ Liga de Campeones HDR
-M+ Nicolas Cage | M+ Nicolas Cage
+M+ Navidad | M+ Navidad
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
@@ -1216,6 +1221,7 @@ M+.Los.90.es | M+ Los 90
 M+.Originales.es | M+ Originales
 M+.Vamos.es | M+ Vamos
 M6 | M6
+MMA TV | MMA TV
 MTV 00s | MTV 00s
 MTV 80s | MTV 80s
 MTV 90s | MTV 90s
@@ -1356,6 +1362,7 @@ Record | Record
 Record.TV.es | Record TV
 Red Bull TV (Rakuten TV) | Red Bull TV (Rakuten TV)
 Red Bull TV | Red Bull TV
+Rugby Challenge Spain | Rugby Challenge Spain
 RunTime Clásicos | RunTime Clásicos
 RunTime Familia | RunTime Familia
 Runtime Acción | Runtime Acción
