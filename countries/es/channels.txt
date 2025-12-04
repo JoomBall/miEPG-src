@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Dec  3 00:16:52 UTC 2025
+# Fecha: Thu Dec  4 00:17:25 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -163,11 +163,11 @@
 643054b1fc3be59477853717-6196c9241d310bf925e02616 | Lone Star
 643054b1fc3be59477853717-61a945156547ba4d6d238dc9 | Racing America
 643054b1fc3be59477853717-61aa97d4113e1e5137fd5325 | Greatest Holiday Hits
-643054b1fc3be59477853717-61aa9e73784a2161d3caf7f9 | Hot Country
+643054b1fc3be59477853717-61aa9e73784a2161d3caf7f9 | Hot Country Christmas
 643054b1fc3be59477853717-61aa9f50784a2161d3caf7fb | Remember the ‘80s
 643054b1fc3be59477853717-61aaa014784a2161d3caf7fd | Hit List
 643054b1fc3be59477853717-61aaa0cc784a2161d3caf7ff | Classic Rock
-643054b1fc3be59477853717-61aaa17a784a2161d3caf801 | Soul Storm
+643054b1fc3be59477853717-61aaa17a784a2161d3caf801 | Soul Storm Christmas
 643054b1fc3be59477853717-61d738b5a7b7c7f703418514 | Trailers From Hell
 643054b1fc3be59477853717-61d73ab0a7b7c7f703418516 | Bloomberg TV
 643054b1fc3be59477853717-61d73c3ca7b7c7f703418518 | Bloomberg Originals
@@ -799,11 +799,11 @@ ES32000027M | CLIPS don't lie
 ES3200003OC | DFB Play TV
 ES3300001MC | Crimenes Reales
 ES33000025N | Crimen &amp; Historia
-ES33000036Q | RTVE Docs
+ES33000036Q | RTVE La Moderna
 ES3300004P0 | RTVE Saber y Ganar
 ES33000058B | RTVE Somos Cine
-ES3300006QL | RTVE Época
-ES33000079W | RTVE Crimen
+ES3300006QL | RTVE La Promesa
+ES33000079W | RTVE Cocina
 ES340000152 | Video Game Heroes
 ES3400002PY | Surf Channel
 ES34000039I | CNN en Español
@@ -816,14 +816,17 @@ ES3900001QG | K-POP by CJ ENM
 ES400002P5 | Cuéntame cómo pasó
 ES4100001XD | Mark Rober TV
 ES4100002WB | Thrillers - Rakuten TV
+ES42000022E | Xataka
 ES4300001K6 | Chicas Guapas TV
+ES4300006I4 | El Mueble
+ES45000012U | Alerta Cobra
 ES4700001VS | 2M
 ES4800002OZ | Caillou
 ES5000001CS | LooLoo Kids
 ES500002NY | H2O &amp; Friends
 ES500004NO | Sci-Fi - Rakuten TV
 ES500005BP | Águila Roja
-ES700004C8 | Runtime Familia
+ES700004C8 | Runtime Christmas
 ES7000056Z | Yu-Gi-Oh!
 ES900001SH | Mr Bean Animated
 ES900002ZD | Todo Pasión
@@ -1526,6 +1529,7 @@ action-rakuten-tv | Películas de Acción
 actualidad-360 | Actualidad 360
 africanews-eng | Africanews
 aguila-roja-rakuten-tv | Águila Roja
+alarm-for-cobra-rakuten-tv | Alerta Cobra - Brigada especial de carreteras
 ana-y-los-7 | Ana y los 7
 animevision | AnimeVisión
 animevision-classics | AnimeVisión Classics
