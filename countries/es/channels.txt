@@ -1,15 +1,12 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Dec  4 00:17:25 UTC 2025
+# Fecha: Fri Dec  5 00:17:10 UTC 2025
 
 /esaguila-roja | Águila Roja
-/esmytime-movie-network | MyTime Movie Network
 /esruntime-accion | Runtime Acción
-/esruntime-clasicos | Runtime Clásicos
 /esruntime-comedia | Runtime Comedia
 /esruntime-romance | Runtime Romance
 /esruntime-series | Runtime Series
-/esruntime-thriller | Runtime Thriller
 1+1 International | 1+1 International
 1-1-travel | 1+1 Travel
 100% Navidad (Rakuten TV) | 100% Navidad (Rakuten TV)
@@ -1116,6 +1113,7 @@ Levante TV | Levante TV
 Levante.TV.es | Levante TV
 Libertad Digital TV | Libertad Digital TV
 Libertad.Digital.TV.es | Libertad Digital TV
+Liga de Campeones BAR 2 | Liga de Campeones BAR 2
 Lleida TV | Lleida TV
 Lolly Kids | Lolly Kids
 Los Conciertos de Radio 3 | Los Conciertos de Radio 3
@@ -1330,6 +1328,7 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
+PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
@@ -1550,7 +1549,6 @@ cine-western-es | Cine Western
 cines-verdi | Cines Verdi
 comedy-rakuten-tv | Comedia
 cops-en-espanol | Cops En Español
-corazon | Corazón
 crime-rakuten-tv | Crimen
 crimenes-reales | Crímenes Reales
 curro-jimenez | Curro Jiménez
@@ -1568,7 +1566,6 @@ fashion-tv | Fashion TV
 feel-good-tv | Feel Good TV
 feelgood | FeelGood
 fifa-plus-es-new | FIFA+
-filmco | Film&amp;Co
 filmrise-forensic-files-spa | Archivos Forenses
 filmrise-sci-fi-es | FilmRise Sci-Fi
 filmrise-unsolved-mysteries-es | Misterios sin resolver
@@ -1612,7 +1609,6 @@ now-rock | NOW Rock
 oficios-perdidos | Oficios Perdidos
 people-are-awesome-new | People Are Awesome
 pfl-mma | PFL MMA
-pitufo-tv | Pitufo TV
 planeta-junior-spa | La abeja Maya
 platos-sucios | Platos Sucios
 pocoyo | Pocoyó
@@ -1628,8 +1624,6 @@ revry-news | Revry News
 romance-rakuten-tv | Películas Románticas
 rookie-blue-spa | Rookie Blue
 runtime-christmas | Runtime Christmas
-runtime-crimen | Runtime Crimen
-sangre-fria | Sangre Fría
 sci-fi-rakuten-tv | Sci-Fi
 spanish-cinema-rakuten-tv | Cine Español
 stingray-greatest-hits | Stingray Greatest Holiday Hits
