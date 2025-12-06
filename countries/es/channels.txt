@@ -1,12 +1,15 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Dec  5 00:17:10 UTC 2025
+# Fecha: Sat Dec  6 00:16:20 UTC 2025
 
 /esaguila-roja | Águila Roja
+/esmytime-movie-network | MyTime Movie Network
 /esruntime-accion | Runtime Acción
+/esruntime-clasicos | Runtime Clásicos
 /esruntime-comedia | Runtime Comedia
 /esruntime-romance | Runtime Romance
 /esruntime-series | Runtime Series
+/esruntime-thriller | Runtime Thriller
 1+1 International | 1+1 International
 1-1-travel | 1+1 Travel
 100% Navidad (Rakuten TV) | 100% Navidad (Rakuten TV)
@@ -1055,9 +1058,9 @@ Inquietos atresplayer | Inquietos atresplayer
 Kidz | Kidz
 LALIGA Inside | LALIGA Inside
 LALIGA.Inside.es | LALIGA Inside
-LALIGA.TV.2.HYPERMOTION.es | LALIGA TV 2 HYPERMOTION
-LALIGA.TV.3.HYPERMOTION.es | LALIGA TV 3 HYPERMOTION
 LALIGA.TV.BAR.es | LALIGA TV BAR
+LALIGA.TV.HYPERMOTION.2.es | LALIGA TV HYPERMOTION 2
+LALIGA.TV.HYPERMOTION.3.es | LALIGA TV HYPERMOTION 3
 LALIGA.TV.HYPERMOTION.es | LALIGA TV HYPERMOTION
 La 1 Canarias | La 1 Canarias
 La 1 Cataluña | La 1 Cataluña
@@ -1328,7 +1331,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
@@ -1549,6 +1551,7 @@ cine-western-es | Cine Western
 cines-verdi | Cines Verdi
 comedy-rakuten-tv | Comedia
 cops-en-espanol | Cops En Español
+corazon | Corazón
 crime-rakuten-tv | Crimen
 crimenes-reales | Crímenes Reales
 curro-jimenez | Curro Jiménez
@@ -1566,6 +1569,7 @@ fashion-tv | Fashion TV
 feel-good-tv | Feel Good TV
 feelgood | FeelGood
 fifa-plus-es-new | FIFA+
+filmco | Film&amp;Co
 filmrise-forensic-files-spa | Archivos Forenses
 filmrise-sci-fi-es | FilmRise Sci-Fi
 filmrise-unsolved-mysteries-es | Misterios sin resolver
@@ -1609,6 +1613,7 @@ now-rock | NOW Rock
 oficios-perdidos | Oficios Perdidos
 people-are-awesome-new | People Are Awesome
 pfl-mma | PFL MMA
+pitufo-tv | Pitufo TV
 planeta-junior-spa | La abeja Maya
 platos-sucios | Platos Sucios
 pocoyo | Pocoyó
@@ -1624,6 +1629,8 @@ revry-news | Revry News
 romance-rakuten-tv | Películas Románticas
 rookie-blue-spa | Rookie Blue
 runtime-christmas | Runtime Christmas
+runtime-crimen | Runtime Crimen
+sangre-fria | Sangre Fría
 sci-fi-rakuten-tv | Sci-Fi
 spanish-cinema-rakuten-tv | Cine Español
 stingray-greatest-hits | Stingray Greatest Holiday Hits
