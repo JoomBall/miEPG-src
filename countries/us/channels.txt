@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Dec  6 00:16:15 UTC 2025
+# Fecha: Sun Dec  7 00:18:58 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -418,4 +418,5 @@
 68fbf8101d26140175db8b58 | Pluto TV Franchise Favorites
 690d0a3a1187b68782e27beb | MODUS Super Series Darts
 691cf0410a78a9ce61ad2121 | America's Funniest Home Videos: Holiday Edition
+691d1200c2185a44642f5e7c | El Rey Rebel
 metv | MeTV
