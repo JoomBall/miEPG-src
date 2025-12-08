@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Dec  7 00:19:02 UTC 2025
+# Fecha: Mon Dec  8 00:17:48 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1334,7 +1334,6 @@ PT | TRACE Urban HD | PT | TRACE Urban
 PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
-PTV Málaga | PTV Málaga
 PTV Sevilla | PTV Sevilla
 Paramount Network | Paramount Network
 Paramount.Network.es | Paramount Network
