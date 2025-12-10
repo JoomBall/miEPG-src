@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Dec  9 00:17:00 UTC 2025
+# Fecha: Wed Dec 10 00:17:31 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -441,6 +441,7 @@
 68d27949793c71d988ca624c | Los Pitufos
 68d566603d3a9580eb461251 | Paramount Network de Pluto TV
 68de3db35fc0afe85de0b843 | Comedia a lo bestia de Pluto TV
+68f103545c876cf7307b4e37 | Cheers
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
@@ -1331,9 +1332,9 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
+PTV Málaga | PTV Málaga
 PTV Sevilla | PTV Sevilla
 Paramount Network | Paramount Network
 Paramount.Network.es | Paramount Network
