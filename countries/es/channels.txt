@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Dec 11 00:17:50 UTC 2025
+# Fecha: Fri Dec 12 00:17:41 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1650,6 +1650,7 @@ the-design-network-new | The Design Network
 the-pet-collective-new | The Pet Collective
 the-reuters-60 | The Reuters 60
 thriller-rakuten-tv | Thrillers
+tlnovelas | tlnovelas
 todo-crimen | Todo Crimen
 todo-novelas | Todo Novelas
 top-barca-es | TOP Barça
