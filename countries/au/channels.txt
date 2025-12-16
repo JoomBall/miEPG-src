@@ -1,15 +1,17 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Dec 15 00:19:08 UTC 2025
+# Fecha: Tue Dec 16 00:18:06 UTC 2025
 
 ACC | GOOD.
 ACS | Aussie Classics
+AJE | Al Jazeera
 ANI | Animal Planet
 ARN | Arena
 ASP | Sky News Extra
 BCS | British Cinema
 BLM | Bloomberg Television
 BXS | BoxSets
+CCC | CGTN
 CIN | Real Crime
 CMT | CMC
 CNB | CNBC
@@ -53,6 +55,7 @@ NAP | Australian Played
 NAT | Nature Time
 NHK | NHK World
 NMU | Kids
+NNN | NBC News NOW
 NRW | Max Christmas
 PUH | PULP
 RLS | Real Life
