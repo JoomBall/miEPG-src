@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Dec 15 00:19:20 UTC 2025
+# Fecha: Tue Dec 16 00:18:08 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -108,6 +108,7 @@
 635bfb89b5cd9b0007ca9d63 | MTV Classic
 63693fa2bfa0690007ebc880 | Wicked Tuna
 63808dc806aa4700075f319a | Pluto TV Investigation
+63808f6ab313900007c5b1fa | It's a Wonderful Life
 639b558c73423d00071ce624 | More TV Crime
 63c1384e829c850007922ca4 | 5 Emergency Rescue
 63d000ef4e83e700086e0d6c | Scorpion
