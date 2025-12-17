@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Dec 16 00:18:10 UTC 2025
+# Fecha: Wed Dec 17 00:16:58 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -436,6 +436,8 @@
 687799f86255fd1c0c419c84 | Marco
 68779a09c691b3f0964127c6 | Heidi
 6880aa28164eb4890282e803 | Pluto TV Toons
+688892172928933015abe479 | Barbie &amp; Friends
+6888928eb52fb742416673d2 | Mattel Junior
 68adc3fdd8f7693ae347a63a | Los Gipsy Kings
 68adc697116b783a33f99e6c | Pluto TV Impacto
 68d27949793c71d988ca624c | Los Pitufos
