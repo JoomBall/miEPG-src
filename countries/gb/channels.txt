@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Dec 16 00:18:08 UTC 2025
+# Fecha: Wed Dec 17 00:16:53 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -193,6 +193,7 @@
 677fb0b33a225c2d0d8a17be | Xena: Warrior Princess
 677fb0e93a225c2d0d8a45bf | Northern Exposure
 677fb115a4af36ad50113e56 | The Real Housewives
+677fb137a5d8215f99b9cc06 | Top Chef
 677fb3432952c1163bf1a539 | Million Dollar Listing
 67f4fde1fbe45309c7699d6f | Pluto TV Masters of Horror
 67f4ffda8ddd60c57dc24e35 | Pluto TV Creature Features
