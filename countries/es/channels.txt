@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Dec 17 00:16:58 UTC 2025
+# Fecha: Thu Dec 18 00:15:13 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -340,7 +340,6 @@
 643054b1fc3be59477853717-682d0bc9363625fa508aef43 | Nature Time
 643054b1fc3be59477853717-682dfb2ddfc9c452b8f98426 | Homeful
 643054b1fc3be59477853717-682dff1fdfc9c452b8f9842a | K-Baseball TV
-643054b1fc3be59477853717-682e09a8dfc9c452b8f9bd66 | KPOP+
 643054b1fc3be59477853717-684c2379e32026b0c1f53793 | Million Dollar Dream Home
 643054b1fc3be59477853717-685c78a77223639b1ac098a1 | RCN Más
 643054b1fc3be59477853717-685f25c1a7111a932d28f1ac | Todo Drama
@@ -371,6 +370,7 @@
 643054b1fc3be59477853717-692235265cbe620c1f9b6bc7 | Sony One | Series Thriller
 643054b1fc3be59477853717-692235eb50fe592fd6d5b7ea | The Blacklist
 643054b1fc3be59477853717-6922366b50fe592fd6d5b7ec | Shark Tank
+643054b1fc3be59477853717-693cb1af58076a970420f591 | El Mueble
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -736,7 +736,6 @@ Distrito TV | Distrito TV
 Distrito.TV.es | Distrito TV
 Divinity | Divinity
 Divinity.es | Divinity
-Djazz | Djazz
 Djazz.es | Djazz
 Dkiss.es | Dkiss
 Dramas (Rakuten TV) | Dramas (Rakuten TV)
@@ -1121,7 +1120,16 @@ Levante TV | Levante TV
 Levante.TV.es | Levante TV
 Libertad Digital TV | Libertad Digital TV
 Libertad.Digital.TV.es | Libertad Digital TV
+Liga de Campeones BAR 10 | Liga de Campeones BAR 10
+Liga de Campeones BAR 11 | Liga de Campeones BAR 11
+Liga de Campeones BAR 12 | Liga de Campeones BAR 12
 Liga de Campeones BAR 2 | Liga de Campeones BAR 2
+Liga de Campeones BAR 3 | Liga de Campeones BAR 3
+Liga de Campeones BAR 4 | Liga de Campeones BAR 4
+Liga de Campeones BAR 5 | Liga de Campeones BAR 5
+Liga de Campeones BAR 6 | Liga de Campeones BAR 6
+Liga de Campeones BAR 8 | Liga de Campeones BAR 8
+Liga de Campeones BAR 9 | Liga de Campeones BAR 9
 Lleida TV | Lleida TV
 Lolly Kids | Lolly Kids
 Los Conciertos de Radio 3 | Los Conciertos de Radio 3
@@ -1237,7 +1245,6 @@ MTV 90s | MTV 90s
 MTV Classic | MTV Classic
 MTV España | MTV España
 MTV Hits | MTV Hits
-MTV Live | MTV Live
 MTV.80s.es | MTV 80s
 MTV.90s.es | MTV 90s
 MTV.Dance.es | MTV Dance
@@ -1336,6 +1343,7 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
+PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
@@ -1589,7 +1597,6 @@ hard-knocks-fighting-championship | Hard Knocks Fighting Championship
 historia-y-vida | Historia y Vida
 hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1 | ¡HOLA! Play
 i24.News.es | i24 News
-iConcerts | iConcerts
 iConcerts.es | iConcerts
 ice-pilots-es | Pilotos del Ártico
 inter-24-7-eng | INTER 24/7
