@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Dec 18 00:15:13 UTC 2025
+# Fecha: Fri Dec 19 00:18:08 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -370,6 +370,7 @@
 643054b1fc3be59477853717-692235265cbe620c1f9b6bc7 | Sony One | Series Thriller
 643054b1fc3be59477853717-692235eb50fe592fd6d5b7ea | The Blacklist
 643054b1fc3be59477853717-6922366b50fe592fd6d5b7ec | Shark Tank
+643054b1fc3be59477853717-69333216ac5b3f9f53442374 | Baby Einstein
 643054b1fc3be59477853717-693cb1af58076a970420f591 | El Mueble
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
