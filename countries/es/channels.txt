@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Dec 19 00:18:08 UTC 2025
+# Fecha: Sat Dec 20 00:17:17 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -499,7 +499,13 @@ BBC Lifestyle | BBC Lifestyle
 BBC Series | BBC Series
 BBC Top Gear | BBC Top Gear
 BBC World News Europe HD | BBC World News Europe
+BBC.Earth.es | BBC Earth
+BBC.Food.es | BBC Food
+BBC.History.es | BBC History
+BBC.Lifestyle.es | BBC Lifestyle
 BBC.News.es | BBC News
+BBC.Series.es | BBC Series
+BBC.Top.Gear.es | BBC Top Gear
 BOM Cine | BOM Cine
 BOM.Cine.es | BOM Cine
 Baby TV | Baby TV
