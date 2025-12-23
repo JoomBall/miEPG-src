@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Dec 22 00:18:44 UTC 2025
+# Fecha: Tue Dec 23 00:17:45 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1145,6 +1145,7 @@ Love the Planet | Love the Planet
 Love.The.Planet.es | Love The Planet
 Love.Wine.es | Love Wine
 M+ Acción HD | M+ Acción
+M+ BBC Earth | M+ BBC Earth
 M+ Cine Español | M+ Cine Español
 M+ Clásicos HD | M+ Clásicos
 M+ Comedia HD | M+ Comedia
@@ -1159,7 +1160,6 @@ M+ Deportes HD | M+ Deportes
 M+ Documentales HD | M+ Documentales
 M+ Drama HD | M+ Drama
 M+ Ellas Vamos HD | M+ Ellas Vamos
-M+ En juego | M+ En juego
 M+ Estrenos HD | M+ Estrenos
 M+ Golf 2 HD | M+ Golf 2
 M+ Golf HD | M+ Golf
