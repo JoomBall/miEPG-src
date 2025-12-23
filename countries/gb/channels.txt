@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Dec 22 00:18:43 UTC 2025
+# Fecha: Tue Dec 23 00:17:47 UTC 2025
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -220,6 +220,8 @@
 68b5a7b69ac85c428f54c441 | Curzon Cinema
 68b5a97fc8ef6afa31138718 | The Smurfs
 68c8201b1e5aaf77c47d9605 | Ice Road Truckers
+68c8202f5ec82769fdfcd0a2 | Chaos on Cam
+68c820525ec82769fdfcd104 | Wrestling Legends TV
 68d113f9184f1a0620c8101c | Medical Detectives
 68e38aaf8082ad3760def7bc | Hercules: The Legendary Journeys
 68e38b005c876cf730fcbf0f | Six Million Dollar Man
