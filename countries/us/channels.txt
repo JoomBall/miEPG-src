@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Dec 22 00:18:40 UTC 2025
+# Fecha: Tue Dec 23 00:17:48 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -239,7 +239,7 @@
 6283d51144ad8f0007fa382d | The Judge Judy Channel
 628e685ba3811100070551a8 | Hallmark Movies &amp; More Holiday Favorites
 62ba60f059624e000781c436 | 00s Replay
-62cdc7c2a3e6270007f3f2f3 | CBS News Boston
+62cdcd05b9e7a10007399603 | CBS News Sacramento
 62f2ce24f328e00007e7f55a | Stories by AMC
 62f54c11b3af68000702c304 | CSI: Miami
 62f54c6439183b000769fb8f | CSI: NY
