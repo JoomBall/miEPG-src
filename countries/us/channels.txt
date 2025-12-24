@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Dec 23 00:17:48 UTC 2025
+# Fecha: Wed Dec 24 00:17:45 UTC 2025
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -339,7 +339,7 @@
 6675c713fc3a46000863dde7 | Ebony TV Drama
 6675c742ca74680008566b88 | Nash Bridges
 6675c7868768aa0008d7f1c7 | Pokémon
-667f2c7b22acab0008b7072b | FOX 11 Los Angeles
+667f2c7b22acab0008b7072b | FOX LOCAL Los Angeles
 667f3852efa2a10008e1e514 | Go Go Gadget!
 667f393836a2f90008fd17c0 | Strawberry Shortcake and Friends
 668c566d08d5490008075948 | La Familia del Barrio
