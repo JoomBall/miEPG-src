@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Dec 23 00:17:45 UTC 2025
+# Fecha: Wed Dec 24 00:17:46 UTC 2025
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1579,7 +1579,6 @@ daystar-eng | Daystar TV
 daystar-spa | Daystar Español
 deluxe-lounge-hd | Deluxe Lounge HD
 drama-rakuten-tv | Películas de Drama
-ducktv | ducktv
 el-conquistador | El Conquistador
 el-pais | El País
 euronews-live-spa | Euronews EN DIRECTO
