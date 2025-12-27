@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Dec 26 00:17:51 UTC 2025
+# Fecha: Sat Dec 27 00:17:39 UTC 2025
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -50,7 +50,7 @@ LST | LifeStyle
 MO6 | Movies Drama
 MSN | MS NOW
 MTC | Retro
-MVS | Movies Hits - Christmas Movies
+MVS | Movies Hits - Minions &amp; Friends
 NAP | Australian Played
 NAT | Nature Time
 NHK | NHK World
