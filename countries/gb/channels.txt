@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Dec 31 00:18:47 UTC 2025
+# Fecha: Thu Jan  1 00:20:40 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -71,7 +71,6 @@
 60817936fd2d70000763d2b2 | Wild at Heart
 60e452730e76f20007598de8 | Homicide Hunter
 60e453641239a700071f53a1 | Dog Whisperer
-611e672d4676bf00076a3837 | Baywatch
 611f85396abc84000738417b | Beyond Belief: Fact or Fiction
 612cda102f5f18000705e0bf | Pluto TV Horror
 612f761008a9e50007984ba0 | Pluto TV Animation
@@ -128,7 +127,6 @@
 64c37e710e086a0009e824ab | NOW 70's
 64edf6eaa7ec0d000812f58c | South Park
 64ff1d92d545e9000877fba4 | A Haunting
-650314f73a0d700008bb07cb | Eggheads
 650315163a0d700008bb07f8 | Born to Kill
 65031534d545e9000881ed10 | British Screen Classics
 6514346fa76507000887d441 | Confess by Nosey
@@ -158,23 +156,18 @@
 6627621d56fc840008e47c90 | Tennis Channel
 6627623e307fa3000810b66e | Ninja Warrior
 664c94e80120f40008b860f0 | POP
-664c953db18d700008fcc158 | POP UP
 667ac79c15f35c00088a2409 | Outback Truckers
 667d664815f35c00089489bf | Corner Gas
 6683cd71a1d7ad000866ec6a | Pokémon
 6695294632e25300084bb61b | Sister, Sister
 66a10eacfe11e500084c6925 | Flashpoint
-66a10eeb46762a0008201e85 | Teletubbies
-66a10f11a79dea0008aa73b0 | Bob the Builder
 66ba1e23d2d50d00084a1e57 | Crimes That Shook Britain
 66ba1e4446762a000855cd87 | Girlfriends
-66ba28993a4ad20008287be2 | Rise of the Footsoldier
 66c45afaa72e7b0008a2b153 | CNNi
 66d717d2abec540008ba7ec4 | Pluto TV 80's Action
 66d82143abec540008bd2b1c | Project Runway
 66d885aef0f17500084b6750 | PGA TOUR
 66dff9d46ad04d0008fda4de | CNN Headlines
-66e03cd715d2c60008e0b219 | Twilight Saga
 66e06576abec540008cc17a9 | The Graham Norton Show
 66ebf9bc55567d0008de3b29 | The Hotel Inspector
 66ed3e9d5e4a6e0008b346e0 | UFC
@@ -432,7 +425,7 @@ GB2600012R3 | Drama Movies - Rakuten TV
 GB2600013BO | Sci-Fi - Rakuten TV
 GB2600014LQ | Romance Movies - Rakuten TV
 GB2600015OS | Action Movies - Rakuten TV
-GB2600017PX | 100% Christmas - Rakuten TV
+GB2600017PX | Family - Rakuten TV
 GB2600018PD | Top Movies - Rakuten TV
 GB2600019ON | Euronews LIVE
 GB2600020OP | Comedy Movies - Rakuten TV
@@ -488,7 +481,7 @@ GB3700002J0 | Strawberry Shortcake
 GB370000369 | Sonic The Hedgehog
 GB37000041H | Nashville
 GB3700005QK | Hoarders
-GB37000067A | Christmas Movies by Lifetime
+GB37000067A | Lifetime Movies
 GB3700007OZ | &amp;TV
 GB3700008XB | Cops &amp; Docs
 GB3700009AO | Untold Stories of the ER
@@ -500,7 +493,6 @@ GB3800009F0 | FIFA+ Women
 GB3900001TM | K-POP by CJ ENM
 GB3900002DT | Ninja Warrior
 GB3900003W4 | Inside Outside
-GB3900007C6 | The Great Christmas Light Fight
 GB4000008O5 | Mr Bean Live Action
 GB4000027F | The Graham Norton Show
 GB400003BM | INTRAVEL
@@ -630,7 +622,6 @@ GBBD50000320 | Mystery TV
 GBBD500005ZG | Robot Wars by Mech+
 GBBD500007TG | Grjngo - Western Movies
 GBBD5100001HL | SuperToons TV
-GBBD600002XT | Baywatch
 GBBD8000016N | CNN
 GEO.News.uk | GEO News
 GEO.TV.uk | GEO TV
