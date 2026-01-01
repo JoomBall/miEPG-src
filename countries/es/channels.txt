@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Dec 31 00:18:42 UTC 2025
+# Fecha: Thu Jan  1 00:20:39 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -771,7 +771,7 @@ ES26000068D | Estilo y Vida – Rakuten TV
 ES260000700 | Comedia - Rakuten TV
 ES2600008NX | Rantaró, El Ninja Boy
 ES260000968 | Euronews EN DIRECTO
-ES260001081 | 100% Navidad - Rakuten TV
+ES260001081 | En Familia - Rakuten TV
 ES2600012C9 | Películas Románticas - Rakuten TV
 ES2600013H4 | Películas Top - Rakuten TV
 ES2700002YP | Top Gear
@@ -888,7 +888,6 @@ ESBC4700001GR | duckTV
 ESBC4700002TD | Love the Planet
 ESBC4700003RJ | Teen Vee
 ESBD1100001PQ | FRANCE 24 FAST
-ESBD1300001EP | Baywatch – Los Vigilantes de la Playa
 ESBD130000205 | Pitufo TV
 ESBD1300003VN | Corazón
 ESBD1300004IG | Azteca Internacional
