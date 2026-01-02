@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Jan  1 00:20:40 UTC 2026
+# Fecha: Fri Jan  2 00:18:04 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
