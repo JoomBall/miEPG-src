@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jan  2 00:18:10 UTC 2026
+# Fecha: Sat Jan  3 00:17:08 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -436,6 +436,7 @@
 68d27949793c71d988ca624c | Los Pitufos
 68d566603d3a9580eb461251 | Paramount Network de Pluto TV
 68de3db35fc0afe85de0b843 | Comedia a lo bestia de Pluto TV
+68e8fd7c3ede4398bc69af93 | Dragon Ball Z
 68f103545c876cf7307b4e37 | Cheers
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
 7.Región.de.Murcia.es | 7 Región de Murcia
@@ -555,6 +556,8 @@ Canal.7.Televalencia.es | Canal 7 Televalencia
 Canal.Cocina.es | Canal Cocina
 Canal.Extremadura.Sat.es | Canal Extremadura Sat
 Canal.Extremadura.TV.es | Canal Extremadura TV
+Canal.FlixOlé.1.es | Canal FlixOlé 1
+Canal.FlixOlé.2.es | Canal FlixOlé 2
 Canal.Fútbol.Replay.es | Canal Fútbol Replay
 Canal.Parlamento.es | Canal Parlamento
 Canal.Sur.2.es | Canal Sur 2
@@ -1573,7 +1576,7 @@ drama-rakuten-tv | Películas de Drama
 el-conquistador | El Conquistador
 el-pais | El País
 euronews-live-spa | Euronews EN DIRECTO
-family-rakuten-tv | 100% Navidad
+family-rakuten-tv | En Familia
 fashion-tv | Fashion TV
 feel-good-tv | Feel Good TV
 feelgood | FeelGood
