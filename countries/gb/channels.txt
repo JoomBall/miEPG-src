@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Jan  3 00:17:09 UTC 2026
+# Fecha: Sun Jan  4 00:20:21 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -203,8 +203,6 @@
 686cd7bd8aeeaaa91a153161 | Britain's Next Top Model
 686fc8fe1889b4ad04604704 | Icons Unearthed+
 6882521ac258734a42a60ed0 | DP World Tour
-68b5a5402155bfc3488dc457 | Saw
-68b5a5900777559fa5bc13f0 | Leprechaun
 68b5a7b69ac85c428f54c441 | Curzon Cinema
 68b5a97fc8ef6afa31138718 | The Smurfs
 68c8201b1e5aaf77c47d9605 | Ice Road Truckers
