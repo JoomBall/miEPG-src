@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Jan  4 00:20:23 UTC 2026
+# Fecha: Mon Jan  5 00:20:04 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1240,7 +1240,6 @@ M+.Originales.es | M+ Originales
 M+.Vamos.es | M+ Vamos
 M6 | M6
 MMA TV | MMA TV
-MTV 00s | MTV 00s
 MTV 80s | MTV 80s
 MTV 90s | MTV 90s
 MTV Classic | MTV Classic
@@ -1348,7 +1347,6 @@ PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
 PTV Sevilla | PTV Sevilla
-Paramount Network | Paramount Network
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
@@ -1415,6 +1413,7 @@ Sony One Series Thriller | Sony One Series Thriller
 Sony One Shark Tank | Sony One Shark Tank
 Sony One The Blacklist | Sony One The Blacklist
 Sony One Éxitos | Sony One Éxitos
+Squirrel 2 | Squirrel 2
 Squirrel TV | Squirrel TV
 Star TVE HD | Star TVE
 Star.es | Star
