@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jan  5 00:20:04 UTC 2026
+# Fecha: Tue Jan  6 00:18:24 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -45,8 +45,8 @@
 5f1acdaa8ba90f0007d5e760 | Pluto TV Cocina
 5f28009b150b2500077766b8 | Vaya semanita
 5f6a38eaa5b68b0007a00e7a | Pluto TV Sci-Fi
+5f984b18dfe75800070e8645 | Pluto TV Cine Navideño
 5f984f4a09e92d0007d74647 | Archivos Forenses
-5f984fdc470d460007a67094 | MTV Hits Navidad
 5f98537a5a4341000733aefe | MTV Embarazada a los 16
 600169ec77e6f70008fa9cf0 | MTV Dating
 600ae6a78d801e0007117d21 | Pluto TV Animales
@@ -581,7 +581,6 @@ Cines.Verdi.TV.es | Cines Verdi TV
 Clan | Clan
 Clan.es | Clan
 Classica HD | Classica
-Club MTV | Club MTV
 Club.MTV.International.es | Club MTV International
 Clásicos atresplayer | Clásicos atresplayer
 Comedia atresplayer | Comedia atresplayer
@@ -1240,11 +1239,8 @@ M+.Originales.es | M+ Originales
 M+.Vamos.es | M+ Vamos
 M6 | M6
 MMA TV | MMA TV
-MTV 80s | MTV 80s
-MTV 90s | MTV 90s
 MTV Classic | MTV Classic
 MTV España | MTV España
-MTV Hits | MTV Hits
 MTV.80s.es | MTV 80s
 MTV.90s.es | MTV 90s
 MTV.Dance.es | MTV Dance
@@ -1343,6 +1339,7 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
+PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
@@ -1415,6 +1412,7 @@ Sony One The Blacklist | Sony One The Blacklist
 Sony One Éxitos | Sony One Éxitos
 Squirrel 2 | Squirrel 2
 Squirrel TV | Squirrel TV
+Squirrel.2.es | Squirrel 2
 Star TVE HD | Star TVE
 Star.es | Star
 Sundance TV | Sundance TV
