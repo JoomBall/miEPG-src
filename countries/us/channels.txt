@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jan  5 00:19:57 UTC 2026
+# Fecha: Tue Jan  6 00:18:22 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -50,7 +50,6 @@
 5bb3fea0f711fd76340eebff | Pluto TV Military
 5bdcdf1e851dd5632e2c11d1 | QVC
 5bee1a7359ee03633e780238 | Dog the Bounty Hunter
-5bf48085851dd5632e2f7b4d | Crackling Fireplace
 5c01df1759ee03633e7b272c | Lucha Libre AAA
 5c2d64ffbdf11b71587184b8 | TV Land Sitcoms
 5c37d6712de254456f7ec340 | Cold Case Files by A&amp;E
@@ -101,7 +100,6 @@
 5d8d164d92e97a5e107638d2 | Cine adrenalina
 5d8d180092e97a5e107638d3 | Cine terror
 5d93b635b43dd1a399b39eee | Vevo Pop
-5d9ccd538661290009ecbdb7 | Pluto TV Mistletoe
 5da0c85bd2c9c10009370984 | Naruto
 5da0d75e84830900098a1ea0 | Vevo Country
 5da0d83f66c9700009b96d0e | Vevo R&amp;B
@@ -214,7 +212,6 @@
 613260e4bdb71c00070d63fa | More TV Drama
 6132619f9ddaa50007e7dd86 | More TV Sitcoms
 61326275b3c86a00078e4833 | BET Throwbacks
-614501c653ceee000772b0ca | Festive Fireplace
 615b8ec39e878900073f419a | Antiques Road Trip
 6176f39e709f160007ec61c3 | 48 Hours
 6176fd25e83a5f0007a464c9 | Bounce XL
@@ -233,9 +230,9 @@
 6267352efcf21c0007c76642 | Let's Make A Deal
 627d355aa95efd00077afcc7 | Cheaters
 6283d51144ad8f0007fa382d | The Judge Judy Channel
-628e685ba3811100070551a8 | Hallmark Movies &amp; More Holiday Favorites
+628e685ba3811100070551a8 | Hallmark Movies &amp; More
 62ba60f059624e000781c436 | 00s Replay
-62cdcd05b9e7a10007399603 | CBS News Sacramento
+62cdca1cda044a00077b903d | CBS News Philadelphia
 62f2ce24f328e00007e7f55a | Stories by AMC
 62f54c11b3af68000702c304 | CSI: Miami
 62f54c6439183b000769fb8f | CSI: NY
@@ -245,10 +242,6 @@
 632b619c8d2a6c0007ff534e | KIRO Seattle
 633354b63df9700007f6a1b7 | Sitcom Legends
 63335b193583440007c859fb | Holiday Movie Favorites By Lifetime
-63335df531a7590007c226b9 | Pluto TV Christmas
-6334a3355471ee0007609e21 | Home for the Holidays
-6334a3ffdc283500076acf92 | Vevo Holiday
-6334a4d7ae975100073994a2 | Cine navideño
 6334a574605f140007e233c4 | PFL MMA
 634dacf51d90320007fcd5fa | Star Trek Voyager
 634ee8f95aa9870007248333 | Confess by Nosey
@@ -289,7 +282,6 @@
 651f239d9c7aeb0008286823 | Dating Disasters
 65244c403fd33c0008ffff31 | Car Chase
 6532e6a9bdf3cf000887ab29 | More True Crime
-6532e7b290a74c00084a3bb6 | Hallmark en español
 6532e7fa045c3d0008514ca7 | Warner Bros. TV Sweet Escapes
 6532e8342cf13100083b404c | Warner Bros. TV Say Yes to the Dress
 65453f30085df200085883d8 | ION
@@ -349,13 +341,11 @@
 66c638726838ee00085ac20d | OuterSphere
 66df8a29b25d2b0008fc5fe0 | Love Nature
 66df8aa7abec540008ca8cb6 | Homeful
-66e0b265dd2d690008c5496b | Places &amp; Spaces
 66e0b4536ad04d0008fff4b2 | CNN Originals
 66e0b4866ad04d0008fff4d8 | MythBusters
 66e0b4a3f0f17500085cc268 | Hit Sitcoms
 66fedd65d7de140008dccd66 | El Reino Infantil
 66ff0cf663292d0008320cf8 | No Reservations
-66ff1d5a565d3a000892bdcd | Stingray Holidayscapes
 672e4d915534bb0008c50168 | Family Feud
 673247127d5da5000817b4d6 | Pluto TV Trending Now
 673248f9030a2c0008033af8 | CNN XPRESS
@@ -408,9 +398,8 @@
 68c8a5c6b3900870ec0de73a | Universal Movies
 68e9913c4a666b9054849832 | Bonanza
 68ee9a999938143525bfc385 | Shop LC
-68f690e7a25ba0aab32bed92 | BET Holiday Movies
 690d0a3a1187b68782e27beb | MODUS Super Series Darts
 6913e381b6bf26bb6e798c13 | The X-Files
-691cf0410a78a9ce61ad2121 | America's Funniest Home Videos: Holiday Edition
+691cf0410a78a9ce61ad2121 | America's Funniest Home Videos
 691d1200c2185a44642f5e7c | El Rey Rebel
 metv | MeTV
