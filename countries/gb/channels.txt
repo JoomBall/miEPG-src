@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jan  5 00:19:59 UTC 2026
+# Fecha: Tue Jan  6 00:18:24 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -17,8 +17,6 @@
 5bd05b4694d45d266bc951f2 | Unsolved Mysteries
 5bd8186d53ed2c6334ea0855 | Pluto TV Reality
 5bd81b1053ed2c6334ea0856 | Strongman
-5bd8273953ed2c6334ea10f8 | Pluto TV Christmas
-5bd8282253ed2c6334ea10fa | Fireplace
 5bd833b41843b56328bac189 | Mythbusters
 5c363c2411c5ca053f198f97 | Pluto TV Comedy Movies
 5c45f5a9d40d58066869fa60 | Ghost Dimension
@@ -44,7 +42,6 @@
 5dbfeb961b411c00090b52b3 | Pluto TV Action
 5dbfedccc563080009b60f4a | Pluto TV Thrillers
 5dc02a44a9518600094273ac | Pluto TV Sci-Fi
-5dc039c65b56d0000945af0e | Pluto TV Mistletoe
 5dc2ba1a9c91420009db4858 | Nosey
 5dc2c00abfed110009d97243 | Pluto TV Sherlock
 5dc3fc6b9133f500099c7d98 | Pluto TV Family Movie Club
@@ -183,8 +180,6 @@
 677fb115a4af36ad50113e56 | The Real Housewives
 677fb137a5d8215f99b9cc06 | Top Chef
 677fb3432952c1163bf1a539 | Million Dollar Listing
-67f4fde1fbe45309c7699d6f | Pluto TV Masters of Horror
-67f4ffda8ddd60c57dc24e35 | Pluto TV Creature Features
 680bb31c56ff83bcd685d64e | Farscape
 682453731295f98347e92da8 | River Monsters
 68503cfda1e091e16f000625 | 7th Heaven
