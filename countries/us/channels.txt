@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jan  6 00:18:22 UTC 2026
+# Fecha: Wed Jan  7 00:16:43 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -241,7 +241,7 @@
 632b606e12a67b0007c9e371 | CSI: NY en español
 632b619c8d2a6c0007ff534e | KIRO Seattle
 633354b63df9700007f6a1b7 | Sitcom Legends
-63335b193583440007c859fb | Holiday Movie Favorites By Lifetime
+63335b193583440007c859fb | Lifetime Movie Favorites
 6334a574605f140007e233c4 | PFL MMA
 634dacf51d90320007fcd5fa | Star Trek Voyager
 634ee8f95aa9870007248333 | Confess by Nosey
@@ -380,6 +380,7 @@
 68757effdf333e336be1e49f | Tony Robbins Network
 68758038552299d2b08162e3 | Law &amp; Order
 687fea9a4fa995eff284a1c8 | Más adrenalina
+687ff00ff6bc08130f16ab81 | Beyond the Gates
 6887a4e01067b66fa16966ec | Live PD Presents
 6887a86be3703b7d42b3eca3 | Matched Married Meet by Lifetime
 6887a8fd8e92b5e0a7244e88 | Ancient Aliens
@@ -398,7 +399,6 @@
 68c8a5c6b3900870ec0de73a | Universal Movies
 68e9913c4a666b9054849832 | Bonanza
 68ee9a999938143525bfc385 | Shop LC
-690d0a3a1187b68782e27beb | MODUS Super Series Darts
 6913e381b6bf26bb6e798c13 | The X-Files
 691cf0410a78a9ce61ad2121 | America's Funniest Home Videos
 691d1200c2185a44642f5e7c | El Rey Rebel
