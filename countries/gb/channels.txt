@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jan  6 00:18:24 UTC 2026
+# Fecha: Wed Jan  7 00:16:48 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -158,6 +158,7 @@
 6683cd71a1d7ad000866ec6a | Pokémon
 6695294632e25300084bb61b | Sister, Sister
 66a10eacfe11e500084c6925 | Flashpoint
+66a10eeb46762a0008201e85 | Teletubbies
 66ba1e23d2d50d00084a1e57 | Crimes That Shook Britain
 66ba1e4446762a000855cd87 | Girlfriends
 66c45afaa72e7b0008a2b153 | CNNi
