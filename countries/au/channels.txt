@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jan  6 00:18:22 UTC 2026
+# Fecha: Wed Jan  7 00:16:44 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -50,13 +50,13 @@ LST | LifeStyle
 MO6 | Movies Drama
 MSN | MS NOW
 MTC | Retro
-MVS | Movies Hits - Sandler Vs Cruise
+MVS | Blockbusters
 NAP | Australian Played
 NAT | Nature Time
 NHK | NHK World
 NMU | Kids
 NNN | NBC News NOW
-NRW | Max Christmas
+NRW | Max
 PUH | PULP
 RLS | Real Life
 RTV | RACING.COM
