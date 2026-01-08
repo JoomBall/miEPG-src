@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jan  7 00:16:49 UTC 2026
+# Fecha: Thu Jan  8 00:18:47 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -367,6 +367,7 @@
 643054b1fc3be59477853717-6922366b50fe592fd6d5b7ec | Shark Tank
 643054b1fc3be59477853717-69333216ac5b3f9f53442374 | Baby Einstein
 643054b1fc3be59477853717-693cb1af58076a970420f591 | El Mueble
+643054b1fc3be59477853717-693cbba358076a970420f597 | Cesar's Pack Leader TV
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -1339,7 +1340,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
