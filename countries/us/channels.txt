@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jan  9 00:18:16 UTC 2026
+# Fecha: Sat Jan 10 00:17:47 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -177,7 +177,7 @@
 5ff8c708653d080007361b14 | Paramount+ Picks
 5fff49cfb5cd4f0007c2b0dc | News 12 New York
 6000a5a9e767980007b497ca | A&amp;E Crime 360
-6000a6f4c3f8550008fc9b91 | Xtreme Outdoor Presented by HISTORY
+6000a6f4c3f8550008fc9b91 | Xtreme Outdoor by HISTORY
 601a0342dcf4370007566891 | Tiny House Nation
 6036e6e7ac69c400072afca2 | Hot Bench
 6036e7c385749f00075dbd3b | Pluto TV Game Shows
@@ -256,7 +256,7 @@
 63b48016d9dd51000828fa37 | POWERNATION
 63d025db4e83e700086eaa96 | LiveNOW from FOX
 63d0269d60bc8f000890facc | FOX Deportes
-6400f731d200410008f9b339 | MotorTrend FAST TV
+6400f731d200410008f9b339 | Discovery Turbo TV
 640a64bd73e013000893d4e0 | PBS Nature
 640a68880e884c0009979cc2 | FOX Weather
 643f035d5a0cd50008361534 | The Price Is Right
@@ -305,7 +305,7 @@
 656542ae4261ca00082154a8 | Ultimate Builds
 6565430c9d5ac4000822f508 | Rustic Retreats
 65775af3b3801200084a3aa4 | Feel Good Drama
-65775d29dfed030008cb3db2 | Modern Marvels Presented by HISTORY
+65775d29dfed030008cb3db2 | Modern Marvels by HISTORY
 65790cda6e4f6a0008768764 | NBC Los Angeles News
 65790feacbd0d60008fac87a | Telemundo Noticias California
 65a6dafb7bdc8d0008473c85 | The Lone Ranger
