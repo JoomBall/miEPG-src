@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Jan 11 00:20:15 UTC 2026
+# Fecha: Mon Jan 12 00:19:08 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -34,7 +34,7 @@ FOX | FOX8
 FS1 | FOX CRICKET
 FS3 | Fox Sports 503
 FSN | FOX SPORTS NEWS
-FSP | Fox Cricket +
+FSP | Fox Sports 505
 FSS | Fox Sports More
 FSU | British
 FXW | SKY Weather
