@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jan 14 00:18:43 UTC 2026
+# Fecha: Thu Jan 15 00:17:38 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -650,25 +650,16 @@ DAZN.F1.es | DAZN F1
 DAZN.LALIGA.2.es | DAZN LALIGA 2
 DAZN.LALIGA.es | DAZN LALIGA
 DBike | DBike
-DE | ARTE | DE | ARTE
+DE | Auto Motor Sport Ch. | DE | Auto Motor Sport Ch.
 DE | DAZN 1 | DE | DAZN 1
 DE | DAZN 2 | DE | DAZN 2
-DE | Das Erste | DE | Das Erste
+DE | DAZN | DE | DAZN
 DE | Eurosport 1 | DE | Eurosport 1
 DE | Eurosport 2 | DE | Eurosport 2
-DE | KiKA | DE | KiKA
-DE | MS Sport | DE | MS Sport
-DE | MTV | DE | MTV
-DE | MagentaSport | DE | MagentaSport
-DE | More Than Sports TV | DE | More Than Sports TV
+DE | More than Sports TV | DE | More than Sports TV
+DE | Motorvision TV | DE | Motorvision TV
 DE | Motorvision+ | DE | Motorvision+
-DE | QVC | DE | QVC
-DE | RTL | DE | RTL
 DE | Rally TV | DE | Rally TV
-DE | Red Bull TV Motorsport | DE | Red Bull TV Motorsport
-DE | Red Bull TV | DE | Red Bull TV
-DE | SPORT1 | DE | SPORT1
-DE | SPORTDIGITAL FUSSBALL | DE | SPORTDIGITAL FUSSBALL
 DE | Sky Sport 1 | DE | Sky Sport 1
 DE | Sky Sport 10 | DE | Sky Sport 10
 DE | Sky Sport 2 | DE | Sky Sport 2
@@ -687,6 +678,7 @@ DE | Sky Sport Austria 5 | DE | Sky Sport Austria 5
 DE | Sky Sport Austria 6 | DE | Sky Sport Austria 6
 DE | Sky Sport Austria 7 | DE | Sky Sport Austria 7
 DE | Sky Sport Austria 8 | DE | Sky Sport Austria 8
+DE | Sky Sport Austria | DE | Sky Sport Austria
 DE | Sky Sport Bundesliga 1 | DE | Sky Sport Bundesliga 1
 DE | Sky Sport Bundesliga 10 | DE | Sky Sport Bundesliga 10
 DE | Sky Sport Bundesliga 2 | DE | Sky Sport Bundesliga 2
@@ -700,16 +692,16 @@ DE | Sky Sport Bundesliga 9 | DE | Sky Sport Bundesliga 9
 DE | Sky Sport Bundesliga | DE | Sky Sport Bundesliga
 DE | Sky Sport F1 | DE | Sky Sport F1
 DE | Sky Sport Golf | DE | Sky Sport Golf
-DE | Sky Sport Kompakt 1 | DE | Sky Sport Kompakt 1
 DE | Sky Sport Mix | DE | Sky Sport Mix
 DE | Sky Sport News | DE | Sky Sport News
 DE | Sky Sport Premier League | DE | Sky Sport Premier League
 DE | Sky Sport Tennis | DE | Sky Sport Tennis
 DE | Sky Sport Top Event | DE | Sky Sport Top Event
-DE | Sportdigital1+ | DE | Sportdigital1+
 DE | TRT Türk HD | DE | TRT Türk
-DE | ZDF | DE | ZDF
-DE | eSportsONE | DE | eSportsONE
+DE | eSports One | DE | eSports One
+DE | sport1 | DE | sport1
+DE | sport1+ | DE | sport1+
+DE | sportdigital | DE | sportdigital
 DKISS | DKISS
 DMAX | DMAX
 DMAX.es | DMAX
@@ -811,7 +803,6 @@ ES340000152 | Video Game Heroes
 ES3400002PY | Surf Channel
 ES34000039I | CNN en Español
 ES3400004SS | Sky News International
-ES35000016A | Vevo Navidad
 ES3600001Y7 | Rebelde
 ES3800001V1 | Red Bull TV
 ES3800002V5 | Dhar Mann TV
