@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Jan 15 00:17:37 UTC 2026
+# Fecha: Fri Jan 16 00:18:47 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -243,7 +243,7 @@
 633354b63df9700007f6a1b7 | Sitcom Legends
 63335b193583440007c859fb | Lifetime Movie Favorites
 6334a574605f140007e233c4 | PFL MMA
-634dacf51d90320007fcd5fa | Star Trek Voyager
+634dacf51d90320007fcd5fa | Star Trek: Voyager
 634ee8f95aa9870007248333 | Confess by Nosey
 634f2610d5023700078f7dee | CBS News Detroit
 634f3011f4fff20007431641 | I Love Lucy
@@ -311,7 +311,7 @@
 65a6dafb7bdc8d0008473c85 | The Lone Ranger
 65a9b20f0c7ff50008d3a3b6 | Universal Monsters
 65c69b683ba51e00084534a3 | Monster Jam
-65c69bbfd77d450008c7ffee | Star Trek Deep Space Nine
+65c69bbfd77d450008c7ffee | Star Trek: Deep Space Nine
 65c69bf23ef47d0008583967 | Tough Jobs
 65c69ee3d77d450008c80438 | F1 Channel
 65d92a8c8b24c80008e285c0 | BBC News
@@ -396,10 +396,11 @@
 68bb16e7f89c82a68bcc4397 | Chip &amp; Jo: Feels Like Home by Magnolia Network
 68c32d88f56983aba40052bd | BET Comedy Movies
 68c85164b7af374ee483210f | Wrestling Central
-68c8a5c6b3900870ec0de73a | Universal Movies
 68e9913c4a666b9054849832 | Bonanza
 68ee9a999938143525bfc385 | Shop LC
 6913e381b6bf26bb6e798c13 | The X-Files
 691cf0410a78a9ce61ad2121 | America's Funniest Home Videos
 691d1200c2185a44642f5e7c | El Rey Rebel
+695c32671ca20bb8ca7fd8f7 | Star Trek: Enterprise
+695c32e61ca20bb8ca802eb9 | Star Trek: The Next Generation
 metv | MeTV
