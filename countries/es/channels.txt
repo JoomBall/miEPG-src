@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Jan 15 00:17:38 UTC 2026
+# Fecha: Fri Jan 16 00:18:50 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -227,7 +227,6 @@
 643054b1fc3be59477853717-63f0ca427b78030ed9990309 | CombaTV
 643054b1fc3be59477853717-63f914bffe2c3d32e1a7929f | GLORY Kickboxing
 643054b1fc3be59477853717-640205c68ecb41f2d89d5814 | The Ed Sullivan Show
-643054b1fc3be59477853717-6408c82eebb23ab878e8ddbb | Motorsport.tv
 643054b1fc3be59477853717-643f0ecd76de2b4015ae6c01 | PFL MMA
 643054b1fc3be59477853717-64487696af92c31f4a190bc4 | MyTime Movie Network
 643054b1fc3be59477853717-6448ba1baf92c31f4a190c27 | JAIL
@@ -367,6 +366,7 @@
 643054b1fc3be59477853717-69333216ac5b3f9f53442374 | Baby Einstein
 643054b1fc3be59477853717-693cb1af58076a970420f591 | El Mueble
 643054b1fc3be59477853717-693cbba358076a970420f597 | Cesar's Pack Leader TV
+643054b1fc3be59477853717-695d5d279caacd2e64b7a00c | MOVIESPHERE
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -445,7 +445,6 @@
 8.Madrid.es | 8 Madrid
 8madrid TV | 8madrid TV
 A3Cine.(Atrescine).es | A3Cine (Atrescine)
-ACL Cornhole TV | ACL Cornhole TV
 AM.es | AM
 AMC Anime | AMC Anime
 AMC Break | AMC Break
@@ -734,6 +733,7 @@ Dkiss.es | Dkiss
 Dramas (Rakuten TV) | Dramas (Rakuten TV)
 Dreamworks HD | Dreamworks
 Dreamworks.es | Dreamworks
+EITB Basque euskera | EITB Basque euskera
 EITB Basque | EITB Basque
 EITB.BASQUE.es | EITB BASQUE
 ES1000001EF | SMTOWN
@@ -915,12 +915,16 @@ ETB.1.HD.es | ETB 1 HD
 ETB.2.es | ETB 2
 ETB.3.es | ETB 3
 ETB.4.es | ETB 4
+ETB1 euskera | ETB1 euskera
 ETB1 | ETB1
 ETB1.es | ETB1
+ETB2 euskera | ETB2 euskera
 ETB2 | ETB2
 ETB2.es | ETB2
+ETB3 euskera | ETB3 euskera
 ETB3 | ETB3
 ETB3.es | ETB3
+ETB4 euskera | ETB4 euskera
 ETB4 | ETB4
 ETB4.es | ETB4
 ETV | ETV
@@ -1596,7 +1600,6 @@ las-tres-mellizas | Las tres mellizas
 lifestyle-rakuten-tv | Estilo y Vida
 merli | Merlí
 metal-rocks | Metal.Rocks
-motorsport-tv-en | Motorsport.tv
 motorvision-tv-spanish | MOTORVISION.TV
 mr-bean-es | Mr. Bean
 mr-bean-live-action | Mr. Bean - Live Action
