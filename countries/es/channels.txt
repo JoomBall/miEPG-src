@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jan 16 00:18:50 UTC 2026
+# Fecha: Sat Jan 17 00:17:37 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -68,6 +68,7 @@
 60e4573c9f963e00077ecf25 | Mi Extraña Obsesión
 60ed5fb9c4716d0007d180c5 | Cazador de Homicidas
 610c09219fc0430007a3fce6 | Rugrats
+611b87946b7f420007c22361 | MTV Tattoo a dos
 612ce5214bb5790007ad3016 | Pluto TV Paranormal
 6130d8dc943001000708548d | MTV Reality
 61373bb45168fe000773eecd | Pluto TV Cine Clásico
@@ -415,8 +416,6 @@
 680ba8992472a7200a183eb5 | One Piece
 680ba8c3a48b3ead0db701cc | Los caballeros del Zodiaco
 6812206e1b3e3be031a5c363 | Águila Roja
-6834570d00b60028d2dfd5f8 | Pluto TV Series Policiacas
-68345769bbc703dfd45a8564 | Pluto TV Tuning &amp; Tattoos
 683457aebbc703dfd45a89eb | Merlí
 683457e5f59cc6a13212fce4 | Lupin
 685a995b460ac82fa504342c | The Good Wife
@@ -445,6 +444,7 @@
 8.Madrid.es | 8 Madrid
 8madrid TV | 8madrid TV
 A3Cine.(Atrescine).es | A3Cine (Atrescine)
+ACL Cornhole TV | ACL Cornhole TV
 AM.es | AM
 AMC Anime | AMC Anime
 AMC Break | AMC Break
