@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Jan 17 00:17:37 UTC 2026
+# Fecha: Sun Jan 18 00:20:15 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -444,7 +444,6 @@
 8.Madrid.es | 8 Madrid
 8madrid TV | 8madrid TV
 A3Cine.(Atrescine).es | A3Cine (Atrescine)
-ACL Cornhole TV | ACL Cornhole TV
 AM.es | AM
 AMC Anime | AMC Anime
 AMC Break | AMC Break
