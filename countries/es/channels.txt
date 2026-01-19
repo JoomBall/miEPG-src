@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Jan 18 00:20:15 UTC 2026
+# Fecha: Mon Jan 19 00:19:15 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -581,6 +581,7 @@ Clan.es | Clan
 Classica HD | Classica
 Club.MTV.International.es | Club MTV International
 Clásicos atresplayer | Clásicos atresplayer
+Cocina | Cocina
 Comedia atresplayer | Comedia atresplayer
 Comedias (Rakuten TV) | Comedias (Rakuten TV)
 Comedy Central HD | Comedy Central
@@ -1089,6 +1090,7 @@ La 8 Soria | La 8 Soria
 La 8 Valladolid | La 8 Valladolid
 La 8 Zamora | La 8 Zamora
 La 8 Ávila | La 8 Ávila
+La Moderna | La Moderna
 La Ocho Mediterráneo | La Ocho Mediterráneo
 La Otra | La Otra
 La Promesa | La Promesa
