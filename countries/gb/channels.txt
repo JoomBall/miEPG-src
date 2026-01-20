@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jan 19 00:19:13 UTC 2026
+# Fecha: Tue Jan 20 00:17:51 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -105,6 +105,7 @@
 63c1384e829c850007922ca4 | 5 Emergency Rescue
 63d000ef4e83e700086e0d6c | Scorpion
 63d8ed19a9957100086f4d33 | Transformers
+63d91c9c8795f30008678e62 | Nature Time
 63d91cc58795f30008678e9d | Bloodline Detectives
 63d91d2560bc8f0008a225e4 | FIFA+
 63d91d624e83e7000881ca8c | Escape to the Country
@@ -138,6 +139,7 @@
 65a7ab137bdc8d0008487dfb | Pluto TV Erotica
 65a7af553af63d000828acca | Cash In The Attic
 65a7b01907e03a0008913e8f | Best of Dr. Phil
+65a7b04e7bdc8d0008488307 | True Crime Now
 65a7b0814a10d800085ff2df | Pluto TV PetrolHeads
 65b14aae0cb1a100087a216e | DAZN Ringside
 65b3895660eb8700089e7f53 | Car Chase
