@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jan 20 00:17:50 UTC 2026
+# Fecha: Wed Jan 21 00:19:13 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -442,7 +442,6 @@
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
 8.Madrid.es | 8 Madrid
-8madrid TV | 8madrid TV
 A3Cine.(Atrescine).es | A3Cine (Atrescine)
 AM.es | AM
 AMC Anime | AMC Anime
@@ -1029,7 +1028,6 @@ GolStadium | GolStadium
 Gulli | Gulli
 HBO Max Avances | HBO Max Avances
 HBO.Max.Avances.es | HBO Max Avances
-HIT TV | HIT TV
 Heritage+.es | Heritage+
 Historia y Vida | Historia y Vida
 Historia | Historia
@@ -1295,7 +1293,6 @@ Neox.es | Neox
 Nesting.TV.es | Nesting TV
 Nick JR | Nick JR
 Nick.Junior.es | Nick Junior
-NickMusic | NickMusic
 Nickelodeon HD | Nickelodeon
 Nickelodeon.es | Nickelodeon
 Nova | Nova
@@ -1405,8 +1402,6 @@ Sony One Series Thriller | Sony One Series Thriller
 Sony One Shark Tank | Sony One Shark Tank
 Sony One The Blacklist | Sony One The Blacklist
 Sony One Éxitos | Sony One Éxitos
-Squirrel 2 | Squirrel 2
-Squirrel TV | Squirrel TV
 Squirrel.2.es | Squirrel 2
 Star TVE HD | Star TVE
 Star.es | Star
