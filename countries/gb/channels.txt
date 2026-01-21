@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jan 20 00:17:51 UTC 2026
+# Fecha: Wed Jan 21 00:19:11 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -223,6 +223,7 @@
 69038c2ee0e0c5f8208c033a | Murdertown
 690dc8ed1ee9b6ac66607ce2 | America's Funniest Home Videos
 691729bdda5b5095ab1818fd | The Pink Panther
+692ebafce72f03e07e7df985 | Pluto TV American True Crime
 6960c5a906d76f50db2816dc | Cagney &amp; Lacey
 92.News.uk | 92 News
 A1TV.uk | A1TV
