@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jan 21 00:19:13 UTC 2026
+# Fecha: Thu Jan 22 00:19:18 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -442,6 +442,7 @@
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
 8.Madrid.es | 8 Madrid
+8madrid TV | 8madrid TV
 A3Cine.(Atrescine).es | A3Cine (Atrescine)
 AM.es | AM
 AMC Anime | AMC Anime
@@ -743,7 +744,6 @@ ES1400002CJ | CURIOSITY Now
 ES1600002QL | La Fiebre del Jade
 ES1600003FF | Naturaleza
 ES1600004JV | Todo Crimen
-ES1600005T1 | Rally.TV FAST+
 ES1700003C6 | Coreano by CJ ENM
 ES170000433 | NEW K-MOVIES
 ES1700005ME | NEW KPOP
@@ -812,7 +812,11 @@ ES4100002WB | Thrillers - Rakuten TV
 ES4200001MR | Moviesphere
 ES42000022E | Xataka
 ES4300001K6 | Chicas Guapas TV
+ES4300004JP | Rugby Challenge
 ES4300006I4 | El Mueble
+ES4400001N3 | Las 3 Mellizas
+ES4400002LI | Mi Casa
+ES440000327 | Todo Drama
 ES4400005EJ | Cry Babies
 ES45000012U | Alerta Cobra
 ES4700001VS | 2M
@@ -821,6 +825,7 @@ ES5000001CS | LooLoo Kids
 ES500002NY | H2O &amp; Friends
 ES500004NO | Sci-Fi - Rakuten TV
 ES500005BP | Águila Roja
+ES51000017V | Rally.TV FAST+
 ES700004C8 | Runtime Christmas
 ES7000056Z | Yu-Gi-Oh!
 ES900001SH | Mr Bean Animated
@@ -1003,7 +1008,6 @@ FailArmy.es | FailArmy
 FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
-Fight Sports | Fight Sports
 Fight Time | Fight Time
 FightSports | FightSports
 Flamenco Auditorio | Flamenco Auditorio
@@ -1359,7 +1363,6 @@ Qwest.TV.es | Qwest TV
 REKTV | REKTV
 RNA.es | RNA
 RTP Internacional | RTP Internacional
-Rally.TV | Rally.TV
 Real Madrid TV | Real Madrid TV
 Real.Madrid.TV.es | Real Madrid TV
 Record | Record
@@ -1402,6 +1405,8 @@ Sony One Series Thriller | Sony One Series Thriller
 Sony One Shark Tank | Sony One Shark Tank
 Sony One The Blacklist | Sony One The Blacklist
 Sony One Éxitos | Sony One Éxitos
+Squirrel 2 | Squirrel 2
+Squirrel TV | Squirrel TV
 Squirrel.2.es | Squirrel 2
 Star TVE HD | Star TVE
 Star.es | Star
@@ -1526,6 +1531,7 @@ ZUT.TV.es | ZUT TV
 ZenLIFE.es | ZenLIFE
 a-bocados | A bocados
 a-haunting-spa | Historias de ultratumba
+acontra+ | acontra+
 action-rakuten-tv | Películas de Acción
 actualidad-360 | Actualidad 360
 africanews-eng | Africanews
