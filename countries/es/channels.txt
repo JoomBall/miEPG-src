@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jan 23 00:19:03 UTC 2026
+# Fecha: Sat Jan 24 00:18:10 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1359,6 +1359,7 @@ Pro.TV.Internacional.es | Pro TV Internacional
 Punt 3 | Punt 3
 Punt.3.es | Punt 3
 QWest Mix | QWest Mix
+Qello concerts | Qello concerts
 Qello.Concerts.es | Qello Concerts
 Qwest.TV.es | Qwest TV
 REKTV | REKTV
