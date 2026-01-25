@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Jan 24 00:18:10 UTC 2026
+# Fecha: Sun Jan 25 00:20:27 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -443,6 +443,7 @@
 7teleValencia | 7teleValencia
 8.Madrid.es | 8 Madrid
 8madrid TV | 8madrid TV
+A3CINE.es | A3CINE
 A3Cine.(Atrescine).es | A3Cine (Atrescine)
 AM.es | AM
 AMC Anime | AMC Anime
@@ -474,6 +475,7 @@ Anime Visión Classics | Anime Visión Classics
 Anime Visión | Anime Visión
 Antena 3 HD | Antena 3
 Antena Motor | Antena Motor
+Antena.3.Internacional.es | Antena 3 Internacional
 Antena.3.es | Antena 3
 Aquí no hay quién viva | Aquí no hay quién viva
 Aragón TV Internacional | Aragón TV Internacional
@@ -482,6 +484,7 @@ Aragón.TV.es | Aragón TV
 Arirang TV HD | Arirang TV
 Atrescine | Atrescine
 Atreseries | Atreseries
+Atreseries.Internacional.es | Atreseries Internacional
 Atreseries.es | Atreseries
 BBC Earth | BBC Earth
 BBC Food | BBC Food
@@ -963,6 +966,7 @@ Eurosport 2 | Eurosport 2
 Eurosport 4K | Eurosport 4K
 Eurosport.2.es | Eurosport 2
 Eurosport.es | Eurosport
+Eventos.4.es | Eventos 4
 Extreme Channel | Extreme Channel
 Extreme.Sports.es | Extreme Sports
 FDF.Telecinco.es | FDF Telecinco
@@ -1669,5 +1673,6 @@ vivir-con-perros | Vivir con perros
 weather-spy-new | Weather Spy
 wedotv-amor | wedotv Amor
 yu-gi-oh-new-spa | Yu-Gi-Oh!
+¡HOLA!.TV.es | ¡HOLA! TV
 À Punt | À Punt
 À.Punt.es | À Punt
