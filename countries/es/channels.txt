@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jan 26 00:19:54 UTC 2026
+# Fecha: Tue Jan 27 00:20:09 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -444,7 +444,6 @@
 8.Madrid.es | 8 Madrid
 8madrid TV | 8madrid TV
 A3CINE.es | A3CINE
-A3Cine.(Atrescine).es | A3Cine (Atrescine)
 AM.es | AM
 AMC Anime | AMC Anime
 AMC Break | AMC Break
@@ -1340,7 +1339,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
