@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jan 26 00:19:51 UTC 2026
+# Fecha: Tue Jan 27 00:20:15 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -16,7 +16,6 @@
 5ad8d883e738977e2c31096b | FailArmy
 5bd05b4694d45d266bc951f2 | Unsolved Mysteries
 5bd8186d53ed2c6334ea0855 | Pluto TV Reality
-5bd81b1053ed2c6334ea0856 | Strongman
 5bd833b41843b56328bac189 | Mythbusters
 5c363c2411c5ca053f198f97 | Pluto TV Comedy Movies
 5c45f5a9d40d58066869fa60 | Ghost Dimension
@@ -30,12 +29,10 @@
 5d134a74ca91eedee1630faa | Pluto TV Classic TV
 5d2c571faeb3e2738ae27933 | 5 Cops
 5d4ae94ef1a1bbb350ca41bb | Pluto TV Conspiracy
-5d4af00df345adb154b7a1f4 | 21 Jump Street
 5d4af1803e7983b391d73b13 | Pluto TV History
 5d4af2ffa9506ab29cf38c38 | Pluto TV Paranormal
 5d4bdb635ce813b38639e6a3 | Pluto TV Westerns
 5d765786aad587cf4d0e2bf6 | Inspector Gadget
-5d765984438d93d01eaf107f | Degrassi Next Gen
 5d767790d0438aceb41d03ae | Pluto TV Crime
 5d9492c77ea6f99188738ff1 | Pluto TV Science
 5dbc2f98777f2e0009934ae7 | Pluto TV Space
@@ -56,10 +53,8 @@
 5e9ed47c26ebb000074af566 | Sensing Murder
 5ea18cd42ee5410007e349dc | Crime Investigation
 5f27bbe4779de70007a6d1c1 | Ghost Hunters
-5f6b51af068f49000746e432 | Master Chef Australia
 5f6b535a278bfe000799484a | Dog The Bounty Hunter
 5f6b54b9e67cf60007d4cef1 | Duck Dynasty
-5f6b5568dfb9ee0007f3a389 | The Wahlburgers
 600ad9e56c609c0007e2b6d0 | Operation Repo
 604f8f8622166000071a929f | BET Pluto TV
 60804d85858bd00007c5d591 | Paranormal State
@@ -73,12 +68,9 @@
 612f761008a9e50007984ba0 | Pluto TV Animation
 61559552dd585f0007321eca | Bloomberg TV+
 615af74dfe3d8e0007524511 | On The Case
-619243059541940007d1ff86 | Pimp my Ride
 619247c34a270700077c8415 | Pluto TV Sci-fi Series
-6193c353d46f7e0007cfb770 | Iron Chef
 61c49f1495f417000731cef0 | Inside Crime
 61c4a09d6c959f0007189c93 | Mystery TV
-620bb260821a860007b2d3df | Family Ties
 620f6c60b994540007ddd74b | Moesha
 620f6f9e36a49b000761f0d5 | Location, location, location
 622f48de713e510007f85808 | Dynasty
@@ -109,8 +101,6 @@
 63d91cc58795f30008678e9d | Bloodline Detectives
 63d91d2560bc8f0008a225e4 | FIFA+
 63d91d624e83e7000881ca8c | Escape to the Country
-63fe249f49839300086d4888 | Punk'd
-63fe2ea349839300086d6d3e | Crime Scene Solvers
 63fe2ec4dff38e000835f786 | Rookie Blue
 6401d85a49839300087b116c | Moviesphere
 645e00d5d3fdde000829463a | More TV Sci-fi
@@ -171,7 +161,6 @@
 66e06576abec540008cc17a9 | The Graham Norton Show
 66ebf9bc55567d0008de3b29 | The Hotel Inspector
 66ed3e9d5e4a6e0008b346e0 | UFC
-66f12a69913b8e0008cc7365 | Mutant X
 66f1331f9409630008077623 | Earth: Final Conflict
 66f135b45e4a6e0008b80606 | Antiques Road Trip
 66f137cb483d460008ece053 | Rugby Pass TV
@@ -189,7 +178,6 @@
 68503d1736c9361b191e7d89 | Gunsmoke
 68503d3bc692373f0158c43f | Hawaii Five-O
 68503d585965a2fd49fc2f0b | MacGyver
-68503da136c9361b191f9366 | Rawhide
 6850408053d981d1fdb01696 | Taxi
 68504098f212bedacf63a7e1 | Touched by an Angel
 685041d936c9361b1921c26c | Pluto TV Fantasy &amp; Horror
@@ -198,7 +186,6 @@
 6852854bce36f0644f37d765 | A New Life in the Sun
 685aa802fb6023de7cc56357 | Dominance FC TV
 686cd713e48af72bc250efb8 | America's Next Top Model
-686cd7bd8aeeaaa91a153161 | Britain's Next Top Model
 686fc8fe1889b4ad04604704 | Icons Unearthed+
 6882521ac258734a42a60ed0 | DP World Tour
 68b5a7b69ac85c428f54c441 | Curzon Cinema
@@ -211,10 +198,6 @@
 68e38b005c876cf730fcbf0f | Six Million Dollar Man
 68e38b6e20115bbaf9c91083 | The Incredible Hulk
 68e3b6112baff9f069d02540 | Relic Hunter
-68e3b8c846e8a33b6839e981 | Renegade
-68e3bf280989820fd0c7228a | Teen Mom UK
-68e3bf7480f586b45f6fb563 | Catfish UK
-68e3bfc6c5a50ef76a2393d2 | Wardens
 68e3bffe1cfcd7541d59090f | Most Haunted: Unseen
 68e3c18130ee729844af1fca | Monkey
 68e3c37c19f32ffa27bae948 | Unsolved Mysteries with Dennis Farina
@@ -224,6 +207,7 @@
 690dc8ed1ee9b6ac66607ce2 | America's Funniest Home Videos
 691729bdda5b5095ab1818fd | The Pink Panther
 692ebafce72f03e07e7df985 | Pluto TV American True Crime
+694178a8026be6e9d3ea7d7a | Mona The Vampire
 6960c5a906d76f50db2816dc | Cagney &amp; Lacey
 92.News.uk | 92 News
 A1TV.uk | A1TV
@@ -690,13 +674,7 @@ London.Live.uk | London Live
 LoveWorld.HD.uk | LoveWorld HD
 MATV.National.uk | MATV National
 MTV.80s.uk | MTV 80s
-MTV.90s.uk | MTV 90s
-MTV.BASE.uk | MTV BASE
-MTV.Classic.uk | MTV Classic
 MTV.HD.uk | MTV HD
-MTV.HITS.uk | MTV HITS
-MTV.Live.HD.uk | MTV Live HD
-MTV.MUSIC.uk | MTV MUSIC
 MUTV.HD.uk | MUTV HD
 Madani.Chnl.uk | Madani Chnl
 More.Radio.Mid.Sussex.uk | More Radio Mid Sussex
