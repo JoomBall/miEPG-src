@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jan 28 00:19:01 UTC 2026
+# Fecha: Thu Jan 29 00:21:12 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -544,7 +544,6 @@ GBBC2300003ZQ | Entertainment Hub
 GBBC300002SA | Hell's Kitchen
 GBBC300003UQ | WaterBear
 GBBC4000002H3 | The Jamie Oliver Channel
-GBBC400000345 | Festive Hub
 GBBC430000128 | POP
 GBBC4300005AL | The LEGO Channel
 GBBC900001SC | Trace Urban
