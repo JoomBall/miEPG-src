@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jan 28 00:19:02 UTC 2026
+# Fecha: Thu Jan 29 00:21:21 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -510,7 +510,6 @@ BeIN.Sports.es | BeIN Sports
 Betevé | Betevé
 Betevé.es | Betevé
 Betis TV | Betis TV
-Billiard TV | Billiard TV
 Bloomberg TV Europe | Bloomberg TV Europe
 Bloomberg.es | Bloomberg
 Boing | Boing
@@ -751,6 +750,8 @@ ES170000433 | NEW K-MOVIES
 ES1700005ME | NEW KPOP
 ES17000065P | BABY SHARK TV
 ES20000065W | Tennis+
+ES200040YF | Series K DRAMA
+ES200041FT | Series K COMEDIA ROMÁNTICA
 ES2200001SF | Fireplace Vibes
 ES2200003DA | Runtime Clásicos
 ES2300004XW | Al Jazeera
@@ -828,7 +829,7 @@ ES500002NY | H2O &amp; Friends
 ES500004NO | Sci-Fi - Rakuten TV
 ES500005BP | Águila Roja
 ES51000017V | Rally.TV FAST+
-ES700004C8 | Runtime Christmas
+ES700004C8 | Runtime Familia
 ES7000056Z | Yu-Gi-Oh!
 ES900001SH | Mr Bean Animated
 ES900002ZD | Todo Pasión
@@ -1315,7 +1316,6 @@ Onda Algeciras TV | Onda Algeciras TV
 Onda Cádiz TV | Onda Cádiz TV
 Onda.Algeciras.TV.es | Onda Algeciras TV
 Onetoro | Onetoro
-PLL Network | PLL Network
 PRO TV RUMANIA | PRO TV RUMANIA
 PT | Canal 11 | PT | Canal 11
 PT | DAZN 1 | PT | DAZN 1
@@ -1339,6 +1339,7 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
+PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
@@ -1354,7 +1355,6 @@ Popular TV Cantabria | Popular TV Cantabria
 Popular TV Región de Murcia | Popular TV Región de Murcia
 Popular.TV.Cantabria.es | Popular TV Cantabria
 Popular.TV.Murcia.es | Popular TV Murcia
-PowerSports World | PowerSports World
 Primera Federación | Primera Federación
 Pro TV | Pro TV
 Pro.TV.Internacional.es | Pro TV Internacional
