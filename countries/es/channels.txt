@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jan 30 00:21:41 UTC 2026
+# Fecha: Sat Jan 31 00:20:55 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -205,7 +205,7 @@
 643054b1fc3be59477853717-62fbf36c1567211fdb82e920 | Stingray Naturescape
 643054b1fc3be59477853717-62ffc5cfa6cad6f2991745c2 | FUEL TV
 643054b1fc3be59477853717-630fa9e577ec3866def38fa2 | Women's Sports Network
-643054b1fc3be59477853717-631bbc79a273cc38add9e5e1 | Cine Clasico
+643054b1fc3be59477853717-631bbc79a273cc38add9e5e1 | FreeTV Clásico
 643054b1fc3be59477853717-631bbf79a273cc38add9e5e3 | FreeTV Estelar
 643054b1fc3be59477853717-6322658be67cf9cd9011fcda | TRACE Urban
 643054b1fc3be59477853717-63226c03e67cf9cd9011fcdf | TRACE Latina
@@ -368,6 +368,8 @@
 643054b1fc3be59477853717-693cb1af58076a970420f591 | El Mueble
 643054b1fc3be59477853717-693cbba358076a970420f597 | Cesar's Pack Leader TV
 643054b1fc3be59477853717-695d5d279caacd2e64b7a00c | MOVIESPHERE
+643054b1fc3be59477853717-6970fdabbde579fb71262401 | Bowling TV
+643054b1fc3be59477853717-697144cdbde579fb71262405 | All My Children
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -412,7 +414,6 @@
 67517fae5534bb0008187997 | Actualidad 360
 676e7b4a4bd636000819c6a7 | SensaCine TV x Pluto
 67921b873de7c8cf94233f52 | UFC
-67b4ade18344dd9333978a1f | La Abeja Maya
 680ba8992472a7200a183eb5 | One Piece
 680ba8c3a48b3ead0db701cc | Los caballeros del Zodiaco
 6812206e1b3e3be031a5c363 | Águila Roja
@@ -421,11 +422,6 @@
 685a995b460ac82fa504342c | The Good Wife
 685a996c7c4f2ad40cb4f276 | Dragon Ball
 686cd8bb9d079f48dbbdfecb | Metal Rocks
-68751a3bfd6704e9d3cc7b3d | Pequeños aventureros de Pluto TV
-68751aab3484d607323b6d50 | El mundo de los Gnomos de Pluto TV
-68751b006dce17bae3b694f0 | RETRO KIDS de Pluto TV
-68751b556dce17bae3b6b98f | La vuelta al mundo de Willy Fog
-687799f86255fd1c0c419c84 | Marco
 68779a09c691b3f0964127c6 | Heidi
 6880aa28164eb4890282e803 | Pluto TV Toons
 688892172928933015abe479 | Barbie &amp; Friends
@@ -438,6 +434,7 @@
 68e8fd7c3ede4398bc69af93 | Dragon Ball Z
 68f103545c876cf7307b4e37 | Cheers
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
+691ddf2a3ae32cf55263476d | Pluto TV Forever Kids
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
@@ -1632,7 +1629,6 @@ rantaro-ninja-boy-rakuten-tv | Rantaró, el ninja boy
 rebelde | Rebelde
 red-bull-tv-es | Red Bull TV
 revry | Revry
-revry-news | Revry News
 romance-rakuten-tv | Películas Románticas
 rookie-blue-spa | Rookie Blue
 runtime-crimen | Runtime Crimen
