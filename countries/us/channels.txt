@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Jan 31 00:20:52 UTC 2026
+# Fecha: Sun Feb  1 00:24:58 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -401,6 +401,5 @@
 6913e381b6bf26bb6e798c13 | The X-Files
 691cf0410a78a9ce61ad2121 | America's Funniest Home Videos
 691d1200c2185a44642f5e7c | El Rey Rebel
-695c32671ca20bb8ca7fd8f7 | Star Trek: Enterprise
 695c32e61ca20bb8ca802eb9 | Star Trek: The Next Generation
 metv | MeTV
