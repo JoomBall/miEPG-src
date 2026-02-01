@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Jan 31 00:20:55 UTC 2026
+# Fecha: Sun Feb  1 00:25:02 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -963,6 +963,7 @@ Eurosport 2 | Eurosport 2
 Eurosport 4K | Eurosport 4K
 Eurosport.2.es | Eurosport 2
 Eurosport.es | Eurosport
+Eventos.3.es | Eventos 3
 Eventos.4.es | Eventos 4
 Extreme Channel | Extreme Channel
 Extreme.Sports.es | Extreme Sports
@@ -1395,6 +1396,8 @@ Sky Sports 16 | Sky Sports 16
 SkyShowtime | SkyShowtime
 SkyShowtime.1.es | SkyShowtime 1
 Sol Música | Sol Música
+Solidaria.TV.Argentina.es | Solidaria TV Argentina
+Solidaria.TV.España.es | Solidaria TV España
 Somos Cine | Somos Cine
 Somos | Somos
 Somos.es | Somos
