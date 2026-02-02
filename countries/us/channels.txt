@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Feb  1 00:24:58 UTC 2026
+# Fecha: Mon Feb  2 00:22:45 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -277,6 +277,7 @@
 64dab5fe35425100080e2991 | Vevo Regional Mexicano
 64dab9df3d48f40008868091 | The Jamie Oliver Channel
 64e561a4354251000823a0e0 | Ghost Hunters
+65033c4b98020f0008547124 | S.W.A.T.
 6508be683a0d700008c534e4 | ABC News Live
 650b68bc2ce8e40008ac9c14 | FanDuel TV Extra
 651f239d9c7aeb0008286823 | Dating Disasters
