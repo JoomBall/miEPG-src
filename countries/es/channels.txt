@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Feb  2 00:22:45 UTC 2026
+# Fecha: Tue Feb  3 00:23:25 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -348,6 +348,7 @@
 643054b1fc3be59477853717-688b7f47c8caf40b4a62239f | Newsmax en Español
 643054b1fc3be59477853717-688d3402a6fe30698ab42007 | ITV Deportes
 643054b1fc3be59477853717-689e1f0dd84bfb3d54b6756f | Bizaar
+643054b1fc3be59477853717-68a799722895f21006e758e4 | TV5MONDE Info
 643054b1fc3be59477853717-68b9f334fc12601028c5651e | World Billiards TV
 643054b1fc3be59477853717-68b9f5a3d60e5dd29263c7ac | NEW KFOOD
 643054b1fc3be59477853717-68c98e7460586565cc56baab | Crime Beat TV
@@ -421,6 +422,7 @@
 683457e5f59cc6a13212fce4 | Lupin
 685a995b460ac82fa504342c | The Good Wife
 685a996c7c4f2ad40cb4f276 | Dragon Ball
+686cd84603ad75cfd132d672 | America's Next Top Model
 686cd8bb9d079f48dbbdfecb | Metal Rocks
 68779a09c691b3f0964127c6 | Heidi
 6880aa28164eb4890282e803 | Pluto TV Toons
