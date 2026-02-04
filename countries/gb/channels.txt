@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Feb  3 00:23:19 UTC 2026
+# Fecha: Wed Feb  4 00:20:27 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -79,7 +79,6 @@
 62556bfa3261a300076b0baa | Arthur
 625e8cb585ef320007806caf | Pluto TV Britain at War
 625eaebc2a73a00007d3f855 | Catfish
-625eb3e245f5bc0007810046 | MTV Reality
 6299e5afdd5833000727e795 | 48 Hours
 62ab579258cb950007811aad | Mission Impossible
 62ac405b3874370007419b7f | Barney &amp; Friends
