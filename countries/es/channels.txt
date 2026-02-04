@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Feb  3 00:23:25 UTC 2026
+# Fecha: Wed Feb  4 00:20:33 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1189,10 +1189,10 @@ M+ Liga de Campeones 8 | M+ Liga de Campeones 8
 M+ Liga de Campeones 9 | M+ Liga de Campeones 9
 M+ Liga de Campeones HD | M+ Liga de Campeones
 M+ Liga de Campeones HDR | M+ Liga de Campeones HDR
+M+ Los Goya | M+ Los Goya
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
-M+ Tierra Media | M+ Tierra Media
 M+ Vamos 2 | M+ Vamos 2
 M+ Vamos HD | M+ Vamos
 M+ Wimbledon UHD | M+ Wimbledon
@@ -1339,6 +1339,7 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
+PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
@@ -1551,6 +1552,7 @@ bbc-drama-es | BBC Drama
 bbc-top-gear-spa | Top Gear en español
 beIN SPORTS XTRA ñ | beIN SPORTS XTRA ñ
 beIN SPORTS en español | beIN SPORTS en español
+benidormfest | benidormfest
 beyblade-es | Beyblade
 billiards-tv | World Billiards TV
 bloomberg-originals-new | Bloomberg Originals
