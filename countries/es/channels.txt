@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Feb  4 00:20:33 UTC 2026
+# Fecha: Thu Feb  5 00:22:56 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -859,7 +859,6 @@ ESBA3300042Y6 | Trace Latina
 ESBA3300043M0 | Trace Urban
 ESBC1400001L8 | El Confidencial
 ESBC1700001QI | Vive Kanal D Drama
-ESBC1700002IM | Televisión Consciente
 ESBC170000388 | WaterBear
 ESBC1700004PX | Trailers
 ESBC2100001IU | Vevo Pop
@@ -1339,7 +1338,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
