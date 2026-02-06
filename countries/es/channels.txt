@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Feb  5 00:22:56 UTC 2026
+# Fecha: Fri Feb  6 00:20:58 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -506,6 +506,7 @@ Banyoles TV | Banyoles TV
 Be Mad | Be Mad
 Be.Mad.es | Be Mad
 BeIN.Sports.es | BeIN Sports
+Benidorm Fest | Benidorm Fest
 Betevé | Betevé
 Betevé.es | Betevé
 Betis TV | Betis TV
@@ -710,7 +711,6 @@ DSPORTS | DSPORTS
 DSPORTS+ | DSPORTS+
 Dark Rojo | Dark Rojo
 Dark.es | Dark
-DePelícula | DePelícula
 Decasa | Decasa
 Decasa.es | Decasa
 DejateTV | DejateTV
@@ -1550,7 +1550,6 @@ bbc-drama-es | BBC Drama
 bbc-top-gear-spa | Top Gear en español
 beIN SPORTS XTRA ñ | beIN SPORTS XTRA ñ
 beIN SPORTS en español | beIN SPORTS en español
-benidormfest | benidormfest
 beyblade-es | Beyblade
 billiards-tv | World Billiards TV
 bloomberg-originals-new | Bloomberg Originals
