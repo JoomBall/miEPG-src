@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Feb  6 00:20:58 UTC 2026
+# Fecha: Sat Feb  7 00:22:13 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -62,7 +62,7 @@
 60cc807324d60a0007708dc8 | Pluto TV Cine de autor
 60d356a534f63f000850cdd7 | Top Gear
 60d3583ef310610007fb02b1 | Euronews
-60dafb9a0df1ba000758d37b | BBC Drama
+60dafb9a0df1ba000758d37b | BBC Series
 60dd6b1da79e4d0007309455 | Nature Time
 60e45687313c5f0007bc8e94 | El encantador de perros
 60e4573c9f963e00077ecf25 | Mi Extraña Obsesión
@@ -358,6 +358,7 @@
 643054b1fc3be59477853717-68e0371d8bbd79d66c631ab2 | The Wiggles
 643054b1fc3be59477853717-68e9436dda6bb987138625c7 | Metal.Rocks
 643054b1fc3be59477853717-69011e71d320237a5a2d9f63 | INTER 24/7
+643054b1fc3be59477853717-691d5cba3cc0cf773fb6ac67 | FreeTV Banda
 643054b1fc3be59477853717-6922322350fe592fd6d5b7e6 | Sony One | Hits Acción
 643054b1fc3be59477853717-692232ee5cbe620c1f9b6bc5 | Sony One | Hits Comedia
 643054b1fc3be59477853717-6922338150fe592fd6d5b7e8 | Sony One | Series Comedia
@@ -435,6 +436,7 @@
 68de3db35fc0afe85de0b843 | Comedia a lo bestia de Pluto TV
 68e8fd7c3ede4398bc69af93 | Dragon Ball Z
 68f103545c876cf7307b4e37 | Cheers
+690dd10a37b131228d76d5b1 | El Mueble
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
 691ddf2a3ae32cf55263476d | Pluto TV Forever Kids
 7.Región.de.Murcia.es | 7 Región de Murcia
@@ -711,6 +713,7 @@ DSPORTS | DSPORTS
 DSPORTS+ | DSPORTS+
 Dark Rojo | Dark Rojo
 Dark.es | Dark
+DePelícula | DePelícula
 Decasa | Decasa
 Decasa.es | Decasa
 DejateTV | DejateTV
