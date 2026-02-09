@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Feb  8 00:28:16 UTC 2026
+# Fecha: Mon Feb  9 00:23:47 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1350,7 +1350,6 @@ Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
 Penedès TV | Penedès TV
 Planeta.de.Cine.es | Planeta de Cine
-Play Melilla | Play Melilla
 Playboy TV | Playboy TV
 Popular TV Cantabria | Popular TV Cantabria
 Popular TV Región de Murcia | Popular TV Región de Murcia
@@ -1446,6 +1445,7 @@ TV Canaria | TV Canaria
 TV Chile | TV Chile
 TV Costa Brava | TV Costa Brava
 TV Girona | TV Girona
+TV Melilla | TV Melilla
 TV Sabadell - Vallès | TV Sabadell - Vallès
 TV.Chile.es | TV Chile
 TV.Colombia.es | TV Colombia
