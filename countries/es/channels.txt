@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Feb 10 00:28:09 UTC 2026
+# Fecha: Wed Feb 11 00:27:38 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -158,12 +158,12 @@
 643054b1fc3be59477853717-6196c8c01d310bf925e02615 | Music Legends
 643054b1fc3be59477853717-6196c9241d310bf925e02616 | Lone Star
 643054b1fc3be59477853717-61a945156547ba4d6d238dc9 | Racing America
-643054b1fc3be59477853717-61aa97d4113e1e5137fd5325 | Greatest Holiday Hits
-643054b1fc3be59477853717-61aa9e73784a2161d3caf7f9 | Hot Country Christmas
+643054b1fc3be59477853717-61aa97d4113e1e5137fd5325 | Stingray Greatest Hits
+643054b1fc3be59477853717-61aa9e73784a2161d3caf7f9 | Stingray Hot Country
 643054b1fc3be59477853717-61aa9f50784a2161d3caf7fb | Remember the ‘80s
 643054b1fc3be59477853717-61aaa014784a2161d3caf7fd | Hit List
 643054b1fc3be59477853717-61aaa0cc784a2161d3caf7ff | Classic Rock
-643054b1fc3be59477853717-61aaa17a784a2161d3caf801 | Soul Storm Christmas
+643054b1fc3be59477853717-61aaa17a784a2161d3caf801 | Stingray Soul Storm
 643054b1fc3be59477853717-61d738b5a7b7c7f703418514 | Trailers From Hell
 643054b1fc3be59477853717-61d73ab0a7b7c7f703418516 | Bloomberg TV
 643054b1fc3be59477853717-61d73c3ca7b7c7f703418518 | Bloomberg Originals
@@ -450,6 +450,8 @@ AMC Anime | AMC Anime
 AMC Break | AMC Break
 AMC Crime | AMC Crime
 AMC HD | AMC
+AMC Living | AMC Living
+AMC Western | AMC Western
 AMC+ Connect | AMC+ Connect
 AMC.Break.es | AMC Break
 AMC.Crime.es | AMC Crime
@@ -714,7 +716,6 @@ DSPORTS+ | DSPORTS+
 Dark Rojo | Dark Rojo
 Dark.es | Dark
 DePelícula | DePelícula
-Decasa | Decasa
 Decasa.es | Decasa
 DejateTV | DejateTV
 Deutsche W | Deutsche W
@@ -1341,6 +1342,7 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
+PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
@@ -1392,6 +1394,7 @@ SX3 | SX3
 SX3-33.es | SX3-33
 SX3.es | SX3
 Saber y ganar | Saber y ganar
+San Valentín por Canal Hollywood | San Valentín por Canal Hollywood
 Sangre Fría | Sangre Fría
 Sin.Filtros.es | Sin Filtros
 Sky News International | Sky News International
