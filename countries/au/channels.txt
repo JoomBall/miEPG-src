@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Feb 10 00:28:09 UTC 2026
+# Fecha: Wed Feb 11 00:27:38 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -8,6 +8,7 @@ AJE | Al Jazeera
 ANI | Animal Planet
 ARN | Arena
 ASP | Sky News Extra
+AUR | Aurora
 BCS | British Cinema
 BLM | Bloomberg Television
 BXS | BoxSets
@@ -50,7 +51,7 @@ LST | LifeStyle
 MO6 | Movies Drama
 MSN | MS NOW
 MTC | Retro
-MVS | Tom Hanks
+MVS | Love Is In The Air
 NAP | Australian Played
 NAT | Nature Time
 NHK | NHK World
