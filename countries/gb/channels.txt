@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Feb 10 00:28:09 UTC 2026
+# Fecha: Wed Feb 11 00:27:38 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -140,7 +140,6 @@
 660e5dc60cd4630008f6198a | JAG
 661cf62d24e1d000087dae0d | COPS
 66275e41cee0d900085fde6e | The Love Boat
-66275eed5e23700008f8c8f9 | Melrose Place
 66276091cee0d900085fe053 | Sabrina The Teenage Witch
 6627621d56fc840008e47c90 | Tennis Channel
 6627623e307fa3000810b66e | Ninja Warrior
