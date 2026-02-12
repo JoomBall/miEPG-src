@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Feb 11 00:27:38 UTC 2026
+# Fecha: Thu Feb 12 00:22:14 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -388,6 +388,8 @@ GB2000008XP | Ghost Hunters
 GB200000940 | The Hotel Inspector
 GB2000010ML | Tennis+
 GB200005LI | Mythbusters
+GB2000955S | AMC Cupid
+GB200096O2 | AMC Reality
 GB2100002R7 | Genie K-Drama
 GB21000038X | Genie K-Movie
 GB2100004H5 | NatureTime
@@ -484,6 +486,7 @@ GB4300003ZT | Most Haunted
 GB4400001OO | Series K: Heart
 GB4500001NQ | Letterman TV
 GB4600001W9 | Hot Ones
+GB4700004FM | Love After Lockup
 GB4900001NW | Deadly Women: powered by Banijay
 GB500001HY | Highway Thru Hell : Powered by Banijay
 GB500004YN | H2O &amp; Friends
