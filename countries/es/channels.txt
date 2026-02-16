@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Feb 15 00:24:09 UTC 2026
+# Fecha: Mon Feb 16 00:23:24 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1466,6 +1466,36 @@ Torolé TV | Torolé TV
 TyC Sports | TyC Sports
 UBEAT | UBEAT
 UCL | UCL
+UK | Premier Sports 1 ROI | UK | Premier Sports 1 ROI
+UK | Premier Sports 1 | UK | Premier Sports 1
+UK | Premier Sports 2 | UK | Premier Sports 2
+UK | Sky Sports + | UK | Sky Sports +
+UK | Sky Sports Box Office | UK | Sky Sports Box Office
+UK | Sky Sports Cricket | UK | Sky Sports Cricket
+UK | Sky Sports F1 | UK | Sky Sports F1
+UK | Sky Sports Football | UK | Sky Sports Football
+UK | Sky Sports Golf | UK | Sky Sports Golf
+UK | Sky Sports Main Event | UK | Sky Sports Main Event
+UK | Sky Sports Mix | UK | Sky Sports Mix
+UK | Sky Sports NFL | UK | Sky Sports NFL
+UK | Sky Sports News | UK | Sky Sports News
+UK | Sky Sports Premier League ROI | UK | Sky Sports Premier League ROI
+UK | Sky Sports Premier League | UK | Sky Sports Premier League
+UK | Sky Sports Racing | UK | Sky Sports Racing
+UK | Sky Sports Tennis | UK | Sky Sports Tennis
+UK | TNT Sports 1 | UK | TNT Sports 1
+UK | TNT Sports 10 | UK | TNT Sports 10
+UK | TNT Sports 2 | UK | TNT Sports 2
+UK | TNT Sports 3 | UK | TNT Sports 3
+UK | TNT Sports 4 | UK | TNT Sports 4
+UK | TNT Sports 5 | UK | TNT Sports 5
+UK | TNT Sports 6 | UK | TNT Sports 6
+UK | TNT Sports 7 | UK | TNT Sports 7
+UK | TNT Sports 8 | UK | TNT Sports 8
+UK | TNT Sports 9 | UK | TNT Sports 9
+UK | TNT Sports Box Office 2 | UK | TNT Sports Box Office 2
+UK | TNT Sports Box Office | UK | TNT Sports Box Office
+UK | TNT Sports Ultimate | UK | TNT Sports Ultimate
 Unbeaten | Unbeaten
 VE PLUS TV | VE PLUS TV
 VE.PLUS.TV.es | VE PLUS TV
