@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Feb 16 00:23:24 UTC 2026
+# Fecha: Tue Feb 17 00:24:30 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -736,180 +736,6 @@ Dreamworks.es | Dreamworks
 EITB Basque euskera | EITB Basque euskera
 EITB Basque | EITB Basque
 EITB.BASQUE.es | EITB BASQUE
-ES1000001EF | SMTOWN
-ES12000024R | Historia y Vida
-ES1300001QC | DW
-ES1400001T8 | Beyblade
-ES1400002CJ | CURIOSITY Now
-ES1600002QL | La Fiebre del Jade
-ES1600003FF | Naturaleza
-ES1600004JV | Todo Crimen
-ES1700003C6 | Coreano by CJ ENM
-ES170000433 | NEW K-MOVIES
-ES1700005ME | NEW KPOP
-ES17000065P | BABY SHARK TV
-ES20000065W | Tennis+
-ES200040YF | Series K DRAMA
-ES200041FT | Series K COMEDIA ROMÁNTICA
-ES2200001SF | Fireplace Vibes
-ES2200003DA | Runtime Clásicos
-ES2300004XW | Al Jazeera
-ES2300005G7 | Cine Western
-ES24000028L | Ice Pilots
-ES2500001F9 | Cool Summer Channel
-ES2600001MC | Forensic Files
-ES26000025M | ¡Hola! Play
-ES2600003UM | Películas de Drama - Rakuten TV
-ES2600004BD | Acción - Rakuten TV
-ES2600005G9 | Crimen - Rakuten TV
-ES26000068D | Estilo y Vida – Rakuten TV
-ES260000700 | Comedia - Rakuten TV
-ES2600008NX | Rantaró, El Ninja Boy
-ES260000968 | Euronews EN DIRECTO
-ES260001081 | En Familia - Rakuten TV
-ES2600012C9 | Películas Románticas - Rakuten TV
-ES2600013H4 | Películas Top - Rakuten TV
-ES2700002YP | Top Gear
-ES2800001G7 | Planeta de Cine
-ES2800002MM | Mayday: Catástrofe Aérea
-ES2900001DQ | BBC Series
-ES2900002JG | Los Gipsy Kings - Rakuten TV
-ES2900003S3 | Piel Salvaje
-ES3000008O8 | Cine Español - Rakuten TV
-ES30000091V | MyPadel TV
-ES30000145 | Sony One Series Comedia
-ES300002Y6 | Sony One Series Thriller
-ES300003D4 | Sony One Éxitos
-ES300004C9 | Sony One Shark Tank
-ES300005EL | Sony One The Blacklist
-ES300006QJ | Sony One Hits Acción
-ES300007KS | Sony One Hits Comedia
-ES3000288I | Anime Visión Classics
-ES300029LP | Anime Visión
-ES300031A5 | GOL CLASSICS
-ES300032LR | Gaming Central League of Legends
-ES300033TI | Viajes &amp; Sabores
-ES300034BT | Actualidad 360
-ES3200001F1 | BBC Earth
-ES32000027M | CLIPS don't lie
-ES3200003OC | DFB Play TV
-ES3300001MC | Crimenes Reales
-ES33000025N | Crimen &amp; Historia
-ES33000036Q | RTVE La Moderna
-ES3300004P0 | RTVE Saber y Ganar
-ES33000058B | RTVE Somos Cine
-ES3300006QL | RTVE La Promesa
-ES33000079W | RTVE Cocina
-ES340000152 | Video Game Heroes
-ES3400002PY | Surf Channel
-ES34000039I | CNN en Español
-ES3400004SS | Sky News International
-ES3600001Y7 | Rebelde
-ES3800001V1 | Red Bull TV
-ES3800002V5 | Dhar Mann TV
-ES3900001QG | K-POP by CJ ENM
-ES400002P5 | Cuéntame cómo pasó
-ES4100001XD | Mark Rober TV
-ES4100002WB | Thrillers - Rakuten TV
-ES4200001MR | Moviesphere
-ES42000022E | Xataka
-ES4300001K6 | Chicas Guapas TV
-ES4300004JP | Rugby Challenge
-ES4300006I4 | El Mueble
-ES4400001N3 | Las 3 Mellizas
-ES4400002LI | Mi Casa
-ES440000327 | Todo Drama
-ES4400005EJ | Cry Babies
-ES45000012U | Alerta Cobra
-ES4700001VS | 2M
-ES4800002OZ | Caillou
-ES5000001CS | LooLoo Kids
-ES500002NY | H2O &amp; Friends
-ES500004NO | Sci-Fi - Rakuten TV
-ES500005BP | Águila Roja
-ES51000017V | Rally.TV FAST+
-ES700004C8 | Runtime Familia
-ES7000056Z | Yu-Gi-Oh!
-ES900001SH | Mr Bean Animated
-ES900002ZD | Todo Pasión
-ESAJ3800001KT | Pluto TV Cine Estelar
-ESAJ380000226 | MTV Originals
-ESAJ3800003LX | MTV Catfish
-ESAJ38000046O | Pluto TV Kids
-ESAJ3800005C5 | Comedia Made in Spain
-ESAJ3800006TT | MTV Cribs
-ESAJ3800007PC | Pluto TV Cocina
-ESAJ4500016BH | The Pet Collective
-ESAJ4500023Y5 | People Are Awesome
-ESBA140000504 | Stormcast Novelas
-ESBA1400006NP | FailArmy
-ESBA1500001C4 | Deluxe Lounge HD
-ESBA2200004G5 | MyTime Movie Network
-ESBA22000102A | NatureTime
-ESBA3300024AJ | Bloomberg TV+
-ESBA3300025WZ | Los Asesinatos de Midsomer
-ESBA33000262Z | Bob Esponja
-ESBA3300028OE | iCarly
-ESBA3300029UG | El Comisario
-ESBA33000324U | Rugrats
-ESBA3300033PL | Encantador de Perros
-ESBA3300039ZX | FreeTV Estelar
-ESBA330004121 | WildEarth
-ESBA3300042Y6 | Trace Latina
-ESBA3300043M0 | Trace Urban
-ESBC1400001L8 | El Confidencial
-ESBC1700001QI | Vive Kanal D Drama
-ESBC170000388 | WaterBear
-ESBC1700004PX | Trailers
-ESBC2100001IU | Vevo Pop
-ESBC2100002LV | Vevo Latino
-ESBC2700002LO | Grjngo - Películas Del Oeste
-ESBC2700003T8 | Bigtime - Películas Gratis
-ESBC27000040I | GoUSA TV
-ESBC2700008SK | Just For Laughs
-ESBC2700009B4 | FIFA+
-ESBC2700011AZ | Cines Verdi TV
-ESBC2700012RP | Cine Feel Good – Verdi TV
-ESBC3500002PW | Ideas en 5 Minutos
-ESBC39000033J | El País
-ESBC3900004ED | Pocoyó
-ESBC400001QQ | Runtime
-ESBC40000248 | Action Movie Channel
-ESBC400003YM | NBC News NOW
-ESBC4100001NZ | La 1
-ESBC4100002AG | La 2
-ESBC4100003WE | Clan
-ESBC4100004J1 | 24H
-ESBC410000577 | Teledeporte
-ESBC43000013T | Todo Novelas
-ESBC4700001GR | duckTV
-ESBC4700002TD | Love the Planet
-ESBC4700003RJ | Teen Vee
-ESBD1100001PQ | FRANCE 24 FAST
-ESBD130000205 | Pitufo TV
-ESBD1300003VN | Corazón
-ESBD1300004IG | Azteca Internacional
-ESBD1400003QN | Royalworld - Nobleza y Dinastias
-ESBD190000137 | CNN Headlines
-ESBD230000143 | FreeTV Clásico
-ESBD230000289 | Vevo Retro
-ESBD2300003S5 | Rabbids : La invasion
-ESBD2300004Y7 | Sol Música
-ESBD2600001ME | Tennis Channel
-ESBD2900001P9 | World Poker Tour
-ESBD3000002GP | Canal Sur Andalucía
-ESBD3200001EG | Motorvision
-ESBD3200002V5 | La Abeja Maya
-ESBD3400001AA | Negocios TV
-ESBD3600001Q1 | La Liga Inside
-ESBD36000026Z | CNBC
-ESBD3700001S0 | DATELINE 24/7
-ESBD4100001DU | K-Drama+
-ESBD5100001G0 | SuperToons TV
-ESBD800001RJ | Cine Friki
-ESBD80000288 | Runtime Acción
-ESBD8000033W | Runtime Comedia
-ESBD800004KU | Runtime Romance
 ESPN 2 | ESPN 2
 ESPN 3 | ESPN 3
 ESPN 4 | ESPN 4
@@ -1532,7 +1358,7 @@ ana-y-los-7 | Ana y los 7
 animevision | AnimeVisión
 animevision-classics | AnimeVisión Classics
 baby-shark-tv | Baby Shark TV
-bbc-drama-es | BBC Drama
+bbc-series-es | BBC Series
 bbc-top-gear-spa | Top Gear en español
 beIN SPORTS XTRA ñ | beIN SPORTS XTRA ñ
 beIN SPORTS en español | beIN SPORTS en español
