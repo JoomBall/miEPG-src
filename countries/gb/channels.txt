@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Feb 16 00:23:16 UTC 2026
+# Fecha: Tue Feb 17 00:23:12 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -105,21 +105,21 @@
 645e00d5d3fdde000829463a | More TV Sci-fi
 6462190b7cb4b1000862dd60 | Pluto TV Alien Invasion
 64634eb42858cb0008fd92d6 | How To Use Pluto TV
-6490254fd2c47c00083a5743 | Now 80's
+6490254fd2c47c00083a5743 | That's 80s
 6490267016014400085c4ab5 | TMNT: The 90's Movies
 64c0d6765dc1660008a3e033 | U&amp;Transport
 64c0d697b0cf5c000824e5d9 | U&amp;The Past
 64c0d6b424ade50008bc8883 | U&amp;Real Heroes
 64c0d6f34096290008132d6b | U&amp;Laughs
 64c37e47dac71b000809abab | Evidence of Evil
-64c37e710e086a0009e824ab | NOW 70's
+64c37e710e086a0009e824ab | That's 70s
 64edf6eaa7ec0d000812f58c | South Park
 64ff1d92d545e9000877fba4 | A Haunting
 650315163a0d700008bb07f8 | Born to Kill
 65031534d545e9000881ed10 | British Screen Classics
 6514346fa76507000887d441 | Confess by Nosey
 655b7cbb2c46f300086f0afa | Pluto TV Snooker 900
-6568a78d635c3c0008765f41 | Now Rock
+6568a78d635c3c0008765f41 | That's Rock
 656df2849d5ac400083be647 | 5 Trucking Hell
 656df599c0fc8800089c75ab | Avatar
 656ef4af4261ca00083c8f37 | Totally Turtles
@@ -136,7 +136,7 @@
 65c4960d11ced7000812c433 | Geordie Shore
 65f0166566eec80008b96f7e | Pluto TV Wildest Adventures
 660be37e7bcd860008793a6a | Bondi Rescue
-660c209e19ca71000846cf38 | NOW 90s00s
+660c209e19ca71000846cf38 | That's 90s00s
 660e5dc60cd4630008f6198a | JAG
 661cf62d24e1d000087dae0d | COPS
 66275e41cee0d900085fde6e | The Love Boat
@@ -189,8 +189,10 @@
 6882521ac258734a42a60ed0 | DP World Tour
 68b5a7b69ac85c428f54c441 | Curzon Cinema
 68b5a97fc8ef6afa31138718 | The Smurfs
+68c82005be767928b4a8ef0c | I Survived...
 68c8201b1e5aaf77c47d9605 | Ice Road Truckers
 68c8202f5ec82769fdfcd0a2 | Chaos on Cam
+68c8203efef6d8a2a6f13906 | 60 Days in Jail
 68c820525ec82769fdfcd104 | Wrestling Legends TV
 68d113f9184f1a0620c8101c | Medical Detectives
 68e38aaf8082ad3760def7bc | Hercules: The Legendary Journeys
