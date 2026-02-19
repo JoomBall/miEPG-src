@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Feb 18 00:23:14 UTC 2026
+# Fecha: Thu Feb 19 00:23:48 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -973,12 +973,33 @@ FIFA+ | FIFA+
 FOX SPORTS 2 | FOX SPORTS 2
 FOX SPORTS 3 | FOX SPORTS 3
 FOX SPORTS | FOX SPORTS
-FR | ARTE | FR | ARTE
-FR | FRANCE 24 | FR | FRANCE 24
-FR | I24 NEWS | FR | I24 NEWS
-FR | INFOSPORT+ | FR | INFOSPORT+
-FR | L`ÉQUIPE | FR | L`ÉQUIPE
-FR | MTV | FR | MTV
+FR · CANAL+ Sport 360 | FR · CANAL+ Sport 360
+FR · CANAL+ Sport | FR · CANAL+ Sport
+FR · DAZN | FR · DAZN
+FR · Eurosport 1 | FR · Eurosport 1
+FR · Eurosport 2 | FR · Eurosport 2
+FR · Eurosport 3 | FR · Eurosport 3
+FR · Eurosport 4 | FR · Eurosport 4
+FR · Eurosport 5 | FR · Eurosport 5
+FR · Eurosport 6 | FR · Eurosport 6
+FR · Eurosport 7 | FR · Eurosport 7
+FR · Eurosport 8 | FR · Eurosport 8
+FR · Eurosport 9 | FR · Eurosport 9
+FR · France 24 | FR · France 24
+FR · Infosport+ | FR · Infosport+
+FR · L’Equipe | FR · L’Equipe
+FR · Premiere Futebol Clube | FR · Premiere Futebol Clube
+FR · beIN SPORTS 1 | FR · beIN SPORTS 1
+FR · beIN SPORTS 2 | FR · beIN SPORTS 2
+FR · beIN SPORTS 3 | FR · beIN SPORTS 3
+FR · beIN SPORTS MAX 10 | FR · beIN SPORTS MAX 10
+FR · beIN SPORTS MAX 4 | FR · beIN SPORTS MAX 4
+FR · beIN SPORTS MAX 5 | FR · beIN SPORTS MAX 5
+FR · beIN SPORTS MAX 6 | FR · beIN SPORTS MAX 6
+FR · beIN SPORTS MAX 7 | FR · beIN SPORTS MAX 7
+FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
+FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
+FR · i24 News | FR · i24 News
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
 FashionTV | FashionTV
@@ -1311,7 +1332,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
@@ -1600,7 +1620,6 @@ mytime-movie-network-spanish | MyTime Movie Network
 naturaleza | Naturaleza
 nature-time-es | Nature Time
 newsworld-spa | NewsWorld
-now-80s | That's 80s
 oficios-perdidos | Oficios Perdidos
 people-are-awesome-new | People Are Awesome
 pfl-mma | PFL MMA
@@ -1633,6 +1652,7 @@ tastemade-sp | Tastemade
 teleSUR.es | teleSUR
 tennis-plus | Tennis+
 that-s-70s | That's 70s
+that-s-80s | That's 80s
 that-s-90s00s | That's 90s00s
 that-s-rock | That's ROCK
 the-design-network-new | The Design Network
