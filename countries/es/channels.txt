@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Feb 19 00:23:48 UTC 2026
+# Fecha: Fri Feb 20 00:20:23 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -320,6 +320,7 @@
 643054b1fc3be59477853717-678fe7959407a53556d3e8eb | FRANCE 24
 643054b1fc3be59477853717-67a1a8ef2358ef4dd5c3018e | Lucha Plus
 643054b1fc3be59477853717-67c247c345ae99120c071586 | GFN Soccer TV
+643054b1fc3be59477853717-67c2496d45ae99120c071588 | Life Down Under
 643054b1fc3be59477853717-67c24d5a45ae99120c07158c | Gata Salvaje
 643054b1fc3be59477853717-67d4afc7f6df733141442cb4 | Z Nation
 643054b1fc3be59477853717-67d9a3d663c5439aeaf61305 | The Bold and the Beautiful
@@ -1134,7 +1135,6 @@ Love.The.Planet.es | Love The Planet
 Love.Wine.es | Love Wine
 M+ Acción HD | M+ Acción
 M+ Cine Español | M+ Cine Español
-M+ Cine bélico | M+ Cine bélico
 M+ Clásicos HD | M+ Clásicos
 M+ Comedia HD | M+ Comedia
 M+ Deportes 2 HD | M+ Deportes 2
@@ -1147,7 +1147,6 @@ M+ Deportes 8 | M+ Deportes 8
 M+ Deportes HD | M+ Deportes
 M+ Documentales HD | M+ Documentales
 M+ Drama HD | M+ Drama
-M+ Ellas Vamos HD | M+ Ellas Vamos
 M+ Estrenos HD | M+ Estrenos
 M+ Golf 2 HD | M+ Golf 2
 M+ Golf HD | M+ Golf
@@ -1184,9 +1183,11 @@ M+ Liga de Campeones HD | M+ Liga de Campeones
 M+ Liga de Campeones HDR | M+ Liga de Campeones HDR
 M+ Los Goya | M+ Los Goya
 M+ Originales HD | M+ Originales
+M+ Oscars | M+ Oscars
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
 M+ Vamos 2 | M+ Vamos 2
+M+ Vamos 3 | M+ Vamos 3
 M+ Vamos HD | M+ Vamos
 M+ Wimbledon UHD | M+ Wimbledon
 M+.Acción.es | M+ Acción
@@ -1383,7 +1384,6 @@ SX3 | SX3
 SX3-33.es | SX3-33
 SX3.es | SX3
 Saber y ganar | Saber y ganar
-San Valentín por Canal Hollywood | San Valentín por Canal Hollywood
 Sangre Fría | Sangre Fría
 Sin.Filtros.es | Sin Filtros
 Sky News International | Sky News International
@@ -1497,7 +1497,6 @@ UK | Sky Sports Football | UK | Sky Sports Football
 UK | Sky Sports Golf | UK | Sky Sports Golf
 UK | Sky Sports Main Event | UK | Sky Sports Main Event
 UK | Sky Sports Mix | UK | Sky Sports Mix
-UK | Sky Sports NFL | UK | Sky Sports NFL
 UK | Sky Sports News | UK | Sky Sports News
 UK | Sky Sports Premier League ROI | UK | Sky Sports Premier League ROI
 UK | Sky Sports Premier League | UK | Sky Sports Premier League
