@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Feb 23 00:22:46 UTC 2026
+# Fecha: Tue Feb 24 00:22:52 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1336,7 +1336,6 @@ PT | TRACE Urban HD | PT | TRACE Urban
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
-PTV Sevilla | PTV Sevilla
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
@@ -1609,6 +1608,7 @@ laSexta.es | laSexta
 laliga-inside | LaLiga Inside
 las-tres-mellizas | Las tres mellizas
 lifestyle-rakuten-tv | Estilo y Vida
+med-tv | Med.TV
 merli | Merlí
 metal-rocks | Metal.Rocks
 motorvision-tv-spanish | MOTORVISION.TV
