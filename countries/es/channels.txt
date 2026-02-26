@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Feb 25 00:24:22 UTC 2026
+# Fecha: Thu Feb 26 00:20:45 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -106,7 +106,6 @@
 643054b1fc3be59477853717-5ef11485d33ab9004048a1ca | SportsGrid
 643054b1fc3be59477853717-5ef11486d33ab9004048a1cd | Always Funny
 643054b1fc3be59477853717-5ef11487d33ab9004048a1d3 | Choppertown
-643054b1fc3be59477853717-5ef11487d33ab9004048a1d6 | Popstar! TV
 643054b1fc3be59477853717-5ef11487d33ab9004048a1d9 | Revry
 643054b1fc3be59477853717-5ef4e1b40d9ad000423c4430 | Maverick Black Cinema
 643054b1fc3be59477853717-5efe1de6e0b3f5003f5d9f82 | The Boat Show
@@ -314,7 +313,6 @@
 643054b1fc3be59477853717-674f6a6cf44561420465f9f3 | Animation+
 643054b1fc3be59477853717-6761f91555e174e95ccc4e4c | Tennis+
 643054b1fc3be59477853717-67642f277c5e3b38af72dcdb | Cirque du Soleil
-643054b1fc3be59477853717-678287e75fe5e4eb1e030c65 | Zee BollyWorld
 643054b1fc3be59477853717-67828ebf37cd7764c53489b3 | DFB Play TV
 643054b1fc3be59477853717-67884bd6d37f2fd48d6220db | Creator Television
 643054b1fc3be59477853717-678fe7959407a53556d3e8eb | FRANCE 24
@@ -628,6 +626,7 @@ DAZN LaLiga HD | DAZN LaLiga
 DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F 3 | DAZN Liga F 3
 DAZN Liga F | DAZN Liga F
+DAZN Moto GP | DAZN Moto GP
 DAZN MotoGP | DAZN MotoGP
 DAZN National League 2 | DAZN National League 2
 DAZN National League 3 | DAZN National League 3
@@ -740,6 +739,7 @@ EITB Basque euskera | EITB Basque euskera
 EITB Basque | EITB Basque
 EITB.BASQUE.es | EITB BASQUE
 ES1000001EF | SMTOWN
+ES1100001MT | Top Barça
 ES12000024R | Historia y Vida
 ES1300001QC | DW
 ES1400001T8 | Beyblade
@@ -830,6 +830,8 @@ ES5000001CS | LooLoo Kids
 ES500002NY | H2O &amp; Friends
 ES500004NO | Sci-Fi - Rakuten TV
 ES500005BP | Águila Roja
+ES500008IU | FreeTV Clásico
+ES500009ZJ | FreeTV Estelar
 ES51000017V | Rally.TV FAST+
 ES700004C8 | Runtime Familia
 ES7000056Z | Yu-Gi-Oh!
@@ -856,7 +858,6 @@ ESBA3300028OE | iCarly
 ESBA3300029UG | El Comisario
 ESBA33000324U | Rugrats
 ESBA3300033PL | Encantador de Perros
-ESBA3300039ZX | FreeTV Estelar
 ESBA330004121 | WildEarth
 ESBA3300042Y6 | Trace Latina
 ESBA3300043M0 | Trace Urban
@@ -894,7 +895,6 @@ ESBD1300003VN | Corazón
 ESBD1300004IG | Azteca Internacional
 ESBD1400003QN | Royalworld - Nobleza y Dinastias
 ESBD190000137 | CNN Headlines
-ESBD230000143 | FreeTV Clásico
 ESBD230000289 | Vevo Retro
 ESBD2300003S5 | Rabbids : La invasion
 ESBD2300004Y7 | Sol Música
@@ -1640,6 +1640,7 @@ red-bull-tv-es | Red Bull TV
 revry | Revry
 romance-rakuten-tv | Películas Románticas
 rookie-blue-spa | Rookie Blue
+royalworld-es | Royalworld - Nobleza y dinastías
 runtime-crimen | Runtime Crimen
 runtime-familia-1 | Runtime Familia
 sangre-fria | Sangre Fría
