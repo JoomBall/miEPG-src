@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Feb 25 00:24:20 UTC 2026
+# Fecha: Thu Feb 26 00:20:45 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -372,6 +372,7 @@ G!.romance+1.uk | G! romance+1
 GB.News.HD.uk | GB News HD
 GB1000001G0 | SMTOWN
 GB1100001EB | The Diary Of A CEO
+GB1100002OE | Top Barça
 GB1200002ON | History Hunters
 GB12000037Y | Deal Masters
 GB1200004J4 | Cash in the Attic
@@ -497,6 +498,7 @@ GB500006EX | Escape to the Country
 GB500007VM | Family Feud
 GB51000026A | Rally.TV FAST+
 GB5200001TM | DP World Tour
+GB5300001G9 | Nolly Africa HD
 GB60000197 | Sky Arts
 GB60000381 | A New Life In The Sun
 GB700004ET | Pocoyo
