@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Feb 25 00:24:20 UTC 2026
+# Fecha: Thu Feb 26 00:20:46 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
