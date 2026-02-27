@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Feb 26 00:20:45 UTC 2026
+# Fecha: Fri Feb 27 00:23:26 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -508,7 +508,6 @@ Banyoles TV | Banyoles TV
 Be Mad | Be Mad
 Be.Mad.es | Be Mad
 BeIN.Sports.es | BeIN Sports
-Benidorm Fest | Benidorm Fest
 Betevé | Betevé
 Betevé.es | Betevé
 Betis TV | Betis TV
