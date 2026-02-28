@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Feb 27 00:23:24 UTC 2026
+# Fecha: Sat Feb 28 00:19:40 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -10,10 +10,8 @@
 5STAR.uk | 5STAR
 5USA+1.uk | 5USA+1
 5ad8d3a31b95267e225e4e09 | Pluto TV Movies
-5ad8d44cfd87eb3a2717afc5 | MST3K
 5ad8d54be738977e2c310940 | Pluto TV Kids
 5ad8d796e738977e2c31094a | World Poker Tour
-5ad8d883e738977e2c31096b | FailArmy
 5bd05b4694d45d266bc951f2 | Unsolved Mysteries
 5bd8186d53ed2c6334ea0855 | Pluto TV Reality
 5bd833b41843b56328bac189 | Mythbusters
@@ -22,7 +20,6 @@
 5c5c2b9d8002db3c3e0b1c6d | Pluto TV Retro Toons
 5c5c2e9d8002db3c3e0b1c72 | Homes Under Hammer
 5c5c31f2f21b553c1f673fb0 | Pluto TV Cult Films
-5c99f5810c95814ff92512f9 | Hunter
 5ca1da6c593a5d78f0e7edce | Euronews
 5ca1df0d50be2571e393ad31 | Deadly Women
 5cb6f6f9a461406ffe4022cf | FBI Files
