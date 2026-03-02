@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Mar  1 00:24:13 UTC 2026
+# Fecha: Mon Mar  2 00:21:34 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -625,7 +625,6 @@ DAZN LaLiga HD | DAZN LaLiga
 DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F 3 | DAZN Liga F 3
 DAZN Liga F | DAZN Liga F
-DAZN Moto GP | DAZN Moto GP
 DAZN MotoGP | DAZN MotoGP
 DAZN National League 2 | DAZN National League 2
 DAZN National League 3 | DAZN National League 3
@@ -987,7 +986,6 @@ FR · Eurosport 6 | FR · Eurosport 6
 FR · Eurosport 7 | FR · Eurosport 7
 FR · Eurosport 8 | FR · Eurosport 8
 FR · Eurosport 9 | FR · Eurosport 9
-FR · France 24 | FR · France 24
 FR · Infosport+ | FR · Infosport+
 FR · L’Equipe | FR · L’Equipe
 FR · Premiere Futebol Clube | FR · Premiere Futebol Clube
@@ -1001,7 +999,6 @@ FR · beIN SPORTS MAX 6 | FR · beIN SPORTS MAX 6
 FR · beIN SPORTS MAX 7 | FR · beIN SPORTS MAX 7
 FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
-FR · i24 News | FR · i24 News
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
 FashionTV | FashionTV
