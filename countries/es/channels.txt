@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Mar  2 00:21:34 UTC 2026
+# Fecha: Tue Mar  3 00:23:01 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -72,7 +72,6 @@
 612ce5214bb5790007ad3016 | Pluto TV Paranormal
 6130d8dc943001000708548d | MTV Reality
 61373bb45168fe000773eecd | Pluto TV Cine Clásico
-61373c865ed5810007173fbc | Avatar
 61373f1a12dd9f00077dcd6f | Las Tortugas Ninja
 6181404ef48321000797bc41 | iCarly
 61922be835f3910007fc58f6 | En el punto de mira
@@ -95,6 +94,7 @@
 6335a6b6e6f7a600076e589e | Cazasubastas
 6385e82900ab2e000768a058 | Pluto TV Western
 63c69c87808b740007599fe1 | Érase una vez...
+63d3da01c111bc0008ce65d0 | Pluto TV Mujeres Protagonistas
 63d7a8e5a9957100086bfc23 | South Park Versión Original
 63eb944dc111bc0008fe7021 | Pluto TV Teen
 63eb9495a8b227000841bf64 | MTV Vergüenza ajena
@@ -408,7 +408,6 @@
 66d71f8ee5de930008016f83 | Alice Nevers
 66fd36ca9269330008412b6c | Gol Classics
 67164414e40c4a00087f450d | MODUS Super Series Darts
-6720e2bddaad7f000872f274 | DFB Play TV
 6745f0643a61d40008a61510 | Rookie Blue
 67517f923a61d40008c451f0 | Historia y Vida
 67517fae5534bb0008187997 | Actualidad 360
@@ -433,10 +432,12 @@
 68d566603d3a9580eb461251 | Paramount Network de Pluto TV
 68de3db35fc0afe85de0b843 | Comedia a lo bestia de Pluto TV
 68e8fd7c3ede4398bc69af93 | Dragon Ball Z
+68e8fe3bcba140ddfe903677 | Monster High
 68f103545c876cf7307b4e37 | Cheers
 690dd10a37b131228d76d5b1 | El Mueble
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
 691ddf2a3ae32cf55263476d | Pluto TV Forever Kids
+697a33faf5c44526a1271d55 | Top Gear: Celebrities
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
