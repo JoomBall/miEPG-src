@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Mar  2 00:21:29 UTC 2026
+# Fecha: Tue Mar  3 00:23:01 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -31,7 +31,6 @@
 5d4bdb635ce813b38639e6a3 | Pluto TV Westerns
 5d765786aad587cf4d0e2bf6 | Inspector Gadget
 5d767790d0438aceb41d03ae | Pluto TV Crime
-5d7677c0edace7cff8180b16 | Pluto TV Romance
 5d9492c77ea6f99188738ff1 | Pluto TV Science
 5dbc2f98777f2e0009934ae7 | Pluto TV Space
 5dbfeb961b411c00090b52b3 | Pluto TV Action
@@ -103,7 +102,6 @@
 6462190b7cb4b1000862dd60 | Pluto TV Alien Invasion
 64634eb42858cb0008fd92d6 | How To Use Pluto TV
 6490254fd2c47c00083a5743 | That's 80s
-6490267016014400085c4ab5 | TMNT: The 90's Movies
 64c0d6765dc1660008a3e033 | U&amp;Transport
 64c0d697b0cf5c000824e5d9 | U&amp;The Past
 64c0d6b424ade50008bc8883 | U&amp;Real Heroes
@@ -162,6 +160,7 @@
 66f137cb483d460008ece053 | Rugby Pass TV
 66fd37885049580008d295b6 | AWSN
 67063e78b2ffb10008195d08 | MODUS Super Series Darts
+672cb91149c40600081cbee5 | Whose Line Is It Anyway?
 677fb08f5b68381e2dbfd5af | The Bionic Woman
 677fb0b33a225c2d0d8a17be | Xena: Warrior Princess
 677fb0e93a225c2d0d8a45bf | Northern Exposure
@@ -208,6 +207,7 @@
 692ebafce72f03e07e7df985 | Pluto TV American True Crime
 694178a8026be6e9d3ea7d7a | Mona The Vampire
 6960c5a906d76f50db2816dc | Cagney &amp; Lacey
+697a2f8b3991484f03064614 | Super Mario Bros.
 92.News.uk | 92 News
 A1TV.uk | A1TV
 AAJ.TAK.uk | AAJ TAK
