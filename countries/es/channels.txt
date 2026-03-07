@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Mar  6 00:26:38 UTC 2026
+# Fecha: Sat Mar  7 00:21:21 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1332,10 +1332,10 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
+PTV Sevilla | PTV Sevilla
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
@@ -1609,7 +1609,6 @@ laliga-inside | LaLiga Inside
 las-tres-mellizas | Las tres mellizas
 lifestyle-rakuten-tv | Estilo y Vida
 med-tv | Med.TV
-merli | Merlí
 metal-rocks | Metal.Rocks
 motorvision-tv-spanish | MOTORVISION.TV
 mr-bean-es | Mr. Bean
@@ -1624,7 +1623,6 @@ people-are-awesome-new | People Are Awesome
 pfl-mma | PFL MMA
 pitufo-tv | Pitufo TV
 planeta-junior-spa | La abeja Maya
-platos-sucios | Platos Sucios
 pocoyo | Pocoyó
 qello-concerts-by-stingray | Qello Concerts by Stingray
 qwest-tv | Qwest TV
@@ -1660,13 +1658,14 @@ the-pet-collective-new | The Pet Collective
 the-reuters-60 | The Reuters 60
 thriller-rakuten-tv | Thrillers
 tlnovelas | tlnovelas
+todo-comedia | Todo Comedia
 todo-crimen | Todo Crimen
+todo-drama | Todo Drama
 todo-novelas | Todo Novelas
 top-barca-es | TOP Barça
 top-movies-rakuten-tv | Pelis Top
 travelxp-es | Travelxp
 tvmataró | tvmataró
-vaya-semanita | Vaya semanita
 verdi-tv | Verdi TV
 vevo-latino-es | Vevo Latino
 vevo-pop-es | Vevo Pop
