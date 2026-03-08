@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Mar  7 00:21:16 UTC 2026
+# Fecha: Sun Mar  8 00:21:57 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -340,7 +340,7 @@
 66b646f9cd0d3100086af83c | 60 Minutes
 66ba495ffe11e5000881f049 | Cheers + Frasier
 66ba53cda4ee2700083fac09 | Sala de Emergencias: Historias Inéditas
-66c638726838ee00085ac20d | OuterSphere
+66c638726838ee00085ac20d | Andromeda
 66df8a29b25d2b0008fc5fe0 | Love Nature
 66df8aa7abec540008ca8cb6 | Homeful
 66e0b4536ad04d0008fff4b2 | CNN Originals
@@ -399,6 +399,7 @@
 68c32d88f56983aba40052bd | BET Comedy Movies
 68c85164b7af374ee483210f | Wrestling Central
 68e9913c4a666b9054849832 | Bonanza
+68ed86f1fae18f8db6e4bcf9 | FanDuel Sports Network NOW
 68ee9a999938143525bfc385 | Shop LC
 6913e381b6bf26bb6e798c13 | The X-Files
 691cf0410a78a9ce61ad2121 | America's Funniest Home Videos
