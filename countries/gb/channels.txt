@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Mar  8 00:21:55 UTC 2026
+# Fecha: Mon Mar  9 00:22:04 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -774,15 +774,14 @@ Sky.History+1.uk | Sky History+1
 Sky.History2.uk | Sky History2
 Sky.HistoryHD.uk | Sky HistoryHD
 Sky.Kids.HD.uk | Sky Kids HD
-Sky.Max.HD.uk | Sky Max HD
 Sky.Mix.HD.uk | Sky Mix HD
 Sky.Nature.HD.uk | Sky Nature HD
 Sky.News.HD.uk | Sky News HD
+Sky.One.HD.uk | Sky One HD
 Sky.Premiere.uk | Sky Premiere
 Sky.Replay.uk | Sky Replay
 Sky.ScFi/HorHD.uk | Sky ScFi/HorHD
 Sky.Sci-Fi.HD.uk | Sky Sci-Fi HD
-Sky.Showcase.uk | Sky Showcase
 Sky.Sports.Football.HD.uk | Sky Sports Football HD
 Sky.Sports.NFL.uk | Sky Sports NFL
 Sky.Sports.Ultra.HD.1.uk | Sky Sports Ultra HD 1
@@ -798,8 +797,6 @@ SkyMegaHitsHD.uk | SkyMegaHitsHD
 SkyNewsArabia.uk | SkyNewsArabia
 SkyPremiere+1.uk | SkyPremiere+1
 SkyPremiereHD.uk | SkyPremiereHD
-SkyShowcase+1.uk | SkyShowcase+1
-SkyShowcaseHD.uk | SkyShowcaseHD
 SkySp+.uk | SkySp+
 SkySp+HD.uk | SkySp+HD
 SkySp.Action.uk | SkySp Action
