@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Mar  9 00:22:04 UTC 2026
+# Fecha: Tue Mar 10 00:19:47 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -207,6 +207,7 @@
 692ebafce72f03e07e7df985 | Pluto TV American True Crime
 694178a8026be6e9d3ea7d7a | Mona The Vampire
 6960c5a906d76f50db2816dc | Cagney &amp; Lacey
+696e024a7e92438c27a425a8 | Rally TV
 697a2f8b3991484f03064614 | Super Mario Bros.
 92.News.uk | 92 News
 A1TV.uk | A1TV
