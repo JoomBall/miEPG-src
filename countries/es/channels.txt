@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Mar 10 00:19:48 UTC 2026
+# Fecha: Wed Mar 11 00:19:37 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1271,6 +1271,7 @@ MyPadel TV | MyPadel TV
 MyTime Movie Network (Rakuten TV) | MyTime Movie Network (Rakuten TV)
 NATV.1.es | NATV 1
 NATV.2.es | NATV 2
+NBA TV | NBA TV
 NFL Network | NFL Network
 NHK WORLD | NHK WORLD
 NOW.70's.es | NOW 70's
@@ -1350,9 +1351,9 @@ Pro TV | Pro TV
 Pro.TV.Internacional.es | Pro TV Internacional
 Punt 3 | Punt 3
 Punt.3.es | Punt 3
-QWest Mix | QWest Mix
 Qello concerts | Qello concerts
 Qello.Concerts.es | Qello Concerts
+Qwest TV | Qwest TV
 Qwest.TV.es | Qwest TV
 REKTV | REKTV
 RNA.es | RNA
@@ -1513,6 +1514,7 @@ UK | TNT Sports 9 | UK | TNT Sports 9
 UK | TNT Sports Box Office 2 | UK | TNT Sports Box Office 2
 UK | TNT Sports Box Office | UK | TNT Sports Box Office
 UK | TNT Sports Ultimate | UK | TNT Sports Ultimate
+Ubeat lite | Ubeat lite
 Unbeaten | Unbeaten
 VE PLUS TV | VE PLUS TV
 VE.PLUS.TV.es | VE PLUS TV
@@ -1645,7 +1647,6 @@ stingray-hit-list | Stingray: Hitlist
 stingray-naturescape | Stingray Naturescape
 stingray-remember-the-80-s | Stingray: Remember the 80’s
 surf-channel | Surf Channel
-tastemade-sp | Tastemade
 teleSUR.es | teleSUR
 tennis-plus | Tennis+
 that-s-70s | That's 70s
