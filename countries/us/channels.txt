@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Mar 10 00:19:46 UTC 2026
+# Fecha: Wed Mar 11 00:19:31 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -190,6 +190,7 @@
 60807fd5db701400078219c2 | Ink Master
 609bfa51fbecc1000733152e | Jersey Shore
 60a3d889a5b3690008dc7fe8 | Bar Rescue
+60cb6df2b2ad610008cd5bea | CBS News Sacramento
 60d39387706fe50007fda8e8 | PBR RidePass
 60d393e5579a420007ee553c | Casos de la Dra. Polo
 60f5d389985a0c0007357304 | BritBox Mysteries
