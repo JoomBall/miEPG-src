@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Mar 11 00:19:37 UTC 2026
+# Fecha: Thu Mar 12 00:19:11 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -456,12 +456,12 @@ AMC.Break.es | AMC Break
 AMC.Crime.es | AMC Crime
 AMC.es | AMC
 ATRESplayer PREMIUM | ATRESplayer PREMIUM
-ATV Andorra Televisión | ATV Andorra Televisión
 ATV.es | ATV
 AXN HD | AXN
 AXN Movies HD | AXN Movies
 AXN.Movies.es | AXN Movies
 AXN.es | AXN
+AZ Corazón | AZ Corazón
 Acción (Rakuten TV) | Acción (Rakuten TV)
 Acontra+.es | Acontra+
 Al Jazeera English HD | Al Jazeera English
@@ -573,6 +573,7 @@ Cazavisión | Cazavisión
 Cazavisión.es | Cazavisión
 Cine Español (Rakuten TV) | Cine Español (Rakuten TV)
 Cine Feel Good | Cine Feel Good
+Cine Friki | Cine Friki
 Cine.Feel.Good.es | Cine Feel Good
 Cine.Friki.es | Cine Friki
 Cine.Western.es | Cine Western
@@ -592,6 +593,7 @@ Concert Channel | Concert Channel
 Cosmo HD | Cosmo
 Cosmopolitan.es | Cosmopolitan
 Crimen (Rakuten TV) | Crimen (Rakuten TV)
+Crimen&amp;Historia | Crimen&amp;Historia
 Cuatro HD | Cuatro
 Cuatro.es | Cuatro
 Cubavisión Internacional HD | Cubavisión Internacional
@@ -954,6 +956,7 @@ En.familia.es | En familia
 Energy | Energy
 Energy.es | Energy
 Equipo de investigación | Equipo de investigación
+EsTuTele | EsTuTele
 Escapa TV | Escapa TV
 Esport 3 | Esport 3
 Esport.3.es | Esport 3
@@ -1015,6 +1018,7 @@ France 2 | France 2
 France 24 (en Francais) | France 24 (en Francais)
 France 5 | France 5
 France.24.es | France 24
+GCM | GCM
 GOL | GOL
 GOL.PLAY.es | GOL PLAY
 Galicia.TV.es | Galicia TV
@@ -1340,6 +1344,7 @@ Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
 Penedès TV | Penedès TV
+Pirineus TV | Pirineus TV
 Planeta.de.Cine.es | Planeta de Cine
 Playboy TV | Playboy TV
 Popular TV Cantabria | Popular TV Cantabria
@@ -1355,7 +1360,6 @@ Qello concerts | Qello concerts
 Qello.Concerts.es | Qello Concerts
 Qwest TV | Qwest TV
 Qwest.TV.es | Qwest TV
-REKTV | REKTV
 RNA.es | RNA
 RTP Internacional | RTP Internacional
 Real Madrid TV | Real Madrid TV
@@ -1364,6 +1368,7 @@ Record | Record
 Record.TV.es | Record TV
 Red Bull TV (Rakuten TV) | Red Bull TV (Rakuten TV)
 Red Bull TV | Red Bull TV
+RekTV | RekTV
 Rugby Challenge Spain | Rugby Challenge Spain
 RunTime Clásicos | RunTime Clásicos
 RunTime Familia | RunTime Familia
@@ -1407,6 +1412,7 @@ Squirrel TV | Squirrel TV
 Squirrel.2.es | Squirrel 2
 Star TVE HD | Star TVE
 Star.es | Star
+Stingray Classica | Stingray Classica
 Sundance TV | Sundance TV
 Sundance.Channel.es | Sundance Channel
 Super.3.es | Super 3
@@ -1524,6 +1530,7 @@ Vallès Visió | Vallès Visió
 Vamos BAR 2 | Vamos BAR 2
 Vamos BAR | Vamos BAR
 Veo7 | Veo7
+Viajes y Sabores | Viajes y Sabores
 VinTV | VinTV
 Viral.TV.es | Viral TV
 Vivid TV | Vivid TV
