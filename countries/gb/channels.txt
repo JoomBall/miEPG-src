@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Mar 11 00:19:31 UTC 2026
+# Fecha: Thu Mar 12 00:20:29 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -488,6 +488,8 @@ GB4300003ZT | Most Haunted
 GB4400001OO | Series K: Heart
 GB4500001NQ | Letterman TV
 GB4600001W9 | Hot Ones
+GB4600003RY | Chaos on Cam
+GB4600004A9 | Live PD Presents
 GB4700004FM | Love After Lockup
 GB4900001NW | Deadly Women: powered by Banijay
 GB500001HY | Highway Thru Hell : Powered by Banijay
