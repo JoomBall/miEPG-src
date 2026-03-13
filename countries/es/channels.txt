@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Mar 12 00:19:11 UTC 2026
+# Fecha: Fri Mar 13 00:23:25 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -370,6 +370,9 @@
 643054b1fc3be59477853717-6970fdabbde579fb71262401 | Bowling TV
 643054b1fc3be59477853717-697144cdbde579fb71262405 | All My Children
 643054b1fc3be59477853717-69814bbff871095eafc65925 | Powernation
+643054b1fc3be59477853717-69a1fe1b0f8d297b3f6ac0f0 | Crímenes Reales
+643054b1fc3be59477853717-69ae4f38e657bab5f7a9b7ec | Bondi Rescue
+643054b1fc3be59477853717-69b164bc87340e48b7b72247 | CNN Headlines International
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -437,6 +440,7 @@
 690dd10a37b131228d76d5b1 | El Mueble
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
 691ddf2a3ae32cf55263476d | Pluto TV Forever Kids
+696e02423b9ce349c90edef9 | Rally TV
 697a33faf5c44526a1271d55 | Top Gear: Celebrities
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
