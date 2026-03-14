@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Mar 13 00:23:25 UTC 2026
+# Fecha: Sat Mar 14 00:21:03 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -436,7 +436,6 @@
 68de3db35fc0afe85de0b843 | Comedia a lo bestia de Pluto TV
 68e8fd7c3ede4398bc69af93 | Dragon Ball Z
 68e8fe3bcba140ddfe903677 | Monster High
-68f103545c876cf7307b4e37 | Cheers
 690dd10a37b131228d76d5b1 | El Mueble
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
 691ddf2a3ae32cf55263476d | Pluto TV Forever Kids
