@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Mar 25 00:23:50 UTC 2026
+# Fecha: Thu Mar 26 00:25:55 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -484,6 +484,7 @@ GB4100003VP | Thrillers - Rakuten TV
 GB4200002K6 | Pokémon
 GB4200010V1 | Who Wants to be a Millionaire
 GB430000144 | LooLoo Kids
+GB43000020B | Dude Perfect
 GB4300003ZT | Most Haunted
 GB4400001OO | Series K: Heart
 GB4500001NQ | Letterman TV
