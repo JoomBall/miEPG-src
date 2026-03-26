@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Mar 25 00:23:54 UTC 2026
+# Fecha: Thu Mar 26 00:25:52 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -8,7 +8,6 @@
 /esruntime-clasicos | Runtime Clásicos
 /esruntime-comedia | Runtime Comedia
 /esruntime-romance | Runtime Romance
-/esruntime-series | Runtime Series
 /esruntime-thriller | Runtime Thriller
 1+1 International | 1+1 International
 1-1-travel | 1+1 Travel
@@ -294,9 +293,8 @@
 643054b1fc3be59477853717-66be944f8711311880995280 | Action Hollywood Movies
 643054b1fc3be59477853717-66bfb17c144c201b8b61c10d | RCM
 643054b1fc3be59477853717-66bfb2e6144c201b8b61c10f | NewsWorld
-643054b1fc3be59477853717-66ccae1a78822c7edc4b6df1 | UFC
+643054b1fc3be59477853717-66ccac69fdf9cd3a568ef135 | UFC
 643054b1fc3be59477853717-66ce3e009ac0b1441b19ca29 | Z Nation
-643054b1fc3be59477853717-66e3b5c1797aba6bb732c5c9 | Xataka
 643054b1fc3be59477853717-66e4cbef38de9754b6b13e90 | Dr. Phil
 643054b1fc3be59477853717-66ea0e029502c5778b828d45 | Drool
 643054b1fc3be59477853717-66ea174c9502c5778b828d47 | Cine Western
@@ -334,7 +332,6 @@
 643054b1fc3be59477853717-685c78a77223639b1ac098a1 | RCN Más
 643054b1fc3be59477853717-685f25c1a7111a932d28f1ac | Todo Drama
 643054b1fc3be59477853717-685f27cca7111a932d28f1ae | Asian Drama
-643054b1fc3be59477853717-686457b84051ba2be659baaa | Historias de Ultratumba
 643054b1fc3be59477853717-68645a8619cc2e163e38d161 | Merli
 643054b1fc3be59477853717-68645c1f1a2f321847ec0391 | Platos Sucios
 643054b1fc3be59477853717-68645f7c1a2f321847ec0393 | Wineman
@@ -373,6 +370,7 @@
 643054b1fc3be59477853717-69a1fe1b0f8d297b3f6ac0f0 | Crímenes Reales
 643054b1fc3be59477853717-69ae4f38e657bab5f7a9b7ec | Bondi Rescue
 643054b1fc3be59477853717-69b164bc87340e48b7b72247 | CNN Headlines International
+643054b1fc3be59477853717-69bb1f002028859eafc637e1 | Legacy
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -786,10 +784,9 @@ ES300006QJ | Sony One Hits Acción
 ES300007KS | Sony One Hits Comedia
 ES3000288I | Anime Visión Classics
 ES300029LP | Anime Visión
-ES300031A5 | GOL CLASSICS
-ES300032LR | Gaming Central League of Legends
 ES300033TI | Viajes &amp; Sabores
 ES300034BT | Actualidad 360
+ES31000013F | INTER 24/7
 ES3200001F1 | BBC Earth
 ES32000027M | CLIPS don't lie
 ES3200003OC | DFB Play TV
@@ -832,6 +829,7 @@ ES500009ZJ | FreeTV Estelar
 ES51000017V | Rally.TV FAST+
 ES700004C8 | Runtime Familia
 ES7000056Z | Yu-Gi-Oh!
+ES70000710 | Ubeat Lite
 ES900001SH | Mr Bean Animated
 ES900002ZD | Todo Pasión
 ESAJ3800001KT | Pluto TV Cine Estelar
@@ -843,7 +841,6 @@ ESAJ3800006TT | MTV Cribs
 ESAJ3800007PC | Pluto TV Cocina
 ESAJ4500016BH | The Pet Collective
 ESAJ4500023Y5 | People Are Awesome
-ESBA140000504 | Stormcast Novelas
 ESBA1400006NP | FailArmy
 ESBA1500001C4 | Deluxe Lounge HD
 ESBA2200004G5 | MyTime Movie Network
@@ -859,7 +856,6 @@ ESBA330004121 | WildEarth
 ESBA3300042Y6 | Trace Latina
 ESBA3300043M0 | Trace Urban
 ESBC1400001L8 | El Confidencial
-ESBC1700001QI | Vive Kanal D Drama
 ESBC170000388 | WaterBear
 ESBC1700004PX | Trailers
 ESBC2100001IU | Vevo Pop
@@ -1125,6 +1121,7 @@ Love the Planet | Love the Planet
 Love.The.Planet.es | Love The Planet
 Love.Wine.es | Love Wine
 M+ Acción HD | M+ Acción
+M+ Cero | M+ Cero
 M+ Cine Español | M+ Cine Español
 M+ Clásicos HD | M+ Clásicos
 M+ Comedia HD | M+ Comedia
