@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Mar 26 00:25:52 UTC 2026
+# Fecha: Fri Mar 27 00:25:29 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -8,6 +8,7 @@
 /esruntime-clasicos | Runtime Clásicos
 /esruntime-comedia | Runtime Comedia
 /esruntime-romance | Runtime Romance
+/esruntime-series | Runtime Series
 /esruntime-thriller | Runtime Thriller
 1+1 International | 1+1 International
 1-1-travel | 1+1 Travel
