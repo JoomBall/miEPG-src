@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Mar 30 00:26:44 UTC 2026
+# Fecha: Tue Mar 31 00:26:20 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -695,6 +695,7 @@ NHK.World.HD.uk | NHK World HD
 NOW.70s.uk | NOW 70s
 NOW.80s.uk | NOW 80s
 NOW.90s.uk | NOW 90s
+NOW.90s00s.uk | NOW 90s00s
 NTD.uk | NTD
 NTV.uk | NTV
 Nat.Geo+1.uk | Nat Geo+1
