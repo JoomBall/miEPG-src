@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Apr  1 00:28:52 UTC 2026
+# Fecha: Thu Apr  2 00:24:28 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -37,7 +37,6 @@
 5f1ac947dcd00d0007937c08 | Pluto TV Cine Drama
 5f1ac9a2d3611d0007a844bb | Pluto TV Cine Romántico
 5f1aca0b4e448e00075e7c5e | Bob Esponja
-5f1aca8310a30e00074fab92 | Los Asesinatos de Midsomer
 5f1acba0d1f6340007db8843 | Los nuevos detectives
 5f1acbed25948a0007ffbe65 | Los archivos del FBI
 5f1acce7f17797000718f9be | Ana y los 7
@@ -94,7 +93,6 @@
 6335a6b6e6f7a600076e589e | Cazasubastas
 6385e82900ab2e000768a058 | Pluto TV Western
 63c69c87808b740007599fe1 | Érase una vez...
-63d3da01c111bc0008ce65d0 | Pluto TV Mujeres Protagonistas
 63d7a8e5a9957100086bfc23 | South Park Versión Original
 63eb944dc111bc0008fe7021 | Pluto TV Teen
 63eb9495a8b227000841bf64 | MTV Vergüenza ajena
@@ -394,7 +392,7 @@
 65ce480a78df2200131c597b | Pluto TV Psycho
 65cf6ab58145cb0008129ca8 | Pluto TV Series criminales
 65ddec1ef7f0af0008be4b65 | Pluto TV Series Sci-Fi
-65dded6966eec80008947157 | Call the Midwife
+65dded6966eec80008947157 | ¡Llama a la Comadrona!
 65dded9a0d456100081417ae | Primeval
 65f96cd34e01740008ef1c97 | Realmadrid TV
 660c29f80cd4630008f1547c | FIFA+
@@ -411,6 +409,7 @@
 67517fae5534bb0008187997 | Actualidad 360
 676e7b4a4bd636000819c6a7 | SensaCine TV x Pluto
 67921b873de7c8cf94233f52 | UFC
+67c7249be979b84e78ca43ff | Los Mosqueteros
 680ba8992472a7200a183eb5 | One Piece
 680ba8c3a48b3ead0db701cc | Los caballeros del Zodiaco
 6812206e1b3e3be031a5c363 | Águila Roja
@@ -420,6 +419,7 @@
 685a996c7c4f2ad40cb4f276 | Dragon Ball
 686cd84603ad75cfd132d672 | America's Next Top Model
 686cd8bb9d079f48dbbdfecb | Metal Rocks
+68751a3bfd6704e9d3cc7b3d | Pequeños aventureros de Pluto TV
 68779a09c691b3f0964127c6 | Heidi
 6880aa28164eb4890282e803 | Pluto TV Toons
 688892172928933015abe479 | Barbie &amp; Friends
@@ -434,7 +434,9 @@
 690dd10a37b131228d76d5b1 | El Mueble
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
 691ddf2a3ae32cf55263476d | Pluto TV Forever Kids
+6964d2179ba4ac18051a18ce | Léo Mattéï: Brigada de protección
 696e02423b9ce349c90edef9 | Rally TV
+6995daa579545c21a10e84de | Pluto TV Basadas en libros
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
@@ -888,7 +890,7 @@ ESBD130000205 | Pitufo TV
 ESBD1300003VN | Corazón
 ESBD1300004IG | Azteca Internacional
 ESBD1400003QN | Royalworld - Nobleza y Dinastias
-ESBD190000137 | CNN Headlines
+ESBD190000137 | CNN Headlines International
 ESBD230000289 | Vevo Retro
 ESBD2300003S5 | Rabbids : La invasion
 ESBD2300004Y7 | Sol Música
@@ -1323,7 +1325,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Málaga | PTV Málaga
 PTV Sevilla | PTV Sevilla
@@ -1659,7 +1660,6 @@ the-design-network-new | The Design Network
 the-pet-collective-new | The Pet Collective
 the-reuters-60 | The Reuters 60
 thriller-rakuten-tv | Thrillers
-tlnovelas | tlnovelas
 todo-comedia | Todo Comedia
 todo-crimen | Todo Crimen
 todo-drama | Todo Drama
