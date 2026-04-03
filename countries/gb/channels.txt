@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Apr  2 00:24:28 UTC 2026
+# Fecha: Fri Apr  3 00:25:58 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -150,7 +150,7 @@
 66d717d2abec540008ba7ec4 | Pluto TV 80's Action
 66d82143abec540008bd2b1c | Project Runway
 66d885aef0f17500084b6750 | PGA TOUR
-66dff9d46ad04d0008fda4de | CNN Headlines
+66dff9d46ad04d0008fda4de | CNN Headlines International
 66e06576abec540008cc17a9 | The Graham Norton Show
 66ebf9bc55567d0008de3b29 | The Hotel Inspector
 66ed3e9d5e4a6e0008b346e0 | UFC
