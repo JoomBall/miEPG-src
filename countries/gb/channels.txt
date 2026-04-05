@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep  9 10:16:53 UTC 2025
+# Fecha: Sun Apr  5 00:27:16 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -9,20 +9,17 @@
 5STAR+1.uk | 5STAR+1
 5STAR.uk | 5STAR
 5USA+1.uk | 5USA+1
-5ad8d1e9e738977e2c310925 | Voyager Documentaries
 5ad8d3a31b95267e225e4e09 | Pluto TV Movies
-5ad8d44cfd87eb3a2717afc5 | MST3K
 5ad8d54be738977e2c310940 | Pluto TV Kids
 5ad8d796e738977e2c31094a | World Poker Tour
-5ad8d883e738977e2c31096b | FailArmy
 5bd05b4694d45d266bc951f2 | Unsolved Mysteries
 5bd8186d53ed2c6334ea0855 | Pluto TV Reality
 5bd833b41843b56328bac189 | Mythbusters
 5c363c2411c5ca053f198f97 | Pluto TV Comedy Movies
+5c45f5a9d40d58066869fa60 | Ghost Dimension
 5c5c2b9d8002db3c3e0b1c6d | Pluto TV Retro Toons
 5c5c2e9d8002db3c3e0b1c72 | Homes Under Hammer
 5c5c31f2f21b553c1f673fb0 | Pluto TV Cult Films
-5c99f5810c95814ff92512f9 | Hunter
 5ca1da6c593a5d78f0e7edce | Euronews
 5ca1df0d50be2571e393ad31 | Deadly Women
 5cb6f6f9a461406ffe4022cf | FBI Files
@@ -44,6 +41,7 @@
 5dc3fc6b9133f500099c7d98 | Pluto TV Family Movie Club
 5ddf8ea0d000120009bcad83 | Pluto TV Animals
 5ddf901280e3550009139c86 | 5 Exploring Britain
+5ddf91149880d60009d35d27 | Pluto TV Drama
 5ddf930548ff9b00090d5686 | Pluto TV Food
 5e393d5c696b3b0009775c8b | The New Detectives
 5e6f38792075160007d85823 | Hell's Kitchen
@@ -51,11 +49,9 @@
 5e8db96bccae160007c71eec | Andromeda
 5e9ed47c26ebb000074af566 | Sensing Murder
 5ea18cd42ee5410007e349dc | Crime Investigation
-5ea18e5df6dd1d0007cf7bad | McLeod's Daughters
 5f27bbe4779de70007a6d1c1 | Ghost Hunters
 5f6b535a278bfe000799484a | Dog The Bounty Hunter
 5f6b54b9e67cf60007d4cef1 | Duck Dynasty
-600ad9e56c609c0007e2b6d0 | Operation Repo
 604f8f8622166000071a929f | BET Pluto TV
 60804d85858bd00007c5d591 | Paranormal State
 6081648340382e0007f73d45 | Most Haunted
@@ -63,8 +59,8 @@
 60817936fd2d70000763d2b2 | Wild at Heart
 60e452730e76f20007598de8 | Homicide Hunter
 60e453641239a700071f53a1 | Dog Whisperer
-611e672d4676bf00076a3837 | Baywatch
 611f85396abc84000738417b | Beyond Belief: Fact or Fiction
+612cda102f5f18000705e0bf | Pluto TV Horror
 612f761008a9e50007984ba0 | Pluto TV Animation
 61559552dd585f0007321eca | Bloomberg TV+
 615af74dfe3d8e0007524511 | On The Case
@@ -76,16 +72,13 @@
 622f48de713e510007f85808 | Dynasty
 622f498d119b4c000719c0b7 | Judge Judy
 6231eb3865be650007f59595 | CBS News 24/7
-624303598e45140007d765c1 | MTV Rocks
 62556bfa3261a300076b0baa | Arthur
 625e8cb585ef320007806caf | Pluto TV Britain at War
 625eaebc2a73a00007d3f855 | Catfish
-625eb3e245f5bc0007810046 | MTV Reality
 6299e5afdd5833000727e795 | 48 Hours
 62ab579258cb950007811aad | Mission Impossible
 62ac405b3874370007419b7f | Barney &amp; Friends
 62ac50e92c48f900071444c9 | Auction Hunters
-62cbdc45d3cb9f0007128df4 | Pluto TV Christmas in Summer
 62d550d81054990007db7798 | Teen Mom
 62e9184439d80c00076e166d | Aftershock
 62f53dc6ee9a0400071dc22b | Pluto TV Sitcoms
@@ -93,111 +86,129 @@
 6304fb268bd95300072d2198 | True Crime UK
 6319ee0cf78bb10007ee5e6b | World War TV
 6319f06067a3ee000708af95 | Haunt TV
-635bfb89b5cd9b0007ca9d63 | MTV Classic
 63693fa2bfa0690007ebc880 | Wicked Tuna
 63808dc806aa4700075f319a | Pluto TV Investigation
 639b558c73423d00071ce624 | More TV Crime
 63c1384e829c850007922ca4 | 5 Emergency Rescue
 63d000ef4e83e700086e0d6c | Scorpion
 63d8ed19a9957100086f4d33 | Transformers
-63d91cc58795f30008678e9d | Medical Detectives
+63d91c9c8795f30008678e62 | Nature Time
+63d91cc58795f30008678e9d | Bloodline Detectives
 63d91d2560bc8f0008a225e4 | FIFA+
 63d91d624e83e7000881ca8c | Escape to the Country
-63e23143a8b22700082b0a65 | Pluto TV Cops &amp; Convicts
 63fe2ec4dff38e000835f786 | Rookie Blue
 6401d85a49839300087b116c | Moviesphere
 645e00d5d3fdde000829463a | More TV Sci-fi
 6462190b7cb4b1000862dd60 | Pluto TV Alien Invasion
 64634eb42858cb0008fd92d6 | How To Use Pluto TV
-647f09e5f77b61000823ff24 | Tattoo Fixers
-6487148edc7a7600089e92d3 | Pluto TV Hot Summer Nights
-6490254fd2c47c00083a5743 | Now 80's
+6490254fd2c47c00083a5743 | That's 80s
 64c0d6765dc1660008a3e033 | U&amp;Transport
 64c0d697b0cf5c000824e5d9 | U&amp;The Past
 64c0d6b424ade50008bc8883 | U&amp;Real Heroes
 64c0d6f34096290008132d6b | U&amp;Laughs
 64c37e47dac71b000809abab | Evidence of Evil
-64c37e710e086a0009e824ab | NOW 70's
+64c37e710e086a0009e824ab | That's 70s
 64edf6eaa7ec0d000812f58c | South Park
-64ff1d3d3a0d700008b110e9 | Robot Wars by MECH+
 64ff1d92d545e9000877fba4 | A Haunting
-650314f73a0d700008bb07cb | Eggheads
 650315163a0d700008bb07f8 | Born to Kill
 65031534d545e9000881ed10 | British Screen Classics
 6514346fa76507000887d441 | Confess by Nosey
-6568a78d635c3c0008765f41 | Now Rock
+655b7cbb2c46f300086f0afa | Pluto TV Snooker 900
+6568a78d635c3c0008765f41 | That's Rock
 656df2849d5ac400083be647 | 5 Trucking Hell
 656df599c0fc8800089c75ab | Avatar
 656ef4af4261ca00083c8f37 | Totally Turtles
+65819f83a620e300080f692a | Weird or What? With William Shatner
 65a6a5e90c7ff50008cb9815 | Funny AF
 65a6a7a00c7ff50008cba07b | Pluto TV Crime Drama
+65a7ab137bdc8d0008487dfb | Pluto TV Erotica
 65a7af553af63d000828acca | Cash In The Attic
 65a7b01907e03a0008913e8f | Best of Dr. Phil
+65a7b04e7bdc8d0008488307 | True Crime Now
 65a7b0814a10d800085ff2df | Pluto TV PetrolHeads
 65b14aae0cb1a100087a216e | DAZN Ringside
 65b3895660eb8700089e7f53 | Car Chase
-65c109b4d77d450008b7eee5 | Reuters
 65c4960d11ced7000812c433 | Geordie Shore
-65dde148ec9fda0008b3c541 | Love Pets
 65f0166566eec80008b96f7e | Pluto TV Wildest Adventures
-65f96980f7f0af0008fa6302 | Realmadrid TV
 660be37e7bcd860008793a6a | Bondi Rescue
-660c209e19ca71000846cf38 | NOW 90s00s
+660c209e19ca71000846cf38 | That's 90s00s
 660e5dc60cd4630008f6198a | JAG
 661cf62d24e1d000087dae0d | COPS
 66275e41cee0d900085fde6e | The Love Boat
-66275eed5e23700008f8c8f9 | Melrose Place
 66276091cee0d900085fe053 | Sabrina The Teenage Witch
-6627623e307fa3000810b66e | Ninja Warrior
+6627621d56fc840008e47c90 | Tennis Channel
 664c94e80120f40008b860f0 | POP
-664c951df99922000842870c | Tiny Pop
-664c953db18d700008fcc158 | POP UP
 667ac79c15f35c00088a2409 | Outback Truckers
 667d664815f35c00089489bf | Corner Gas
 6683cd71a1d7ad000866ec6a | Pokémon
-66866fc995e91900088768a5 | MTV Biggest Pop
 6695294632e25300084bb61b | Sister, Sister
 66a10eacfe11e500084c6925 | Flashpoint
 66a10eeb46762a0008201e85 | Teletubbies
-66a10f11a79dea0008aa73b0 | Bob the Builder
 66ba1e23d2d50d00084a1e57 | Crimes That Shook Britain
 66ba1e4446762a000855cd87 | Girlfriends
-66ba1e9fcd0d3100086dc532 | Pluto TV More Movies
-66ba1ef5fe11e50008814383 | Pluto TV Kids Halloween
-66ba1f46d2d50d00084a28c4 | Bitten
-66bb66e2d512590008d728aa | Pluto TV Halloween
 66c45afaa72e7b0008a2b153 | CNNi
 66d717d2abec540008ba7ec4 | Pluto TV 80's Action
 66d82143abec540008bd2b1c | Project Runway
 66d885aef0f17500084b6750 | PGA TOUR
-66dff9d46ad04d0008fda4de | CNN Headlines
-66eaf5a9483d460008e267b5 | Pluto TV Comedy Drama
+66dff9d46ad04d0008fda4de | CNN Headlines International
+66e06576abec540008cc17a9 | The Graham Norton Show
 66ebf9bc55567d0008de3b29 | The Hotel Inspector
 66ed3e9d5e4a6e0008b346e0 | UFC
 66f1331f9409630008077623 | Earth: Final Conflict
-66f133b3747bfa0008495383 | The Lost World
 66f135b45e4a6e0008b80606 | Antiques Road Trip
 66f137cb483d460008ece053 | Rugby Pass TV
 66fd37885049580008d295b6 | AWSN
 67063e78b2ffb10008195d08 | MODUS Super Series Darts
-67f4fde1fbe45309c7699d6f | Pluto TV Masters of Horror
-67f4fe432ebe80e29299573b | Pluto TV 80's Horror
-67f4ff72dea1c5e0d5c205fe | Pluto TV Slasher Movies
-67f4ffda8ddd60c57dc24e35 | Pluto TV Creature Features
+672cb91149c40600081cbee5 | Whose Line Is It Anyway?
+677fb08f5b68381e2dbfd5af | The Bionic Woman
+677fb0b33a225c2d0d8a17be | Xena: Warrior Princess
+677fb0e93a225c2d0d8a45bf | Northern Exposure
+677fb115a4af36ad50113e56 | The Real Housewives
+677fb137a5d8215f99b9cc06 | Top Chef
+677fb3432952c1163bf1a539 | Million Dollar Listing
 680bb31c56ff83bcd685d64e | Farscape
+682453731295f98347e92da8 | River Monsters
 68503cfda1e091e16f000625 | 7th Heaven
 68503d1736c9361b191e7d89 | Gunsmoke
 68503d3bc692373f0158c43f | Hawaii Five-O
 68503d585965a2fd49fc2f0b | MacGyver
-68503da136c9361b191f9366 | Rawhide
 6850408053d981d1fdb01696 | Taxi
 68504098f212bedacf63a7e1 | Touched by an Angel
 685041d936c9361b1921c26c | Pluto TV Fantasy &amp; Horror
 6850426e53d981d1fdb0d966 | Matlock
+6852811933a52de120f8b89d | Mayday Air Disaster
+6852854bce36f0644f37d765 | A New Life in the Sun
 685aa802fb6023de7cc56357 | Dominance FC TV
 686cd713e48af72bc250efb8 | America's Next Top Model
-686cd7bd8aeeaaa91a153161 | Britain's Next Top Model
+686fc8fe1889b4ad04604704 | Icons Unearthed+
 6882521ac258734a42a60ed0 | DP World Tour
+68b5a7b69ac85c428f54c441 | Curzon
+68b5a97fc8ef6afa31138718 | The Smurfs
+68c82005be767928b4a8ef0c | I Survived...
+68c8201b1e5aaf77c47d9605 | Ice Road Truckers
+68c8202f5ec82769fdfcd0a2 | Chaos on Cam
+68c8203efef6d8a2a6f13906 | 60 Days in Jail
+68c820525ec82769fdfcd104 | Wrestling Legends TV
+68d113f9184f1a0620c8101c | Medical Detectives
+68e38aaf8082ad3760def7bc | Hercules: The Legendary Journeys
+68e38b005c876cf730fcbf0f | Six Million Dollar Man
+68e38b6e20115bbaf9c91083 | The Incredible Hulk
+68e3b6112baff9f069d02540 | Relic Hunter
+68e3bffe1cfcd7541d59090f | Most Haunted: Unseen
+68e3c18130ee729844af1fca | Monkey
+68e3c37c19f32ffa27bae948 | Unsolved Mysteries with Dennis Farina
+68e8ffee9d1d49e672fe790f | The Yellow Couch with Jeremy Lynch
+6900997e043e3df1897d017f | Ironside
+69038c2ee0e0c5f8208c033a | Murdertown
+690dc8ed1ee9b6ac66607ce2 | America's Funniest Home Videos
+691b453846ca5e6d1665f03b | Meet, Marry, Murder
+692ebafce72f03e07e7df985 | Pluto TV American True Crime
+694178a8026be6e9d3ea7d7a | Mona The Vampire
+6960c5a906d76f50db2816dc | Cagney &amp; Lacey
+696e024a7e92438c27a425a8 | Rally TV
+697a2f8b3991484f03064614 | Super Mario Bros.
+6981cc6a644861a57c3bd8ad | Shockwave
+69987f939c3b075ecd3b8255 | Dog Vs Duck
 92.News.uk | 92 News
 A1TV.uk | A1TV
 AAJ.TAK.uk | AAJ TAK
@@ -260,6 +271,10 @@ BBC.R5SX.uk | BBC R5SX
 BBC.RB.1.HD.uk | BBC RB 1 HD
 BBC.RB.1.uk | BBC RB 1
 BBC.RLondon.uk | BBC RLondon
+BBC.Radio.Bristol.104.6FM.uk | BBC Radio Bristol 104.6FM
+BBC.Radio.Bristol.94.9FM.uk | BBC Radio Bristol 94.9FM
+BBC.Radio.Bristol.DAB.uk | BBC Radio Bristol DAB
+BBC.Radio.Sussex.uk | BBC Radio Sussex
 BBC.Three.HD.uk | BBC Three HD
 BBC.Two.HD.uk | BBC Two HD
 BBC.Two.NI.HD.uk | BBC Two NI HD
@@ -355,6 +370,7 @@ G!.romance+1.uk | G! romance+1
 GB.News.HD.uk | GB News HD
 GB1000001G0 | SMTOWN
 GB1100001EB | The Diary Of A CEO
+GB1100002OE | Top Barça
 GB1200002ON | History Hunters
 GB12000037Y | Deal Masters
 GB1200004J4 | Cash in the Attic
@@ -362,25 +378,32 @@ GB12000052F | Icon Film Channel
 GB1200006IV | Talk
 GB1300001RX | DW
 GB1400001E4 | CURIOSITY Now
-GB1600007CB | Rally.TV FAST+
 GB170000351 | POP Up
 GB1700004YC | K-Food by CJ ENM
+GB1700005U8 | BABY SHARK TV
 GB17000066A | K-Content by CJ ENM
+GB1700007PK | NEW K-MOVIES
+GB17000088V | NEW KPOP
 GB1800002FA | 8 Out Of 10 Cats
 GB2000007ID | LADbible
 GB2000008XP | Ghost Hunters
 GB200000940 | The Hotel Inspector
 GB2000010ML | Tennis+
 GB200005LI | Mythbusters
+GB2000955S | AMC Cupid
+GB200096O2 | AMC Reality
 GB2100002R7 | Genie K-Drama
 GB21000038X | Genie K-Movie
+GB2100004H5 | NatureTime
 GB2100005YU | Rookie Blue
 GB2100006GK | River Monsters
 GB2200001N2 | Fireplace Vibes
 GB2200002CC | GFN Soccer TV
 GB2300002AI | Tipping Point
+GB2300005ML | Al Jazeera
 GB2400006I0 | Tiny House Nation
 GB2400007FA | Teletubbies
+GB2400008GK | Dennis and Gnasher
 GB2500002K0 | Cool Summer Channel
 GB26000118T | DFB Play TV
 GB2600012R3 | Drama Movies - Rakuten TV
@@ -409,6 +432,7 @@ GB270001538 | Emergency 24/7
 GB2700016H5 | Artist of the Year
 GB28000063B | Mayday: Air Disaster
 GB280000829 | Poldark
+GB29000059T | Location Location Location
 GB300001QO | Conan O'Brien TV
 GB300003UI | Sony One Comedy HITS
 GB3000041I | Sony One Action HITS
@@ -422,33 +446,60 @@ GB30003577 | talkSPORT
 GB300036IM | PGA Tour
 GB3000370X | GREAT! Mystery
 GB3000387J | Antiques Road Trip
+GB310000151 | INTER 24/7
+GB3100002NB | Wheels &amp; Steel
 GB32000024G | British Screen Classics
+GB3200005SO | Autentic History
+GB3200006AZ | Autentic Travel
 GB330000144 | RugbyPass TV
 GB3300002NF | Sky News
 GB3400001ND | Video Game Heroes
 GB340000289 | YAAAS!
 GB3400003A9 | Ketchup TV
+GB3500002R8 | Bundesliga
+GB3500003E5 | Keeping Up With...
+GB3600001XM | Medical Detectives
+GB3600002EB | The Osbournes
+GB3600003B3 | Dhar Mann TV
 GB3700002J0 | Strawberry Shortcake
 GB370000369 | Sonic The Hedgehog
-GB37000041H | Nashville
 GB3700005QK | Hoarders
 GB37000067A | Lifetime Movies
 GB3700007OZ | &amp;TV
+GB3700008XB | Cops &amp; Docs
+GB3700009AO | Untold Stories of the ER
+GB3700011PO | Evidence of Evil
+GB37000128Y | Bloodline Detectives
+GB38000026H | Masha &amp; the Bear
+GB3800007C5 | Space Live
+GB3800009F0 | FIFA+ Women
 GB3900001TM | K-POP by CJ ENM
 GB3900002DT | Ninja Warrior
 GB3900003W4 | Inside Outside
 GB4000008O5 | Mr Bean Live Action
 GB4000027F | The Graham Norton Show
 GB400003BM | INTRAVEL
+GB4100001E2 | Mark Rober TV
+GB4100003VP | Thrillers - Rakuten TV
+GB4200002K6 | Pokémon
+GB4200010V1 | Who Wants to be a Millionaire
 GB430000144 | LooLoo Kids
+GB43000020B | Dude Perfect
+GB4300003ZT | Most Haunted
+GB4400001OO | Series K: Heart
+GB4500001NQ | Letterman TV
 GB4600001W9 | Hot Ones
+GB4600003RY | Chaos on Cam
+GB4600004A9 | Live PD Presents
+GB4700004FM | Love After Lockup
 GB4900001NW | Deadly Women: powered by Banijay
 GB500001HY | Highway Thru Hell : Powered by Banijay
 GB500004YN | H2O &amp; Friends
 GB500006EX | Escape to the Country
 GB500007VM | Family Feud
-GB5100001EW | Heartland
+GB51000026A | Rally.TV FAST+
 GB5200001TM | DP World Tour
+GB5300001G9 | Nolly Africa HD
 GB60000197 | Sky Arts
 GB60000381 | A New Life In The Sun
 GB700004ET | Pocoyo
@@ -519,11 +570,10 @@ GBBD1100003I0 | Love Pets
 GBBD1100007AC | True Crime UK
 GBBD1100008YW | FIFA+
 GBBD1100009M9 | So…Real
-GBBD1100011V3 | Dennis and Gnasher
 GBBD1100013BJ | Zee One
 GBBD1300001WA | Smurf TV
 GBBD19000026B | Trace UK
-GBBD1900008O3 | CNN Headlines
+GBBD1900008O3 | CNN Headlines International
 GBBD1900009UD | Vevo '70s &amp; '80s
 GBBD2300001C0 | Vevo Hip Hop &amp; R&amp;B
 GBBD23000021U | Transformers
@@ -544,12 +594,12 @@ GBBD3100004OI | U&amp;The Past
 GBBD3100005RX | Challenge
 GBBD3100006XM | Sky Mix
 GBBD3200001E2 | Earth Touch
-GBBD3200002CG | Eggheads
 GBBD3200003T6 | Tiny POP
 GBBD3600001NO | CNBC
 GBBD3700001AB | DATELINE 24/7
 GBBD4100006KV | Born to Kill
 GBBD4100010H1 | Crime Network
+GBBD4100011RE | K-Drama+
 GBBD4900001RG | Reuters
 GBBD50000084W | Jack Hanna
 GBBD500001F5 | Love the Planet
@@ -558,7 +608,6 @@ GBBD50000320 | Mystery TV
 GBBD500005ZG | Robot Wars by Mech+
 GBBD500007TG | Grjngo - Western Movies
 GBBD5100001HL | SuperToons TV
-GBBD600002XT | Baywatch
 GBBD8000016N | CNN
 GEO.News.uk | GEO News
 GEO.TV.uk | GEO TV
@@ -575,6 +624,7 @@ Gemporia.Craft.uk | Gemporia Craft
 Gems.TV.uk | Gems TV
 Get.Lucky.TV.uk | Get Lucky TV
 Good.News.TV.uk | Good News TV
+Greatest.Hits.Radio.(West.Sussex).uk | Greatest Hits Radio (West Sussex)
 Greatest.Hits.uk | Greatest Hits
 HGTV+1.uk | HGTV+1
 HGTV.uk | HGTV
@@ -583,6 +633,7 @@ HUM.Masala.uk | HUM Masala
 Heart.80s.uk | Heart 80s
 Heart.90s.uk | Heart 90s
 Heart.Dance.uk | Heart Dance
+Heart.Sussex.uk | Heart Sussex
 Heart.uk | Heart
 Hidayat.TV.uk | Hidayat TV
 High.Street.TV.1.uk | High Street TV 1
@@ -629,15 +680,10 @@ London.Live.uk | London Live
 LoveWorld.HD.uk | LoveWorld HD
 MATV.National.uk | MATV National
 MTV.80s.uk | MTV 80s
-MTV.90s.uk | MTV 90s
-MTV.BASE.uk | MTV BASE
-MTV.Classic.uk | MTV Classic
 MTV.HD.uk | MTV HD
-MTV.HITS.uk | MTV HITS
-MTV.Live.HD.uk | MTV Live HD
-MTV.MUSIC.uk | MTV MUSIC
 MUTV.HD.uk | MUTV HD
 Madani.Chnl.uk | Madani Chnl
+More.Radio.Mid.Sussex.uk | More Radio Mid Sussex
 More4+1.uk | More4+1
 More4.HD.uk | More4 HD
 Movies24+.uk | Movies24+
@@ -649,6 +695,7 @@ NHK.World.HD.uk | NHK World HD
 NOW.70s.uk | NOW 70s
 NOW.80s.uk | NOW 80s
 NOW.90s.uk | NOW 90s
+NOW.90s00s.uk | NOW 90s00s
 NTD.uk | NTD
 NTV.uk | NTV
 Nat.Geo+1.uk | Nat Geo+1
@@ -717,9 +764,9 @@ Sky.Adventure.uk | Sky Adventure
 Sky.Arts.HD.uk | Sky Arts HD
 Sky.Atlantic+1.uk | Sky Atlantic+1
 Sky.Atlantic.HD.uk | Sky Atlantic HD
+Sky.Cinema.Comedy.uk | Sky Cinema Comedy
 Sky.Cinema.Hits.HD.uk | Sky Cinema Hits HD
 Sky.Cinema.Select.uk | Sky Cinema Select
-Sky.Comedy.Cinema.uk | Sky Comedy Cinema
 Sky.Comedy.HD.uk | Sky Comedy HD
 Sky.Crime+1.uk | Sky Crime+1
 Sky.Crime.HD.uk | Sky Crime HD
@@ -732,15 +779,14 @@ Sky.History+1.uk | Sky History+1
 Sky.History2.uk | Sky History2
 Sky.HistoryHD.uk | Sky HistoryHD
 Sky.Kids.HD.uk | Sky Kids HD
-Sky.Max.HD.uk | Sky Max HD
 Sky.Mix.HD.uk | Sky Mix HD
 Sky.Nature.HD.uk | Sky Nature HD
 Sky.News.HD.uk | Sky News HD
+Sky.One.HD.uk | Sky One HD
 Sky.Premiere.uk | Sky Premiere
 Sky.Replay.uk | Sky Replay
 Sky.ScFi/HorHD.uk | Sky ScFi/HorHD
 Sky.Sci-Fi.HD.uk | Sky Sci-Fi HD
-Sky.Showcase.uk | Sky Showcase
 Sky.Sports.Football.HD.uk | Sky Sports Football HD
 Sky.Sports.NFL.uk | Sky Sports NFL
 Sky.Sports.Ultra.HD.1.uk | Sky Sports Ultra HD 1
@@ -756,8 +802,6 @@ SkyMegaHitsHD.uk | SkyMegaHitsHD
 SkyNewsArabia.uk | SkyNewsArabia
 SkyPremiere+1.uk | SkyPremiere+1
 SkyPremiereHD.uk | SkyPremiereHD
-SkyShowcase+1.uk | SkyShowcase+1
-SkyShowcaseHD.uk | SkyShowcaseHD
 SkySp+.uk | SkySp+
 SkySp+HD.uk | SkySp+HD
 SkySp.Action.uk | SkySp Action
@@ -772,13 +816,11 @@ SkySp.Golf.uk | SkySp Golf
 SkySp.Mix.HD.uk | SkySp Mix HD
 SkySp.News.HD.uk | SkySp News HD
 SkySp.PL.HD.uk | SkySp PL HD
-SkySp.PL.uk | SkySp PL
 SkySp.Racing.HD.uk | SkySp Racing HD
 SkySp.Racing.uk | SkySp Racing
 SkySp.Tennis.HD.uk | SkySp Tennis HD
 SkySpBoxOff.uk | SkySpBoxOff
 SkySpCricket.HD.uk | SkySpCricket HD
-SkySpMainEv.uk | SkySpMainEv
 SkySpMainEvHD.uk | SkySpMainEvHD
 SkyValentineHD.uk | SkyValentineHD
 Smooth.uk | Smooth
@@ -797,9 +839,18 @@ TLC+1.uk | TLC+1
 TLC.HD.uk | TLC HD
 TNT.Sport.BoxOffice.HD.uk | TNT Sport BoxOffice HD
 TNT.Sports.1.HD.uk | TNT Sports 1 HD
+TNT.Sports.10.HD.uk | TNT Sports 10 HD
 TNT.Sports.2.HD.uk | TNT Sports 2 HD
 TNT.Sports.3.HD.uk | TNT Sports 3 HD
 TNT.Sports.4.HD.uk | TNT Sports 4 HD
+TNT.Sports.5.HD.uk | TNT Sports 5 HD
+TNT.Sports.6.HD.uk | TNT Sports 6 HD
+TNT.Sports.7.HD.uk | TNT Sports 7 HD
+TNT.Sports.8.HD.uk | TNT Sports 8 HD
+TNT.Sports.9.HD.uk | TNT Sports 9 HD
+TNT.Sports.Box.Office.2.uk | TNT Sports Box Office 2
+TNT.Sports.Box.Office.uk | TNT Sports Box Office
+TNT.Sports.Ultimate.HD.uk | TNT Sports Ultimate HD
 TNT.Sports.Ultimate.uk | TNT Sports Ultimate
 TNTSBoxOff2HD.uk | TNTSBoxOff2HD
 TRT.World.HD.uk | TRT World HD

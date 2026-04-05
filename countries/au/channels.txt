@@ -1,15 +1,18 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep  9 10:16:51 UTC 2025
+# Fecha: Sun Apr  5 00:27:18 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
+AJE | Al Jazeera
 ANI | Animal Planet
 ARN | Arena
 ASP | Sky News Extra
+AUR | Aurora
 BCS | British Cinema
 BLM | Bloomberg Television
-BXS | BoxSets
+BXS | CSI
+CCC | CGTN
 CIN | Real Crime
 CMT | CMC
 CNB | CNBC
@@ -44,17 +47,18 @@ HIT | Comedy
 HST | Real History
 IOI | Crime
 LHO | LifeStyle Home
-LMH | Movies Life
 LST | LifeStyle
 MO6 | Movies Drama
-MSN | MSNBC
+MSN | MS NOW
 MTC | Retro
-MVS | Movies Hits - Funny Guys
+MVS | Heroes &amp; Villains
 NAP | Australian Played
+NAT | Nature Time
 NHK | NHK World
 NMU | Kids
-NPO | Get2Know
+NNN | NBC News NOW
 NRW | Max
+PUH | PULP
 RLS | Real Life
 RTV | RACING.COM
 SHA | Movies Action
@@ -71,9 +75,9 @@ SRA | Sky Racing 1
 SRW | Sky Racing Thoroughbred Central
 SUK | SKY NEWS UK
 TMF | Trending
-TRS | More Comedy
+TRS | Outlander HD PopUp
 TVS | TVSN
 UFC | Main Event UFC
 UKT | UKTV
-UP2 | Love It Or List It
+UP2 | Bake Off  POPUP HD
 VH1 | Club

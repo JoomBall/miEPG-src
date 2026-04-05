@@ -1,10 +1,9 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep  9 10:17:00 UTC 2025
+# Fecha: Sun Apr  5 00:27:20 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
-/esruntime | Runtime
 /esruntime-accion | Runtime Acción
 /esruntime-clasicos | Runtime Clásicos
 /esruntime-comedia | Runtime Comedia
@@ -13,14 +12,15 @@
 /esruntime-thriller | Runtime Thriller
 1+1 International | 1+1 International
 1-1-travel | 1+1 Travel
+100% Navidad (Rakuten TV) | 100% Navidad (Rakuten TV)
 13.TV.es | 13 TV
 24 Horas | 24 Horas
 24 horas Canarias | 24 horas Canarias
 24 horas Cataluña | 24 horas Cataluña
 3/24.es | 3/24
-324 Catalunya | 324 Catalunya
-324 | 324
 324.es | 324
+3CatInfo Catalunya | 3CatInfo Catalunya
+3CatInfo | 3CatInfo
 4K.Travel.TV.es | 4K Travel TV
 5-minutes-craft-es | Ideas en 5 minutos
 5f1aa9bcd8160700076d45d1 | Pluto TV Junior
@@ -37,7 +37,6 @@
 5f1ac947dcd00d0007937c08 | Pluto TV Cine Drama
 5f1ac9a2d3611d0007a844bb | Pluto TV Cine Romántico
 5f1aca0b4e448e00075e7c5e | Bob Esponja
-5f1aca8310a30e00074fab92 | Los Asesinatos de Midsomer
 5f1acba0d1f6340007db8843 | Los nuevos detectives
 5f1acbed25948a0007ffbe65 | Los archivos del FBI
 5f1acce7f17797000718f9be | Ana y los 7
@@ -46,43 +45,40 @@
 5f28009b150b2500077766b8 | Vaya semanita
 5f6a38eaa5b68b0007a00e7a | Pluto TV Sci-Fi
 5f984f4a09e92d0007d74647 | Archivos Forenses
-5f9853138d19af0007104a8d | Pluto TV Series Comedia
 5f98537a5a4341000733aefe | MTV Embarazada a los 16
 600169ec77e6f70008fa9cf0 | MTV Dating
 600ae6a78d801e0007117d21 | Pluto TV Animales
 60218baa464ef900073168c1 | Empeños a lo bestia
 604f8125c6669b00077f7699 | Wipeout
 604f81a49ef73300070e554f | MTV Teen Mom
-6076cd1df8576d0007c82193 | VH1 Classics
 6080345ebb49b90007ce0baf | Pluto TV Motor
 608035b8d8705f0007260287 | Pluto TV Anime
 6080381ab7c9ea00074ec64c | World Poker Tour
 6086d3f420fc8500075f8dbf | Runtime
 609e7e423e9173000706a681 | Pluto TV Kids Classics
-60a26a056d55b30007918d5a | MTV Music Made in Spain
 60b4c06717da110007ee1af6 | Pluto TV Telenovelas
 60c343007bcabe0007242aa6 | El Comisario
 60cc807324d60a0007708dc8 | Pluto TV Cine de autor
 60d356a534f63f000850cdd7 | Top Gear
 60d3583ef310610007fb02b1 | Euronews
-60dafb9a0df1ba000758d37b | BBC Drama
+60dafb9a0df1ba000758d37b | BBC Series
 60dd6b1da79e4d0007309455 | Nature Time
 60e45687313c5f0007bc8e94 | El encantador de perros
 60e4573c9f963e00077ecf25 | Mi Extraña Obsesión
 60ed5fb9c4716d0007d180c5 | Cazador de Homicidas
 610c09219fc0430007a3fce6 | Rugrats
+611b87946b7f420007c22361 | MTV Tattoo a dos
 612ce5214bb5790007ad3016 | Pluto TV Paranormal
 6130d8dc943001000708548d | MTV Reality
 61373bb45168fe000773eecd | Pluto TV Cine Clásico
-61373c865ed5810007173fbc | Avatar
 61373f1a12dd9f00077dcd6f | Las Tortugas Ninja
 6181404ef48321000797bc41 | iCarly
 61922be835f3910007fc58f6 | En el punto de mira
 619b9f16b8fee4000832d447 | El Detective Endeavour
 61b87bc867b03a0007864e0d | Pluto TV Reality
 61b9edc4a4ca6100070bb407 | Ice Pilots
+61bb2814ac085a00074309a6 | Unidad de investigación
 61cd7b49543066000713b620 | Pluto TV Historia
-61ea759737679900078ff559 | MTV Party Music
 622f42b831233300078658cc | Ciudadanos por el mundo
 6231ede1be5b460007f91bc1 | CBS News 24/7
 6245c03922d9d4000760d205 | Melrose Place
@@ -104,18 +100,14 @@
 643054b1fc3be59477853717-5eea605474085f0040ddc76d | Glewed TV
 643054b1fc3be59477853717-5eea605574085f0040ddc794 | Toon Goggles
 643054b1fc3be59477853717-5eea605574085f0040ddc79a | Kidoodle TV
-643054b1fc3be59477853717-5eea605674085f0040ddc7ac | party tyme karaoke
 643054b1fc3be59477853717-5eea71d65252710041e0ccbc | The Reuters 60
 643054b1fc3be59477853717-5ef11485d33ab9004048a1ca | SportsGrid
 643054b1fc3be59477853717-5ef11486d33ab9004048a1cd | Always Funny
 643054b1fc3be59477853717-5ef11487d33ab9004048a1d3 | Choppertown
-643054b1fc3be59477853717-5ef11487d33ab9004048a1d6 | Popstar! TV
 643054b1fc3be59477853717-5ef11487d33ab9004048a1d9 | Revry
-643054b1fc3be59477853717-5ef4e1b10d9ad000423c4421 | Always Funny en Español
 643054b1fc3be59477853717-5ef4e1b40d9ad000423c4430 | Maverick Black Cinema
 643054b1fc3be59477853717-5efe1de6e0b3f5003f5d9f82 | The Boat Show
 643054b1fc3be59477853717-5efe1de6e0b3f5003f5d9f88 | The Bob Ross Channel
-643054b1fc3be59477853717-5efe1de7e0b3f5003f5d9f8e | Gravitas Movies
 643054b1fc3be59477853717-5f0641d3e8ffda004033b16e | The Design Network
 643054b1fc3be59477853717-5f07e9fdf313eb0041bbecda | Cooking Panda
 643054b1fc3be59477853717-5f0ff262d71dcb00449ec015 | Nosey
@@ -163,11 +155,11 @@
 643054b1fc3be59477853717-6196c9241d310bf925e02616 | Lone Star
 643054b1fc3be59477853717-61a945156547ba4d6d238dc9 | Racing America
 643054b1fc3be59477853717-61aa97d4113e1e5137fd5325 | Stingray Greatest Hits
-643054b1fc3be59477853717-61aa9e73784a2161d3caf7f9 | Hot Country
+643054b1fc3be59477853717-61aa9e73784a2161d3caf7f9 | Stingray Hot Country
 643054b1fc3be59477853717-61aa9f50784a2161d3caf7fb | Remember the ‘80s
 643054b1fc3be59477853717-61aaa014784a2161d3caf7fd | Hit List
 643054b1fc3be59477853717-61aaa0cc784a2161d3caf7ff | Classic Rock
-643054b1fc3be59477853717-61aaa17a784a2161d3caf801 | Soul Storm
+643054b1fc3be59477853717-61aaa17a784a2161d3caf801 | Stingray Soul Storm
 643054b1fc3be59477853717-61d738b5a7b7c7f703418514 | Trailers From Hell
 643054b1fc3be59477853717-61d73ab0a7b7c7f703418516 | Bloomberg TV
 643054b1fc3be59477853717-61d73c3ca7b7c7f703418518 | Bloomberg Originals
@@ -180,7 +172,7 @@
 643054b1fc3be59477853717-621672e42c2627c068e73ad8 | Galxy TV
 643054b1fc3be59477853717-621674502c2627c068e73ada | FrightFlix
 643054b1fc3be59477853717-621674f168c966be92737ce6 | El Conflicto TV
-643054b1fc3be59477853717-6216ae22c3bbca2de8704f65 | CampusLore Sports
+643054b1fc3be59477853717-6216ae22c3bbca2de8704f65 | Sports Illustrated TV
 643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9 | Euronews Portuguese
 643054b1fc3be59477853717-6245efe9f137de43897ea1ae | Euronews Deutsch
 643054b1fc3be59477853717-6245f06793b402a3d1097787 | Euronews Français
@@ -189,7 +181,6 @@
 643054b1fc3be59477853717-627ec46a92d8e6a705784bd1 | Ninja Kidz TV
 643054b1fc3be59477853717-62ab5aabbb869dd0df6a3487 | TED
 643054b1fc3be59477853717-62ba4aaff663580a7238f327 | Sonic TV
-643054b1fc3be59477853717-62c8a2d2d774648bcc76a116 | Fite 24/7
 643054b1fc3be59477853717-62d1a58e520656fda09e609d | Shemaroo Bollywood
 643054b1fc3be59477853717-62d7f68fb19cbf65dc7bef7c | Qello Concerts
 643054b1fc3be59477853717-62d7f68fb19cbf65dc7bef7d | Stingray Classica Stream
@@ -210,7 +201,7 @@
 643054b1fc3be59477853717-62fbf36c1567211fdb82e920 | Stingray Naturescape
 643054b1fc3be59477853717-62ffc5cfa6cad6f2991745c2 | FUEL TV
 643054b1fc3be59477853717-630fa9e577ec3866def38fa2 | Women's Sports Network
-643054b1fc3be59477853717-631bbc79a273cc38add9e5e1 | Cine Clasico
+643054b1fc3be59477853717-631bbc79a273cc38add9e5e1 | FreeTV Clásico
 643054b1fc3be59477853717-631bbf79a273cc38add9e5e3 | FreeTV Estelar
 643054b1fc3be59477853717-6322658be67cf9cd9011fcda | TRACE Urban
 643054b1fc3be59477853717-63226c03e67cf9cd9011fcdf | TRACE Latina
@@ -218,7 +209,6 @@
 643054b1fc3be59477853717-6334a8e48a7b2a349d903b8c | Billiard TV
 643054b1fc3be59477853717-63489a771159f6a5ce819b7b | Grjngo - Western Movies
 643054b1fc3be59477853717-6349ed0eb1adc4cfa571fd37 | SPEEDVISION
-643054b1fc3be59477853717-634dddc8a319c6df243f521f | Desi Play TV
 643054b1fc3be59477853717-63504925a97bd70eaef54f01 | ACL Cornhole TV
 643054b1fc3be59477853717-635195e9ccee3e1547a8831a | Farscape
 643054b1fc3be59477853717-635c61cc797a33fa4193cc93 | Cosmic Frontiers
@@ -226,17 +216,16 @@
 643054b1fc3be59477853717-6365779dde08f8eec6c3f21f | CraftsyTV
 643054b1fc3be59477853717-63894c1965b848bf2c8a7800 | 5-Minute Crafts
 643054b1fc3be59477853717-639ba57d3f4612cc150a5723 | Pitufo TV
-643054b1fc3be59477853717-63d08694ab0965e49583e3b2 | Funny Or Die, Inc.
 643054b1fc3be59477853717-63d6f6c5a9e88ee909e7ee1f | Brat TV
 643054b1fc3be59477853717-63ec0b739866d8d2120ac759 | PickleTV
 643054b1fc3be59477853717-63eecb32ac23d1ee072087cb | 123GO!
 643054b1fc3be59477853717-63f0ca427b78030ed9990309 | CombaTV
 643054b1fc3be59477853717-63f914bffe2c3d32e1a7929f | GLORY Kickboxing
 643054b1fc3be59477853717-640205c68ecb41f2d89d5814 | The Ed Sullivan Show
-643054b1fc3be59477853717-6408c82eebb23ab878e8ddbb | Motorsport.tv
 643054b1fc3be59477853717-643f0ecd76de2b4015ae6c01 | PFL MMA
 643054b1fc3be59477853717-64487696af92c31f4a190bc4 | MyTime Movie Network
 643054b1fc3be59477853717-6448ba1baf92c31f4a190c27 | JAIL
+643054b1fc3be59477853717-6449369eb3ff17382cae5801 | Dick Van Dyke
 643054b1fc3be59477853717-644b13a3a1c0a5b2024c8403 | Strongman Champions
 643054b1fc3be59477853717-64694d52f73356567a64ce8c | Corazón
 643054b1fc3be59477853717-6469502df73356567a64ce8e | Clic
@@ -255,17 +244,15 @@
 643054b1fc3be59477853717-64d4e82ac5d4668c9cb7b5df | Novelisima
 643054b1fc3be59477853717-64d79408e5f67b0fab47ff24 | Misterios sin Resolver
 643054b1fc3be59477853717-64f0d9a7c2bc9b9001d46ea6 | Saborear TV
-643054b1fc3be59477853717-64f0dad7c2bc9b9001d46ea8 | Butaca TV
 643054b1fc3be59477853717-64f0db77c2bc9b9001d46eaa | Oro TV
 643054b1fc3be59477853717-650b5bb3f4b2d9579946a500 | Mythical 24/7
-643054b1fc3be59477853717-652875586425fdb1f32d2169 | Court Sports Network
+643054b1fc3be59477853717-652875586425fdb1f32d2169 | World Surf League 24/7
 643054b1fc3be59477853717-654eb862dde2222e8ba551f1 | Stingray Holidayscapes
 643054b1fc3be59477853717-656236cc5dbccec83a87b647 | Andromeda
 643054b1fc3be59477853717-656237c55dbccec83a87b649 | Mutant X
 643054b1fc3be59477853717-65623e0eb7d737841f30a4ff | Cheaters en Español
 643054b1fc3be59477853717-656fa24bdbcce28c3a417415 | The World Poker Tour
 643054b1fc3be59477853717-656fb124cb7e8e6a9bc3f36a | Kidz Bop TV
-643054b1fc3be59477853717-656fb665cb7e8e6a9bc3f36c | NitroCircusTV
 643054b1fc3be59477853717-656fb850cb7e8e6a9bc3f36e | Popular Science
 643054b1fc3be59477853717-656fbbd6dbcce28c3a41741b | Surf Cinema
 643054b1fc3be59477853717-656fbd05cb7e8e6a9bc3f372 | Archivos Forenses
@@ -305,9 +292,8 @@
 643054b1fc3be59477853717-66be944f8711311880995280 | Action Hollywood Movies
 643054b1fc3be59477853717-66bfb17c144c201b8b61c10d | RCM
 643054b1fc3be59477853717-66bfb2e6144c201b8b61c10f | NewsWorld
-643054b1fc3be59477853717-66ccae1a78822c7edc4b6df1 | UFC
+643054b1fc3be59477853717-66ccac69fdf9cd3a568ef135 | UFC
 643054b1fc3be59477853717-66ce3e009ac0b1441b19ca29 | Z Nation
-643054b1fc3be59477853717-66e3b5c1797aba6bb732c5c9 | Xataka
 643054b1fc3be59477853717-66e4cbef38de9754b6b13e90 | Dr. Phil
 643054b1fc3be59477853717-66ea0e029502c5778b828d45 | Drool
 643054b1fc3be59477853717-66ea174c9502c5778b828d47 | Cine Western
@@ -321,16 +307,15 @@
 643054b1fc3be59477853717-67200026769d5ec4bf51d63e | Crimen Y Historia
 643054b1fc3be59477853717-672948f0297d4ea7584a2e13 | The Martha Stewart Channel
 643054b1fc3be59477853717-67294a601055ef3897c73477 | The Emeril Lagasse Channel
-643054b1fc3be59477853717-673675909564224797d5b598 | FLOU Detonación
 643054b1fc3be59477853717-674f6a6cf44561420465f9f3 | Animation+
 643054b1fc3be59477853717-6761f91555e174e95ccc4e4c | Tennis+
 643054b1fc3be59477853717-67642f277c5e3b38af72dcdb | Cirque du Soleil
-643054b1fc3be59477853717-678287e75fe5e4eb1e030c65 | Zee BollyWorld
 643054b1fc3be59477853717-67828ebf37cd7764c53489b3 | DFB Play TV
 643054b1fc3be59477853717-67884bd6d37f2fd48d6220db | Creator Television
 643054b1fc3be59477853717-678fe7959407a53556d3e8eb | FRANCE 24
 643054b1fc3be59477853717-67a1a8ef2358ef4dd5c3018e | Lucha Plus
 643054b1fc3be59477853717-67c247c345ae99120c071586 | GFN Soccer TV
+643054b1fc3be59477853717-67c2496d45ae99120c071588 | Life Down Under
 643054b1fc3be59477853717-67c24d5a45ae99120c07158c | Gata Salvaje
 643054b1fc3be59477853717-67d4afc7f6df733141442cb4 | Z Nation
 643054b1fc3be59477853717-67d9a3d663c5439aeaf61305 | The Bold and the Beautiful
@@ -342,12 +327,10 @@
 643054b1fc3be59477853717-682d0bc9363625fa508aef43 | Nature Time
 643054b1fc3be59477853717-682dfb2ddfc9c452b8f98426 | Homeful
 643054b1fc3be59477853717-682dff1fdfc9c452b8f9842a | K-Baseball TV
-643054b1fc3be59477853717-682e09a8dfc9c452b8f9bd66 | KPOP+
 643054b1fc3be59477853717-684c2379e32026b0c1f53793 | Million Dollar Dream Home
 643054b1fc3be59477853717-685c78a77223639b1ac098a1 | RCN Más
 643054b1fc3be59477853717-685f25c1a7111a932d28f1ac | Todo Drama
 643054b1fc3be59477853717-685f27cca7111a932d28f1ae | Asian Drama
-643054b1fc3be59477853717-686457b84051ba2be659baaa | Historias de Ultratumba
 643054b1fc3be59477853717-68645a8619cc2e163e38d161 | Merli
 643054b1fc3be59477853717-68645c1f1a2f321847ec0391 | Platos Sucios
 643054b1fc3be59477853717-68645f7c1a2f321847ec0393 | Wineman
@@ -357,6 +340,36 @@
 643054b1fc3be59477853717-688b7f47c8caf40b4a62239f | Newsmax en Español
 643054b1fc3be59477853717-688d3402a6fe30698ab42007 | ITV Deportes
 643054b1fc3be59477853717-689e1f0dd84bfb3d54b6756f | Bizaar
+643054b1fc3be59477853717-68a799722895f21006e758e4 | TV5MONDE Info
+643054b1fc3be59477853717-68b74890b5b437bf872b6b72 | TV5MONDE Chefs
+643054b1fc3be59477853717-68b74a235dc5413c905efd62 | TV5MONDE Voyage
+643054b1fc3be59477853717-68b9f334fc12601028c5651e | World Billiards TV
+643054b1fc3be59477853717-68b9f5a3d60e5dd29263c7ac | NEW KFOOD
+643054b1fc3be59477853717-68c98e7460586565cc56baab | Crime Beat TV
+643054b1fc3be59477853717-68caada21fabab6eb2e99331 | Bassmaster
+643054b1fc3be59477853717-68d7f9b53b1f329cea126993 | Dude Perfect
+643054b1fc3be59477853717-68e0371d8bbd79d66c631ab2 | The Wiggles
+643054b1fc3be59477853717-68e9436dda6bb987138625c7 | Metal.Rocks
+643054b1fc3be59477853717-69011e71d320237a5a2d9f63 | INTER 24/7
+643054b1fc3be59477853717-691d5cba3cc0cf773fb6ac67 | FreeTV Banda
+643054b1fc3be59477853717-6922322350fe592fd6d5b7e6 | Sony One | Hits Acción
+643054b1fc3be59477853717-692232ee5cbe620c1f9b6bc5 | Sony One | Hits Comedia
+643054b1fc3be59477853717-6922338150fe592fd6d5b7e8 | Sony One | Series Comedia
+643054b1fc3be59477853717-692234015028288613484a8a | Sony One | Éxitos
+643054b1fc3be59477853717-692235265cbe620c1f9b6bc7 | Sony One | Series Thriller
+643054b1fc3be59477853717-692235eb50fe592fd6d5b7ea | The Blacklist
+643054b1fc3be59477853717-6922366b50fe592fd6d5b7ec | Shark Tank
+643054b1fc3be59477853717-69333216ac5b3f9f53442374 | Baby Einstein
+643054b1fc3be59477853717-693cb1af58076a970420f591 | El Mueble
+643054b1fc3be59477853717-693cbba358076a970420f597 | Cesar's Pack Leader TV
+643054b1fc3be59477853717-695d5d279caacd2e64b7a00c | MOVIESPHERE
+643054b1fc3be59477853717-6970fdabbde579fb71262401 | Bowling TV
+643054b1fc3be59477853717-697144cdbde579fb71262405 | All My Children
+643054b1fc3be59477853717-69814bbff871095eafc65925 | Powernation
+643054b1fc3be59477853717-69a1fe1b0f8d297b3f6ac0f0 | Crímenes Reales
+643054b1fc3be59477853717-69ae4f38e657bab5f7a9b7ec | Bondi Rescue
+643054b1fc3be59477853717-69b164bc87340e48b7b72247 | CNN Headlines International
+643054b1fc3be59477853717-69bb1f002028859eafc637e1 | Legacy
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -371,72 +384,84 @@
 657868a7a620e30008fdbfeb | Embrujadas
 65786abdb3801200084c593a | Homeful
 65786b94cbd0d60008f7e4d9 | Star Trek: The Next Generation
-65786d29dfed030008ce2fa7 | MTV Rock
-65787eab32c1b300089a84d7 | MTV Reggaeton
 65787f2eb228b7000843fa5c | Star Trek: Voyager
 6578808014fbe400086e21bc | Medium
 6578836cdfed030008ce5bdb | Sí quiero ese vestido
 65b91e530d9ab40008340d8d | Al salir de clase
 65bd0f53dc10a40008e68b96 | Pluto TV Gasolina
-65c347ae3a116800078c93c5 | Monster Jam
 65ce480a78df2200131c597b | Pluto TV Psycho
 65cf6ab58145cb0008129ca8 | Pluto TV Series criminales
 65ddec1ef7f0af0008be4b65 | Pluto TV Series Sci-Fi
-65dded6966eec80008947157 | Call the Midwife
+65dded6966eec80008947157 | ¡Llama a la Comadrona!
 65dded9a0d456100081417ae | Primeval
 65f96cd34e01740008ef1c97 | Realmadrid TV
 660c29f80cd4630008f1547c | FIFA+
 662a69daa0a74e00087a1c72 | Pluto TV Telenovelas Clásicas
-664c76520120f40008b81db9 | Los vigilantes de la playa
 664c76d68ea5560008c6c7a4 | Alerta Cobra
 6682bd9b8768aa0008f25be5 | Los misterios de Murdoch
-6686796619311200085310a0 | MTV Flow Latino
-66a0f64dd5125900089dec28 | Heidi y Marco
 66b0dfa1d512590008bfa7fd | Pluto TV Gore &amp; Slasher
-66c45c0de7f5e80008b82005 | CNN Headlines
+66c45c0de7f5e80008b82005 | CNN Headlines International
 66d71c656b63480008cf0427 | Cherif
 66d71f8ee5de930008016f83 | Alice Nevers
 67164414e40c4a00087f450d | MODUS Super Series Darts
-6720e2bddaad7f000872f274 | DFB Play TV
 6745f0643a61d40008a61510 | Rookie Blue
 67517f923a61d40008c451f0 | Historia y Vida
 67517fae5534bb0008187997 | Actualidad 360
-67586a552fb8a100088f7703 | Pluto TV Miniseries
 676e7b4a4bd636000819c6a7 | SensaCine TV x Pluto
 67921b873de7c8cf94233f52 | UFC
-67b4ade18344dd9333978a1f | La Abeja Maya
+67c7249be979b84e78ca43ff | Los Mosqueteros
 680ba8992472a7200a183eb5 | One Piece
+680ba8c3a48b3ead0db701cc | Los caballeros del Zodiaco
 6812206e1b3e3be031a5c363 | Águila Roja
-683456acf59cc6a13212f1c1 | Pluto TV Descubre
-6834570d00b60028d2dfd5f8 | Pluto TV Series Policiacas
-68345769bbc703dfd45a8564 | Pluto TV Tuning &amp; Tattoos
 683457aebbc703dfd45a89eb | Merlí
 683457e5f59cc6a13212fce4 | Lupin
-683458395195c2a60adeca44 | Pluto TV Lifestyle
-6834588b00b60028d2dfe13f | Pluto TV Series Chic
 685a995b460ac82fa504342c | The Good Wife
 685a996c7c4f2ad40cb4f276 | Dragon Ball
+686cd84603ad75cfd132d672 | America's Next Top Model
+686cd8bb9d079f48dbbdfecb | Metal Rocks
+68751a3bfd6704e9d3cc7b3d | Pequeños aventureros de Pluto TV
+68779a09c691b3f0964127c6 | Heidi
+6880aa28164eb4890282e803 | Pluto TV Toons
+688892172928933015abe479 | Barbie &amp; Friends
+6888928eb52fb742416673d2 | Mattel Junior
+68adc3fdd8f7693ae347a63a | Los Gipsy Kings
+68adc697116b783a33f99e6c | Pluto TV Impacto
+68d27949793c71d988ca624c | Los Pitufos
+68d566603d3a9580eb461251 | Paramount Network de Pluto TV
+68de3db35fc0afe85de0b843 | Comedia a lo bestia de Pluto TV
+68e8fd7c3ede4398bc69af93 | Dragon Ball Z
+68e8fe3bcba140ddfe903677 | Monster High
+690dd10a37b131228d76d5b1 | El Mueble
+69148c470155f9b136b5d856 | Pluto TV Snooker 900
+691ddf2a3ae32cf55263476d | Pluto TV Forever Kids
+6964d2179ba4ac18051a18ce | Léo Mattéï: Brigada de protección
+696e02423b9ce349c90edef9 | Rally TV
+6995daa579545c21a10e84de | Pluto TV Basadas en libros
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
 8.Madrid.es | 8 Madrid
 8madrid TV | 8madrid TV
-A3Cine.(Atrescine).es | A3Cine (Atrescine)
-ACL Cornhole TV | ACL Cornhole TV
+A3CINE.es | A3CINE
+AM.es | AM
 AMC Anime | AMC Anime
 AMC Break | AMC Break
 AMC Crime | AMC Crime
 AMC HD | AMC
+AMC Living | AMC Living
+AMC Western | AMC Western
+AMC+ Connect | AMC+ Connect
 AMC.Break.es | AMC Break
 AMC.Crime.es | AMC Crime
 AMC.es | AMC
 ATRESplayer PREMIUM | ATRESplayer PREMIUM
+ATV.es | ATV
 AXN HD | AXN
 AXN Movies HD | AXN Movies
 AXN.Movies.es | AXN Movies
 AXN.es | AXN
+AZ Corazón | AZ Corazón
 Acción (Rakuten TV) | Acción (Rakuten TV)
-Acontra+ | Acontra+
 Acontra+.es | Acontra+
 Al Jazeera English HD | Al Jazeera English
 Al.Jazeera.English.es | Al Jazeera English
@@ -450,6 +475,7 @@ Anime Visión Classics | Anime Visión Classics
 Anime Visión | Anime Visión
 Antena 3 HD | Antena 3
 Antena Motor | Antena Motor
+Antena.3.Internacional.es | Antena 3 Internacional
 Antena.3.es | Antena 3
 Aquí no hay quién viva | Aquí no hay quién viva
 Aragón TV Internacional | Aragón TV Internacional
@@ -458,13 +484,22 @@ Aragón.TV.es | Aragón TV
 Arirang TV HD | Arirang TV
 Atrescine | Atrescine
 Atreseries | Atreseries
+Atreseries.Internacional.es | Atreseries Internacional
 Atreseries.es | Atreseries
-BBC Drama | BBC Drama
+BBC Earth | BBC Earth
 BBC Food | BBC Food
 BBC History | BBC History
+BBC Lifestyle | BBC Lifestyle
+BBC Series | BBC Series
 BBC Top Gear | BBC Top Gear
 BBC World News Europe HD | BBC World News Europe
+BBC.Earth.es | BBC Earth
+BBC.Food.es | BBC Food
+BBC.History.es | BBC History
+BBC.Lifestyle.es | BBC Lifestyle
 BBC.News.es | BBC News
+BBC.Series.es | BBC Series
+BBC.Top.Gear.es | BBC Top Gear
 BOM Cine | BOM Cine
 BOM.Cine.es | BOM Cine
 Baby TV | Baby TV
@@ -476,16 +511,13 @@ BeIN.Sports.es | BeIN Sports
 Betevé | Betevé
 Betevé.es | Betevé
 Betis TV | Betis TV
-Billiard TV | Billiard TV
 Bloomberg TV Europe | Bloomberg TV Europe
 Bloomberg.es | Bloomberg
 Boing | Boing
 Boing.es | Boing
 Bon Dia TV | Bon Dia TV
 Bon.Dia.TV.es | Bon Dia TV
-Boxing TV | Boxing TV
 Buen.viaje.es | Buen viaje
-BuenViaje | BuenViaje
 C.Hollywood.es | C Hollywood
 CGTN Documentary | CGTN Documentary
 CGTN Español | CGTN Español
@@ -505,6 +537,8 @@ Canal Blau | Canal Blau
 Canal Cocina | Canal Cocina
 Canal Extremadura SAT | Canal Extremadura SAT
 Canal Extremadura | Canal Extremadura
+Canal FlixOlé 1 | Canal FlixOlé 1
+Canal FlixOlé 2 | Canal FlixOlé 2
 Canal Hollywood HD | Canal Hollywood
 Canal Reus TV | Canal Reus TV
 Canal Sur Andalucía | Canal Sur Andalucía
@@ -521,6 +555,8 @@ Canal.7.Televalencia.es | Canal 7 Televalencia
 Canal.Cocina.es | Canal Cocina
 Canal.Extremadura.Sat.es | Canal Extremadura Sat
 Canal.Extremadura.TV.es | Canal Extremadura TV
+Canal.FlixOlé.1.es | Canal FlixOlé 1
+Canal.FlixOlé.2.es | Canal FlixOlé 2
 Canal.Fútbol.Replay.es | Canal Fútbol Replay
 Canal.Parlamento.es | Canal Parlamento
 Canal.Sur.2.es | Canal Sur 2
@@ -536,6 +572,7 @@ Cazavisión | Cazavisión
 Cazavisión.es | Cazavisión
 Cine Español (Rakuten TV) | Cine Español (Rakuten TV)
 Cine Feel Good | Cine Feel Good
+Cine Friki | Cine Friki
 Cine.Feel.Good.es | Cine Feel Good
 Cine.Friki.es | Cine Friki
 Cine.Western.es | Cine Western
@@ -544,9 +581,9 @@ Cines.Verdi.TV.es | Cines Verdi TV
 Clan | Clan
 Clan.es | Clan
 Classica HD | Classica
-Club MTV | Club MTV
 Club.MTV.International.es | Club MTV International
 Clásicos atresplayer | Clásicos atresplayer
+Cocina | Cocina
 Comedia atresplayer | Comedia atresplayer
 Comedias (Rakuten TV) | Comedias (Rakuten TV)
 Comedy Central HD | Comedy Central
@@ -555,6 +592,7 @@ Concert Channel | Concert Channel
 Cosmo HD | Cosmo
 Cosmopolitan.es | Cosmopolitan
 Crimen (Rakuten TV) | Crimen (Rakuten TV)
+Crimen&amp;Historia | Crimen&amp;Historia
 Cuatro HD | Cuatro
 Cuatro.es | Cuatro
 Cubavisión Internacional HD | Cubavisión Internacional
@@ -569,6 +607,9 @@ DAZN 2 BAR | DAZN 2 BAR
 DAZN 2 HD | DAZN 2
 DAZN 3 HD | DAZN 3
 DAZN 4 HD | DAZN 4
+DAZN Baloncesto 2 | DAZN Baloncesto 2
+DAZN Baloncesto 3 | DAZN Baloncesto 3
+DAZN Baloncesto | DAZN Baloncesto
 DAZN Bundesliga 2 | DAZN Bundesliga 2
 DAZN Bundesliga 3 | DAZN Bundesliga 3
 DAZN Bundesliga 4 | DAZN Bundesliga 4
@@ -576,6 +617,8 @@ DAZN Bundesliga 5 | DAZN Bundesliga 5
 DAZN Bundesliga | DAZN Bundesliga
 DAZN F1 BAR | DAZN F1 BAR
 DAZN F1 HD | DAZN F1
+DAZN LALIGA EA SPORTS 2 | DAZN LALIGA EA SPORTS 2
+DAZN LALIGA EA SPORTS | DAZN LALIGA EA SPORTS
 DAZN LaLiga 2 HD | DAZN LaLiga 2
 DAZN LaLiga 3 | DAZN LaLiga 3
 DAZN LaLiga 4 | DAZN LaLiga 4
@@ -583,13 +626,17 @@ DAZN LaLiga 5 | DAZN LaLiga 5
 DAZN LaLiga HD | DAZN LaLiga
 DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F 3 | DAZN Liga F 3
-DAZN Liga F 4 | DAZN Liga F 4
-DAZN Liga F 5 | DAZN Liga F 5
-DAZN Liga F 6 | DAZN Liga F 6
-DAZN Liga F 7 | DAZN Liga F 7
-DAZN Liga F 8 | DAZN Liga F 8
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
+DAZN National League 2 | DAZN National League 2
+DAZN National League 3 | DAZN National League 3
+DAZN National League 4 | DAZN National League 4
+DAZN National League 5 | DAZN National League 5
+DAZN National League 6 | DAZN National League 6
+DAZN National League 7 | DAZN National League 7
+DAZN National League 8 | DAZN National League 8
+DAZN National League 9 | DAZN National League 9
+DAZN National League | DAZN National League
 DAZN Premier League 2 | DAZN Premier League 2
 DAZN Premier League 3 | DAZN Premier League 3
 DAZN Premier League 4 | DAZN Premier League 4
@@ -605,23 +652,16 @@ DAZN.F1.es | DAZN F1
 DAZN.LALIGA.2.es | DAZN LALIGA 2
 DAZN.LALIGA.es | DAZN LALIGA
 DBike | DBike
-DE | ARTE | DE | ARTE
+DE | Auto Motor Sport Ch. | DE | Auto Motor Sport Ch.
 DE | DAZN 1 | DE | DAZN 1
 DE | DAZN 2 | DE | DAZN 2
 DE | DAZN | DE | DAZN
-DE | Das Erste | DE | Das Erste
 DE | Eurosport 1 | DE | Eurosport 1
 DE | Eurosport 2 | DE | Eurosport 2
-DE | KiKA | DE | KiKA
-DE | MOTORVISION.TV | DE | MOTORVISION.TV
-DE | MTV | DE | MTV
-DE | QVC | DE | QVC
-DE | RTL | DE | RTL
+DE | More than Sports TV | DE | More than Sports TV
+DE | Motorvision TV | DE | Motorvision TV
+DE | Motorvision+ | DE | Motorvision+
 DE | Rally TV | DE | Rally TV
-DE | Red Bull TV | DE | Red Bull TV
-DE | SPORT1+ | DE | SPORT1+
-DE | SPORTDIGITAL FUSSBALL | DE | SPORTDIGITAL FUSSBALL
-DE | Servus TV Motorsport | DE | Servus TV Motorsport
 DE | Sky Sport 1 | DE | Sky Sport 1
 DE | Sky Sport 10 | DE | Sky Sport 10
 DE | Sky Sport 2 | DE | Sky Sport 2
@@ -632,6 +672,14 @@ DE | Sky Sport 6 | DE | Sky Sport 6
 DE | Sky Sport 7 | DE | Sky Sport 7
 DE | Sky Sport 8 | DE | Sky Sport 8
 DE | Sky Sport 9 | DE | Sky Sport 9
+DE | Sky Sport Austria 1 | DE | Sky Sport Austria 1
+DE | Sky Sport Austria 2 | DE | Sky Sport Austria 2
+DE | Sky Sport Austria 3 | DE | Sky Sport Austria 3
+DE | Sky Sport Austria 4 | DE | Sky Sport Austria 4
+DE | Sky Sport Austria 5 | DE | Sky Sport Austria 5
+DE | Sky Sport Austria 6 | DE | Sky Sport Austria 6
+DE | Sky Sport Austria 7 | DE | Sky Sport Austria 7
+DE | Sky Sport Austria 8 | DE | Sky Sport Austria 8
 DE | Sky Sport Austria | DE | Sky Sport Austria
 DE | Sky Sport Bundesliga 1 | DE | Sky Sport Bundesliga 1
 DE | Sky Sport Bundesliga 10 | DE | Sky Sport Bundesliga 10
@@ -652,8 +700,10 @@ DE | Sky Sport Premier League | DE | Sky Sport Premier League
 DE | Sky Sport Tennis | DE | Sky Sport Tennis
 DE | Sky Sport Top Event | DE | Sky Sport Top Event
 DE | TRT Türk HD | DE | TRT Türk
-DE | ZDF | DE | ZDF
-DE | eSPORTS1 | DE | eSPORTS1
+DE | eSports One | DE | eSports One
+DE | sport1 | DE | sport1
+DE | sport1+ | DE | sport1+
+DE | sportdigital | DE | sportdigital
 DKISS | DKISS
 DMAX | DMAX
 DMAX.es | DMAX
@@ -664,7 +714,6 @@ DSPORTS+ | DSPORTS+
 Dark Rojo | Dark Rojo
 Dark.es | Dark
 DePelícula | DePelícula
-Decasa | Decasa
 Decasa.es | Decasa
 DejateTV | DejateTV
 Deutsche W | Deutsche W
@@ -677,16 +726,18 @@ Disney Junior | Disney Junior
 Disney.Channel.+1.es | Disney Channel +1
 Disney.Channel.es | Disney Channel
 Disney.Junior.es | Disney Junior
+Distrito TV | Distrito TV
+Distrito.TV.es | Distrito TV
 Divinity | Divinity
 Divinity.es | Divinity
-Djazz | Djazz
 Djazz.es | Djazz
 Dkiss.es | Dkiss
 Dramas (Rakuten TV) | Dramas (Rakuten TV)
 Dreamworks HD | Dreamworks
-EITB Basque | EITB Basque
+Dreamworks.es | Dreamworks
 EITB.BASQUE.es | EITB BASQUE
 ES1000001EF | SMTOWN
+ES1100001MT | Top Barça
 ES12000024R | Historia y Vida
 ES1300001QC | DW
 ES1400001T8 | Beyblade
@@ -694,10 +745,16 @@ ES1400002CJ | CURIOSITY Now
 ES1600002QL | La Fiebre del Jade
 ES1600003FF | Naturaleza
 ES1600004JV | Todo Crimen
-ES1600005T1 | Rally.TV FAST+
 ES1700003C6 | Coreano by CJ ENM
+ES170000433 | NEW K-MOVIES
+ES1700005ME | NEW KPOP
+ES17000065P | BABY SHARK TV
 ES20000065W | Tennis+
+ES200040YF | Series K DRAMA
+ES200041FT | Series K COMEDIA ROMÁNTICA
 ES2200001SF | Fireplace Vibes
+ES2200003DA | Runtime Clásicos
+ES2300004XW | Al Jazeera
 ES2300005G7 | Cine Western
 ES24000028L | Ice Pilots
 ES2500001F9 | Cool Summer Channel
@@ -715,8 +772,10 @@ ES2600012C9 | Películas Románticas - Rakuten TV
 ES2600013H4 | Películas Top - Rakuten TV
 ES2700002YP | Top Gear
 ES2800001G7 | Planeta de Cine
-ES2900001DQ | BBC Drama
+ES2800002MM | Mayday: Catástrofe Aérea
+ES2900001DQ | BBC Series
 ES2900002JG | Los Gipsy Kings - Rakuten TV
+ES2900003S3 | Piel Salvaje
 ES3000008O8 | Cine Español - Rakuten TV
 ES30000091V | MyPadel TV
 ES30000145 | Sony One Series Comedia
@@ -728,34 +787,52 @@ ES300006QJ | Sony One Hits Acción
 ES300007KS | Sony One Hits Comedia
 ES3000288I | Anime Visión Classics
 ES300029LP | Anime Visión
-ES300031A5 | GOL CLASSICS
-ES300032LR | Gaming Central League of Legends
 ES300033TI | Viajes &amp; Sabores
 ES300034BT | Actualidad 360
+ES31000013F | INTER 24/7
 ES3200001F1 | BBC Earth
 ES32000027M | CLIPS don't lie
 ES3200003OC | DFB Play TV
 ES3300001MC | Crimenes Reales
 ES33000025N | Crimen &amp; Historia
-ES33000036Q | RTVE Docs
+ES33000036Q | RTVE La Moderna
 ES3300004P0 | RTVE Saber y Ganar
 ES33000058B | RTVE Somos Cine
-ES3300006QL | RTVE Época
-ES33000079W | RTVE Crimen
+ES3300006QL | RTVE La Promesa
+ES33000079W | RTVE Cocina
 ES340000152 | Video Game Heroes
 ES3400002PY | Surf Channel
 ES34000039I | CNN en Español
 ES3400004SS | Sky News International
+ES3600001Y7 | Rebelde
+ES3800001V1 | Red Bull TV
+ES3800002V5 | Dhar Mann TV
 ES3900001QG | K-POP by CJ ENM
 ES400002P5 | Cuéntame cómo pasó
+ES4100001XD | Mark Rober TV
+ES4100002WB | Thrillers - Rakuten TV
+ES4200001MR | Moviesphere
+ES42000022E | Xataka
+ES4300001K6 | Chicas Guapas TV
+ES4300004JP | Rugby Challenge
+ES4300006I4 | El Mueble
+ES4400001N3 | Las 3 Mellizas
+ES4400002LI | Mi Casa
+ES440000327 | Todo Drama
+ES4400005EJ | Cry Babies
+ES45000012U | Alerta Cobra
 ES4700001VS | 2M
 ES4800002OZ | Caillou
 ES5000001CS | LooLoo Kids
 ES500002NY | H2O &amp; Friends
 ES500004NO | Sci-Fi - Rakuten TV
 ES500005BP | Águila Roja
+ES500008IU | FreeTV Clásico
+ES500009ZJ | FreeTV Estelar
+ES51000017V | Rally.TV FAST+
 ES700004C8 | Runtime Familia
 ES7000056Z | Yu-Gi-Oh!
+ES70000710 | Ubeat Lite
 ES900001SH | Mr Bean Animated
 ES900002ZD | Todo Pasión
 ESAJ3800001KT | Pluto TV Cine Estelar
@@ -767,7 +844,6 @@ ESAJ3800006TT | MTV Cribs
 ESAJ3800007PC | Pluto TV Cocina
 ESAJ4500016BH | The Pet Collective
 ESAJ4500023Y5 | People Are Awesome
-ESBA140000504 | Stormcast Novelas
 ESBA1400006NP | FailArmy
 ESBA1500001C4 | Deluxe Lounge HD
 ESBA2200004G5 | MyTime Movie Network
@@ -779,13 +855,10 @@ ESBA3300028OE | iCarly
 ESBA3300029UG | El Comisario
 ESBA33000324U | Rugrats
 ESBA3300033PL | Encantador de Perros
-ESBA3300039ZX | FreeTV Estelar
 ESBA330004121 | WildEarth
 ESBA3300042Y6 | Trace Latina
 ESBA3300043M0 | Trace Urban
 ESBC1400001L8 | El Confidencial
-ESBC1700001QI | Vive Kanal D Drama
-ESBC1700002IM | Televisión Consciente
 ESBC170000388 | WaterBear
 ESBC1700004PX | Trailers
 ESBC2100001IU | Vevo Pop
@@ -813,13 +886,11 @@ ESBC4700001GR | duckTV
 ESBC4700002TD | Love the Planet
 ESBC4700003RJ | Teen Vee
 ESBD1100001PQ | FRANCE 24 FAST
-ESBD1300001EP | Baywatch – Los Vigilantes de la Playa
 ESBD130000205 | Pitufo TV
 ESBD1300003VN | Corazón
 ESBD1300004IG | Azteca Internacional
 ESBD1400003QN | Royalworld - Nobleza y Dinastias
-ESBD190000137 | CNN Headlines
-ESBD230000143 | FreeTV Clásico
+ESBD190000137 | CNN Headlines International
 ESBD230000289 | Vevo Retro
 ESBD2300003S5 | Rabbids : La invasion
 ESBD2300004Y7 | Sol Música
@@ -832,6 +903,7 @@ ESBD3400001AA | Negocios TV
 ESBD3600001Q1 | La Liga Inside
 ESBD36000026Z | CNBC
 ESBD3700001S0 | DATELINE 24/7
+ESBD4100001DU | K-Drama+
 ESBD5100001G0 | SuperToons TV
 ESBD800001RJ | Cine Friki
 ESBD80000288 | Runtime Acción
@@ -847,13 +919,9 @@ ETB.1.HD.es | ETB 1 HD
 ETB.2.es | ETB 2
 ETB.3.es | ETB 3
 ETB.4.es | ETB 4
-ETB1 | ETB1
 ETB1.es | ETB1
-ETB2 | ETB2
 ETB2.es | ETB2
-ETB3 | ETB3
 ETB3.es | ETB3
-ETB4 | ETB4
 ETB4.es | ETB4
 ETV | ETV
 EWTN | EWTN
@@ -868,12 +936,14 @@ El.Garage.TV.es | El Garage TV
 El.País.es | El País
 El.Toro.TV.es | El Toro TV
 El.Trece.Internacional.es | El Trece Internacional
+Elche 7 TV | Elche 7 TV
+Elche.7.TV.es | Elche 7 TV
 EmpordaTV | EmpordaTV
-En Familia (Rakuten TV) | En Familia (Rakuten TV)
 En.familia.es | En familia
 Energy | Energy
 Energy.es | Energy
 Equipo de investigación | Equipo de investigación
+EsTuTele | EsTuTele
 Escapa TV | Escapa TV
 Esport 3 | Esport 3
 Esport.3.es | Esport 3
@@ -886,6 +956,8 @@ Eurosport 2 | Eurosport 2
 Eurosport 4K | Eurosport 4K
 Eurosport.2.es | Eurosport 2
 Eurosport.es | Eurosport
+Eventos.3.es | Eventos 3
+Eventos.4.es | Eventos 4
 Extreme Channel | Extreme Channel
 Extreme.Sports.es | Extreme Sports
 FDF.Telecinco.es | FDF Telecinco
@@ -893,45 +965,36 @@ FIFA+ | FIFA+
 FOX SPORTS 2 | FOX SPORTS 2
 FOX SPORTS 3 | FOX SPORTS 3
 FOX SPORTS | FOX SPORTS
-FR | ARTE | FR | ARTE
-FR | CANAL+ Premier League | FR | CANAL+ Premier League
-FR | CANAL+ Sport | FR | CANAL+ Sport
-FR | DAZN 1 | FR | DAZN 1
-FR | DAZN 2 | FR | DAZN 2
-FR | DAZN 3 | FR | DAZN 3
-FR | DAZN 4 | FR | DAZN 4
-FR | DAZN 5 | FR | DAZN 5
-FR | Eurosport 1 | FR | Eurosport 1
-FR | Eurosport 2 | FR | Eurosport 2
-FR | Eurosport 360 1 | FR | Eurosport 360 1
-FR | Eurosport 360 2 | FR | Eurosport 360 2
-FR | Eurosport 360 3 | FR | Eurosport 360 3
-FR | Eurosport 360 4 | FR | Eurosport 360 4
-FR | Eurosport 360 5 | FR | Eurosport 360 5
-FR | Eurosport 360 6 | FR | Eurosport 360 6
-FR | Eurosport 360 7 | FR | Eurosport 360 7
-FR | Eurosport 360 8 | FR | Eurosport 360 8
-FR | FRANCE 24 | FR | FRANCE 24
-FR | I24 NEWS | FR | I24 NEWS
-FR | INFOSPORT+ | FR | INFOSPORT+
-FR | L`ÉQUIPE | FR | L`ÉQUIPE
-FR | MTV | FR | MTV
-FR | beIN SPORTS 1 | FR | beIN SPORTS 1
-FR | beIN SPORTS 2 | FR | beIN SPORTS 2
-FR | beIN SPORTS 3 | FR | beIN SPORTS 3
-FR | beIN SPORTS MAX 10 | FR | beIN SPORTS MAX 10
-FR | beIN SPORTS MAX 4 | FR | beIN SPORTS MAX 4
-FR | beIN SPORTS MAX 5 | FR | beIN SPORTS MAX 5
-FR | beIN SPORTS MAX 6 | FR | beIN SPORTS MAX 6
-FR | beIN SPORTS MAX 7 | FR | beIN SPORTS MAX 7
-FR | beIN SPORTS MAX 8 | FR | beIN SPORTS MAX 8
-FR | beIN SPORTS MAX 9 | FR | beIN SPORTS MAX 9
+FR · CANAL+ Sport 360 | FR · CANAL+ Sport 360
+FR · CANAL+ Sport | FR · CANAL+ Sport
+FR · DAZN | FR · DAZN
+FR · Eurosport 1 | FR · Eurosport 1
+FR · Eurosport 2 | FR · Eurosport 2
+FR · Eurosport 3 | FR · Eurosport 3
+FR · Eurosport 4 | FR · Eurosport 4
+FR · Eurosport 5 | FR · Eurosport 5
+FR · Eurosport 6 | FR · Eurosport 6
+FR · Eurosport 7 | FR · Eurosport 7
+FR · Eurosport 8 | FR · Eurosport 8
+FR · Eurosport 9 | FR · Eurosport 9
+FR · Infosport+ | FR · Infosport+
+FR · L’Equipe | FR · L’Equipe
+FR · Premiere Futebol Clube | FR · Premiere Futebol Clube
+FR · beIN SPORTS 1 | FR · beIN SPORTS 1
+FR · beIN SPORTS 2 | FR · beIN SPORTS 2
+FR · beIN SPORTS 3 | FR · beIN SPORTS 3
+FR · beIN SPORTS MAX 10 | FR · beIN SPORTS MAX 10
+FR · beIN SPORTS MAX 4 | FR · beIN SPORTS MAX 4
+FR · beIN SPORTS MAX 5 | FR · beIN SPORTS MAX 5
+FR · beIN SPORTS MAX 6 | FR · beIN SPORTS MAX 6
+FR · beIN SPORTS MAX 7 | FR · beIN SPORTS MAX 7
+FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
+FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
-Festival 4K | Festival 4K
 Fight Box HD | Fight Box
-Fight Sports | Fight Sports
 Fight Time | Fight Time
 FightSports | FightSports
 Flamenco Auditorio | Flamenco Auditorio
@@ -942,6 +1005,7 @@ France 2 | France 2
 France 24 (en Francais) | France 24 (en Francais)
 France 5 | France 5
 France.24.es | France 24
+GCM | GCM
 GOL | GOL
 GOL.PLAY.es | GOL PLAY
 Galicia.TV.es | Galicia TV
@@ -965,6 +1029,7 @@ Hits.por.M+.es | Hits por M+
 Hollywood.+1.es | Hollywood +1
 Hollywood.es | Hollywood
 Horse TV | Horse TV
+Huelva TV | Huelva TV
 IB3 TV Illes Balears | IB3 TV Illes Balears
 Iberalia TV | Iberalia TV
 Iberalia caza | Iberalia caza
@@ -983,6 +1048,9 @@ Kidz | Kidz
 LALIGA Inside | LALIGA Inside
 LALIGA.Inside.es | LALIGA Inside
 LALIGA.TV.BAR.es | LALIGA TV BAR
+LALIGA.TV.HYPERMOTION.2.es | LALIGA TV HYPERMOTION 2
+LALIGA.TV.HYPERMOTION.3.es | LALIGA TV HYPERMOTION 3
+LALIGA.TV.HYPERMOTION.es | LALIGA TV HYPERMOTION
 La 1 Canarias | La 1 Canarias
 La 1 Cataluña | La 1 Cataluña
 La 1 HD | La 1
@@ -1012,6 +1080,7 @@ La 8 Soria | La 8 Soria
 La 8 Valladolid | La 8 Valladolid
 La 8 Zamora | La 8 Zamora
 La 8 Ávila | La 8 Ávila
+La Moderna | La Moderna
 La Ocho Mediterráneo | La Ocho Mediterráneo
 La Otra | La Otra
 La Promesa | La Promesa
@@ -1037,7 +1106,16 @@ Levante TV | Levante TV
 Levante.TV.es | Levante TV
 Libertad Digital TV | Libertad Digital TV
 Libertad.Digital.TV.es | Libertad Digital TV
+Liga de Campeones BAR 10 | Liga de Campeones BAR 10
+Liga de Campeones BAR 11 | Liga de Campeones BAR 11
+Liga de Campeones BAR 12 | Liga de Campeones BAR 12
 Liga de Campeones BAR 2 | Liga de Campeones BAR 2
+Liga de Campeones BAR 3 | Liga de Campeones BAR 3
+Liga de Campeones BAR 4 | Liga de Campeones BAR 4
+Liga de Campeones BAR 5 | Liga de Campeones BAR 5
+Liga de Campeones BAR 6 | Liga de Campeones BAR 6
+Liga de Campeones BAR 8 | Liga de Campeones BAR 8
+Liga de Campeones BAR 9 | Liga de Campeones BAR 9
 Lleida TV | Lleida TV
 Lolly Kids | Lolly Kids
 Los Conciertos de Radio 3 | Los Conciertos de Radio 3
@@ -1046,10 +1124,10 @@ Love the Planet | Love the Planet
 Love.The.Planet.es | Love The Planet
 Love.Wine.es | Love Wine
 M+ Acción HD | M+ Acción
+M+ Cero | M+ Cero
 M+ Cine Español | M+ Cine Español
 M+ Clásicos HD | M+ Clásicos
 M+ Comedia HD | M+ Comedia
-M+ Cómic | M+ Cómic
 M+ Deportes 2 HD | M+ Deportes 2
 M+ Deportes 3 | M+ Deportes 3
 M+ Deportes 4 | M+ Deportes 4
@@ -1060,7 +1138,6 @@ M+ Deportes 8 | M+ Deportes 8
 M+ Deportes HD | M+ Deportes
 M+ Documentales HD | M+ Documentales
 M+ Drama HD | M+ Drama
-M+ Ellas Vamos HD | M+ Ellas Vamos
 M+ Estrenos HD | M+ Estrenos
 M+ Golf 2 HD | M+ Golf 2
 M+ Golf HD | M+ Golf
@@ -1074,17 +1151,34 @@ M+ LaLiga 5 | M+ LaLiga 5
 M+ LaLiga 6 | M+ LaLiga 6
 M+ LaLiga HD | M+ LaLiga
 M+ LaLiga HDR | M+ LaLiga HDR
+M+ Liga de Campeones 10 | M+ Liga de Campeones 10
+M+ Liga de Campeones 11 | M+ Liga de Campeones 11
+M+ Liga de Campeones 12 | M+ Liga de Campeones 12
+M+ Liga de Campeones 13 | M+ Liga de Campeones 13
+M+ Liga de Campeones 14 | M+ Liga de Campeones 14
+M+ Liga de Campeones 15 | M+ Liga de Campeones 15
+M+ Liga de Campeones 16 | M+ Liga de Campeones 16
+M+ Liga de Campeones 17 | M+ Liga de Campeones 17
+M+ Liga de Campeones 18 | M+ Liga de Campeones 18
+M+ Liga de Campeones 19 | M+ Liga de Campeones 19
 M+ Liga de Campeones 2 HD | M+ Liga de Campeones 2
 M+ Liga de Campeones 2 HDR | M+ Liga de Campeones 2 HDR
 M+ Liga de Campeones 3 HD | M+ Liga de Campeones 3
 M+ Liga de Campeones 4 | M+ Liga de Campeones 4
 M+ Liga de Campeones 5 | M+ Liga de Campeones 5
+M+ Liga de Campeones 6 | M+ Liga de Campeones 6
+M+ Liga de Campeones 7 | M+ Liga de Campeones 7
+M+ Liga de Campeones 8 | M+ Liga de Campeones 8
+M+ Liga de Campeones 9 | M+ Liga de Campeones 9
 M+ Liga de Campeones HD | M+ Liga de Campeones
 M+ Liga de Campeones HDR | M+ Liga de Campeones HDR
+M+ Los 2000 | M+ Los 2000
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
-M+ Vacaciones | M+ Vacaciones
+M+ Top Comedia Española | M+ Top Comedia Española
+M+ Vamos 2 | M+ Vamos 2
+M+ Vamos 3 | M+ Vamos 3
 M+ Vamos HD | M+ Vamos
 M+ Wimbledon UHD | M+ Wimbledon
 M+.Acción.es | M+ Acción
@@ -1131,13 +1225,9 @@ M+.Los.90.es | M+ Los 90
 M+.Originales.es | M+ Originales
 M+.Vamos.es | M+ Vamos
 M6 | M6
-MTV 00s | MTV 00s
-MTV 80s | MTV 80s
-MTV 90s | MTV 90s
+MMA TV | MMA TV
 MTV Classic | MTV Classic
 MTV España | MTV España
-MTV Hits HD | MTV Hits
-MTV Live | MTV Live
 MTV.80s.es | MTV 80s
 MTV.90s.es | MTV 90s
 MTV.Dance.es | MTV Dance
@@ -1146,7 +1236,6 @@ MTV.Hits.es | MTV Hits
 MTV.Live.es | MTV Live
 MTV.Music.es | MTV Music
 MTV00.es | MTV00
-Matchroom Boxing | Matchroom Boxing
 Mega | Mega
 Mega.es | Mega
 Mezzo Live HD | Mezzo Live
@@ -1155,9 +1244,7 @@ Mezzo.Live.es | Mezzo Live
 Mezzo.es | Mezzo
 Moto ADV | Moto ADV
 Moto.GP.es | Moto GP
-Motorvision TV | Motorvision TV
 Motorvision | Motorvision
-Movistar Plus+ 2 HD | Movistar Plus+ 2
 Movistar Plus+ HD | Movistar Plus+
 Movistar.Acción.es | Movistar Acción
 Movistar.Cine.Español.es | Movistar Cine Español
@@ -1169,11 +1256,16 @@ Movistar.Golf.es | Movistar Golf
 Movistar.Plus+.es | Movistar Plus+
 Movistar.Plus.es | Movistar Plus
 Movistar.Series.es | Movistar Series
+Mr Bean Animated | Mr Bean Animated
 Multicine atresplayer | Multicine atresplayer
 Musicales.por.M+.\n.es | Musicales por M+ \n
 MyPadel TV | MyPadel TV
 MyTime Movie Network (Rakuten TV) | MyTime Movie Network (Rakuten TV)
+NATV.1.es | NATV 1
+NATV.2.es | NATV 2
+NBA TV | NBA TV
 NFL Network | NFL Network
+NHK WORLD | NHK WORLD
 NOW.70's.es | NOW 70's
 NOW.80's.es | NOW 80's
 NOW.Rock.es | NOW Rock
@@ -1185,6 +1277,7 @@ National.Geographic.es | National Geographic
 NatureTime | NatureTime
 NatureTime.es | NatureTime
 Nautical Channel | Nautical Channel
+Navarra TV 2 | Navarra TV 2
 Navarra TV | Navarra TV
 Navarra.Televisión.es | Navarra Televisión
 Negocios TV | Negocios TV
@@ -1194,13 +1287,13 @@ Neox.es | Neox
 Nesting.TV.es | Nesting TV
 Nick JR | Nick JR
 Nick.Junior.es | Nick Junior
-NickMusic | NickMusic
 Nickelodeon HD | Nickelodeon
 Nickelodeon.es | Nickelodeon
 Nova | Nova
 Nova.es | Nova
 Nuestra Tele Internacional | Nuestra Tele Internacional
 Náutica TV | Náutica TV
+Nós Televisión | Nós Televisión
 Odisea | Odisea
 Odisea.es | Odisea
 Oficios.perdidos.es | Oficios perdidos
@@ -1209,8 +1302,7 @@ Onda Algeciras TV | Onda Algeciras TV
 Onda Cádiz TV | Onda Cádiz TV
 Onda.Algeciras.TV.es | Onda Algeciras TV
 Onetoro | Onetoro
-PDC Darts | PDC Darts
-PLL Network | PLL Network
+PRO TV RUMANIA | PRO TV RUMANIA
 PT | Canal 11 | PT | Canal 11
 PT | DAZN 1 | PT | DAZN 1
 PT | DAZN 2 | PT | DAZN 2
@@ -1230,36 +1322,40 @@ PT | Sport TV 3 | PT | Sport TV 3
 PT | Sport TV 4 | PT | Sport TV 4
 PT | Sport TV 5 | PT | Sport TV 5
 PT | Sport TV 6 | PT | Sport TV 6
-PT | Sport TV NBA | PT | Sport TV NBA
+PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
-PTV Granada | PTV Granada
-PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
-Padel 24h | Padel 24h
-Paramount Network | Paramount Network
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
 Penedès TV | Penedès TV
+Pirineus TV | Pirineus TV
 Planeta.de.Cine.es | Planeta de Cine
 Playboy TV | Playboy TV
+Popular TV Cantabria | Popular TV Cantabria
 Popular TV Región de Murcia | Popular TV Región de Murcia
+Popular.TV.Cantabria.es | Popular TV Cantabria
 Popular.TV.Murcia.es | Popular TV Murcia
-PowerSports World | PowerSports World
 Primera Federación | Primera Federación
 Pro TV | Pro TV
 Pro.TV.Internacional.es | Pro TV Internacional
-QWest Mix | QWest Mix
+Punt 3 | Punt 3
+Punt.3.es | Punt 3
+Qello concerts | Qello concerts
 Qello.Concerts.es | Qello Concerts
+Qwest TV | Qwest TV
 Qwest.TV.es | Qwest TV
-REKTV | REKTV
+RNA.es | RNA
+RTP Internacional | RTP Internacional
 Real Madrid TV | Real Madrid TV
 Real.Madrid.TV.es | Real Madrid TV
+Record | Record
 Record.TV.es | Record TV
 Red Bull TV (Rakuten TV) | Red Bull TV (Rakuten TV)
 Red Bull TV | Red Bull TV
+RekTV | RekTV
+Rugby Challenge Spain | Rugby Challenge Spain
 RunTime Clásicos | RunTime Clásicos
 RunTime Familia | RunTime Familia
 Runtime Acción | Runtime Acción
@@ -1285,12 +1381,24 @@ Sky Sports 16 | Sky Sports 16
 SkyShowtime | SkyShowtime
 SkyShowtime.1.es | SkyShowtime 1
 Sol Música | Sol Música
+Solidaria.TV.Argentina.es | Solidaria TV Argentina
+Solidaria.TV.España.es | Solidaria TV España
 Somos Cine | Somos Cine
 Somos | Somos
 Somos.es | Somos
+Sony One Hits Acción | Sony One Hits Acción
+Sony One Hits Comedia | Sony One Hits Comedia
+Sony One Series Comedia | Sony One Series Comedia
+Sony One Series Thriller | Sony One Series Thriller
+Sony One Shark Tank | Sony One Shark Tank
+Sony One The Blacklist | Sony One The Blacklist
+Sony One Éxitos | Sony One Éxitos
+Squirrel 2 | Squirrel 2
 Squirrel TV | Squirrel TV
+Squirrel.2.es | Squirrel 2
 Star TVE HD | Star TVE
 Star.es | Star
+Stingray Classica | Stingray Classica
 Sundance TV | Sundance TV
 Sundance.Channel.es | Sundance Channel
 Super.3.es | Super 3
@@ -1301,6 +1409,7 @@ TAC12 | TAC12
 TCM HD | TCM
 TCM.+1.es | TCM +1
 TCM.es | TCM
+TELEVIGO | TELEVIGO
 TPA Asturias | TPA Asturias
 TPA7 Asturias | TPA7 Asturias
 TPA8 Asturias | TPA8 Asturias
@@ -1319,10 +1428,12 @@ TV Canaria | TV Canaria
 TV Chile | TV Chile
 TV Costa Brava | TV Costa Brava
 TV Girona | TV Girona
+TV Melilla | TV Melilla
 TV Sabadell - Vallès | TV Sabadell - Vallès
 TV.Chile.es | TV Chile
 TV.Colombia.es | TV Colombia
 TV.Mediterráneo.es | TV Mediterráneo
+TV.Melilla.es | TV Melilla
 TV3 Catalunya | TV3 Catalunya
 TV3 | TV3
 TV3.CAT.es | TV3 CAT
@@ -1352,11 +1463,11 @@ Telemadrid.es | Telemadrid
 Telesur HD | Telesur
 Televisió de Badalona | Televisió de Badalona
 Televisió de l'Hospitalet | Televisió de l'Hospitalet
-Televisió del Ripollès | Televisió del Ripollès
 TelevisiónCanaria.es | TelevisiónCanaria
 Ten | Ten
 Ten.es | Ten
 Tennis Channel | Tennis Channel
+Tennis+ | Tennis+
 The.Pet.Collective.es | The Pet Collective
 Thrillers (Rakuten TV) | Thrillers (Rakuten TV)
 Todo Crimen (Rakuten TV) | Todo Crimen (Rakuten TV)
@@ -1366,32 +1477,47 @@ Torolé TV | Torolé TV
 TyC Sports | TyC Sports
 UBEAT | UBEAT
 UCL | UCL
+UK | Premier Sports 1 ROI | UK | Premier Sports 1 ROI
 UK | Premier Sports 1 | UK | Premier Sports 1
 UK | Premier Sports 2 | UK | Premier Sports 2
-UK | Sky Sport Action | UK | Sky Sport Action
-UK | Sky Sport Arena | UK | Sky Sport Arena
-UK | Sky Sport Cricket | UK | Sky Sport Cricket
-UK | Sky Sport F1 | UK | Sky Sport F1
-UK | Sky Sport Football | UK | Sky Sport Football
-UK | Sky Sport Golf | UK | Sky Sport Golf
-UK | Sky Sport Main Event | UK | Sky Sport Main Event
-UK | Sky Sport Mix | UK | Sky Sport Mix
-UK | Sky Sport News | UK | Sky Sport News
-UK | Sky Sport Premier League | UK | Sky Sport Premier League
-UK | Sky Sport Racing | UK | Sky Sport Racing
-UK | Sky Sport Tennis | UK | Sky Sport Tennis
+UK | Sky Sports + | UK | Sky Sports +
+UK | Sky Sports Action | UK | Sky Sports Action
+UK | Sky Sports Box Office | UK | Sky Sports Box Office
+UK | Sky Sports Cricket | UK | Sky Sports Cricket
+UK | Sky Sports F1 | UK | Sky Sports F1
+UK | Sky Sports Football | UK | Sky Sports Football
+UK | Sky Sports Golf | UK | Sky Sports Golf
+UK | Sky Sports Main Event | UK | Sky Sports Main Event
+UK | Sky Sports Mix | UK | Sky Sports Mix
+UK | Sky Sports News | UK | Sky Sports News
+UK | Sky Sports Premier League ROI | UK | Sky Sports Premier League ROI
+UK | Sky Sports Premier League | UK | Sky Sports Premier League
+UK | Sky Sports Racing | UK | Sky Sports Racing
+UK | Sky Sports Tennis | UK | Sky Sports Tennis
 UK | TNT Sports 1 | UK | TNT Sports 1
+UK | TNT Sports 10 | UK | TNT Sports 10
 UK | TNT Sports 2 | UK | TNT Sports 2
 UK | TNT Sports 3 | UK | TNT Sports 3
 UK | TNT Sports 4 | UK | TNT Sports 4
+UK | TNT Sports 5 | UK | TNT Sports 5
+UK | TNT Sports 6 | UK | TNT Sports 6
+UK | TNT Sports 7 | UK | TNT Sports 7
+UK | TNT Sports 8 | UK | TNT Sports 8
+UK | TNT Sports 9 | UK | TNT Sports 9
+UK | TNT Sports Box Office 2 | UK | TNT Sports Box Office 2
+UK | TNT Sports Box Office | UK | TNT Sports Box Office
 UK | TNT Sports Ultimate | UK | TNT Sports Ultimate
+Ubeat lite | Ubeat lite
 Unbeaten | Unbeaten
 VE PLUS TV | VE PLUS TV
 VE.PLUS.TV.es | VE PLUS TV
+VINX | VINX
+VOTV | VOTV
 Vallès Visió | Vallès Visió
 Vamos BAR 2 | Vamos BAR 2
 Vamos BAR | Vamos BAR
 Veo7 | Veo7
+Viajes y Sabores | Viajes y Sabores
 VinTV | VinTV
 Viral.TV.es | Viral TV
 Vivid TV | Vivid TV
@@ -1407,13 +1533,18 @@ ZTV.es | ZTV
 ZUT.TV.es | ZUT TV
 ZenLIFE.es | ZenLIFE
 a-bocados | A bocados
-a-haunting-spa | Historias de ultratumba
+acontra+ | acontra+
 action-rakuten-tv | Películas de Acción
 actualidad-360 | Actualidad 360
 africanews-eng | Africanews
+aftershock-meo-lc | Aftershock Mi Extraña Obsesión/Loca Compulsión
+aguila-roja-rakuten-tv | Águila Roja
+alarm-for-cobra-rakuten-tv | Alerta Cobra - Brigada especial de carreteras
 ana-y-los-7 | Ana y los 7
+animevision | AnimeVisión
+animevision-classics | AnimeVisión Classics
 baby-shark-tv | Baby Shark TV
-bbc-drama-es | BBC Drama
+bbc-series-es | BBC Series
 bbc-top-gear-spa | Top Gear en español
 beIN SPORTS XTRA ñ | beIN SPORTS XTRA ñ
 beIN SPORTS en español | beIN SPORTS en español
@@ -1433,14 +1564,25 @@ corazon | Corazón
 crime-rakuten-tv | Crimen
 crimenes-reales | Crímenes Reales
 curro-jimenez | Curro Jiménez
-dark-matter-es-new | Dark Matter - Horror Visión
+dark-matter-es-new | Dark Matter
+daystar-eng | Daystar TV
+daystar-spa | Daystar Español
 deluxe-lounge-hd | Deluxe Lounge HD
 drama-rakuten-tv | Películas de Drama
-ducktv | ducktv
 el-conquistador | El Conquistador
 el-pais | El País
+etb1 euskera | etb1 euskera
+etb1 | etb1
+etb1ON euskera | etb1ON euskera
+etb1ON | etb1ON
+etb2 euskera | etb2 euskera
+etb2 | etb2
+etb2ON euskera | etb2ON euskera
+etb2ON | etb2ON
 euronews-live-spa | Euronews EN DIRECTO
 family-rakuten-tv | En Familia
+fashion-tv | Fashion TV
+feel-good-tv | Feel Good TV
 feelgood | FeelGood
 fifa-plus-es-new | FIFA+
 filmco | Film&amp;Co
@@ -1458,9 +1600,9 @@ hard-knocks-fighting-championship | Hard Knocks Fighting Championship
 historia-y-vida | Historia y Vida
 hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1 | ¡HOLA! Play
 i24.News.es | i24 News
-iConcerts | iConcerts
 iConcerts.es | iConcerts
 ice-pilots-es | Pilotos del Ártico
+inter-24-7-eng | INTER 24/7
 interalmería TV | interalmería TV
 jade-fever-es | La fiebre del jade
 jukin-fail-army-new | Fail Army
@@ -1468,37 +1610,34 @@ laSexta.es | laSexta
 laliga-inside | LaLiga Inside
 las-tres-mellizas | Las tres mellizas
 lifestyle-rakuten-tv | Estilo y Vida
-merli | Merlí
-motorsport-tv-en | Motorsport.tv
+med-tv | Med.TV
+metal-rocks | Metal.Rocks
 motorvision-tv-spanish | MOTORVISION.TV
 mr-bean-es | Mr. Bean
 mr-bean-live-action | Mr. Bean - Live Action
-mtmad | mtmad
 mypadel-tv | MyPadel TV
 mytime-movie-network-spanish | MyTime Movie Network
 naturaleza | Naturaleza
 nature-time-es | Nature Time
 newsworld-spa | NewsWorld
-now-70s | NOW 70s
-now-80s | NOW 80s
-now-90s00s | NOW 90s00s
-now-rock | NOW Rock
 oficios-perdidos | Oficios Perdidos
 people-are-awesome-new | People Are Awesome
 pfl-mma | PFL MMA
 pitufo-tv | Pitufo TV
 planeta-junior-spa | La abeja Maya
-platos-sucios | Platos Sucios
 pocoyo | Pocoyó
 qello-concerts-by-stingray | Qello Concerts by Stingray
 qwest-tv | Qwest TV
 racer-international | RACER International
 rakuten-viki-es | Rakuten VIKI
+rally-tv-fast | Rally.TV FAST+
 rantaro-ninja-boy-rakuten-tv | Rantaró, el ninja boy
+rebelde | Rebelde
 red-bull-tv-es | Red Bull TV
 revry | Revry
-revry-news | Revry News
 romance-rakuten-tv | Películas Románticas
+rookie-blue-spa | Rookie Blue
+royalworld-es | Royalworld - Nobleza y dinastías
 runtime-crimen | Runtime Crimen
 runtime-familia-1 | Runtime Familia
 sangre-fria | Sangre Fría
@@ -1508,32 +1647,34 @@ stingray-greatest-hits | Stingray Greatest Hits
 stingray-hit-list | Stingray: Hitlist
 stingray-naturescape | Stingray Naturescape
 stingray-remember-the-80-s | Stingray: Remember the 80’s
-stormcast-novelas-spa | Stormcast Novelas
 surf-channel | Surf Channel
-tastemade-sp | Tastemade
 teleSUR.es | teleSUR
+tennis-plus | Tennis+
+that-s-70s | That's 70s
+that-s-80s | That's 80s
+that-s-90s00s | That's 90s00s
+that-s-rock | That's ROCK
 the-design-network-new | The Design Network
-the-guardian-3d0e32e7-aa40-49e5-b9d9-c433151fa61a | The Guardian
 the-pet-collective-new | The Pet Collective
 the-reuters-60 | The Reuters 60
 thriller-rakuten-tv | Thrillers
 tlnovelas | tlnovelas
+todo-comedia | Todo Comedia
 todo-crimen | Todo Crimen
+todo-drama | Todo Drama
 todo-novelas | Todo Novelas
 top-barca-es | TOP Barça
 top-movies-rakuten-tv | Pelis Top
-trailers | Trailers
 travelxp-es | Travelxp
 tvmataró | tvmataró
-vaya-semanita | Vaya semanita
+verdi-tv | Verdi TV
 vevo-latino-es | Vevo Latino
 vevo-pop-es | Vevo Pop
-vive-kanal-d-drama | Vive Kanal D Drama
-vive-kanal-d-drama-0 | Vive Kanal D Drama
 vivir-con-gatos | Vivir con gatos
 vivir-con-perros | Vivir con perros
 weather-spy-new | Weather Spy
 wedotv-amor | wedotv Amor
 yu-gi-oh-new-spa | Yu-Gi-Oh!
+¡HOLA!.TV.es | ¡HOLA! TV
 À Punt | À Punt
 À.Punt.es | À Punt
