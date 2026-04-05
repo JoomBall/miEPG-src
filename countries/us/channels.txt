@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Apr  4 00:24:39 UTC 2026
+# Fecha: Sun Apr  5 00:27:17 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -404,7 +404,6 @@
 691cf0410a78a9ce61ad2121 | America's Funniest Home Videos
 691d1200c2185a44642f5e7c | El Rey Rebel
 69445a9a78c0c45b6c9aa8b9 | TikTok Radio
-695c32671ca20bb8ca7fd8f7 | Star Trek: Enterprise
 695c32e61ca20bb8ca802eb9 | Star Trek: The Next Generation
 696689d13b9ce349c9be3a18 | Stingray DJAZZ
 696997049889f8db34c936c2 | Boruto: Naruto Next Generations
