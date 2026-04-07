@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Apr  7 00:34:06 UTC 2026
+# Fecha: Tue Apr  7 12:24:11 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1643,6 +1643,7 @@ runtime-familia-1 | Runtime Familia
 sangre-fria | Sangre Fría
 sci-fi-rakuten-tv | Sci-Fi
 spanish-cinema-rakuten-tv | Cine Español
+sports-illustrated-tv | Sports Illustrated TV
 stingray-greatest-hits | Stingray Greatest Hits
 stingray-hit-list | Stingray: Hitlist
 stingray-naturescape | Stingray Naturescape
@@ -1674,6 +1675,7 @@ vivir-con-gatos | Vivir con gatos
 vivir-con-perros | Vivir con perros
 weather-spy-new | Weather Spy
 wedotv-amor | wedotv Amor
+world-surf-league | World Surf League 24/7
 yu-gi-oh-new-spa | Yu-Gi-Oh!
 ¡HOLA!.TV.es | ¡HOLA! TV
 À Punt | À Punt
