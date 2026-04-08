@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Apr  7 12:24:11 UTC 2026
+# Fecha: Wed Apr  8 00:34:25 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1326,6 +1326,7 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
+PTV Linares | PTV Linares
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
