@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Apr  8 00:34:16 UTC 2026
+# Fecha: Wed Apr  8 12:23:40 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -110,7 +110,7 @@
 64c37e710e086a0009e824ab | That's 70s
 64edf6eaa7ec0d000812f58c | South Park
 64ff1d92d545e9000877fba4 | A Haunting
-650315163a0d700008bb07f8 | Born to Kill
+650315163a0d700008bb07f8 | Criminal Confessions
 65031534d545e9000881ed10 | British Screen Classics
 6514346fa76507000887d441 | Confess by Nosey
 655b7cbb2c46f300086f0afa | Pluto TV Snooker 900
@@ -370,6 +370,7 @@ Forces.TV.uk | Forces TV
 G!.romance+1.uk | G! romance+1
 GB.News.HD.uk | GB News HD
 GB1000001G0 | SMTOWN
+GB1000002RV | 60 Days in Jail
 GB1100001EB | The Diary Of A CEO
 GB1100002OE | Top Barça
 GB1200002ON | History Hunters
@@ -399,7 +400,7 @@ GB2100004H5 | NatureTime
 GB2100005YU | Rookie Blue
 GB2100006GK | River Monsters
 GB2200001N2 | Fireplace Vibes
-GB2200002CC | GFN Soccer TV
+GB2200002CC | GFN Football
 GB2300002AI | Tipping Point
 GB2300005ML | Al Jazeera
 GB2400006I0 | Tiny House Nation
@@ -466,7 +467,6 @@ GB3700002J0 | Strawberry Shortcake
 GB370000369 | Sonic The Hedgehog
 GB3700005QK | Hoarders
 GB37000067A | Lifetime Movies
-GB3700007OZ | &amp;TV
 GB3700008XB | Cops &amp; Docs
 GB3700009AO | Untold Stories of the ER
 GB3700011PO | Evidence of Evil
@@ -505,6 +505,7 @@ GB60000197 | Sky Arts
 GB60000381 | A New Life In The Sun
 GB700004ET | Pocoyo
 GB700006X7 | Terra Mater WILD
+GB800002OP | &amp;TV
 GB900003KR | Mr Bean Animated
 GB900005KI | Demand Drama
 GBAI5000001A | Pluto TV Motor
