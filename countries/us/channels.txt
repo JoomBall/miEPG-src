@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Apr  8 12:23:40 UTC 2026
+# Fecha: Thu Apr  9 00:28:52 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5417a212ff9fba68282fbf5e | GLORY Kickboxing
@@ -371,7 +371,7 @@
 67ed8f7e443f0671bc2b2368 | Pluto TV Anime Movies
 681109b688b9d85d0938c6ba | TennisChannel 2
 682e43b21295f98347710917 | AWSN
-683df56f5195c2a60a3f5559 | Swerve Sports
+683df56f5195c2a60a3f5559 | Swerve Women’s Sports
 68487fb3f212bedacf5a53e3 | 50 Cent Action
 68509fe882d704acfc5bacd1 | Tastemade Smokehouse
 686c1c873ffa5e0c91a85938 | Cine Crimen
