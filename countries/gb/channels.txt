@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Apr  8 12:23:40 UTC 2026
+# Fecha: Thu Apr  9 00:28:51 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -48,7 +48,7 @@
 5e78faa05a0e200007a6f487 | Full Custom Garage
 5e8db96bccae160007c71eec | Andromeda
 5e9ed47c26ebb000074af566 | Sensing Murder
-5ea18cd42ee5410007e349dc | Crime Investigation
+5ea18cd42ee5410007e349dc | Crime Investigation Australia
 5f27bbe4779de70007a6d1c1 | Ghost Hunters
 5f6b535a278bfe000799484a | Dog The Bounty Hunter
 5f6b54b9e67cf60007d4cef1 | Duck Dynasty
