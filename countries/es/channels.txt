@@ -1,15 +1,7 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Apr  9 00:28:54 UTC 2026
+# Fecha: Thu Apr  9 12:26:38 UTC 2026
 
-/esaguila-roja | Águila Roja
-/esmytime-movie-network | MyTime Movie Network
-/esruntime-accion | Runtime Acción
-/esruntime-clasicos | Runtime Clásicos
-/esruntime-comedia | Runtime Comedia
-/esruntime-romance | Runtime Romance
-/esruntime-series | Runtime Series
-/esruntime-thriller | Runtime Thriller
 1+1 International | 1+1 International
 1-1-travel | 1+1 Travel
 100% Navidad (Rakuten TV) | 100% Navidad (Rakuten TV)
@@ -1543,7 +1535,6 @@ africanews-eng | Africanews
 aftershock-meo-lc | Aftershock Mi Extraña Obsesión/Loca Compulsión
 aguila-roja-rakuten-tv | Águila Roja
 alarm-for-cobra-rakuten-tv | Alerta Cobra - Brigada especial de carreteras
-ana-y-los-7 | Ana y los 7
 animevision | AnimeVisión
 animevision-classics | AnimeVisión Classics
 baby-shark-tv | Baby Shark TV
@@ -1566,7 +1557,6 @@ cops-en-espanol | Cops En Español
 corazon | Corazón
 crime-rakuten-tv | Crimen
 crimenes-reales | Crímenes Reales
-curro-jimenez | Curro Jiménez
 dark-matter-es-new | Dark Matter
 daystar-eng | Daystar TV
 daystar-spa | Daystar Español
@@ -1588,7 +1578,6 @@ fashion-tv | Fashion TV
 feel-good-tv | Feel Good TV
 feelgood | FeelGood
 fifa-plus-es-new | FIFA+
-filmco | Film&amp;Co
 filmrise-forensic-files-spa | Archivos Forenses
 filmrise-sci-fi-es | FilmRise Sci-Fi
 filmrise-unsolved-mysteries-es | Misterios sin resolver
@@ -1635,13 +1624,11 @@ racer-international | RACER International
 rakuten-viki-es | Rakuten VIKI
 rally-tv-fast | Rally.TV FAST+
 rantaro-ninja-boy-rakuten-tv | Rantaró, el ninja boy
-rebelde | Rebelde
 red-bull-tv-es | Red Bull TV
 revry | Revry
 romance-rakuten-tv | Películas Románticas
 rookie-blue-spa | Rookie Blue
 royalworld-es | Royalworld - Nobleza y dinastías
-runtime-crimen | Runtime Crimen
 runtime-familia-1 | Runtime Familia
 sangre-fria | Sangre Fría
 sci-fi-rakuten-tv | Sci-Fi
