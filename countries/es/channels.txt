@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Apr 11 12:14:25 UTC 2026
+# Fecha: Sun Apr 12 00:36:34 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1257,7 +1257,6 @@ Movistar.Golf.es | Movistar Golf
 Movistar.Plus+.es | Movistar Plus+
 Movistar.Plus.es | Movistar Plus
 Movistar.Series.es | Movistar Series
-Mr Bean Animated | Mr Bean Animated
 Multicine atresplayer | Multicine atresplayer
 Musicales.por.M+.\n.es | Musicales por M+ \n
 MyPadel TV | MyPadel TV
@@ -1390,13 +1389,6 @@ Solidaria.TV.España.es | Solidaria TV España
 Somos Cine | Somos Cine
 Somos | Somos
 Somos.es | Somos
-Sony One Hits Acción | Sony One Hits Acción
-Sony One Hits Comedia | Sony One Hits Comedia
-Sony One Series Comedia | Sony One Series Comedia
-Sony One Series Thriller | Sony One Series Thriller
-Sony One Shark Tank | Sony One Shark Tank
-Sony One The Blacklist | Sony One The Blacklist
-Sony One Éxitos | Sony One Éxitos
 Squirrel 2 | Squirrel 2
 Squirrel TV | Squirrel TV
 Squirrel.2.es | Squirrel 2
