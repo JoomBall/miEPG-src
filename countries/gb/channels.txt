@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Apr 13 00:37:00 UTC 2026
+# Fecha: Mon Apr 13 12:27:39 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -16,7 +16,6 @@
 5bd8186d53ed2c6334ea0855 | Pluto TV Reality
 5bd833b41843b56328bac189 | Mythbusters
 5c363c2411c5ca053f198f97 | Pluto TV Comedy Movies
-5c45f5a9d40d58066869fa60 | Ghost Dimension
 5c5c2b9d8002db3c3e0b1c6d | Pluto TV Retro Toons
 5c5c2e9d8002db3c3e0b1c72 | Homes Under Hammer
 5c5c31f2f21b553c1f673fb0 | Pluto TV Cult Films
@@ -29,7 +28,6 @@
 5d4af1803e7983b391d73b13 | Pluto TV History
 5d4af2ffa9506ab29cf38c38 | Pluto TV Paranormal
 5d4bdb635ce813b38639e6a3 | Pluto TV Westerns
-5d765786aad587cf4d0e2bf6 | Inspector Gadget
 5d767790d0438aceb41d03ae | Pluto TV Crime
 5d9492c77ea6f99188738ff1 | Pluto TV Science
 5dbc2f98777f2e0009934ae7 | Pluto TV Space
@@ -67,7 +65,6 @@
 619247c34a270700077c8415 | Pluto TV Sci-fi Series
 61c49f1495f417000731cef0 | Inside Crime
 61c4a09d6c959f0007189c93 | Mystery TV
-620f6c60b994540007ddd74b | Moesha
 620f6f9e36a49b000761f0d5 | Location, location, location
 622f48de713e510007f85808 | Dynasty
 622f498d119b4c000719c0b7 | Judge Judy
@@ -134,7 +131,6 @@
 660c209e19ca71000846cf38 | That's 90s00s
 660e5dc60cd4630008f6198a | JAG
 661cf62d24e1d000087dae0d | COPS
-66275e41cee0d900085fde6e | The Love Boat
 66276091cee0d900085fe053 | Sabrina The Teenage Witch
 6627621d56fc840008e47c90 | Tennis Channel
 664c94e80120f40008b860f0 | POP
@@ -168,7 +164,6 @@
 677fb3432952c1163bf1a539 | Million Dollar Listing
 680bb31c56ff83bcd685d64e | Farscape
 682453731295f98347e92da8 | River Monsters
-68503cfda1e091e16f000625 | 7th Heaven
 68503d1736c9361b191e7d89 | Gunsmoke
 68503d3bc692373f0158c43f | Hawaii Five-O
 68503d585965a2fd49fc2f0b | MacGyver
