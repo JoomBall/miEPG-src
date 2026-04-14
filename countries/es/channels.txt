@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Apr 14 00:38:47 UTC 2026
+# Fecha: Tue Apr 14 12:26:26 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1610,6 +1610,7 @@ inter-24-7-eng | INTER 24/7
 interalmería TV | interalmería TV
 jade-fever-es | La fiebre del jade
 jukin-fail-army-new | Fail Army
+k-drama-plus | K-Drama+
 laSexta.es | laSexta
 laliga-inside | LaLiga Inside
 las-tres-mellizas | Las tres mellizas
