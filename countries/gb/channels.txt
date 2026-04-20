@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Apr 20 00:37:33 UTC 2026
+# Fecha: Mon Apr 20 12:29:53 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -43,20 +43,18 @@
 5ddf930548ff9b00090d5686 | Pluto TV Food
 5e393d5c696b3b0009775c8b | The New Detectives
 5e6f38792075160007d85823 | Hell's Kitchen
-5e78faa05a0e200007a6f487 | Full Custom Garage
 5e8db96bccae160007c71eec | Andromeda
 5e9ed47c26ebb000074af566 | Sensing Murder
-5ea18cd42ee5410007e349dc | Crime Investigation Australia
 5f27bbe4779de70007a6d1c1 | Ghost Hunters
 5f6b535a278bfe000799484a | Dog The Bounty Hunter
 5f6b54b9e67cf60007d4cef1 | Duck Dynasty
+600acaff5f2d6e000745effb | Pluto TV Tough Jobs
 604f8f8622166000071a929f | BET Pluto TV
 60804d85858bd00007c5d591 | Paranormal State
 6081648340382e0007f73d45 | Most Haunted
 6081738748d3200007afb24b | Highway to Heaven
 60817936fd2d70000763d2b2 | Wild at Heart
 60e452730e76f20007598de8 | Homicide Hunter
-60e453641239a700071f53a1 | Dog Whisperer
 611f85396abc84000738417b | Beyond Belief: Fact or Fiction
 612cda102f5f18000705e0bf | Pluto TV Horror
 612f761008a9e50007984ba0 | Pluto TV Animation
@@ -65,7 +63,6 @@
 619247c34a270700077c8415 | Pluto TV Sci-fi Series
 61c49f1495f417000731cef0 | Inside Crime
 61c4a09d6c959f0007189c93 | Mystery TV
-620f6f9e36a49b000761f0d5 | Location, location, location
 622f48de713e510007f85808 | Dynasty
 622f498d119b4c000719c0b7 | Judge Judy
 6231eb3865be650007f59595 | CBS News 24/7
@@ -88,7 +85,6 @@
 639b558c73423d00071ce624 | More TV Crime
 63c1384e829c850007922ca4 | 5 Emergency Rescue
 63d000ef4e83e700086e0d6c | Scorpion
-63d8ed19a9957100086f4d33 | Transformers
 63d91c9c8795f30008678e62 | Nature Time
 63d91cc58795f30008678e9d | Bloodline Detectives
 63d91d2560bc8f0008a225e4 | FIFA+
@@ -126,7 +122,6 @@
 65b14aae0cb1a100087a216e | DAZN Ringside
 65b3895660eb8700089e7f53 | Car Chase
 65c4960d11ced7000812c433 | Geordie Shore
-65f0166566eec80008b96f7e | Pluto TV Wildest Adventures
 660be37e7bcd860008793a6a | Bondi Rescue
 660c209e19ca71000846cf38 | That's 90s00s
 660e5dc60cd4630008f6198a | JAG
@@ -134,7 +129,6 @@
 66276091cee0d900085fe053 | Sabrina The Teenage Witch
 6627621d56fc840008e47c90 | Tennis Channel
 664c94e80120f40008b860f0 | POP
-667ac79c15f35c00088a2409 | Outback Truckers
 667d664815f35c00089489bf | Corner Gas
 6683cd71a1d7ad000866ec6a | Pokémon
 6695294632e25300084bb61b | Sister, Sister
