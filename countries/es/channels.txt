@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Apr 22 00:34:57 UTC 2026
+# Fecha: Wed Apr 22 12:26:36 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -440,6 +440,7 @@
 696e02423b9ce349c90edef9 | Rally TV
 6995daa579545c21a10e84de | Pluto TV Basadas en libros
 69b030eea9b840a456a1eff3 | Dirigido por Alfred Hitchcock
+69b3db5d61e8e298254c7108 | Space Live
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
@@ -747,7 +748,7 @@ ES1300001QC | DW
 ES1400001T8 | Beyblade
 ES1400002CJ | CURIOSITY Now
 ES1600002QL | La Fiebre del Jade
-ES1600003FF | Naturaleza
+ES1600003FF | Planeta Salvaje
 ES1600004JV | Todo Crimen
 ES1700003C6 | Coreano by CJ ENM
 ES170000433 | NEW K-MOVIES
@@ -836,6 +837,7 @@ ES51000017V | Rally.TV FAST+
 ES700004C8 | Runtime Familia
 ES7000056Z | Yu-Gi-Oh!
 ES70000710 | Ubeat Lite
+ES7000088K | Space Live
 ES900001SH | Mr Bean Animated
 ES900002ZD | Todo Pasión
 ESAJ3800001KT | Pluto TV Cine Estelar
