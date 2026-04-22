@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Apr 21 12:27:30 UTC 2026
+# Fecha: Wed Apr 22 00:34:57 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1590,6 +1590,7 @@ flamenco-auditorio | Flamenco Auditorio
 france-24-en | France 24 FAST English
 fuel-tv-new | FUEL TV
 gipsy-kings-rakuten-tv | Los Gipsy Kings
+global-champions-tour-gctv-eng | Global Champions Tour
 glory-kickboxing | GLORY Kickboxing
 grjngo-es | Grjngo
 gusto-tv-new | Gusto TV
