@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Apr 22 00:34:53 UTC 2026
+# Fecha: Wed Apr 22 12:26:36 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -51,7 +51,7 @@ LST | LifeStyle
 MO6 | Movies Drama
 MSN | MS NOW
 MTC | Retro
-MVS | Dwayne 'The Rock' Johnson
+MVS | Full Throttle
 NAP | Australian Played
 NAT | Nature Time
 NHK | NHK World
@@ -79,5 +79,4 @@ TRS | Outlander HD PopUp
 TVS | TVSN
 UFC | Main Event UFC
 UKT | UKTV
-UP2 | Bake Off  POPUP HD
 VH1 | Club
