@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Apr 23 00:40:09 UTC 2026
+# Fecha: Thu Apr 23 12:26:46 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -367,8 +367,10 @@
 643054b1fc3be59477853717-697144cdbde579fb71262405 | All My Children
 643054b1fc3be59477853717-69814bbff871095eafc65925 | Powernation
 643054b1fc3be59477853717-69a1fe1b0f8d297b3f6ac0f0 | Crímenes Reales
+643054b1fc3be59477853717-69a529f77c245b3390e8a4de | Masha and the Bear
 643054b1fc3be59477853717-69ae4f38e657bab5f7a9b7ec | Bondi Rescue
 643054b1fc3be59477853717-69b164bc87340e48b7b72247 | CNN Headlines International
+643054b1fc3be59477853717-69b3481702912c2ce7ad9a3d | Caracol Mix
 643054b1fc3be59477853717-69bb1f002028859eafc637e1 | Legacy
 643054b1fc3be59477853717-69d6d88b1790acff6189dea5 | AddictaTV
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
