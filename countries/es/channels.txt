@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Apr 25 00:36:07 UTC 2026
+# Fecha: Sat Apr 25 12:17:45 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -714,9 +714,12 @@ DKISS | DKISS
 DMAX | DMAX
 DMAX.es | DMAX
 DSPORTS 2 | DSPORTS 2
+DSPORTS 6 | DSPORTS 6
+DSPORTS 7 | DSPORTS 7
+DSPORTS 8 | DSPORTS 8
 DSPORTS Fight | DSPORTS Fight
+DSPORTS Motor | DSPORTS Motor
 DSPORTS | DSPORTS
-DSPORTS+ | DSPORTS+
 Dark Rojo | Dark Rojo
 Dark.es | Dark
 DePelícula | DePelícula
@@ -1530,10 +1533,8 @@ Warner TV HD | Warner TV
 Warner.TV.es | Warner TV
 XTRM | XTRM
 XTRM.es | XTRM
-ZSquirrel TV | ZSquirrel TV
 ZTV.es | ZTV
 ZUT.TV.es | ZUT TV
-ZVeo7 | ZVeo7
 ZenLIFE.es | ZenLIFE
 a-bocados | A bocados
 acontra+ | acontra+
