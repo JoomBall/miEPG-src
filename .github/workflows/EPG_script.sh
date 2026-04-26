@@ -9,6 +9,9 @@ CANALES_FILE="${2:?Falta ruta a canales.txt}"
 OUT_XML="${3:?Falta nombre de salida}"
 ALLOW_EMPTY="${ALLOW_EMPTY:-0}"
 
+# Número máximo de días a incluir en el EPG (hoy + siguientes N-1 días)
+MAX_EPG_DAYS="${MAX_EPG_DAYS:-4}"
+
 echo "[INFO] EPGS_FILE: $EPGS_FILE"
 echo "[INFO] CANALES_FILE: $CANALES_FILE"
 echo "[INFO] OUT_XML: $OUT_XML"
@@ -313,6 +316,50 @@ remove_duplicate_programmes "$OUT_XML" "$TEMP_DEDUP"
 # Reemplazar archivo original con versión sin duplicados
 if [ -f "$TEMP_DEDUP" ]; then
   mv "$TEMP_DEDUP" "$OUT_XML"
+fi
+
+# 5.5) FILTRAR PROGRAMMES - Solo hoy + siguientes (MAX_EPG_DAYS días en total)
+echo "[INFO] Filtrando programmes: solo hoy + $((MAX_EPG_DAYS - 1)) días siguientes (MAX_EPG_DAYS=$MAX_EPG_DAYS)..."
+TEMP_FILTERED="${OUT_XML}.filtered"
+python3 -c "
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta
+import sys
+
+MAX_DAYS = int('$MAX_EPG_DAYS')
+
+try:
+    tree = ET.parse('$OUT_XML')
+    root = tree.getroot()
+
+    today = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
+    cutoff = today + timedelta(days=MAX_DAYS)
+
+    removed = 0
+    kept = 0
+    for prog in list(root.findall('programme')):
+        start_raw = prog.get('start', '')[:14]  # yyyymmddHHMMSS
+        try:
+            start_dt = datetime.strptime(start_raw, '%Y%m%d%H%M%S')
+            if start_dt < today or start_dt >= cutoff:
+                root.remove(prog)
+                removed += 1
+            else:
+                kept += 1
+        except ValueError:
+            kept += 1  # si no se puede parsear, conservar
+
+    tree.write('$TEMP_FILTERED', encoding='utf-8', xml_declaration=True)
+    print(f'[INFO] Filtrado: {kept} programmes conservados, {removed} eliminados (fuera de rango)')
+    print(f'[INFO] Rango: {today.strftime(\"%Y-%m-%d\")} a {(cutoff - timedelta(days=1)).strftime(\"%Y-%m-%d\")}')
+
+except Exception as e:
+    print(f'[ERROR] Error filtrando por fecha: {e}')
+    import shutil
+    shutil.copy('$OUT_XML', '$TEMP_FILTERED')
+"
+if [ -f "$TEMP_FILTERED" ]; then
+  mv "$TEMP_FILTERED" "$OUT_XML"
 fi
 
 # 6) Chequeos de sanidad XML
