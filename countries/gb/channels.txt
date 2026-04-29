@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Apr 29 00:44:03 UTC 2026
+# Fecha: Wed Apr 29 12:37:43 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -461,6 +461,7 @@ GB3700009AO | Untold Stories of the ER
 GB3700011PO | Evidence of Evil
 GB37000128Y | Bloodline Detectives
 GB38000026H | Masha &amp; the Bear
+GB3800003OS | Eurovision Sport
 GB3800007C5 | Space Live
 GB3800009F0 | FIFA+ Women
 GB3900001TM | K-POP by CJ ENM
@@ -588,7 +589,7 @@ GBBD3200001E2 | Earth Touch
 GBBD3200003T6 | Tiny POP
 GBBD3600001NO | CNBC
 GBBD3700001AB | DATELINE 24/7
-GBBD4100006KV | Born to Kill
+GBBD4100006KV | Criminal Confessions
 GBBD4100010H1 | Crime Network
 GBBD4100011RE | K-Drama+
 GBBD4900001RG | Reuters
