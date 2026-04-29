@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Apr 29 00:44:02 UTC 2026
+# Fecha: Wed Apr 29 12:37:47 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1615,6 +1615,7 @@ laSexta.es | laSexta
 laliga-inside | LaLiga Inside
 las-tres-mellizas | Las tres mellizas
 lifestyle-rakuten-tv | Estilo y Vida
+lol-espana | LOL España
 med-tv | Med.TV
 metal-rocks | Metal.Rocks
 motorvision-tv-spanish | MOTORVISION.TV
@@ -1622,7 +1623,6 @@ mr-bean-es | Mr. Bean
 mr-bean-live-action | Mr. Bean - Live Action
 mypadel-tv | MyPadel TV
 mytime-movie-network-spanish | MyTime Movie Network
-naturaleza | Naturaleza
 nature-time-es | Nature Time
 newsworld-spa | NewsWorld
 oficios-perdidos | Oficios Perdidos
@@ -1630,6 +1630,7 @@ people-are-awesome-new | People Are Awesome
 pfl-mma | PFL MMA
 pitufo-tv | Pitufo TV
 planeta-junior-spa | La abeja Maya
+planeta-salvaje | Planeta Salvaje
 pocoyo | Pocoyó
 qello-concerts-by-stingray | Qello Concerts by Stingray
 qwest-tv | Qwest TV
@@ -1665,7 +1666,6 @@ the-pet-collective-new | The Pet Collective
 the-reuters-60 | The Reuters 60
 thriller-rakuten-tv | Thrillers
 tlnovelas | tlnovelas
-todo-comedia | Todo Comedia
 todo-crimen | Todo Crimen
 todo-drama | Todo Drama
 todo-novelas | Todo Novelas
