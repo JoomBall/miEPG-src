@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Apr 30 00:43:42 UTC 2026
+# Fecha: Thu Apr 30 12:37:28 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -412,7 +412,6 @@
 67517fae5534bb0008187997 | Actualidad 360
 676e7b4a4bd636000819c6a7 | SensaCine TV x Pluto
 67921b873de7c8cf94233f52 | UFC
-67c7249be979b84e78ca43ff | Los Mosqueteros
 680ba8992472a7200a183eb5 | One Piece
 680ba8c3a48b3ead0db701cc | Los caballeros del Zodiaco
 6812206e1b3e3be031a5c363 | Águila Roja
@@ -422,7 +421,6 @@
 685a996c7c4f2ad40cb4f276 | Dragon Ball
 686cd84603ad75cfd132d672 | America's Next Top Model
 686cd8bb9d079f48dbbdfecb | Metal Rocks
-68751a3bfd6704e9d3cc7b3d | Pequeños aventureros de Pluto TV
 68779a09c691b3f0964127c6 | Heidi
 6880aa28164eb4890282e803 | Pluto TV Toons
 688892172928933015abe479 | Barbie &amp; Friends
@@ -439,7 +437,6 @@
 691ddf2a3ae32cf55263476d | Pluto TV Forever Kids
 6964d2179ba4ac18051a18ce | Léo Mattéï: Brigada de protección
 696e02423b9ce349c90edef9 | Rally TV
-6995daa579545c21a10e84de | Pluto TV Basadas en libros
 69b030eea9b840a456a1eff3 | Dirigido por Alfred Hitchcock
 69b3db5d61e8e298254c7108 | Space Live
 7.Región.de.Murcia.es | 7 Región de Murcia
@@ -1592,7 +1589,6 @@ filmco | Film&amp;Co
 filmrise-forensic-files-spa | Archivos Forenses
 filmrise-sci-fi-es | FilmRise Sci-Fi
 filmrise-unsolved-mysteries-es | Misterios sin resolver
-flamenco-auditorio | Flamenco Auditorio
 france-24-en | France 24 FAST English
 fuel-tv-new | FUEL TV
 gipsy-kings-rakuten-tv | Los Gipsy Kings
