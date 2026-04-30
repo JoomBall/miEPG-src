@@ -10,7 +10,7 @@ OUT_XML="${3:?Falta nombre de salida}"
 ALLOW_EMPTY="${ALLOW_EMPTY:-0}"
 
 # Número máximo de días a incluir en el EPG (hoy + siguientes N-1 días)
-MAX_EPG_DAYS="${MAX_EPG_DAYS:-4}"
+MAX_EPG_DAYS="${MAX_EPG_DAYS:-7}"
 
 echo "[INFO] EPGS_FILE: $EPGS_FILE"
 echo "[INFO] CANALES_FILE: $CANALES_FILE"
