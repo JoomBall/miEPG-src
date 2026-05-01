@@ -1,9 +1,8 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri May  1 00:46:34 UTC 2026
+# Fecha: Fri May  1 12:25:09 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
-5417a212ff9fba68282fbf5e | GLORY Kickboxing
 5421f71da6af422839419cb3 | CNN HEADLINES
 545943f1c9f133a519bbac92 | MST3K
 5459795fc9f133a519bc0bef | Scripps News
@@ -138,7 +137,6 @@
 5eb301b7395671000780d100 | Little Angel's Playroom
 5ebc8688f3697d00072f7cf8 | Bellator MMA
 5eceb0d4065c240007688ec6 | CBS News Texas
-5ef3958c66ac540007d6e6a7 | Dark Shadows
 5ef3977e5d773400077de284 | Three's Company
 5efbd29e4aa26700076c0d06 | CSI
 5efbd39f8c4ce900075d7698 | Star Trek
@@ -257,7 +255,6 @@
 63a0e33a45264d000850ed7e | Golazo Network
 63b48016d9dd51000828fa37 | POWERNATION
 63d025db4e83e700086eaa96 | LiveNOW from FOX
-63d0269d60bc8f000890facc | FOX Deportes
 6400f731d200410008f9b339 | Discovery Turbo TV
 640a64bd73e013000893d4e0 | PBS Nature
 640a68880e884c0009979cc2 | FOX Weather
