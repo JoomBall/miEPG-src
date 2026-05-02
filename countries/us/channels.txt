@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri May  1 12:25:09 UTC 2026
+# Fecha: Sat May  2 00:42:24 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -182,7 +182,6 @@
 6036e7c385749f00075dbd3b | Pluto TV Game Shows
 603fde9026ecbf0007752c2c | Pluto TV Competition
 604928d54a4f730007ff76bc | CSI en Español
-6049295e7dcef800073c2499 | Star Trek en español
 60492e6d7f3f560007ab0f62 | Estrella News
 60493283ffc52f000710edae | Little Angel's Playroom en Español
 605e479d5b8229000763e697 | Sony Canal Escape Perfecto
@@ -326,7 +325,6 @@
 6675c713fc3a46000863dde7 | Ebony TV Drama
 6675c742ca74680008566b88 | Nash Bridges
 6675c7868768aa0008d7f1c7 | Pokémon
-6675c88da1d7ad00084762cb | Star Trek: The Motion Pictures
 667f2c7b22acab0008b7072b | FOX LOCAL Los Angeles
 667f3852efa2a10008e1e514 | Go Go Gadget!
 667f393836a2f90008fd17c0 | Strawberry Shortcake and Friends
@@ -410,4 +408,6 @@
 69699b6d23ea437206f4a036 | World of Love Island
 698384cb7230043f21f4a3f4 | Property Brothers
 6996296087742204bff43147 | Ridiculousness
+69d6c7befde57cd5ba0160c3 | Pluto TV Hometown Drama
+69d7ebb726eeec84158e28cb | Pluto TV Adventure
 metv | MeTV
