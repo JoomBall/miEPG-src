@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat May  2 00:42:24 UTC 2026
+# Fecha: Sat May  2 12:22:15 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -410,4 +410,5 @@
 6996296087742204bff43147 | Ridiculousness
 69d6c7befde57cd5ba0160c3 | Pluto TV Hometown Drama
 69d7ebb726eeec84158e28cb | Pluto TV Adventure
+69d7ebff029c431826bd328e | Battlestar Galactica
 metv | MeTV
