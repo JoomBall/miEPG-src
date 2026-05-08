@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu May  7 12:43:10 UTC 2026
+# Fecha: Fri May  8 00:43:42 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -203,7 +203,6 @@
 643054b1fc3be59477853717-62ffc5cfa6cad6f2991745c2 | FUEL TV
 643054b1fc3be59477853717-630fa9e577ec3866def38fa2 | Women's Sports Network
 643054b1fc3be59477853717-631bbc79a273cc38add9e5e1 | FreeTV Clásico
-643054b1fc3be59477853717-631bbf79a273cc38add9e5e3 | FreeTV Estelar
 643054b1fc3be59477853717-6322658be67cf9cd9011fcda | TRACE Urban
 643054b1fc3be59477853717-63226c03e67cf9cd9011fcdf | TRACE Latina
 643054b1fc3be59477853717-6329474265c8569187176338 | TRACE Brazuca
@@ -1331,6 +1330,7 @@ PT | TRACE Urban HD | PT | TRACE Urban
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
+PTV Sevilla | PTV Sevilla
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
