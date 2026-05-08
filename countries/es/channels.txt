@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri May  8 00:43:42 UTC 2026
+# Fecha: Fri May  8 12:34:08 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -442,6 +442,7 @@
 696e02423b9ce349c90edef9 | Rally TV
 69b3db5d61e8e298254c7108 | Space Live
 69bd2cc70b6c04b3e635ba29 | Goku Day
+69c5100c3d2597380f0f6422 | Gata salvaje
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
