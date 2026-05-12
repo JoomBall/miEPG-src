@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue May 12 00:42:13 UTC 2026
+# Fecha: Tue May 12 12:45:44 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -1134,6 +1134,8 @@ Love the Planet | Love the Planet
 Love.The.Planet.es | Love The Planet
 Love.Wine.es | Love Wine
 M+ Acción HD | M+ Acción
+M+ Baloncesto 2 | M+ Baloncesto 2
+M+ Baloncesto | M+ Baloncesto
 M+ Cero | M+ Cero
 M+ Cine Español | M+ Cine Español
 M+ Clásicos HD | M+ Clásicos
@@ -1619,6 +1621,7 @@ lifestyle-rakuten-tv | Estilo y Vida
 lol-espana | LOL España
 med-tv | Med.TV
 metal-rocks | Metal.Rocks
+midsomer-murders-spa | Los asesinatos de Midsomer
 motorvision-tv-spanish | MOTORVISION.TV
 mr-bean-es | Mr. Bean
 mr-bean-live-action | Mr. Bean - Live Action
