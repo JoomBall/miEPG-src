@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue May 12 12:45:44 UTC 2026
+# Fecha: Wed May 13 00:47:01 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -472,6 +472,7 @@ AZ Corazón | AZ Corazón
 Acción (Rakuten TV) | Acción (Rakuten TV)
 Acontra+.es | Acontra+
 Al Jazeera English HD | Al Jazeera English
+Al cielo con ella | Al cielo con ella
 Al.Jazeera.English.es | Al Jazeera English
 Alacantí TV | Alacantí TV
 Alquiler 1 | Alquiler 1
@@ -1008,7 +1009,6 @@ Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
 FightSports | FightSports
-Flamenco Auditorio | Flamenco Auditorio
 Flamenco.Auditorio.es | Flamenco Auditorio
 Flooxer | Flooxer
 FoQ | FoQ
@@ -1090,7 +1090,6 @@ La 8 Soria | La 8 Soria
 La 8 Valladolid | La 8 Valladolid
 La 8 Zamora | La 8 Zamora
 La 8 Ávila | La 8 Ávila
-La Moderna | La Moderna
 La Ocho Mediterráneo | La Ocho Mediterráneo
 La Otra | La Otra
 La Promesa | La Promesa
@@ -1331,10 +1330,10 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
+PTV Sevilla | PTV Sevilla
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
