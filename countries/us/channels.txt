@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun May 17 12:24:33 UTC 2026
+# Fecha: Mon May 18 00:48:14 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -353,7 +353,6 @@
 67352ed93a61d4000881f9fa | The Twilight Zone
 673bf05ddaad7f0008ac7a5c | Dinos 24/7
 674f735a2fb8a100087bf253 | Revry
-677d672ef090ab00085b8e9b | Robot Wars by MECH+
 677d9adfa9a51b0008497fa0 | UFC
 67817323dd7846fe546940dd | QVC2
 67882c1c7b11714b795c2008 | Sketchy AF
