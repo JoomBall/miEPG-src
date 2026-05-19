@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue May 19 00:49:40 UTC 2026
+# Fecha: Tue May 19 13:11:18 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -707,7 +707,6 @@ DE | Sky Sport News | DE | Sky Sport News
 DE | Sky Sport Premier League | DE | Sky Sport Premier League
 DE | Sky Sport Tennis | DE | Sky Sport Tennis
 DE | Sky Sport Top Event | DE | Sky Sport Top Event
-DE | TRT Türk HD | DE | TRT Türk
 DE | eSports One | DE | eSports One
 DE | sport1 | DE | sport1
 DE | sport1+ | DE | sport1+
