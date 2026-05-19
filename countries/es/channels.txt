@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon May 18 13:19:35 UTC 2026
+# Fecha: Tue May 19 00:49:40 UTC 2026
 
 /esaguila-roja | Águila Roja
 /esmytime-movie-network | MyTime Movie Network
@@ -441,7 +441,6 @@
 6964d2179ba4ac18051a18ce | Léo Mattéï: Brigada de protección
 696e02423b9ce349c90edef9 | Rally TV
 69b3db5d61e8e298254c7108 | Space Live
-69bd2cc70b6c04b3e635ba29 | Goku Day
 69c5100c3d2597380f0f6422 | Gata salvaje
 69c51060ed1b1f1acb5092dc | Alaska y Mario
 7.Región.de.Murcia.es | 7 Región de Murcia
@@ -1340,6 +1339,7 @@ Penedès TV | Penedès TV
 Pirineus TV | Pirineus TV
 Planeta.de.Cine.es | Planeta de Cine
 Playboy TV | Playboy TV
+Pocoyó | Pocoyó
 Popular TV Cantabria | Popular TV Cantabria
 Popular TV Región de Murcia | Popular TV Región de Murcia
 Popular.TV.Cantabria.es | Popular TV Cantabria
