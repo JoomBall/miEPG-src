@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri May 22 00:49:06 UTC 2026
+# Fecha: Fri May 22 12:54:17 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -199,6 +199,7 @@
 697a2f8b3991484f03064614 | Super Mario Bros.
 6981cc6a644861a57c3bd8ad | Shockwave
 698a040b48d98175cb870fc5 | Hoarders
+69b422590306b277746f48cb | The Raccoons
 69c6a93486431735d974bc2a | Deal Masters
 69d51f98fcb9bf5e303ca0c1 | Dinner Date
 92.News.uk | 92 News
