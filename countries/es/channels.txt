@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun May 24 12:28:04 UTC 2026
+# Fecha: Mon May 25 00:50:47 UTC 2026
 
 /esruntime-series | Runtime Series
 1+1 International | 1+1 International
@@ -615,14 +615,6 @@ DAZN Baloncesto | DAZN Baloncesto
 DAZN Bundesliga | DAZN Bundesliga
 DAZN F1 BAR | DAZN F1 BAR
 DAZN F1 HD | DAZN F1
-DAZN LALIGA EA SPORTS 2 | DAZN LALIGA EA SPORTS 2
-DAZN LALIGA EA SPORTS 3 | DAZN LALIGA EA SPORTS 3
-DAZN LALIGA EA SPORTS 4 | DAZN LALIGA EA SPORTS 4
-DAZN LALIGA EA SPORTS 5 | DAZN LALIGA EA SPORTS 5
-DAZN LALIGA EA SPORTS 6 | DAZN LALIGA EA SPORTS 6
-DAZN LALIGA EA SPORTS 7 | DAZN LALIGA EA SPORTS 7
-DAZN LALIGA EA SPORTS 8 | DAZN LALIGA EA SPORTS 8
-DAZN LALIGA EA SPORTS 9 | DAZN LALIGA EA SPORTS 9
 DAZN LALIGA EA SPORTS | DAZN LALIGA EA SPORTS
 DAZN LaLiga 2 HD | DAZN LaLiga 2
 DAZN LaLiga 3 | DAZN LaLiga 3
@@ -1104,8 +1096,17 @@ LaLiga TV BAR 3 | LaLiga TV BAR 3
 LaLiga TV BAR 4 | LaLiga TV BAR 4
 LaLiga TV BAR 5 | LaLiga TV BAR 5
 LaLiga TV BAR HD | LaLiga TV BAR
+LaLiga TV Hypermotion 10 | LaLiga TV Hypermotion 10
+LaLiga TV Hypermotion 11 | LaLiga TV Hypermotion 11
+LaLiga TV Hypermotion 12 | LaLiga TV Hypermotion 12
 LaLiga TV Hypermotion 2 | LaLiga TV Hypermotion 2
 LaLiga TV Hypermotion 3 | LaLiga TV Hypermotion 3
+LaLiga TV Hypermotion 4 | LaLiga TV Hypermotion 4
+LaLiga TV Hypermotion 5 | LaLiga TV Hypermotion 5
+LaLiga TV Hypermotion 6 | LaLiga TV Hypermotion 6
+LaLiga TV Hypermotion 7 | LaLiga TV Hypermotion 7
+LaLiga TV Hypermotion 8 | LaLiga TV Hypermotion 8
+LaLiga TV Hypermotion 9 | LaLiga TV Hypermotion 9
 LaLiga TV Hypermotion HD | LaLiga TV Hypermotion
 Levante TV | Levante TV
 Levante.TV.es | Levante TV
@@ -1326,7 +1327,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
 Paramount.Network.es | Paramount Network
