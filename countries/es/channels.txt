@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon May 25 13:14:14 UTC 2026
+# Fecha: Tue May 26 00:48:52 UTC 2026
 
 /esruntime-series | Runtime Series
 1+1 International | 1+1 International
@@ -615,7 +615,6 @@ DAZN Baloncesto | DAZN Baloncesto
 DAZN Bundesliga | DAZN Bundesliga
 DAZN F1 BAR | DAZN F1 BAR
 DAZN F1 HD | DAZN F1
-DAZN LALIGA EA SPORTS | DAZN LALIGA EA SPORTS
 DAZN LaLiga 2 HD | DAZN LaLiga 2
 DAZN LaLiga 3 | DAZN LaLiga 3
 DAZN LaLiga 4 | DAZN LaLiga 4
@@ -627,21 +626,6 @@ DAZN Liga F 4 | DAZN Liga F 4
 DAZN Liga F 5 | DAZN Liga F 5
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
-DAZN Premier League 10 | DAZN Premier League 10
-DAZN Premier League 2 | DAZN Premier League 2
-DAZN Premier League 3 | DAZN Premier League 3
-DAZN Premier League 4 | DAZN Premier League 4
-DAZN Premier League 5 | DAZN Premier League 5
-DAZN Premier League 6 | DAZN Premier League 6
-DAZN Premier League 7 | DAZN Premier League 7
-DAZN Premier League 8 | DAZN Premier League 8
-DAZN Premier League 9 | DAZN Premier League 9
-DAZN Premier League | DAZN Premier League
-DAZN Serie A 2 | DAZN Serie A 2
-DAZN Serie A 3 | DAZN Serie A 3
-DAZN Serie A 4 | DAZN Serie A 4
-DAZN Serie A 5 | DAZN Serie A 5
-DAZN Serie A | DAZN Serie A
 DAZN.1.es | DAZN 1
 DAZN.2.es | DAZN 2
 DAZN.3.es | DAZN 3
