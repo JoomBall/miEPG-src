@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue May 26 13:05:14 UTC 2026
+# Fecha: Wed May 27 00:50:40 UTC 2026
 
 /esruntime-series | Runtime Series
 1+1 International | 1+1 International
@@ -612,7 +612,6 @@ DAZN 4 HD | DAZN 4
 DAZN Baloncesto 2 | DAZN Baloncesto 2
 DAZN Baloncesto 3 | DAZN Baloncesto 3
 DAZN Baloncesto | DAZN Baloncesto
-DAZN Bundesliga | DAZN Bundesliga
 DAZN F1 BAR | DAZN F1 BAR
 DAZN F1 HD | DAZN F1
 DAZN LaLiga 2 HD | DAZN LaLiga 2
@@ -1131,11 +1130,11 @@ M+ Deportes HD | M+ Deportes
 M+ Documentales HD | M+ Documentales
 M+ Drama HD | M+ Drama
 M+ Estrenos HD | M+ Estrenos
+M+ Fanzone | M+ Fanzone
 M+ Golf 2 HD | M+ Golf 2
 M+ Golf HD | M+ Golf
 M+ Hits HD | M+ Hits
 M+ Indie HD | M+ Indie
-M+ LaLiga 2 HD | M+ LaLiga 2
 M+ LaLiga 2 HDR | M+ LaLiga 2 HDR
 M+ LaLiga 3 HD | M+ LaLiga 3
 M+ LaLiga 4 | M+ LaLiga 4
@@ -1158,11 +1157,11 @@ M+ Liga de Campeones 8 | M+ Liga de Campeones 8
 M+ Liga de Campeones 9 | M+ Liga de Campeones 9
 M+ Liga de Campeones HD | M+ Liga de Campeones
 M+ Liga de Campeones HDR | M+ Liga de Campeones HDR
-M+ Los 2000 | M+ Los 2000
+M+ Orgullo | M+ Orgullo
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
-M+ Top Comedia Española | M+ Top Comedia Española
+M+ Vacaciones | M+ Vacaciones
 M+ Vamos 2 | M+ Vamos 2
 M+ Vamos 3 | M+ Vamos 3
 M+ Vamos HD | M+ Vamos
