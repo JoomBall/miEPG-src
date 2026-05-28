@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed May 27 13:15:19 UTC 2026
+# Fecha: Thu May 28 00:46:19 UTC 2026
 
 /esruntime-series | Runtime Series
 1+1 International | 1+1 International
@@ -245,7 +245,6 @@
 643054b1fc3be59477853717-656237c55dbccec83a87b649 | Mutant X
 643054b1fc3be59477853717-65623e0eb7d737841f30a4ff | Cheaters en Español
 643054b1fc3be59477853717-656fa24bdbcce28c3a417415 | The World Poker Tour
-643054b1fc3be59477853717-656fb124cb7e8e6a9bc3f36a | Kidz Bop TV
 643054b1fc3be59477853717-656fb850cb7e8e6a9bc3f36e | Popular Science
 643054b1fc3be59477853717-656fbbd6dbcce28c3a41741b | Surf Cinema
 643054b1fc3be59477853717-656fbd05cb7e8e6a9bc3f372 | Archivos Forenses
@@ -622,7 +621,6 @@ DAZN LaLiga HD | DAZN LaLiga
 DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F 3 | DAZN Liga F 3
 DAZN Liga F 4 | DAZN Liga F 4
-DAZN Liga F 5 | DAZN Liga F 5
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
 DAZN.1.es | DAZN 1
