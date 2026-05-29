@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri May 29 00:53:05 UTC 2026
+# Fecha: Fri May 29 13:11:06 UTC 2026
 
 /esruntime-series | Runtime Series
 1+1 International | 1+1 International
