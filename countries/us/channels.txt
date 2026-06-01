@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun May 31 12:33:37 UTC 2026
+# Fecha: Mon Jun  1 00:55:37 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -361,7 +361,6 @@
 6793eaa4bc03978b9bc63db1 | ANIME x HIDIVE
 67c62ac2095aea2ec805eb34 | The Martha Stewart Channel
 67c63b90a20c0399a381b816 | Inuyasha
-67d07b7b798df95b8e9484b5 | The Emeril Lagasse Channel
 67ed8f7e443f0671bc2b2368 | Pluto TV Anime Movies
 681109b688b9d85d0938c6ba | TennisChannel 2
 682e43b21295f98347710917 | AWSN
