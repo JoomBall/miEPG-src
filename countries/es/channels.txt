@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jun  1 00:55:38 UTC 2026
+# Fecha: Mon Jun  1 14:06:49 UTC 2026
 
 /esruntime-series | Runtime Series
 1+1 International | 1+1 International
@@ -63,13 +63,12 @@
 610c09219fc0430007a3fce6 | Rugrats
 611b87946b7f420007c22361 | MTV Tattoo a dos
 612ce5214bb5790007ad3016 | Pluto TV Paranormal
-6130d8dc943001000708548d | MTV Reality
+6130d8dc943001000708548d | MTV Pride
 61373bb45168fe000773eecd | Pluto TV Cine Clásico
 61373f1a12dd9f00077dcd6f | Las Tortugas Ninja
 6181404ef48321000797bc41 | iCarly
 61922be835f3910007fc58f6 | En el punto de mira
 619b9f16b8fee4000832d447 | El Detective Endeavour
-61b87bc867b03a0007864e0d | Pluto TV Reality
 61b9edc4a4ca6100070bb407 | Ice Pilots
 61bb2814ac085a00074309a6 | Unidad de investigación
 61cd7b49543066000713b620 | Pluto TV Historia
@@ -91,6 +90,7 @@
 63eb944dc111bc0008fe7021 | Pluto TV Teen
 63eb9495a8b227000841bf64 | MTV Vergüenza ajena
 63eb96754e83e70008ab8941 | Yu-Gi-Oh!
+63fe0111dff38e00083510f9 | Pluto TV Orgullo
 643054b1fc3be59477853717-5eea605474085f0040ddc76d | Glewed TV
 643054b1fc3be59477853717-5eea605574085f0040ddc794 | Toon Goggles
 643054b1fc3be59477853717-5eea605574085f0040ddc79a | Kidoodle TV
@@ -1066,7 +1066,6 @@ Movistar.Golf.es | Movistar Golf
 Movistar.Plus+.es | Movistar Plus+
 Movistar.Plus.es | Movistar Plus
 Movistar.Series.es | Movistar Series
-Mr Bean Animated | Mr Bean Animated
 Multicine atresplayer | Multicine atresplayer
 Musicales.por.M+.\n.es | Musicales por M+ \n
 MyPadel TV | MyPadel TV
@@ -1198,13 +1197,6 @@ Solidaria.TV.España.es | Solidaria TV España
 Somos Cine | Somos Cine
 Somos | Somos
 Somos.es | Somos
-Sony One Hits Acción | Sony One Hits Acción
-Sony One Hits Comedia | Sony One Hits Comedia
-Sony One Series Comedia | Sony One Series Comedia
-Sony One Series Thriller | Sony One Series Thriller
-Sony One Shark Tank | Sony One Shark Tank
-Sony One The Blacklist | Sony One The Blacklist
-Sony One Éxitos | Sony One Éxitos
 Squirrel 2 | Squirrel 2
 Squirrel TV | Squirrel TV
 Squirrel.2.es | Squirrel 2
