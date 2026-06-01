@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jun  1 00:55:36 UTC 2026
+# Fecha: Mon Jun  1 14:05:58 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -121,7 +121,6 @@
 65a7b04e7bdc8d0008488307 | True Crime Now
 65a7b0814a10d800085ff2df | Pluto TV PetrolHeads
 65b14aae0cb1a100087a216e | DAZN Ringside
-65b3895660eb8700089e7f53 | Car Chase
 65c4960d11ced7000812c433 | Geordie Shore
 660be37e7bcd860008793a6a | Bondi Rescue
 660c209e19ca71000846cf38 | That's 90s00s
@@ -200,6 +199,7 @@
 6981cc6a644861a57c3bd8ad | Shockwave
 698a040b48d98175cb870fc5 | Hoarders
 69b422590306b277746f48cb | The Raccoons
+69b917d632eb9227dd6b427e | The Therapy Crouch
 69c6a93486431735d974bc2a | Deal Masters
 69d51f98fcb9bf5e303ca0c1 | Dinner Date
 92.News.uk | 92 News
