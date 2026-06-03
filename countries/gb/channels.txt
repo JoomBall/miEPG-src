@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jun  2 13:22:08 UTC 2026
+# Fecha: Wed Jun  3 01:01:32 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -548,7 +548,6 @@ Sky.Valentine.uk | Sky Valentine
 Sky.Witness+1.uk | Sky Witness+1
 Sky.Witness.HD.uk | Sky Witness HD
 SkyAdventureHD.uk | SkyAdventureHD
-SkyAnimationHD.uk | SkyAnimationHD
 SkyHistory2HD.uk | SkyHistory2HD
 SkyMegaHitsHD.uk | SkyMegaHitsHD
 SkyNewsArabia.uk | SkyNewsArabia
