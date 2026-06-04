@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jun  3 13:42:49 UTC 2026
+# Fecha: Thu Jun  4 01:01:02 UTC 2026
 
 /esruntime-series | Runtime Series
 1+1 International | 1+1 International
@@ -689,6 +689,7 @@ DSPORTS Motor | DSPORTS Motor
 DSPORTS | DSPORTS
 Dark Rojo | Dark Rojo
 Dark.es | Dark
+DePelícula | DePelícula
 Decasa.es | Decasa
 DejateTV | DejateTV
 Deutsche W | Deutsche W
@@ -974,7 +975,6 @@ FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
-FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
@@ -1232,6 +1232,7 @@ Movistar.Golf.es | Movistar Golf
 Movistar.Plus+.es | Movistar Plus+
 Movistar.Plus.es | Movistar Plus
 Movistar.Series.es | Movistar Series
+Mr Bean Animated | Mr Bean Animated
 Multicine atresplayer | Multicine atresplayer
 Mundial (DAZN) | Mundial (DAZN)
 Musicales.por.M+.\n.es | Musicales por M+ \n
@@ -1365,6 +1366,13 @@ Solidaria.TV.España.es | Solidaria TV España
 Somos Cine | Somos Cine
 Somos | Somos
 Somos.es | Somos
+Sony One Hits Acción | Sony One Hits Acción
+Sony One Hits Comedia | Sony One Hits Comedia
+Sony One Series Comedia | Sony One Series Comedia
+Sony One Series Thriller | Sony One Series Thriller
+Sony One Shark Tank | Sony One Shark Tank
+Sony One The Blacklist | Sony One The Blacklist
+Sony One Éxitos | Sony One Éxitos
 Squirrel 2 | Squirrel 2
 Squirrel TV | Squirrel TV
 Squirrel.2.es | Squirrel 2
@@ -1621,6 +1629,7 @@ the-design-network-new | The Design Network
 the-pet-collective-new | The Pet Collective
 the-reuters-60 | The Reuters 60
 thriller-rakuten-tv | Thrillers
+tlnovelas | tlnovelas
 todo-crimen | Todo Crimen
 todo-drama | Todo Drama
 todo-novelas | Todo Novelas
