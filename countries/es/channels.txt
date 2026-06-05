@@ -1,11 +1,10 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Jun  4 13:10:22 UTC 2026
+# Fecha: Fri Jun  5 00:53:48 UTC 2026
 
 /esruntime-series | Runtime Series
 1+1 International | 1+1 International
 1-1-travel | 1+1 Travel
-100% Navidad (Rakuten TV) | 100% Navidad (Rakuten TV)
 13.TV.es | 13 TV
 24 Horas | 24 Horas
 24 horas Canarias | 24 horas Canarias
@@ -681,12 +680,13 @@ DKISS | DKISS
 DMAX | DMAX
 DMAX.es | DMAX
 DSPORTS 2 | DSPORTS 2
-DSPORTS 6 | DSPORTS 6
-DSPORTS 7 | DSPORTS 7
-DSPORTS 8 | DSPORTS 8
+DSPORTS 3 | DSPORTS 3
+DSPORTS 4 | DSPORTS 4
+DSPORTS 5 | DSPORTS 5
 DSPORTS Fight | DSPORTS Fight
 DSPORTS Motor | DSPORTS Motor
 DSPORTS | DSPORTS
+DSPORTS+ | DSPORTS+
 Dark Rojo | Dark Rojo
 Dark.es | Dark
 DePelícula | DePelícula
@@ -922,6 +922,7 @@ El.Trece.Internacional.es | El Trece Internacional
 Elche 7 TV | Elche 7 TV
 Elche.7.TV.es | Elche 7 TV
 EmpordaTV | EmpordaTV
+En Familia (Rakuten TV) | En Familia (Rakuten TV)
 En.familia.es | En familia
 Energy | Energy
 Energy.es | Energy
@@ -932,6 +933,7 @@ Esport 3 | Esport 3
 Esport.3.es | Esport 3
 Esport3 Catalunya | Esport3 Catalunya
 Esport3.es | Esport3
+Estilo y Vida (Rakuten TV) | Estilo y Vida (Rakuten TV)
 EuroNews | EuroNews
 Euronews.es | Euronews
 Eurosport 1 HD | Eurosport 1
@@ -975,8 +977,8 @@ FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
-FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
+Feria del libro | Feria del libro
 Fight Box HD | Fight Box
 Fight Time | Fight Time
 FightSports | FightSports
@@ -1354,8 +1356,8 @@ SX3 Catalunya | SX3 Catalunya
 SX3 | SX3
 SX3-33.es | SX3-33
 SX3.es | SX3
-Saber y ganar | Saber y ganar
 Sangre Fría | Sangre Fría
+Sci-Fi (Rakuten TV) | Sci-Fi (Rakuten TV)
 Sin.Filtros.es | Sin Filtros
 Sky News International | Sky News International
 Sky Sports 16 | Sky Sports 16
