@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Jun  6 00:50:44 UTC 2026
+# Fecha: Sat Jun  6 12:32:30 UTC 2026
 
 /esruntime-series | Runtime Series
 1+1 International | 1+1 International
@@ -977,7 +977,6 @@ FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
-FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Feria del libro | Feria del libro
 Fight Box HD | Fight Box
