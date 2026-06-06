@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jun  5 13:06:19 UTC 2026
+# Fecha: Sat Jun  6 00:50:46 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -49,7 +49,6 @@
 5bb3fea0f711fd76340eebff | Pluto TV Military
 5bdcdf1e851dd5632e2c11d1 | QVC
 5bee1a7359ee03633e780238 | Dog the Bounty Hunter
-5c01df1759ee03633e7b272c | Lucha Libre AAA
 5c2d64ffbdf11b71587184b8 | TV Land Sitcoms
 5c37d6712de254456f7ec340 | Cold Case Files by A&amp;E
 5c393cad2de254456f7ef8c2 | Spike Outdoors
@@ -185,7 +184,6 @@
 604928d54a4f730007ff76bc | CSI en Español
 60492e6d7f3f560007ab0f62 | Estrella News
 60493283ffc52f000710edae | Little Angel's Playroom en Español
-605e479d5b8229000763e697 | Sony Canal Escape Perfecto
 60807fd5db701400078219c2 | Ink Master
 609bfa51fbecc1000733152e | Jersey Shore
 60a3d889a5b3690008dc7fe8 | Bar Rescue
@@ -267,7 +265,6 @@
 649b6898f2ec0000081a9460 | DAZN Ringside
 649ddbfb6f29ec000874ca9e | Supermarket Sweep
 64b585f84ea480000838e446 | Pluto TV Icons
-64b9671cdac71b0008f371df | Cine Clásico
 64d1606b4c5ed80008e3b8b9 | Dynasty
 64d160f53c785e0008df525e | Top Rank Classics
 64d161c93c785e0008df575e | Vevo Íconos Latinos
@@ -369,7 +366,6 @@
 683df56f5195c2a60a3f5559 | Swerve Women’s Sports
 68487fb3f212bedacf5a53e3 | 50 Cent Action
 68509fe882d704acfc5bacd1 | Tastemade Smokehouse
-686c1c873ffa5e0c91a85938 | Cine Crimen
 686c2677ed17cf4c900a496d | Wicked Tuna
 686d61503484d6073283059d | Black Family Sitcoms
 686d8dd294a028da3ac59566 | Women's Sports Network
