@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Jun  7 12:37:35 UTC 2026
+# Fecha: Mon Jun  8 00:55:57 UTC 2026
 
 /esruntime-series | Runtime Series
 1+1 International | 1+1 International
@@ -1306,7 +1306,6 @@ PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
 PTV Linares | PTV Linares
-PTV Málaga | PTV Málaga
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
