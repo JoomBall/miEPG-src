@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jun  9 13:05:05 UTC 2026
+# Fecha: Wed Jun 10 00:55:23 UTC 2026
 
 /esruntime-series | Runtime Series
 1+1 International | 1+1 International
@@ -1225,7 +1225,7 @@ Mezzo.es | Mezzo
 Moto ADV | Moto ADV
 Moto.GP.es | Moto GP
 Motorvision | Motorvision
-Movistar Plus+ HD | Movistar Plus+
+Movistar Plus HD | Movistar Plus
 Movistar.Acción.es | Movistar Acción
 Movistar.Cine.Español.es | Movistar Cine Español
 Movistar.Comedia.es | Movistar Comedia
