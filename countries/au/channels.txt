@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jun 12 00:58:07 UTC 2026
+# Fecha: Fri Jun 12 13:14:08 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -52,7 +52,7 @@ LST | LifeStyle
 MO6 | Movies Drama
 MSN | MS NOW
 MTC | Retro
-MVS | Disaster Zone
+MVS | Directed by Spielberg
 NAP | Australian Played
 NAT | Nature Time
 NHK | NHK World
