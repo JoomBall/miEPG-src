@@ -1,10 +1,8 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jun 15 14:11:57 UTC 2026
+# Fecha: Tue Jun 16 01:03:45 UTC 2026
 
-/esruntime-series | Runtime Series
 1+1 International | 1+1 International
-1-1-travel | 1+1 Travel
 13.TV.es | 13 TV
 24 Horas | 24 Horas
 24 horas Canarias | 24 horas Canarias
@@ -14,7 +12,6 @@
 3CatInfo Catalunya | 3CatInfo Catalunya
 3CatInfo | 3CatInfo
 4K.Travel.TV.es | 4K Travel TV
-5-minutes-craft-es | Ideas en 5 minutos
 5f1aa9bcd8160700076d45d1 | Pluto TV Junior
 5f1aab1d29b39600073e243f | Pluto TV Kids
 5f1aadf373bed3000794d1d7 | MTV Originals
@@ -1338,7 +1335,7 @@ Real.Madrid.TV.es | Real Madrid TV
 Record | Record
 Record.TV.es | Record TV
 Red Bull TV (DAZN) | Red Bull TV (DAZN)
-Red Bull TV (Rakuten TV) | Red Bull TV (Rakuten TV)
+Red Bull TV | Red Bull TV
 RekTV | RekTV
 Rugby Challenge Spain | Rugby Challenge Spain
 RunTime Clásicos | RunTime Clásicos
@@ -1516,41 +1513,9 @@ XTRM.es | XTRM
 ZTV.es | ZTV
 ZUT.TV.es | ZUT TV
 ZenLIFE.es | ZenLIFE
-a-bocados | A bocados
 acontra+ | acontra+
-action-rakuten-tv | Películas de Acción
-actualidad-360 | Actualidad 360
-africanews-eng | Africanews
-aftershock-meo-lc | Aftershock Mi Extraña Obsesión/Loca Compulsión
-aguila-roja-rakuten-tv | Águila Roja
-alarm-for-cobra-rakuten-tv | Alerta Cobra - Brigada especial de carreteras
-animevision | AnimeVisión
-animevision-classics | AnimeVisión Classics
-baby-shark-tv | Baby Shark TV
-bbc-series-es | BBC Series
-bbc-top-gear-spa | Top Gear en español
 beIN SPORTS XTRA ñ | beIN SPORTS XTRA ñ
 beIN SPORTS en español | beIN SPORTS en español
-beyblade-es | Beyblade
-billiards-tv | World Billiards TV
-bloomberg-originals-new | Bloomberg Originals
-bloomberg-tv-plus | Bloomberg TV+
-cgtn | CGTN
-cgtn-documentary | CGTN Documentary
-cgtn-es | CGTN
-cine-friki | Cine Friki
-cine-western-es | Cine Western
-comedy-rakuten-tv | Comedia
-cops-en-espanol | Cops En Español
-crime-rakuten-tv | Crimen
-crimenes-reales | Crímenes Reales
-dark-matter-es-new | Dark Matter
-daystar-eng | Daystar TV
-daystar-spa | Daystar Español
-deluxe-lounge-hd | Deluxe Lounge HD
-drama-rakuten-tv | Películas de Drama
-el-conquistador | El Conquistador
-el-pais | El País
 etb1 euskera | etb1 euskera
 etb1 | etb1
 etb1ON euskera | etb1ON euskera
@@ -1559,98 +1524,13 @@ etb2 euskera | etb2 euskera
 etb2 | etb2
 etb2ON euskera | etb2ON euskera
 etb2ON | etb2ON
-euronews-live-spa | Euronews EN DIRECTO
-family-rakuten-tv | En Familia
-fashion-tv | Fashion TV
-feel-good-tv | Feel Good TV
-fifa-plus-es-new | FIFA+
-filmrise-forensic-files-spa | Archivos Forenses
-filmrise-sci-fi-es | FilmRise Sci-Fi
-filmrise-unsolved-mysteries-es | Misterios sin resolver
-france-24-en | France 24 FAST English
-fuel-tv-new | FUEL TV
-gipsy-kings-rakuten-tv | Los Gipsy Kings
-glory-kickboxing | GLORY Kickboxing
-grjngo-es | Grjngo
-gusto-tv-new | Gusto TV
-hard-knocks-fighting-championship | Hard Knocks Fighting Championship
-historia-y-vida | Historia y Vida
-hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1 | ¡HOLA! Play
 i24.News.es | i24 News
 iConcerts.es | iConcerts
-ice-pilots-es | Pilotos del Ártico
-inter-24-7-eng | INTER 24/7
 interalmería TV | interalmería TV
-jade-fever-es | La fiebre del jade
-jukin-fail-army-new | Fail Army
-k-drama-plus | K-Drama+
 laSexta.es | laSexta
-laliga-inside | LaLiga Inside
-las-tres-mellizas | Las tres mellizas
-lifestyle-rakuten-tv | Estilo y Vida
-lol-espana | LOL España
-med-tv | Med.TV
-metal-rocks | Metal.Rocks
-midsomer-murders-spa | Los asesinatos de Midsomer
-motorvision-tv-spanish | MOTORVISION.TV
-mr-bean-es | Mr. Bean
-mr-bean-live-action | Mr. Bean - Live Action
-mypadel-tv | MyPadel TV
-mytime-movie-network-spanish | MyTime Movie Network
-nature-time-es | Nature Time
-newsworld-spa | NewsWorld
-oficios-perdidos | Oficios Perdidos
-people-are-awesome-new | People Are Awesome
-pfl-mma | PFL MMA
-planeta-junior-spa | La abeja Maya
-planeta-salvaje | Planeta Salvaje
-pocoyo | Pocoyó
-qello-concerts-by-stingray | Qello Concerts by Stingray
-qwest-tv | Qwest TV
-racer-international | RACER International
-rakuten-viki-es | Rakuten VIKI
-rally-tv-fast | Rally.TV FAST+
-rantaro-ninja-boy-rakuten-tv | Rantaró, el ninja boy
-red-bull-tv-es | Red Bull TV
-revry | Revry
-romance-rakuten-tv | Películas Románticas
-rookie-blue-spa | Rookie Blue
-royalworld-es | Royalworld - Nobleza y dinastías
-sci-fi-rakuten-tv | Sci-Fi
-spanish-cinema-rakuten-tv | Cine Español
-sports-illustrated-tv | Sports Illustrated TV
-stingray-greatest-hits | Stingray Greatest Hits
-stingray-hit-list | Stingray: Hitlist
-stingray-naturescape | Stingray Naturescape
-stingray-remember-the-80-s | Stingray: Remember the 80’s
-surf-channel | Surf Channel
 teleSUR.es | teleSUR
-tennis-plus | Tennis+
-that-s-70s | That's 70s
-that-s-80s | That's 80s
-that-s-90s00s | That's 90s00s
-that-s-rock | That's ROCK
-the-design-network-new | The Design Network
-the-pet-collective-new | The Pet Collective
-the-reuters-60 | The Reuters 60
-thriller-rakuten-tv | Thrillers
 tlnovelas | tlnovelas
-todo-crimen | Todo Crimen
-todo-drama | Todo Drama
-todo-novelas | Todo Novelas
-top-barca-es | TOP Barça
-top-movies-rakuten-tv | Pelis Top
-travelxp-es | Travelxp
 tvmataró | tvmataró
-verdi-tv | Verdi TV
-vevo-latino-es | Vevo Latino
-vevo-pop-es | Vevo Pop
-vivir-con-gatos | Vivir con gatos
-vivir-con-perros | Vivir con perros
-weather-spy-new | Weather Spy
-wedotv-amor | wedotv Amor
-world-surf-league | World Surf League 24/7
-yu-gi-oh-new-spa | Yu-Gi-Oh!
 ¡HOLA!.TV.es | ¡HOLA! TV
 À Punt | À Punt
 À.Punt.es | À Punt
