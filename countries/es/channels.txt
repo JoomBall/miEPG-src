@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Jun 18 13:14:43 UTC 2026
+# Fecha: Fri Jun 19 01:02:40 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -168,7 +168,6 @@
 643054b1fc3be59477853717-6245f13093b402a3d1097789 | Euronews Italiano
 643054b1fc3be59477853717-626c1753ffda6789d20a452e | COPS
 643054b1fc3be59477853717-627ec46a92d8e6a705784bd1 | Ninja Kidz TV
-643054b1fc3be59477853717-62ab5aabbb869dd0df6a3487 | TED
 643054b1fc3be59477853717-62ba4aaff663580a7238f327 | Sonic TV
 643054b1fc3be59477853717-62d1a58e520656fda09e609d | Shemaroo Bollywood
 643054b1fc3be59477853717-62d7f68fb19cbf65dc7bef7c | Qello Concerts
