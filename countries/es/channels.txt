@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jun 22 13:59:59 UTC 2026
+# Fecha: Tue Jun 23 00:50:46 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -375,7 +375,6 @@
 65786888b228b7000843ad9a | Pluto TV Zombies
 657868a7a620e30008fdbfeb | Embrujadas
 65786abdb3801200084c593a | Homeful
-65786b94cbd0d60008f7e4d9 | Star Trek: The Next Generation
 65787f2eb228b7000843fa5c | Star Trek: Voyager
 6578808014fbe400086e21bc | Medium
 6578836cdfed030008ce5bdb | Sí quiero ese vestido
