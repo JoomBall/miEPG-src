@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jun 23 13:02:44 UTC 2026
+# Fecha: Wed Jun 24 00:46:52 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -747,7 +747,6 @@ ES2600004BD | Acción - Rakuten TV
 ES2600005G9 | Crimen - Rakuten TV
 ES26000068D | Estilo y Vida – Rakuten TV
 ES260000700 | Comedia - Rakuten TV
-ES2600008NX | Rantaró, El Ninja Boy
 ES260000968 | Euronews EN DIRECTO
 ES260001081 | En Familia - Rakuten TV
 ES2600012C9 | Películas Románticas - Rakuten TV
@@ -769,6 +768,7 @@ ES300006QJ | Sony One Hits Acción
 ES300007KS | Sony One Hits Comedia
 ES3000288I | Anime Visión Classics
 ES300029LP | Anime Visión
+ES300030ZT | Telemadrid
 ES300033TI | Viajes &amp; Sabores
 ES300034BT | Actualidad 360
 ES31000013F | INTER 24/7
@@ -814,7 +814,6 @@ ES51000017V | Rally.TV FAST+
 ES700004C8 | Runtime Familia
 ES7000056Z | Yu-Gi-Oh!
 ES700006IP | Metallica Takeover
-ES70000710 | Ubeat Lite
 ES7000088K | Space Live
 ES900001SH | Mr Bean Animated
 ES900002ZD | Todo Pasión
@@ -882,7 +881,6 @@ ESBD3000002GP | Canal Sur Andalucía
 ESBD3200001EG | Motorvision
 ESBD3200002V5 | La Abeja Maya
 ESBD3400001AA | Negocios TV
-ESBD3600001Q1 | La Liga Inside
 ESBD36000026Z | CNBC
 ESBD3700001S0 | DATELINE 24/7
 ESBD4100001DU | K-Drama+
