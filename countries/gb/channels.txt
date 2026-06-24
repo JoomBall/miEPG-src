@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jun 23 13:02:46 UTC 2026
+# Fecha: Wed Jun 24 00:46:50 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -474,6 +474,7 @@ GB3700011PO | Evidence of Evil
 GB37000128Y | Bloodline Detectives
 GB38000026H | Masha &amp; the Bear
 GB3800003OS | Eurovision Sport
+GB380000473 | Sports First TV
 GB3800007C5 | Space Live
 GB3800009F0 | FIFA+ Women
 GB3900001TM | K-POP by CJ ENM
@@ -495,6 +496,7 @@ GB4500001NQ | Letterman TV
 GB4600001W9 | Hot Ones
 GB4600003RY | Chaos on Cam
 GB4600004A9 | Live PD Presents
+GB4700003NV | Padel Time TV
 GB4700004FM | Love After Lockup
 GB4900001NW | Deadly Women: powered by Banijay
 GB500001HY | Highway Thru Hell : Powered by Banijay
