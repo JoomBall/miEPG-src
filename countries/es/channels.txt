@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jun 26 12:48:31 UTC 2026
+# Fecha: Sat Jun 27 00:50:05 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -230,8 +230,6 @@
 643054b1fc3be59477853717-64b1e1217d4037206787f384 | Nolly Africa HD
 643054b1fc3be59477853717-64d4e82ac5d4668c9cb7b5df | Novelisima
 643054b1fc3be59477853717-64d79408e5f67b0fab47ff24 | Misterios sin Resolver
-643054b1fc3be59477853717-64f0d9a7c2bc9b9001d46ea6 | Saborear TV
-643054b1fc3be59477853717-64f0db77c2bc9b9001d46eaa | Oro TV
 643054b1fc3be59477853717-650b5bb3f4b2d9579946a500 | Mythical 24/7
 643054b1fc3be59477853717-652875586425fdb1f32d2169 | World Surf League 24/7
 643054b1fc3be59477853717-652a8b001b5c74bc83cf727c | Dog Whisperer
@@ -976,6 +974,7 @@ FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
