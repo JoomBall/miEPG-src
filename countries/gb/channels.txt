@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jun 29 00:53:55 UTC 2026
+# Fecha: Mon Jun 29 13:33:33 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -178,7 +178,6 @@
 68c8203efef6d8a2a6f13906 | 60 Days in Jail
 68c820525ec82769fdfcd104 | Wrestling Legends TV
 68d113f9184f1a0620c8101c | Medical Detectives
-68d67005bdb33359705bbed3 | SUMO Paris 2026
 68e38aaf8082ad3760def7bc | Hercules: The Legendary Journeys
 68e38b005c876cf730fcbf0f | Six Million Dollar Man
 68e38b6e20115bbaf9c91083 | The Incredible Hulk
@@ -202,6 +201,7 @@
 69b917d632eb9227dd6b427e | The Therapy Crouch
 69c6a93486431735d974bc2a | Deal Masters
 69d51f98fcb9bf5e303ca0c1 | Dinner Date
+6a0f1d7502b6c1c00aa59d0e | 3ICE Hockey World Cup 2026
 92.News.uk | 92 News
 A1TV.uk | A1TV
 AAJ.TAK.uk | AAJ TAK
