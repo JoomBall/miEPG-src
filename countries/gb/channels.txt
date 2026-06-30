@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jun 30 00:51:24 UTC 2026
+# Fecha: Tue Jun 30 12:45:42 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -69,7 +69,6 @@
 62556bfa3261a300076b0baa | Arthur
 625e8cb585ef320007806caf | Pluto TV Britain at War
 625eaebc2a73a00007d3f855 | Catfish
-6299e5afdd5833000727e795 | 48 Hours
 62ab579258cb950007811aad | Mission Impossible
 62ac405b3874370007419b7f | Barney &amp; Friends
 62ac50e92c48f900071444c9 | Auction Hunters
@@ -84,8 +83,6 @@
 63808dc806aa4700075f319a | Pluto TV Investigation
 639b558c73423d00071ce624 | More TV Crime
 63c1384e829c850007922ca4 | 5 Emergency Rescue
-63d000ef4e83e700086e0d6c | Scorpion
-63d91c9c8795f30008678e62 | Nature Time
 63d91cc58795f30008678e9d | Bloodline Detectives
 63d91d2560bc8f0008a225e4 | FIFA+
 63d91d624e83e7000881ca8c | Escape to the Country
