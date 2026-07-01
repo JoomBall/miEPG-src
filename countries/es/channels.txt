@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jul  1 00:54:28 UTC 2026
+# Fecha: Wed Jul  1 13:01:37 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -46,7 +46,6 @@
 6080381ab7c9ea00074ec64c | World Poker Tour
 6086d3f420fc8500075f8dbf | Runtime
 609e7e423e9173000706a681 | Pluto TV Kids Classics
-60b4c06717da110007ee1af6 | Pluto TV Telenovelas
 60c343007bcabe0007242aa6 | El Comisario
 60cc807324d60a0007708dc8 | Pluto TV Cine de autor
 60d356a534f63f000850cdd7 | Top Gear
@@ -402,6 +401,7 @@
 680ba8992472a7200a183eb5 | One Piece
 680ba8c3a48b3ead0db701cc | Los caballeros del Zodiaco
 6812206e1b3e3be031a5c363 | Águila Roja
+68345650e8377f86acdeda83 | Pluto TV Series de Terror
 683457aebbc703dfd45a89eb | Merlí
 683457e5f59cc6a13212fce4 | Lupin
 685a995b460ac82fa504342c | The Good Wife
@@ -409,7 +409,6 @@
 686cd84603ad75cfd132d672 | America's Next Top Model
 686cd8bb9d079f48dbbdfecb | Metal Rocks
 68779a09c691b3f0964127c6 | Heidi
-6880aa28164eb4890282e803 | Pluto TV Toons
 688892172928933015abe479 | Barbie &amp; Friends
 6888928eb52fb742416673d2 | Mattel Junior
 68adc3fdd8f7693ae347a63a | Los Gipsy Kings
@@ -421,7 +420,6 @@
 68e8fe3bcba140ddfe903677 | Monster High
 690dd10a37b131228d76d5b1 | El Mueble
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
-691ddf2a3ae32cf55263476d | Pluto TV Forever Kids
 6964d2179ba4ac18051a18ce | Léo Mattéï: Brigada de protección
 696e02423b9ce349c90edef9 | Rally TV
 69b3db5d61e8e298254c7108 | Space Live
