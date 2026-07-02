@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jul  1 13:01:37 UTC 2026
+# Fecha: Thu Jul  2 00:51:07 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -310,7 +310,6 @@
 643054b1fc3be59477853717-682510ec0f741b077c360512 | Actualidad 360
 643054b1fc3be59477853717-682d0bc9363625fa508aef43 | Nature Time
 643054b1fc3be59477853717-682dfb2ddfc9c452b8f98426 | Homeful
-643054b1fc3be59477853717-682dff1fdfc9c452b8f9842a | K-Baseball TV
 643054b1fc3be59477853717-684c2379e32026b0c1f53793 | Million Dollar Dream Home
 643054b1fc3be59477853717-685c78a77223639b1ac098a1 | RCN Más
 643054b1fc3be59477853717-685f25c1a7111a932d28f1ac | Todo Drama
