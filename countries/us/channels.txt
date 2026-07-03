@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Jul  2 13:58:05 UTC 2026
+# Fecha: Fri Jul  3 02:51:26 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -417,4 +417,9 @@
 69fa3faab9c0f0d444e64de3 | Pluto TV Pride
 69fa471bc2b638404ffa91bf | Pluto TV Fireworks
 6a28827ef4a627f3b07df1ea | Cheers
+6a2b0d669465b98649cd0ba1 | Charmed
+6a2b0e66c2b638404f0a4ffb | Ghost Whisperer
+6a2b0eab9465b98649cd0d2f | Diagnosis Murder
+6a2b0edf201df02a8bfea30a | Touched By An Angel
+6a2b0f2509705ebdf781231d | Dr. Quinn, Medicine Woman
 metv | MeTV
