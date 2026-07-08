@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jul  7 14:31:03 UTC 2026
+# Fecha: Wed Jul  8 02:34:49 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -684,6 +684,7 @@ DSPORTS | DSPORTS
 DSPORTS+ | DSPORTS+
 Dark Rojo | Dark Rojo
 Dark.es | Dark
+DePelícula | DePelícula
 Decasa.es | Decasa
 Deutsche W | Deutsche W
 Deutsche.Welle.es | Deutsche Welle
@@ -988,7 +989,6 @@ Gametoon | Gametoon
 Garage TV | Garage TV
 Global Telenovelas | Global Telenovelas
 Global Tendencias | Global Tendencias
-Gol Classics | Gol Classics
 Gol.TV.es | Gol TV
 GolStadium BAR | GolStadium BAR
 Gulli | Gulli
@@ -1296,10 +1296,8 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
-PTV Málaga | PTV Málaga
 PTV Sevilla | PTV Sevilla
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
