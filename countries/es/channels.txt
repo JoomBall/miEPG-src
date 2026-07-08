@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jul  8 02:34:49 UTC 2026
+# Fecha: Wed Jul  8 14:04:15 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -710,6 +710,7 @@ ES1000001EF | SMTOWN
 ES1100001MT | Top Barça
 ES12000024R | Historia y Vida
 ES1200003SI | Concerto
+ES120000498 | Quantum Makers
 ES1200005Z1 | H2O &amp; Friends
 ES1300001QC | DW
 ES1400001T8 | Beyblade
@@ -809,7 +810,7 @@ ES500008IU | FreeTV Clásico
 ES51000017V | Rally.TV FAST+
 ES700004C8 | Runtime Familia
 ES7000056Z | Yu-Gi-Oh!
-ES700006IP | Metallica Takeover
+ES700006IP | Rolling Stones Takeover
 ES7000088K | Space Live
 ES900001SH | Mr Bean Animated
 ES900002ZD | Todo Pasión
