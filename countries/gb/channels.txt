@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jul  8 02:34:39 UTC 2026
+# Fecha: Wed Jul  8 14:02:38 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -368,6 +368,7 @@ GB12000037Y | Deal Masters
 GB1200004J4 | Cash in the Attic
 GB12000052F | Icon Film Channel
 GB1200006IV | Talk
+GB120000761 | Quantum Makers
 GB1200008XG | H2O &amp; Friends
 GB1300001RX | DW
 GB1400001E4 | CURIOSITY Now
@@ -510,7 +511,7 @@ GB60000197 | Sky Arts
 GB60000381 | A New Life In The Sun
 GB700004ET | Pocoyo
 GB700006X7 | Terra Mater WILD
-GB700007MV | Metallica Takeover
+GB700007MV | Rolling Stones Takeover
 GB800002OP | &amp;TV
 GB900003KR | Mr Bean Animated
 GB900005KI | Demand Drama
