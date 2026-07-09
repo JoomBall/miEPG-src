@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jul  8 14:02:38 UTC 2026
+# Fecha: Thu Jul  9 02:52:31 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -898,6 +898,10 @@ U.and.Eden.uk | U and Eden
 U.and.GOLD+1.uk | U and GOLD+1
 U.and.GOLD.HD.uk | U and GOLD HD
 U.and.Gold.uk | Gold
+U.and.Laughs.uk | U and Laughs
+U.and.Real.Heroes.uk | U and Real Heroes
+U.and.The.Past.uk | U and The Past
+U.and.Transport.uk | U and Transport
 U.and.W+1.uk | U and W+1
 U.and.W.HD.uk | U and W HD
 U.and.YESTERDAY+1.uk | U and YESTERDAY+1
