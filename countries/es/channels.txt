@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Jul  9 02:52:40 UTC 2026
+# Fecha: Thu Jul  9 14:56:22 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -36,7 +36,6 @@
 5f6a38eaa5b68b0007a00e7a | Pluto TV Sci-Fi
 5f984f4a09e92d0007d74647 | Archivos Forenses
 5f98537a5a4341000733aefe | MTV Embarazada a los 16
-600169ec77e6f70008fa9cf0 | MTV Dating
 600ae6a78d801e0007117d21 | Pluto TV Animales
 60218baa464ef900073168c1 | Empeños a lo bestia
 604f8125c6669b00077f7699 | Wipeout
@@ -971,7 +970,6 @@ FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
-FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
@@ -1368,7 +1366,6 @@ Somos.es | Somos
 Sony One Hits Acción | Sony One Hits Acción
 Sony One Hits Comedia | Sony One Hits Comedia
 Sony One Series Comedia | Sony One Series Comedia
-Sony One Series Thriller | Sony One Series Thriller
 Sony One Shark Tank | Sony One Shark Tank
 Sony One The Blacklist | Sony One The Blacklist
 Sony One Éxitos | Sony One Éxitos
