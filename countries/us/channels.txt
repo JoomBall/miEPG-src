@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jul 10 14:23:39 UTC 2026
+# Fecha: Sat Jul 11 02:32:21 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -269,6 +269,11 @@
 645e7828e1979c00087b75b4 | MovieSphere by Lionsgate
 649b6898f2ec0000081a9460 | DAZN Ringside
 649ddbfb6f29ec000874ca9e | Supermarket Sweep
+64a765c04ea480000823917a | Big Brother Camera 1
+64a765fb798def0008734632 | Big Brother Camera 2
+64a7665b902f2300085d7901 | Big Brother Camera 3
+64a766a794635e0008626601 | Big Brother Camera 4
+64a766cd798def0008734695 | Big Brother Quad View
 64b585f84ea480000838e446 | Pluto TV Icons
 64d1606b4c5ed80008e3b8b9 | Dynasty
 64d160f53c785e0008df525e | Top Rank Classics
