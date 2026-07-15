@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jul 15 02:21:49 UTC 2026
+# Fecha: Wed Jul 15 13:41:05 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -59,6 +59,7 @@
 612ce5214bb5790007ad3016 | Pluto TV Paranormal
 6130d8dc943001000708548d | MTV Reality
 61373bb45168fe000773eecd | Pluto TV Cine Clásico
+61373c865ed5810007173fbc | Avatar
 61373f1a12dd9f00077dcd6f | Las Tortugas Ninja
 6181404ef48321000797bc41 | iCarly
 61922be835f3910007fc58f6 | En el punto de mira
@@ -1441,6 +1442,7 @@ TelevisiónCanaria.es | TelevisiónCanaria
 Ten | Ten
 Ten.es | Ten
 Tennis Channel | Tennis Channel
+Tennis+ | Tennis+
 The.Pet.Collective.es | The Pet Collective
 Thrillers (Rakuten TV) | Thrillers (Rakuten TV)
 Todo Crimen (Rakuten TV) | Todo Crimen (Rakuten TV)
