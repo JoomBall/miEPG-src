@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jul 14 13:40:36 UTC 2026
+# Fecha: Wed Jul 15 02:21:46 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -84,6 +84,7 @@
 63808dc806aa4700075f319a | Pluto TV Investigation
 639b558c73423d00071ce624 | More TV Crime
 63c1384e829c850007922ca4 | 5 Emergency Rescue
+63d000ef4e83e700086e0d6c | Scorpion
 63d91cc58795f30008678e9d | Bloodline Detectives
 63d91d2560bc8f0008a225e4 | FIFA+
 63d91d624e83e7000881ca8c | Escape to the Country
