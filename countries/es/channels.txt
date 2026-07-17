@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jul 17 02:32:04 UTC 2026
+# Fecha: Fri Jul 17 13:25:10 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -36,6 +36,7 @@
 5f6a38eaa5b68b0007a00e7a | Pluto TV Sci-Fi
 5f984f4a09e92d0007d74647 | Archivos Forenses
 5f98537a5a4341000733aefe | MTV Embarazada a los 16
+600169ec77e6f70008fa9cf0 | MTV Ink Master
 600ae6a78d801e0007117d21 | Pluto TV Animales
 60218baa464ef900073168c1 | Empeños a lo bestia
 604f8125c6669b00077f7699 | Wipeout
@@ -55,7 +56,6 @@
 60e4573c9f963e00077ecf25 | Mi Extraña Obsesión
 60ed5fb9c4716d0007d180c5 | Cazador de Homicidas
 610c09219fc0430007a3fce6 | Rugrats
-611b87946b7f420007c22361 | MTV Tattoo a dos
 612ce5214bb5790007ad3016 | Pluto TV Paranormal
 6130d8dc943001000708548d | MTV Reality
 61373bb45168fe000773eecd | Pluto TV Cine Clásico
@@ -427,6 +427,7 @@
 69f0bb1a00ad62de02a6b716 | Pluto TV Fútbol
 69f9c50202b6c1c00a213519 | Dominance FC TV
 6a0c25d1c3b9403659196293 | Terapia con Charlie
+6a0c25fe09705ebdf7e4599a | Pippi Calzaslargas
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
@@ -1365,7 +1366,6 @@ Somos.es | Somos
 Sony One Hits Acción | Sony One Hits Acción
 Sony One Hits Comedia | Sony One Hits Comedia
 Sony One Series Comedia | Sony One Series Comedia
-Sony One Series Thriller | Sony One Series Thriller
 Sony One Shark Tank | Sony One Shark Tank
 Sony One The Blacklist | Sony One The Blacklist
 Sony One Éxitos | Sony One Éxitos
