@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Jul 16 13:47:37 UTC 2026
+# Fecha: Fri Jul 17 02:32:04 UTC 2026
 
 1+1 International | 1+1 International
 13.TV.es | 13 TV
@@ -1365,6 +1365,7 @@ Somos.es | Somos
 Sony One Hits Acción | Sony One Hits Acción
 Sony One Hits Comedia | Sony One Hits Comedia
 Sony One Series Comedia | Sony One Series Comedia
+Sony One Series Thriller | Sony One Series Thriller
 Sony One Shark Tank | Sony One Shark Tank
 Sony One The Blacklist | Sony One The Blacklist
 Sony One Éxitos | Sony One Éxitos
