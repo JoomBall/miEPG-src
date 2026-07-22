@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jul 22 02:31:51 UTC 2026
+# Fecha: Wed Jul 22 13:49:51 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -403,6 +403,7 @@ GB2100005YU | Rookie Blue
 GB2100006GK | River Monsters
 GB2200001N2 | Fireplace Vibes
 GB2200002CC | GFN Football
+GB22000040Z | Masha &amp; the Bear
 GB2300002AI | Tipping Point
 GB2300005ML | Al Jazeera
 GB2400006I0 | Tiny House Nation
@@ -473,7 +474,6 @@ GB3700008XB | Cops &amp; Docs
 GB3700009AO | Untold Stories of the ER
 GB3700011PO | Evidence of Evil
 GB37000128Y | Bloodline Detectives
-GB38000026H | Masha &amp; the Bear
 GB3800003OS | Eurovision Sport
 GB380000473 | Sports First TV
 GB3800007C5 | Space Live
