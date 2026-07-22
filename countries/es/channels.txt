@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jul 22 02:31:57 UTC 2026
+# Fecha: Wed Jul 22 13:49:45 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -741,6 +741,8 @@ ES1400002CJ | CURIOSITY Now
 ES1600002QL | La Fiebre del Jade
 ES1600003FF | Planeta Salvaje
 ES1600004JV | Todo Crimen
+ES1600006S8 | LOL España
+ES1600007AI | Teletubbies
 ES1700003C6 | Coreano by CJ ENM
 ES170000433 | NEW K-MOVIES
 ES1700005ME | NEW KPOP
@@ -1001,7 +1003,6 @@ FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
-FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
