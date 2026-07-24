@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jul 24 02:33:59 UTC 2026
+# Fecha: Fri Jul 24 13:42:24 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -92,7 +92,6 @@
 6401d85a49839300087b116c | Moviesphere
 645e00d5d3fdde000829463a | More TV Sci-fi
 6462190b7cb4b1000862dd60 | Pluto TV Alien Invasion
-64634eb42858cb0008fd92d6 | How To Use Pluto TV
 6490254fd2c47c00083a5743 | That's 80s
 64c0d6765dc1660008a3e033 | U&amp;Transport
 64c0d697b0cf5c000824e5d9 | U&amp;The Past
