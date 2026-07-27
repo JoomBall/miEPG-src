@@ -1,13 +1,13 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jul 27 02:48:00 UTC 2026
+# Fecha: Mon Jul 27 14:30:40 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
 AJE | Al Jazeera
 ANI | Animal Planet
 ARN | Arena
-ASP | Sky News Extra
+ASP | News24 World
 AUR | Aurora
 BBC | BBC News
 BCS | British Cinema
@@ -39,7 +39,7 @@ FSN | FOX SPORTS NEWS
 FSP | Fox Sports 505
 FSS | Fox Sports More
 FSU | British
-FXW | Sky News Weather
+FXW | News24 Weather
 GBN | GB News
 GRR | Movies Greats
 HAL | Universal TV
@@ -68,7 +68,7 @@ SHD | Movies Romance
 SHF | Movies Family
 SHO | Movies Premiere
 SHY | Movies Comedy
-SKY | Sky News
+SKY | News24
 SP2 | FOX League
 SPS | Fox Sports 506
 SR2 | Sky Racing 2
