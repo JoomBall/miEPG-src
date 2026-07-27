@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jul 27 02:47:57 UTC 2026
+# Fecha: Mon Jul 27 14:30:49 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -793,7 +793,6 @@ ES2900003S3 | Piel Salvaje
 ES3000008O8 | Cine Español - Rakuten TV
 ES30000091V | MyPadel TV
 ES30000145 | Sony One Series Comedia
-ES300002Y6 | Sony One Series Thriller
 ES300003D4 | Sony One Éxitos
 ES300004C9 | Sony One Shark Tank
 ES300005EL | Sony One The Blacklist
