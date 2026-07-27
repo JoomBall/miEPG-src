@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Jul 26 13:18:42 UTC 2026
+# Fecha: Mon Jul 27 02:51:08 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -421,6 +421,7 @@
 69eaa34817801c84fca05d94 | Always Funny
 69fa3faab9c0f0d444e64de3 | Pluto TV Pride
 69fa471bc2b638404ffa91bf | Pluto TV Fireworks
+6a03782f2c1c785c1161756c | Zuffa Boxing Prelims
 6a28827ef4a627f3b07df1ea | Cheers
 6a2b0d669465b98649cd0ba1 | Charmed
 6a2b0e66c2b638404f0a4ffb | Ghost Whisperer
