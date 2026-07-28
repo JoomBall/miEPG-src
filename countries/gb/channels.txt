@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Jul 28 02:26:20 UTC 2026
+# Fecha: Tue Jul 28 14:08:50 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -437,7 +437,6 @@ GB270001538 | Emergency 24/7
 GB2700016H5 | Artist of the Year
 GB28000063B | Mayday: Air Disaster
 GB280000829 | Poldark
-GB29000059T | Location Location Location
 GB300001QO | Conan O'Brien TV
 GB300003UI | Sony One Comedy HITS
 GB3000041I | Sony One Action HITS
