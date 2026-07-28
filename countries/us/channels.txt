@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jul 27 14:30:43 UTC 2026
+# Fecha: Tue Jul 28 02:26:20 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -232,7 +232,7 @@
 6283d51144ad8f0007fa382d | The Judge Judy Channel
 628e685ba3811100070551a8 | Hallmark Movies &amp; More
 62ba60f059624e000781c436 | 00s Replay
-62cdc7c2a3e6270007f3f2f3 | CBS News Boston
+62cdc8fdb05d2b0007ef5035 | CBS News Miami
 62f2ce24f328e00007e7f55a | Stories by AMC
 62f54c11b3af68000702c304 | CSI: Miami
 62f54c6439183b000769fb8f | CSI: NY
@@ -284,7 +284,6 @@
 64dab9df3d48f40008868091 | The Jamie Oliver Channel
 64e561a4354251000823a0e0 | Ghost Hunters
 6508be683a0d700008c534e4 | ABC News Live
-650b68bc2ce8e40008ac9c14 | FanDuel TV Extra
 651f239d9c7aeb0008286823 | Dating Disasters
 65244c403fd33c0008ffff31 | Car Chase
 6532e6a9bdf3cf000887ab29 | More True Crime
