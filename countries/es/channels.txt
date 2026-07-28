@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Jul 27 14:30:49 UTC 2026
+# Fecha: Tue Jul 28 02:26:26 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -122,7 +122,7 @@
 643054b1fc3be59477853717-606605549dbfca002d2ae873 | TNA Wrestling Channel
 643054b1fc3be59477853717-606605549dbfca002d2ae877 | Fight Network
 643054b1fc3be59477853717-608a2c722957c9002c6a617b | Wired2Fish
-643054b1fc3be59477853717-60a9d105d162b9002d05a60c | GoUSA TV
+643054b1fc3be59477853717-60a9d105d162b9002d05a60c | Journy
 643054b1fc3be59477853717-60aeb5cd87f9b1002ce12323 | NHRA TV
 643054b1fc3be59477853717-60afc726623f2f002c5bb49f | Poker Night TV
 643054b1fc3be59477853717-60b0f65c0c8ffb002c821a75 | Qwest TV
