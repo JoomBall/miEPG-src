@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Jul 29 14:07:18 UTC 2026
+# Fecha: Thu Jul 30 02:13:07 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -95,7 +95,6 @@
 643054b1fc3be59477853717-5ef11487d33ab9004048a1d3 | BOOT
 643054b1fc3be59477853717-5ef11487d33ab9004048a1d9 | Revry
 643054b1fc3be59477853717-5ef4e1b40d9ad000423c4430 | Maverick Black Cinema
-643054b1fc3be59477853717-5efe1de6e0b3f5003f5d9f82 | The Boat Show
 643054b1fc3be59477853717-5efe1de6e0b3f5003f5d9f88 | The Bob Ross Channel
 643054b1fc3be59477853717-5f0641d3e8ffda004033b16e | The Design Network
 643054b1fc3be59477853717-5f07e9fdf313eb0041bbecda | Cooking Panda
@@ -140,7 +139,6 @@
 643054b1fc3be59477853717-6164a963766ab4f9f57e81b1 | Camp Spoopy
 643054b1fc3be59477853717-616df1be2cf008a748c8cb53 | SLOPES
 643054b1fc3be59477853717-618ab2f275913b296fbe56dd | Eddie's Wonderland
-643054b1fc3be59477853717-6196c8c01d310bf925e02615 | Music Legends
 643054b1fc3be59477853717-6196c9241d310bf925e02616 | Lone Star
 643054b1fc3be59477853717-61a945156547ba4d6d238dc9 | Racing America
 643054b1fc3be59477853717-61aa97d4113e1e5137fd5325 | Stingray Greatest Hits
@@ -482,6 +480,7 @@ Aragón TV | Aragón TV
 Aragón.TV.INT..es | Aragón TV INT.
 Aragón.Televisión.es | Aragón Televisión
 Arirang TV HD | Arirang TV
+Atlántico TV | Atlántico TV
 Atrescine | Atrescine
 Atreseries | Atreseries
 Atreseries.Internacional.es | Atreseries Internacional
@@ -619,13 +618,13 @@ DAZN Baloncesto 3 | DAZN Baloncesto 3
 DAZN Baloncesto | DAZN Baloncesto
 DAZN F1 BAR | DAZN F1 BAR
 DAZN F1 HD | DAZN F1
+DAZN LaLiga 2 HD | DAZN LaLiga 2
+DAZN LaLiga 3 | DAZN LaLiga 3
+DAZN LaLiga 4 | DAZN LaLiga 4
+DAZN LaLiga 5 | DAZN LaLiga 5
+DAZN LaLiga 6 | DAZN LaLiga 6
+DAZN LaLiga HD | DAZN LaLiga
 DAZN MotoGP | DAZN MotoGP
-DAZN Mundial 2 HD | DAZN Mundial 2
-DAZN Mundial 3 | DAZN Mundial 3
-DAZN Mundial 4 | DAZN Mundial 4
-DAZN Mundial 5 | DAZN Mundial 5
-DAZN Mundial 6 | DAZN Mundial 6
-DAZN Mundial HD | DAZN Mundial
 DAZN National League 10 | DAZN National League 10
 DAZN National League 11 | DAZN National League 11
 DAZN National League 12 | DAZN National League 12
@@ -1177,11 +1176,11 @@ M+ Deportes HD | M+ Deportes
 M+ Documentales HD | M+ Documentales
 M+ Drama HD | M+ Drama
 M+ Estrenos HD | M+ Estrenos
-M+ Fanzone | M+ Fanzone
 M+ Golf 2 HD | M+ Golf 2
 M+ Golf HD | M+ Golf
 M+ Hits HD | M+ Hits
 M+ Indie HD | M+ Indie
+M+ LaLiga 2 HD | M+ LaLiga 2
 M+ LaLiga 2 HDR | M+ LaLiga 2 HDR
 M+ LaLiga 3 HD | M+ LaLiga 3
 M+ LaLiga 4 | M+ LaLiga 4
@@ -1435,6 +1434,8 @@ SkyShowtime.1.es | SkyShowtime 1
 SkyShowtime.es | SkyShowtime
 Sol Música | Sol Música
 Sol.Música.es | Sol Música
+Solidaria TV Argentina | Solidaria TV Argentina
+Solidaria TV España | Solidaria TV España
 Solidaria.TV.Argentina.es | Solidaria TV Argentina
 Solidaria.TV.España.es | Solidaria TV España
 Somos Cine | Somos Cine
