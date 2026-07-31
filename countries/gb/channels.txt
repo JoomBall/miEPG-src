@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jul 31 02:41:39 UTC 2026
+# Fecha: Fri Jul 31 14:03:25 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -156,7 +156,6 @@
 677fb3432952c1163bf1a539 | Million Dollar Listing
 680bb31c56ff83bcd685d64e | Farscape
 682453731295f98347e92da8 | River Monsters
-68503d1736c9361b191e7d89 | Gunsmoke
 68503d3bc692373f0158c43f | Hawaii Five-O
 68503d585965a2fd49fc2f0b | MacGyver
 6850408053d981d1fdb01696 | Taxi
@@ -166,7 +165,6 @@
 6852811933a52de120f8b89d | Mayday Air Disaster
 6852854bce36f0644f37d765 | A New Life in the Sun
 685aa802fb6023de7cc56357 | Dominance FC TV
-686cd713e48af72bc250efb8 | America's Next Top Model
 686fc8fe1889b4ad04604704 | Icons Unearthed+
 68b5a7b69ac85c428f54c441 | Curzon
 68b5a97fc8ef6afa31138718 | The Smurfs
@@ -192,7 +190,6 @@
 694178a8026be6e9d3ea7d7a | Mona The Vampire
 6960c5a906d76f50db2816dc | Cagney &amp; Lacey
 696e024a7e92438c27a425a8 | Rally TV
-697a2f8b3991484f03064614 | Super Mario Bros.
 6981cc6a644861a57c3bd8ad | Shockwave
 698a040b48d98175cb870fc5 | Hoarders
 69b422590306b277746f48cb | The Raccoons
