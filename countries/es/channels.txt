@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Jul 31 02:41:45 UTC 2026
+# Fecha: Fri Jul 31 14:03:05 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -402,7 +402,6 @@
 68345650e8377f86acdeda83 | Pluto TV Series de Terror
 683457aebbc703dfd45a89eb | Merlí
 683457e5f59cc6a13212fce4 | Lupin
-685a995b460ac82fa504342c | The Good Wife
 685a996c7c4f2ad40cb4f276 | Dragon Ball
 686cd84603ad75cfd132d672 | America's Next Top Model
 686cd8bb9d079f48dbbdfecb | Metal Rocks
