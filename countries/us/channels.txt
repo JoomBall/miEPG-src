@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Aug  1 02:40:09 UTC 2026
+# Fecha: Sat Aug  1 13:17:23 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -411,7 +411,6 @@
 69e6be40fde57cd5ba562b29 | Pokémon en español
 69eaa34817801c84fca05d94 | Always Funny
 69fa3faab9c0f0d444e64de3 | Pluto TV Pride
-69fa471bc2b638404ffa91bf | Pluto TV Fireworks
 6a28827ef4a627f3b07df1ea | Cheers
 6a2b0d669465b98649cd0ba1 | Charmed
 6a2b0e66c2b638404f0a4ffb | Ghost Whisperer
