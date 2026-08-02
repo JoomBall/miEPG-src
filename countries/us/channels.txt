@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Aug  1 13:17:23 UTC 2026
+# Fecha: Sun Aug  2 02:38:44 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -182,6 +182,7 @@
 6036e7c385749f00075dbd3b | Pluto TV Game Shows
 603fde9026ecbf0007752c2c | Pluto TV Competition
 604928d54a4f730007ff76bc | CSI en Español
+6049295e7dcef800073c2499 | Star Trek en español
 60492e6d7f3f560007ab0f62 | Estrella News
 60493283ffc52f000710edae | Little Angel's Playroom en Español
 60807fd5db701400078219c2 | Ink Master
@@ -325,6 +326,7 @@
 6675c713fc3a46000863dde7 | Ebony TV Drama
 6675c742ca74680008566b88 | Nash Bridges
 6675c7868768aa0008d7f1c7 | Pokémon
+6675c88da1d7ad00084762cb | Star Trek: The Motion Pictures
 667f2c7b22acab0008b7072b | FOX LOCAL Los Angeles
 667f3852efa2a10008e1e514 | Go Go Gadget!
 667f393836a2f90008fd17c0 | Strawberry Shortcake and Friends
@@ -411,10 +413,15 @@
 69e6be40fde57cd5ba562b29 | Pokémon en español
 69eaa34817801c84fca05d94 | Always Funny
 69fa3faab9c0f0d444e64de3 | Pluto TV Pride
+6a065830853a01a827f6dd65 | Pluto TV Action Drama
 6a28827ef4a627f3b07df1ea | Cheers
 6a2b0d669465b98649cd0ba1 | Charmed
 6a2b0e66c2b638404f0a4ffb | Ghost Whisperer
 6a2b0eab9465b98649cd0d2f | Diagnosis Murder
 6a2b0edf201df02a8bfea30a | Touched By An Angel
 6a2b0f2509705ebdf781231d | Dr. Quinn, Medicine Woman
+6a4bf0a89ad0c6d75edc026b | Jane the Virgin
+6a4fd96d7652851fb490204f | Pluto TV Royal Drama
+6a4fd9f5445cbf6c14ae3ea2 | Quirky AF
+6a5ff6d9c868f8fd984e005c | Ghosts
 metv | MeTV
