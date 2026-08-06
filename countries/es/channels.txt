@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Aug  5 14:05:53 UTC 2026
+# Fecha: Thu Aug  6 02:27:11 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -714,7 +714,6 @@ DSPORTS+ | DSPORTS+
 Dark Rojo | Dark Rojo
 Dark.es | Dark
 Dark/Dorcel.es | Dark/Dorcel
-DePelícula | DePelícula
 Decasa.es | Decasa
 Deutsche W | Deutsche W
 Deutsche.Welle.es | Deutsche Welle
