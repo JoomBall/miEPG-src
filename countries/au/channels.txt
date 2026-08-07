@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Aug  6 14:04:53 UTC 2026
+# Fecha: Fri Aug  7 02:35:48 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -52,7 +52,7 @@ LST | LifeStyle
 MO6 | Movies Drama
 MSN | MS NOW
 MTC | Retro
-MVS | Spider-Man
+MVS | Adrenaline Rush
 NAP | Australian Played
 NAT | Nature Time
 NHK | NHK World
