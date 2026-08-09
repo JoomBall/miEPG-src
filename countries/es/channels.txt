@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Aug  8 12:44:24 UTC 2026
+# Fecha: Sun Aug  9 01:37:56 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -536,6 +536,7 @@ Canal Extremadura | Canal Extremadura
 Canal FlixOlé 1 | Canal FlixOlé 1
 Canal FlixOlé 2 | Canal FlixOlé 2
 Canal Hollywood HD | Canal Hollywood
+Canal RED | Canal RED
 Canal Reus TV | Canal Reus TV
 Canal Sur Andalucía | Canal Sur Andalucía
 Canal Sur HD | Canal Sur
@@ -635,7 +636,11 @@ DAZN National League 7 | DAZN National League 7
 DAZN National League 8 | DAZN National League 8
 DAZN National League 9 | DAZN National League 9
 DAZN National League | DAZN National League
+DAZN Premier League 2 | DAZN Premier League 2
+DAZN Premier League 3 | DAZN Premier League 3
 DAZN Premier League | DAZN Premier League
+DAZN Serie A 2 | DAZN Serie A 2
+DAZN Serie A | DAZN Serie A
 DAZN.1.Bar.es | DAZN 1 Bar
 DAZN.1.es | DAZN 1
 DAZN.2.Bar.es | DAZN 2 Bar
@@ -1159,6 +1164,7 @@ Love.The.Planet.es | Love The Planet
 Love.Wine.es | Love Wine
 M+ Acción HD | M+ Acción
 M+ Baloncesto 2 | M+ Baloncesto 2
+M+ Baloncesto 3 | M+ Baloncesto 3
 M+ Baloncesto | M+ Baloncesto
 M+ Cero | M+ Cero
 M+ Cine Español | M+ Cine Español
