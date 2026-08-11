@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Aug 10 13:03:57 UTC 2026
+# Fecha: Tue Aug 11 01:38:06 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -340,6 +340,8 @@ Disc.Turbo+1.uk | Disc.Turbo+1
 Disc.Turbo.uk | Disc.Turbo
 Discovery+1.uk | Discovery+1
 Discovery.HD.uk | Discovery HD
+Disney+CineHD.uk | Disney+CineHD
+Disney.Jr.HD.uk | Disney Jr HD
 Dunamis.TV.uk | Dunamis TV
 Dunya.News.uk | Dunya News
 E4+1.uk | E4+1
