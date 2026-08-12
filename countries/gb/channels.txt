@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Aug 12 01:48:55 UTC 2026
+# Fecha: Wed Aug 12 13:05:37 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -376,6 +376,10 @@ GB12000052F | Icon Film Channel
 GB1200006IV | Talk
 GB120000761 | Quantum Makers
 GB1200008XG | H2O &amp; Friends
+GB1200010DG | Garden Rescue
+GB1200011U5 | Obsessive Compulsive Cleaners
+GB1200012BV | Tattoo Fixers
+GB1200013SK | The Cube
 GB1300001RX | DW
 GB1400001E4 | CURIOSITY Now
 GB170000351 | POP Up
@@ -395,6 +399,7 @@ GB2000007ID | LADbible
 GB2000008XP | Ghost Hunters
 GB200000940 | The Hotel Inspector
 GB2000010ML | Tennis+
+GB2000016YM | Your Sports News
 GB200005LI | Mythbusters
 GB200093HQ | Series K Legacy
 GB20009440 | Series K Edge
