@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Aug 12 01:48:53 UTC 2026
+# Fecha: Wed Aug 12 13:05:36 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -850,6 +850,7 @@ ES700004C8 | Runtime Familia
 ES7000056Z | Yu-Gi-Oh!
 ES700006IP | Rolling Stones Takeover
 ES7000088K | Space Live
+ES80000246 | Los asesinatos de Midsomer
 ES900001SH | Mr Bean Animated
 ES900002ZD | Todo Pasión
 ESAJ3800001KT | Pluto TV Cine Estelar
