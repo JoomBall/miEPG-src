@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Aug 14 13:03:05 UTC 2026
+# Fecha: Sat Aug 15 01:08:46 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -615,6 +615,7 @@ DAZN 4 HD | DAZN 4
 DAZN Baloncesto 2 | DAZN Baloncesto 2
 DAZN Baloncesto 3 | DAZN Baloncesto 3
 DAZN Baloncesto | DAZN Baloncesto
+DAZN Bundesliga | DAZN Bundesliga
 DAZN F1 BAR | DAZN F1 BAR
 DAZN F1 HD | DAZN F1
 DAZN LALIGA EA SPORTS | DAZN LALIGA EA SPORTS
