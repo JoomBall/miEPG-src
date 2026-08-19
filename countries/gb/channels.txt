@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Aug 19 01:09:30 UTC 2026
+# Fecha: Wed Aug 19 12:43:26 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -410,6 +410,7 @@ GB21000038X | Genie K-Movie
 GB2100004H5 | NatureTime
 GB2100005YU | Rookie Blue
 GB2100006GK | River Monsters
+GB21000070H | Inazuma Eleven
 GB2200001N2 | Fireplace Vibes
 GB2200002CC | GFN Football
 GB22000040Z | Masha &amp; the Bear
@@ -530,7 +531,7 @@ GBAJ40003481 | The Pet Collective
 GBAJ40003642 | FailArmy
 GBAJ400042T1 | Sparkle Movies
 GBAJ400045P5 | Popflix
-GBAJ49000197P | GoUSA TV
+GBAJ49000197P | Journy TV
 GBAJ700001FH | Pluto TV Animals
 GBAJ700002OS | Pluto TV Food
 GBAK3504500A | 5 Cops
@@ -547,7 +548,6 @@ GBBA220000751 | INWILD
 GBBA3300033C2 | Bloomberg TV+
 GBBA33000356L | Pluto TV Conspiracy
 GBBA33000362J | Pluto TV Paranormal
-GBBA3300038UZ | Homicide Hunter
 GBBA330003941 | Catfish
 GBBA3300050RG | wedo movies
 GBBA33000529G | Tennis Channel
