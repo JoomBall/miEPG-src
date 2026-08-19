@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Aug 19 01:10:13 UTC 2026
+# Fecha: Wed Aug 19 12:43:23 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -750,6 +750,7 @@ ES1900003JT | Storm Vibes
 ES20000065W | Tennis+
 ES200040YF | Series K DRAMA
 ES200041FT | Series K COMEDIA ROMÁNTICA
+ES2100003VE | Inazuma Eleven
 ES2200001SF | Fireplace Vibes
 ES2200003DA | Runtime Clásicos
 ES2300004XW | Al Jazeera
@@ -862,7 +863,7 @@ ESBC2100001IU | Vevo Pop
 ESBC2100002LV | Vevo Latino
 ESBC2700002LO | Grjngo - Películas Del Oeste
 ESBC2700003T8 | Bigtime - Películas Gratis
-ESBC27000040I | GoUSA TV
+ESBC27000040I | Journy TV
 ESBC2700008SK | Just For Laughs
 ESBC2700009B4 | FIFA+
 ESBC2700011AZ | Cines Verdi TV
