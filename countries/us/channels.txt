@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Aug 20 01:08:56 UTC 2026
+# Fecha: Thu Aug 20 12:45:11 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -134,6 +134,7 @@
 5eb1b0bf2240d8000732a09c | CBS News Minnesota
 5eb1b12146cba40007aa7e5d | CBS News Colorado
 5eb1b17aa5277e00083f6521 | CBS News Pittsburgh
+5eb301b7395671000780d100 | Little Angel's Playroom
 5ebc8688f3697d00072f7cf8 | Bellator MMA
 5eceb0d4065c240007688ec6 | CBS News Texas
 5ef3977e5d773400077de284 | Three's Company
@@ -183,6 +184,7 @@
 604928d54a4f730007ff76bc | CSI en Español
 6049295e7dcef800073c2499 | Star Trek en español
 60492e6d7f3f560007ab0f62 | Estrella News
+60493283ffc52f000710edae | Little Angel's Playroom en Español
 60807fd5db701400078219c2 | Ink Master
 609bfa51fbecc1000733152e | Jersey Shore
 60a3d889a5b3690008dc7fe8 | Bar Rescue
@@ -229,7 +231,7 @@
 6283d51144ad8f0007fa382d | The Judge Judy Channel
 628e685ba3811100070551a8 | Hallmark Movies &amp; More
 62ba60f059624e000781c436 | 00s Replay
-62cdcd05b9e7a10007399603 | CBS News Sacramento
+62cdcac1be7a970008781a64 | CBS News Pittsburgh
 62f2ce24f328e00007e7f55a | Stories by AMC
 62f54c11b3af68000702c304 | CSI: Miami
 62f54c6439183b000769fb8f | CSI: NY
