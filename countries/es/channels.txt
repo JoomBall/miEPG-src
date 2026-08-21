@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Aug 21 01:12:05 UTC 2026
+# Fecha: Fri Aug 21 12:42:58 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -148,7 +148,6 @@
 643054b1fc3be59477853717-61d738b5a7b7c7f703418514 | Trailers From Hell
 643054b1fc3be59477853717-61d73ab0a7b7c7f703418516 | Bloomberg TV
 643054b1fc3be59477853717-61d73c3ca7b7c7f703418518 | Bloomberg Originals
-643054b1fc3be59477853717-61e9d9979da6ee6e05278269 | Wellbeing TV
 643054b1fc3be59477853717-621670feab2095ca85353ad4 | XFC TV
 643054b1fc3be59477853717-62167144ab2095ca85353ad6 | CINEPRIDE
 643054b1fc3be59477853717-621671d05abdd3d5556a1baf | Watch it SCREAM
@@ -354,6 +353,7 @@
 643054b1fc3be59477853717-69f52ffb6e5708fb20d36d9c | The Prof G Channel
 643054b1fc3be59477853717-6a109c56b05301ef36a6a8e4 | Sobrévivi
 643054b1fc3be59477853717-6a3c2c8c14e447db7984cc3a | Billboard Español TV
+643054b1fc3be59477853717-6a63ab81a1deb5624927c631 | H2O &amp; Friends
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -998,6 +998,7 @@ FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
