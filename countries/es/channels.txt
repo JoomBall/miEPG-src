@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Aug 20 12:45:00 UTC 2026
+# Fecha: Fri Aug 21 01:12:05 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
