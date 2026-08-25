@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Aug 24 12:46:19 UTC 2026
+# Fecha: Tue Aug 25 01:09:48 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -451,7 +451,6 @@ AXN.Movies.es | AXN Movies
 AXN.es | AXN
 AZ Corazón | AZ Corazón
 AZ.Corazón.es | AZ Corazón
-Acción (Rakuten TV) | Acción (Rakuten TV)
 Acción.por.M+.es | Acción por M+
 Acontra+.es | Acontra+
 Al Jazeera English HD | Al Jazeera English
@@ -571,7 +570,9 @@ Cazavisión | Cazavisión
 Cazavisión.es | Cazavisión
 Cine Español (Rakuten TV) | Cine Español (Rakuten TV)
 Cine Feel Good | Cine Feel Good
+Cine Friki (Rakuten TV) | Cine Friki (Rakuten TV)
 Cine Friki | Cine Friki
+Cine Western (Rakuten TV) | Cine Western (Rakuten TV)
 Cine.Español.por.M+.es | Cine Español por M+
 Cine.Feel.Good.es | Cine Feel Good
 Cine.Friki.es | Cine Friki
@@ -585,9 +586,9 @@ Club.MTV.International.es | Club MTV International
 Clásicos atresplayer | Clásicos atresplayer
 Clásicos.por.M+.es | Clásicos por M+
 Cocina | Cocina
+Comedia (Rakuten TV) | Comedia (Rakuten TV)
 Comedia atresplayer | Comedia atresplayer
 Comedia.por.M+.es | Comedia por M+
-Comedias (Rakuten TV) | Comedias (Rakuten TV)
 Comedy Central HD | Comedy Central
 Comedy.Central.HD.es | Comedy Central HD
 Concert Channel | Concert Channel
@@ -719,10 +720,10 @@ Divinity.es | Divinity
 Djazz.es | Djazz
 Documentales.por.M+.es | Documentales por M+
 Drama.por.M+.es | Drama por M+
-Dramas (Rakuten TV) | Dramas (Rakuten TV)
 DreamWorks.es | DreamWorks
 Dreamworks HD | Dreamworks
 Dreamworks.es | Dreamworks
+Dviaje | Dviaje
 EITB.BASQUE.es | EITB BASQUE
 EITB.Basque.es | EITB Basque
 ES1000001EF | SMTOWN
@@ -1000,6 +1001,8 @@ FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
+Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
@@ -1362,6 +1365,8 @@ PTV Sevilla | PTV Sevilla
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
+Películas de Acción (Rakuten TV) | Películas de Acción (Rakuten TV)
+Películas de Drama (Rakuten TV) | Películas de Drama (Rakuten TV)
 Penedès TV | Penedès TV
 Pirineus TV | Pirineus TV
 Pirineus.TV.es | Pirineus TV
@@ -1375,7 +1380,6 @@ Popular TV Cantabria | Popular TV Cantabria
 Popular TV Región de Murcia | Popular TV Región de Murcia
 Popular.TV.Cantabria.es | Popular TV Cantabria
 Popular.TV.Región.de.Murcia.es | Popular TV Región de Murcia
-Primera Federación (DAZN) | Primera Federación (DAZN)
 Primera Federación | Primera Federación
 Primera.Federación.es | Primera Federación
 Pro TV | Pro TV
@@ -1388,6 +1392,7 @@ Qwest TV | Qwest TV
 Qwest.TV.es | Qwest TV
 RNA.es | RNA
 RTP Internacional | RTP Internacional
+Rally.TV (Rakuten TV) | Rally.TV (Rakuten TV)
 Real Madrid TV | Real Madrid TV
 Real.Madrid.TV.es | Real Madrid TV
 Record | Record
@@ -1510,6 +1515,8 @@ Tennis+ | Tennis+
 The.Pet.Collective.es | The Pet Collective
 Thrillers (Rakuten TV) | Thrillers (Rakuten TV)
 Todo Crimen (Rakuten TV) | Todo Crimen (Rakuten TV)
+Todo Drama (Rakuten TV) | Todo Drama (Rakuten TV)
+Todo Novelas (Rakuten TV) | Todo Novelas (Rakuten TV)
 Toon Goggles | Toon Goggles
 Top Barça | Top Barça
 Torolé TV | Torolé TV
