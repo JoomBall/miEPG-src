@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Aug 24 12:46:10 UTC 2026
+# Fecha: Tue Aug 25 01:09:41 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -918,6 +918,11 @@ Utsav.GOLD.uk | Utsav GOLD
 Utsav.Gold.HD.uk | Utsav Gold HD
 Utsav.Plus.HD.uk | Utsav Plus HD
 Venus.TV.uk | Venus TV
+Virgin.Media.Four.HD.uk | Virgin Media Four HD
+Virgin.Media.One.+1.uk | Virgin Media One +1
+Virgin.Media.One.HD.uk | Virgin Media One HD
+Virgin.Media.Three.uk | Virgin Media Three
+Virgin.Media.Two.HD.uk | Virgin Media Two HD
 Virgin.Radio.uk | Virgin Radio
 Vox.Africa.uk | Vox Africa
 WION.HD.uk | WION HD
