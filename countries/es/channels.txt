@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Aug 25 12:43:47 UTC 2026
+# Fecha: Wed Aug 26 01:12:42 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -570,9 +570,7 @@ Cazavisión | Cazavisión
 Cazavisión.es | Cazavisión
 Cine Español (Rakuten TV) | Cine Español (Rakuten TV)
 Cine Feel Good | Cine Feel Good
-Cine Friki (Rakuten TV) | Cine Friki (Rakuten TV)
 Cine Friki | Cine Friki
-Cine Western (Rakuten TV) | Cine Western (Rakuten TV)
 Cine.Español.por.M+.es | Cine Español por M+
 Cine.Feel.Good.es | Cine Feel Good
 Cine.Friki.es | Cine Friki
@@ -1391,7 +1389,6 @@ Qwest TV | Qwest TV
 Qwest.TV.es | Qwest TV
 RNA.es | RNA
 RTP Internacional | RTP Internacional
-Rally.TV (Rakuten TV) | Rally.TV (Rakuten TV)
 Real Madrid TV | Real Madrid TV
 Real.Madrid.TV.es | Real Madrid TV
 Record | Record
@@ -1515,7 +1512,6 @@ The.Pet.Collective.es | The Pet Collective
 Thrillers (Rakuten TV) | Thrillers (Rakuten TV)
 Todo Crimen (Rakuten TV) | Todo Crimen (Rakuten TV)
 Todo Drama (Rakuten TV) | Todo Drama (Rakuten TV)
-Todo Novelas (Rakuten TV) | Todo Novelas (Rakuten TV)
 Toon Goggles | Toon Goggles
 Top Barça | Top Barça
 Torolé TV | Torolé TV
