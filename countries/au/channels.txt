@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Aug 27 07:24:08 UTC 2026
+# Fecha: Thu Aug 27 15:44:56 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -78,7 +78,6 @@ SUK | SKY NEWS UK
 TMF | Trending
 TRS | Outlander HD PopUp
 TVS | TVSN
-UFC | Main Event UFC
 UKT | UKTV
 UP2 | Taskmaster Pop Up
 VH1 | Club
