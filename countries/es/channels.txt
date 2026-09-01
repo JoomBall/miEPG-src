@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep  1 00:36:56 UTC 2026
+# Fecha: Tue Sep  1 12:17:53 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -719,6 +719,7 @@ Divinity | Divinity
 Divinity.es | Divinity
 Djazz.es | Djazz
 Documentales.por.M+.es | Documentales por M+
+Dpelis | Dpelis
 Drama.por.M+.es | Drama por M+
 DreamWorks.es | DreamWorks
 Dreamworks HD | Dreamworks
