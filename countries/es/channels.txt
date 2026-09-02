@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep  1 12:17:53 UTC 2026
+# Fecha: Wed Sep  2 00:31:31 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -418,6 +418,7 @@
 69fc906b90dc413f536059a1 | H2O &amp; Friends
 6a0c25d1c3b9403659196293 | Terapia con Charlie
 6a0c25fe09705ebdf7e4599a | Pippi Calzaslargas
+6a43d26599d7b121476c351c | Acapulco Shore
 6a6a02ae3ee9d966427e62c4 | NFL Channel
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
@@ -632,8 +633,6 @@ DAZN Liga F 7 | DAZN Liga F 7
 DAZN Liga F 8 | DAZN Liga F 8
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
-DAZN National League 10 | DAZN National League 10
-DAZN National League 11 | DAZN National League 11
 DAZN National League 2 | DAZN National League 2
 DAZN National League 3 | DAZN National League 3
 DAZN National League 4 | DAZN National League 4
@@ -1250,7 +1249,6 @@ M+.Vamos.3.es | M+ Vamos 3
 M+.Vamos.es | M+ Vamos
 M6 | M6
 MMA TV | MMA TV
-MTV Classic | MTV Classic
 MTV España | MTV España
 MTV.00s.es | MTV 00s
 MTV.80s.es | MTV 80s
@@ -1569,7 +1567,6 @@ Viajes y Sabores | Viajes y Sabores
 Viajes.y.Sabores.es | Viajes y Sabores
 VinTV | VinTV
 VinTV.es | VinTV
-Vivid TV | Vivid TV
 Vivid.RED.HD.es | Vivid RED HD
 VividTV.Europe.es | VividTV Europe
 Vivir con gatos | Vivir con gatos
