@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Sep  3 00:32:11 UTC 2026
+# Fecha: Thu Sep  3 12:18:37 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -273,7 +273,6 @@
 643054b1fc3be59477853717-66ea174c9502c5778b828d47 | Cine Western
 643054b1fc3be59477853717-66ea196ac24d95b51b7cd18b | wedo amor
 643054b1fc3be59477853717-66f6b6baac1a1890ef197a4b | Hunter
-643054b1fc3be59477853717-66f6b947515e742745f5ca34 | 21 Jump Street
 643054b1fc3be59477853717-66fbfc8ebde73c589ab2af40 | PLL Network
 643054b1fc3be59477853717-66fd331e216b603e031725f6 | Beyblade
 643054b1fc3be59477853717-66fd3e25216b603e031725fe | ZenLIFE by Stingray
@@ -350,6 +349,7 @@
 643054b1fc3be59477853717-6a3c2c8c14e447db7984cc3a | Billboard Español TV
 643054b1fc3be59477853717-6a63ab81a1deb5624927c631 | H2O &amp; Friends
 643054b1fc3be59477853717-6a8786c4fa0d0293e2681b7c | GrowthDay Network
+643054b1fc3be59477853717-6a9512a7f534d4312a699c22 | SWAC TV
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
