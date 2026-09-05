@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Sep  4 12:17:10 UTC 2026
+# Fecha: Sat Sep  5 00:29:39 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -52,7 +52,7 @@ LST | LifeStyle
 MO6 | Movies Drama
 MSN | MS NOW
 MTC | Retro
-MVS | Getting Married
+MVS | Dwayne ' The Rock' Johnson
 NAP | Australian Played
 NAT | Nature Time
 NHK | NHK World
