@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep  7 00:33:40 UTC 2026
+# Fecha: Mon Sep  7 12:17:43 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -193,6 +193,7 @@
 6a1ea2d1eddc28f7681e518e | The Walking Dead Universe
 6a300571cdfd39da91df9159 | Pluto TV Crime Thrillers
 6a3a463fd7a42182ccd2d0b1 | Sam and Colby
+6a5646b29958da78eaa083bd | Sea Patrol
 6a5e2f0b7ac97ec200c8ab02 | The First 48 &amp; Beyond
 6a6a02ce1b1c90d8bf9556d8 | NFL Channel
 92.News.uk | 92 News
