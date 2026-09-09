@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep  8 12:17:38 UTC 2026
+# Fecha: Wed Sep  9 00:32:08 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -343,7 +343,6 @@
 643054b1fc3be59477853717-69a529f77c245b3390e8a4de | Masha and the Bear
 643054b1fc3be59477853717-69ae4f38e657bab5f7a9b7ec | Bondi Rescue
 643054b1fc3be59477853717-69b164bc87340e48b7b72247 | CNN Headlines International
-643054b1fc3be59477853717-69b3481702912c2ce7ad9a3d | Caracol Mix
 643054b1fc3be59477853717-69bb1f002028859eafc637e1 | Legacy
 643054b1fc3be59477853717-69d6d88b1790acff6189dea5 | AddictaTV
 643054b1fc3be59477853717-69f4f6c2647c1d14cc38677b | NFL Channel
@@ -629,6 +628,7 @@ DAZN LaLiga 4 | DAZN LaLiga 4
 DAZN LaLiga 5 | DAZN LaLiga 5
 DAZN LaLiga 6 | DAZN LaLiga 6
 DAZN LaLiga HD | DAZN LaLiga
+DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
 DAZN National League 2 | DAZN National League 2
