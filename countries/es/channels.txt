@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Sep 10 12:17:03 UTC 2026
+# Fecha: Fri Sep 11 00:30:53 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -1194,11 +1194,11 @@ M+ Liga de Campeones 8 | M+ Liga de Campeones 8
 M+ Liga de Campeones 9 | M+ Liga de Campeones 9
 M+ Liga de Campeones HD | M+ Liga de Campeones
 M+ Liga de Campeones HDR | M+ Liga de Campeones HDR
-M+ Orgullo | M+ Orgullo
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
-M+ Vacaciones | M+ Vacaciones
+M+ Romance | M+ Romance
+M+ Terror | M+ Terror
 M+ Vamos 2 | M+ Vamos 2
 M+ Vamos 3 | M+ Vamos 3
 M+ Vamos HD | M+ Vamos
@@ -1286,6 +1286,7 @@ MyPadel TV | MyPadel TV
 MyPadel.TV.es | MyPadel TV
 MyTime Movie Network (Rakuten TV) | MyTime Movie Network (Rakuten TV)
 MyZen.TV.es | MyZen TV
+Mírame TV | Mírame TV
 Mírame.TV.es | Mírame TV
 NATV.1.es | NATV 1
 NATV.2.es | NATV 2
@@ -1356,6 +1357,7 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
+PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
@@ -1391,6 +1393,7 @@ Qwest TV | Qwest TV
 Qwest.TV.es | Qwest TV
 RNA.es | RNA
 RTP Internacional | RTP Internacional
+Radio Televisión Ceuta | Radio Televisión Ceuta
 Real Madrid TV | Real Madrid TV
 Real.Madrid.TV.es | Real Madrid TV
 Record | Record
