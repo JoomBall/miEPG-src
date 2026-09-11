@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Sep 10 12:16:59 UTC 2026
+# Fecha: Fri Sep 11 00:30:45 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -414,6 +414,7 @@
 69e6be40fde57cd5ba562b29 | Pokémon en español
 69eaa34817801c84fca05d94 | Always Funny
 69fa3faab9c0f0d444e64de3 | Pluto TV Pride
+6a03782f2c1c785c1161756c | Garcia-Benn on Paramount+
 6a065830853a01a827f6dd65 | Pluto TV Action Drama
 6a28827ef4a627f3b07df1ea | Cheers
 6a2b0d669465b98649cd0ba1 | Charmed
@@ -424,6 +425,7 @@
 6a4bf0a89ad0c6d75edc026b | Jane the Virgin
 6a4fd96d7652851fb490204f | Pluto TV Royal Drama
 6a4fd9f5445cbf6c14ae3ea2 | Quirky AF
+6a4fda4538f47f0af402bdb0 | It's Anime
 6a5ff6d9c868f8fd984e005c | Ghosts
 6a722821ff94431f8bfbc260 | Celia
 6a7228e19307bc770a5b440c | El Capo
