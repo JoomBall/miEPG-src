@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep 14 00:33:45 UTC 2026
+# Fecha: Mon Sep 14 12:17:48 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -390,7 +390,6 @@
 6793ac47f5c74bff95d18a99 | TOP BARÇA
 680ba8992472a7200a183eb5 | One Piece
 680ba8c3a48b3ead0db701cc | Los caballeros del Zodiaco
-680ba9878e4b08935e31462b | Top Gear: Racing Icons
 6812206e1b3e3be031a5c363 | Águila Roja
 683457aebbc703dfd45a89eb | Merlí
 683457e5f59cc6a13212fce4 | Lupin
@@ -966,6 +965,15 @@ Eventos.3.es | Eventos 3
 Eventos.4.es | Eventos 4
 Extreme Channel | Extreme Channel
 Extreme.Channel.es | Extreme Channel
+FANPLAY TV Primera Federación 1 | FANPLAY TV Primera Federación 1
+FANPLAY TV Primera Federación 2 | FANPLAY TV Primera Federación 2
+FANPLAY TV Primera Federación 3 | FANPLAY TV Primera Federación 3
+FANPLAY TV Primera Federación 4 | FANPLAY TV Primera Federación 4
+FANPLAY TV Primera Federación 5 | FANPLAY TV Primera Federación 5
+FANPLAY TV Primera Federación 6 | FANPLAY TV Primera Federación 6
+FANPLAY TV Primera Federación 7 | FANPLAY TV Primera Federación 7
+FANPLAY TV Primera Federación 8 | FANPLAY TV Primera Federación 8
+FANPLAY TV Primera Federación 9 | FANPLAY TV Primera Federación 9
 FDF.Telecinco.es | FDF Telecinco
 FIFA+ | FIFA+
 FOX SPORTS 2 | FOX SPORTS 2
