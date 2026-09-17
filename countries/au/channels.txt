@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Sep 16 12:18:00 UTC 2026
+# Fecha: Thu Sep 17 00:30:04 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -52,7 +52,7 @@ LST | LifeStyle
 MO6 | Movies Drama
 MSN | MS NOW
 MTC | Retro
-MVS | Dinosaurs &amp; Other Beasts
+MVS | Eddie Murphy
 NAP | Australian Played
 NAT | Nature Time
 NHK | NHK World
