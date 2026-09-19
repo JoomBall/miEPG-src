@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Sep 18 12:17:06 UTC 2026
+# Fecha: Sat Sep 19 00:29:53 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -1285,7 +1285,6 @@ Movistar.Liga.de.Campeones.es | Movistar Liga de Campeones
 Movistar.Plus+.es | Movistar Plus+
 Mr Bean Animated | Mr Bean Animated
 Multicine atresplayer | Multicine atresplayer
-Mundial (DAZN) | Mundial (DAZN)
 Musicales.por.M+.\n.es | Musicales por M+ \n
 MyPadel TV | MyPadel TV
 MyPadel.TV.es | MyPadel TV
