@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Sep 20 12:15:41 UTC 2026
+# Fecha: Mon Sep 21 00:33:23 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -149,7 +149,6 @@
 643054b1fc3be59477853717-621672e42c2627c068e73ad8 | Galxy TV
 643054b1fc3be59477853717-621674502c2627c068e73ada | FrightFlix
 643054b1fc3be59477853717-621674f168c966be92737ce6 | El Conflicto TV
-643054b1fc3be59477853717-6216ae22c3bbca2de8704f65 | Sports Illustrated TV
 643054b1fc3be59477853717-6227c215c9f485cc7afe8c41 | Surfer TV
 643054b1fc3be59477853717-62280162c9f485cc7afe8c46 | Powder TV
 643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9 | Euronews Portuguese
@@ -610,9 +609,6 @@ DAZN 4 HD | DAZN 4
 DAZN Baloncesto 2 | DAZN Baloncesto 2
 DAZN Baloncesto 3 | DAZN Baloncesto 3
 DAZN Baloncesto | DAZN Baloncesto
-DAZN Bundesliga 2 | DAZN Bundesliga 2
-DAZN Bundesliga 3 | DAZN Bundesliga 3
-DAZN Bundesliga 4 | DAZN Bundesliga 4
 DAZN Bundesliga | DAZN Bundesliga
 DAZN F1 BAR | DAZN F1 BAR
 DAZN F1 HD | DAZN F1
