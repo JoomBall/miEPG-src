@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep 21 12:16:55 UTC 2026
+# Fecha: Tue Sep 22 00:30:38 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -609,12 +609,9 @@ DAZN 4 HD | DAZN 4
 DAZN Baloncesto 2 | DAZN Baloncesto 2
 DAZN Baloncesto 3 | DAZN Baloncesto 3
 DAZN Baloncesto | DAZN Baloncesto
-DAZN Bundesliga | DAZN Bundesliga
 DAZN F1 BAR | DAZN F1 BAR
 DAZN F1 HD | DAZN F1
 DAZN F1 | DAZN F1
-DAZN LALIGA EA SPORTS 2 | DAZN LALIGA EA SPORTS 2
-DAZN LALIGA EA SPORTS | DAZN LALIGA EA SPORTS
 DAZN LaLiga 2 HD | DAZN LaLiga 2
 DAZN LaLiga 3 | DAZN LaLiga 3
 DAZN LaLiga 4 | DAZN LaLiga 4
@@ -636,11 +633,6 @@ DAZN National League 7 | DAZN National League 7
 DAZN National League 8 | DAZN National League 8
 DAZN National League 9 | DAZN National League 9
 DAZN National League | DAZN National League
-DAZN Premier League 2 | DAZN Premier League 2
-DAZN Premier League 3 | DAZN Premier League 3
-DAZN Premier League | DAZN Premier League
-DAZN Serie A 2 | DAZN Serie A 2
-DAZN Serie A | DAZN Serie A
 DAZN.1.Bar.es | DAZN 1 Bar
 DAZN.1.es | DAZN 1
 DAZN.2.Bar.es | DAZN 2 Bar
@@ -1361,7 +1353,6 @@ PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
-PTV Sevilla | PTV Sevilla
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
 Películas Románticas (Rakuten TV) | Películas Románticas (Rakuten TV)
