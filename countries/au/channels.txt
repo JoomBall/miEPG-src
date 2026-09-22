@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep 22 00:30:37 UTC 2026
+# Fecha: Tue Sep 22 12:17:01 UTC 2026
 
 ACC | GOOD.
 ACS | Aussie Classics
@@ -76,6 +76,7 @@ SRA | Sky Racing 1
 SRW | Sky Racing Thoroughbred Central
 SUK | SKY NEWS UK
 TMF | Trending
+TRS | MSW Pop Up HD
 TVS | TVSN
 UKT | UKTV
 UP2 | Taskmaster Pop Up
