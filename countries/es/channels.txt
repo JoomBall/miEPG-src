@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Sep 24 00:30:09 UTC 2026
+# Fecha: Thu Sep 24 12:18:26 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -156,7 +156,6 @@
 643054b1fc3be59477853717-6245f06793b402a3d1097787 | Euronews Français
 643054b1fc3be59477853717-6245f13093b402a3d1097789 | Euronews Italiano
 643054b1fc3be59477853717-626c1753ffda6789d20a452e | COPS
-643054b1fc3be59477853717-627ec46a92d8e6a705784bd1 | Ninja Kidz TV
 643054b1fc3be59477853717-62ba4aaff663580a7238f327 | Sonic TV
 643054b1fc3be59477853717-62d1a58e520656fda09e609d | Shemaroo Bollywood
 643054b1fc3be59477853717-62d7f68fb19cbf65dc7bef7c | Qello Concerts
@@ -350,6 +349,7 @@
 643054b1fc3be59477853717-6a8786c4fa0d0293e2681b7c | GrowthDay Network
 643054b1fc3be59477853717-6a90b2b5c0870218305e909b | Tennis TV
 643054b1fc3be59477853717-6a9512a7f534d4312a699c22 | SWAC TV
+643054b1fc3be59477853717-6aa9bc040832270987394353 | Real Emergency
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
