@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep 28 00:36:03 UTC 2026
+# Fecha: Mon Sep 28 12:20:08 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -55,7 +55,6 @@
 6081738748d3200007afb24b | Highway to Heaven
 60817936fd2d70000763d2b2 | Wild at Heart
 611f85396abc84000738417b | Beyond Belief: Fact or Fiction
-612cda102f5f18000705e0bf | Pluto TV Horror
 612f761008a9e50007984ba0 | Pluto TV Animation
 61559552dd585f0007321eca | Bloomberg TV+
 615af74dfe3d8e0007524511 | On The Case
@@ -124,7 +123,10 @@
 66a10eeb46762a0008201e85 | Teletubbies
 66ba1e23d2d50d00084a1e57 | Crimes That Shook Britain
 66ba1e4446762a000855cd87 | Girlfriends
+66ba1ef5fe11e50008814383 | Pluto TV Kids Halloween
 66ba1f16cd0d3100086dcf22 | Alien Files Unsealed
+66ba1f46d2d50d00084a28c4 | Bitten
+66bb66e2d512590008d728aa | Pluto TV Halloween
 66c45afaa72e7b0008a2b153 | CNNi
 66d717d2abec540008ba7ec4 | Pluto TV 80's Action
 66d885aef0f17500084b6750 | PGA TOUR
