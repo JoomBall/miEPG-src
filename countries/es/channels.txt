@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Sep 29 00:32:39 UTC 2026
+# Fecha: Tue Sep 29 12:19:16 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -418,6 +418,7 @@
 6a43d3bae0c1a33841302952 | Noche y día
 6a43d63071cbfff7dca61d23 | Los Misteriosos asesinatos de Miss Fisher
 6a6a02ae3ee9d966427e62c4 | NFL Channel
+6a954e12f2eaa89247e06dd6 | MTV VMAs 2026
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
