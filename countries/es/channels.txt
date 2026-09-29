@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Sep 28 12:20:08 UTC 2026
+# Fecha: Tue Sep 29 00:32:39 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -233,7 +233,6 @@
 643054b1fc3be59477853717-65a1d3996475bf522f9256e3 | VR+
 643054b1fc3be59477853717-65b1568052aa31b8f64da064 | C4 en Alerta
 643054b1fc3be59477853717-65b16e7b115f5ad5450cfdac | Milenio Television
-643054b1fc3be59477853717-65b80306e5cf85050598aba4 | Made It Myself TV
 643054b1fc3be59477853717-65cd316a40ab06259e8168a0 | Tastemade en Español
 643054b1fc3be59477853717-65e0c8c6d899afe817b9d224 | Cricket Gold
 643054b1fc3be59477853717-65e9d0ad8fe4ef7053c3c872 | FilmRise Sci-Fi
@@ -1154,6 +1153,8 @@ Love.Wine.es | Love Wine
 M+ Acción HD | M+ Acción
 M+ Baloncesto 2 | M+ Baloncesto 2
 M+ Baloncesto 3 | M+ Baloncesto 3
+M+ Baloncesto 4 | M+ Baloncesto 4
+M+ Baloncesto 5 | M+ Baloncesto 5
 M+ Baloncesto | M+ Baloncesto
 M+ Cero | M+ Cero
 M+ Cine Español | M+ Cine Español
