@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Sep 30 00:34:12 UTC 2026
+# Fecha: Thu Oct  1 00:38:49 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -70,7 +70,6 @@
 62ab579258cb950007811aad | Mission Impossible
 62ac405b3874370007419b7f | Barney &amp; Friends
 62ac50e92c48f900071444c9 | Auction Hunters
-62cbdc45d3cb9f0007128df4 | Pluto TV Christmas in Summer
 62d550d81054990007db7798 | Teen Mom
 62f53dc6ee9a0400071dc22b | Pluto TV Sitcoms
 6304f8d5ffb61000071ab478 | CSI: Crime Scene Investigation
@@ -418,6 +417,7 @@ GB2300005ML | Al Jazeera
 GB2400006I0 | Tiny House Nation
 GB2400007FA | Teletubbies
 GB2400008GK | Dennis and Gnasher
+GB24000118Y | Wild at Heart
 GB2500002K0 | Cool Summer Channel
 GB26000118T | DFB Play TV
 GB2600012R3 | Drama Movies - Rakuten TV
@@ -447,6 +447,7 @@ GB2700016H5 | Artist of the Year
 GB2700017IP | Nolly Africa HD
 GB28000063B | Mayday: Air Disaster
 GB280000829 | Poldark
+GB28000118O | The Voice Global
 GB29000089Y | AMC Cupid
 GB2900009S9 | AMC Reality
 GB2900010BJ | Love After Lockup
