@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct  1 12:19:13 UTC 2026
+# Fecha: Fri Oct  2 00:33:14 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -137,6 +137,7 @@
 5eb1b17aa5277e00083f6521 | CBS News Pittsburgh
 5ebc8688f3697d00072f7cf8 | Bellator MMA
 5eceb0d4065c240007688ec6 | CBS News Texas
+5ef3958c66ac540007d6e6a7 | Dark Shadows
 5ef3977e5d773400077de284 | Three's Company
 5efbd29e4aa26700076c0d06 | CSI
 5efbd39f8c4ce900075d7698 | Star Trek
@@ -183,7 +184,6 @@
 6036e7c385749f00075dbd3b | Pluto TV Game Shows
 603fde9026ecbf0007752c2c | Pluto TV Competition
 604928d54a4f730007ff76bc | CSI en Español
-6049295e7dcef800073c2499 | Star Trek en español
 60492e6d7f3f560007ab0f62 | Estrella News
 60807fd5db701400078219c2 | Ink Master
 609bfa51fbecc1000733152e | Jersey Shore
@@ -265,10 +265,6 @@
 649b6898f2ec0000081a9460 | DAZN Ringside
 649ddbfb6f29ec000874ca9e | Supermarket Sweep
 64a765c04ea480000823917a | Big Brother Camera 1
-64a765fb798def0008734632 | Big Brother Camera 2
-64a7665b902f2300085d7901 | Big Brother Camera 3
-64a766a794635e0008626601 | Big Brother Camera 4
-64a766cd798def0008734695 | Big Brother Quad View
 64b585f84ea480000838e446 | Pluto TV Icons
 64d1606b4c5ed80008e3b8b9 | Dynasty
 64d160f53c785e0008df525e | Top Rank Classics
@@ -431,4 +427,7 @@
 6a7228e19307bc770a5b440c | El Capo
 6a7b7c50307dc8b67b372008 | La novia de Estambul
 6a7cc5a857bd65df5dadba5f | Pluto TV Hispanic Favorites
+6aa043fe0c9f5239c2c508c2 | Pluto TV Recent Releases
+6aaadf258cc64f2b2b7dbe3c | Ani-Monsters
+6ab165fdeae99d62d7e541ff | Pluto TV Halloween
 metv | MeTV
