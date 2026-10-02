@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Oct  2 00:33:17 UTC 2026
+# Fecha: Fri Oct  2 12:19:06 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -154,7 +154,6 @@
 643054b1fc3be59477853717-6245efe9f137de43897ea1ae | Euronews Deutsch
 643054b1fc3be59477853717-6245f06793b402a3d1097787 | Euronews Français
 643054b1fc3be59477853717-6245f13093b402a3d1097789 | Euronews Italiano
-643054b1fc3be59477853717-626c1753ffda6789d20a452e | COPS
 643054b1fc3be59477853717-62ba4aaff663580a7238f327 | Sonic TV
 643054b1fc3be59477853717-62d1a58e520656fda09e609d | Shemaroo Bollywood
 643054b1fc3be59477853717-62d7f68fb19cbf65dc7bef7c | Qello Concerts
@@ -198,7 +197,6 @@
 643054b1fc3be59477853717-640205c68ecb41f2d89d5814 | The Ed Sullivan Show
 643054b1fc3be59477853717-643f0ecd76de2b4015ae6c01 | PFL MMA
 643054b1fc3be59477853717-64487696af92c31f4a190bc4 | MyTime Movie Network
-643054b1fc3be59477853717-6448ba1baf92c31f4a190c27 | JAIL
 643054b1fc3be59477853717-6449369eb3ff17382cae5801 | Dick Van Dyke
 643054b1fc3be59477853717-644b13a3a1c0a5b2024c8403 | Strongman Champions
 643054b1fc3be59477853717-64694d52f73356567a64ce8c | Corazón
@@ -312,7 +310,6 @@
 643054b1fc3be59477853717-68b74a235dc5413c905efd62 | TV5MONDE Voyage
 643054b1fc3be59477853717-68b9f334fc12601028c5651e | World Billiards TV
 643054b1fc3be59477853717-68b9f5a3d60e5dd29263c7ac | NEW KFOOD
-643054b1fc3be59477853717-68c98e7460586565cc56baab | Crime Beat TV
 643054b1fc3be59477853717-68caada21fabab6eb2e99331 | Bassmaster
 643054b1fc3be59477853717-68e0371d8bbd79d66c631ab2 | The Wiggles
 643054b1fc3be59477853717-68e9436dda6bb987138625c7 | Metal.Rocks
@@ -1015,7 +1012,6 @@ FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
 Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
-FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
