@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Oct  1 12:19:07 UTC 2026
+# Fecha: Fri Oct  2 00:33:17 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -347,6 +347,10 @@
 643054b1fc3be59477853717-6a9512a7f534d4312a699c22 | SWAC TV
 643054b1fc3be59477853717-6aa9bc040832270987394353 | Real Emergency
 643054b1fc3be59477853717-6aaa2279083227098739435f | Nomad Travel
+643054b1fc3be59477853717-6ab2a5c24d0a0fea95319571 | COPS
+643054b1fc3be59477853717-6ab3fb945364aa2377195427 | COPS en Español
+643054b1fc3be59477853717-6ab3fcd55364aa2377195429 | JAIL en Español
+643054b1fc3be59477853717-6ab56313177d989ab41dfd3b | JAIL
 645a309c5a0cd5000873f609 | Pluto TV Catástrofes
 6475bfec536e0c0008858e9f | Pluto TV K-Drama
 64a3f200f238ce0008d47247 | Pluto TV True Crime
@@ -373,6 +377,7 @@
 662a69daa0a74e00087a1c72 | Pluto TV Telenovelas Clásicas
 6682bd9b8768aa0008f25be5 | Los misterios de Murdoch
 66b0dfa1d512590008bfa7fd | Pluto TV Gore &amp; Slasher
+66b0e00814a2bb00085f5934 | Pluto TV Terror Clásico
 66c45c0de7f5e80008b82005 | CNN Headlines International
 66d71c656b63480008cf0427 | Cherif
 66d71f8ee5de930008016f83 | Alice Nevers
@@ -1010,6 +1015,7 @@ FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
 Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
