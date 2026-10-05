@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Oct  5 00:36:05 UTC 2026
+# Fecha: Mon Oct  5 12:19:32 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -423,7 +423,6 @@
 6a846c44496b635ad62aa13e | That's 80s
 6a846cb6840f7d654710df00 | That's 90s00s
 6a846ccd99e7db5e8a1d9b5f | That's Rock
-6a954e12f2eaa89247e06dd6 | MTV VMAs 2026
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
@@ -1516,7 +1515,6 @@ Televisió de l'Hospitalet | Televisió de l'Hospitalet
 TelevisiónCanaria.es | TelevisiónCanaria
 Ten | Ten
 Tennis Channel | Tennis Channel
-Tennis+ | Tennis+
 The.Pet.Collective.es | The Pet Collective
 Thrillers (Rakuten TV) | Thrillers (Rakuten TV)
 Todo Crimen (Rakuten TV) | Todo Crimen (Rakuten TV)
