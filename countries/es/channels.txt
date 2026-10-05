@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Oct  4 13:58:44 UTC 2026
+# Fecha: Mon Oct  5 00:36:05 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -630,9 +630,6 @@ DAZN LaLiga HD | DAZN LaLiga
 DAZN Liga F 2 | DAZN Liga F 2
 DAZN Liga F | DAZN Liga F
 DAZN MotoGP | DAZN MotoGP
-DAZN National League 10 | DAZN National League 10
-DAZN National League 11 | DAZN National League 11
-DAZN National League 12 | DAZN National League 12
 DAZN National League 2 | DAZN National League 2
 DAZN National League 3 | DAZN National League 3
 DAZN National League 4 | DAZN National League 4
@@ -640,7 +637,6 @@ DAZN National League 5 | DAZN National League 5
 DAZN National League 6 | DAZN National League 6
 DAZN National League 7 | DAZN National League 7
 DAZN National League 8 | DAZN National League 8
-DAZN National League 9 | DAZN National League 9
 DAZN National League | DAZN National League
 DAZN Premier League 2 | DAZN Premier League 2
 DAZN Premier League 3 | DAZN Premier League 3
@@ -1430,6 +1426,7 @@ SX3-33.es | SX3-33
 SX3.es | SX3
 Sangre Fría | Sangre Fría
 Sci-Fi (Rakuten TV) | Sci-Fi (Rakuten TV)
+SciFi HD | SciFi
 Sin.Filtros.es | Sin Filtros
 Sky News International | Sky News International
 Sky Sports 16 | Sky Sports 16
@@ -1461,7 +1458,6 @@ Stingray.Classica.es | Stingray Classica
 Sundance TV | Sundance TV
 Sundance.TV.es | Sundance TV
 Surf Channel | Surf Channel
-SyFy HD | SyFy
 Syfy.es | Syfy
 TAC12 | TAC12
 TCM HD | TCM
