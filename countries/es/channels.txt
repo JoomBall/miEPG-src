@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Oct  5 12:19:32 UTC 2026
+# Fecha: Tue Oct  6 00:33:16 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -1007,6 +1007,7 @@ FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
 Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
@@ -1515,6 +1516,7 @@ Televisió de l'Hospitalet | Televisió de l'Hospitalet
 TelevisiónCanaria.es | TelevisiónCanaria
 Ten | Ten
 Tennis Channel | Tennis Channel
+Tennis+ | Tennis+
 The.Pet.Collective.es | The Pet Collective
 Thrillers (Rakuten TV) | Thrillers (Rakuten TV)
 Todo Crimen (Rakuten TV) | Todo Crimen (Rakuten TV)
