@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct  7 00:34:16 UTC 2026
+# Fecha: Wed Oct  7 12:19:18 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -738,10 +738,11 @@ ES170000433 | NEW K-MOVIES
 ES1700005ME | NEW KPOP
 ES17000065P | BABY SHARK TV
 ES18000040D | BBC Lifestyle
+ES1800005H2 | BBC Historia
 ES1800006ZS | Rainy Day Vibes
 ES1800007GH | Island Vibes
 ES1800008X7 | Ocean Vibes
-ES1800009VX | Spring Vibes
+ES1800009VX | Fall Vibes
 ES190000224 | Cozy Vibes
 ES1900003JT | Storm Vibes
 ES20000065W | Tennis+
