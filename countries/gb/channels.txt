@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Oct  6 12:18:06 UTC 2026
+# Fecha: Wed Oct  7 00:34:03 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -875,7 +875,7 @@ TVC.News.uk | TVC News
 TVX.40+.uk | TVX 40+
 TWR.uk | TWR
 Takbeer.TV.uk | Takbeer TV
-TalkTV.HD.uk | TalkTV HD
+TalkRadio.(TalkTV).uk | TalkRadio (TalkTV)
 TalkingPictures.uk | TalkingPictures
 Television.X.uk | Television X
 Thats.Dance.uk | Thats Dance
