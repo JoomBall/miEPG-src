@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct  7 12:19:18 UTC 2026
+# Fecha: Thu Oct  8 00:33:16 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -205,7 +205,6 @@
 643054b1fc3be59477853717-646d06c9b09f13b2d8af68d8 | Azteca Internacional
 643054b1fc3be59477853717-6470477fe536e0faaf10be9d | Robot Wars by Mech+
 643054b1fc3be59477853717-64704954e536e0faaf10be9f | Just For Laughs Gags
-643054b1fc3be59477853717-6477b95b7ba9c0d593859bfc | Cops en Español
 643054b1fc3be59477853717-6490c01f3b3ce9e1aaad95be | FashionTV
 643054b1fc3be59477853717-6490e17c18a55242eea95991 | Cine Friki
 643054b1fc3be59477853717-6490e59918a55242eea95995 | Todo Novelas
