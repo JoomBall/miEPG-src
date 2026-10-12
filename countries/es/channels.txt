@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Oct 12 00:38:08 UTC 2026
+# Fecha: Mon Oct 12 12:25:47 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -420,6 +420,7 @@
 6a43d3bae0c1a33841302952 | Noche y día
 6a43d63071cbfff7dca61d23 | Los Misteriosos asesinatos de Miss Fisher
 6a6a02ae3ee9d966427e62c4 | NFL Channel
+6a6a031b10c8f12ffc3adbb5 | Series made in Spain de Pluto TV
 6a846c44496b635ad62aa13e | That's 80s
 6a846cb6840f7d654710df00 | That's 90s00s
 6a846ccd99e7db5e8a1d9b5f | That's Rock
