@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct 14 00:28:02 UTC 2026
+# Fecha: Wed Oct 14 12:17:34 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -377,6 +377,7 @@ GB1400001E4 | CURIOSITY Now
 GB1500003S4 | Golf Life
 GB1500004BF | Happy Place with Fearne Cotton
 GB1500005UP | Joe Media
+GB1500006PK | Trevor Noah
 GB170000351 | POP Up
 GB1700004YC | CJ ENM K-Food &amp; Travel
 GB1700005U8 | BABY SHARK TV
@@ -488,13 +489,15 @@ GB3800003OS | Eurovision Sport
 GB380000473 | Sports First TV
 GB3800007C5 | Space Live
 GB3800009F0 | FIFA+ Women
+GB3800010LT | Real Madrid TV
 GB3900001TM | CJ ENM K-POP
 GB3900003W4 | Inside Outside
+GB3900004ZS | Deadliest Roads
 GB4000008O5 | Mr Bean Live Action
 GB4000027F | The Graham Norton Show
 GB400003BM | INTRAVEL
 GB4100001E2 | Mark Rober TV
-GB4100003VP | Thrillers - Rakuten TV
+GB4100003VP | Halloween - Rakuten TV
 GB4200002K6 | Pokémon
 GB4200009EC | Racing TV Play
 GB4200010V1 | Who Wants to be a Millionaire
