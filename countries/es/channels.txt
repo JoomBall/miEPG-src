@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Oct 13 12:19:47 UTC 2026
+# Fecha: Wed Oct 14 00:28:11 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -639,6 +639,7 @@ DAZN National League 5 | DAZN National League 5
 DAZN National League 6 | DAZN National League 6
 DAZN National League 7 | DAZN National League 7
 DAZN National League 8 | DAZN National League 8
+DAZN National League 9 | DAZN National League 9
 DAZN National League | DAZN National League
 DAZN Premier League 2 | DAZN Premier League 2
 DAZN Premier League 3 | DAZN Premier League 3
@@ -1011,6 +1012,7 @@ FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
 Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
@@ -1036,6 +1038,7 @@ Gulli | Gulli
 Gulli.es | Gulli
 HBO Max Avances | HBO Max Avances
 HBO.Max.Avances.es | HBO Max Avances
+Halloween by DARK | Halloween by DARK
 Heritage+.es | Heritage+
 Historia y Vida | Historia y Vida
 Historia | Historia
@@ -1365,7 +1368,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
@@ -1501,7 +1503,6 @@ TVG | TVG
 TVG.Europa.es | TVG Europa
 TVG.es | TVG
 TVG2 | TVG2
-TVR Rioja | TVR Rioja
 TVi.es | TVi
 Tele Elx | Tele Elx
 Tele.Elx.es | Tele Elx
@@ -1605,6 +1606,7 @@ iConcerts.es | iConcerts
 interalmería TV | interalmería TV
 laSexta.es | laSexta
 teleSUR.es | teleSUR
+telemiño | telemiño
 tlnovelas | tlnovelas
 tvG2.es | tvG2
 tvmataró | tvmataró
