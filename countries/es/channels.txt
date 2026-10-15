@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct 14 12:17:39 UTC 2026
+# Fecha: Thu Oct 15 00:28:07 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -343,6 +343,7 @@
 643054b1fc3be59477853717-6a9512a7f534d4312a699c22 | SWAC TV
 643054b1fc3be59477853717-6aa9bc040832270987394353 | Real Emergency
 643054b1fc3be59477853717-6aa9c4a3083227098739435b | Man City 24/7
+643054b1fc3be59477853717-6aaa1f33083227098739435d | VEEPS Concert Pass
 643054b1fc3be59477853717-6aaa2279083227098739435f | Nomad Travel
 643054b1fc3be59477853717-6ab2a5c24d0a0fea95319571 | COPS
 643054b1fc3be59477853717-6ab3fb945364aa2377195427 | COPS en Español
@@ -646,6 +647,7 @@ DAZN Premier League 3 | DAZN Premier League 3
 DAZN Premier League 4 | DAZN Premier League 4
 DAZN Premier League | DAZN Premier League
 DAZN Serie A 2 | DAZN Serie A 2
+DAZN Serie A 3 | DAZN Serie A 3
 DAZN Serie A | DAZN Serie A
 DAZN.1.Bar.es | DAZN 1 Bar
 DAZN.1.es | DAZN 1
@@ -1013,6 +1015,7 @@ FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
 Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
