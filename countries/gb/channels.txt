@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct 21 00:28:43 UTC 2026
+# Fecha: Wed Oct 21 12:17:15 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -110,6 +110,7 @@
 660c209e19ca71000846cf38 | That's 90s00s
 660e5dc60cd4630008f6198a | JAG
 661cf62d24e1d000087dae0d | COPS
+66275fd09e68c200089e0335 | Rules Of Engagement
 66276091cee0d900085fe053 | Sabrina The Teenage Witch
 6627621d56fc840008e47c90 | Tennis Channel
 664c94e80120f40008b860f0 | POP
