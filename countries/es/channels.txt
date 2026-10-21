@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct 21 00:28:25 UTC 2026
+# Fecha: Wed Oct 21 12:17:16 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -743,6 +743,7 @@ ES1700003C6 | CJ ENM K-Novela en Español
 ES170000433 | NEW K-MOVIES
 ES1700005ME | NEW KPOP
 ES17000065P | BABY SHARK TV
+ES1800003JN | BBC Food
 ES18000040D | BBC Lifestyle
 ES1800005H2 | BBC Historia
 ES1800006ZS | Rainy Day Vibes
