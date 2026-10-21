@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Oct 20 12:17:32 UTC 2026
+# Fecha: Wed Oct 21 00:28:05 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -295,7 +295,7 @@
 656535fc2c46f30008870fae | BBC Earth
 65653817c917a5000844bc30 | Criminal Minds
 656538f8954b020008d389db | UnXplained Zone
-6565413e4261ca0008215320 | Pickers &amp; Pawn
+6565413e4261ca0008215320 | American Pickers Plus by History
 656542ae4261ca00082154a8 | Ultimate Builds
 6565430c9d5ac4000822f508 | Rustic Retreats
 65775af3b3801200084a3aa4 | Feel Good Drama
@@ -426,5 +426,9 @@
 6a7b7c50307dc8b67b372008 | La novia de Estambul
 6aa043fe0c9f5239c2c508c2 | Pluto TV Recent Releases
 6aaadf258cc64f2b2b7dbe3c | Ani-Monsters
+6aab1ea02cfd341eb5036c5a | A&amp;E’s Alaska State Troopers
+6aab1ec6f2eaa8924745678e | A&amp;E Live PD: Greatest Shifts
+6aab1ef220ec28a21adca712 | Torque by History
+6aab1f18c349e6a78bb489ad | Pawn Stars Plus by History
 6ab165fdeae99d62d7e541ff | Pluto TV Halloween
 metv | MeTV
