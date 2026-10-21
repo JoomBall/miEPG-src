@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Oct 20 12:17:30 UTC 2026
+# Fecha: Wed Oct 21 00:28:25 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -666,24 +666,24 @@ DE | Auto Motor Sport Ch. | DE | Auto Motor Sport Ch.
 DE | DAZN | DE | DAZN
 DE | Eurosport 1 | DE | Eurosport 1
 DE | Eurosport 2 | DE | Eurosport 2
-DE | MagentaSport | DE | MagentaSport
 DE | More than Sports TV | DE | More than Sports TV
 DE | Motorvision TV | DE | Motorvision TV
-DE | Motorvision+ | DE | Motorvision+
 DE | Rally TV | DE | Rally TV
-DE | SPORTDIGITAL FUSSBALL | DE | SPORTDIGITAL FUSSBALL
 DE | Sky Sport Austria | DE | Sky Sport Austria
 DE | Sky Sport F1 | DE | Sky Sport F1
 DE | Sky Sport Golf | DE | Sky Sport Golf
-DE | Sky Sport Kompakt 1 | DE | Sky Sport Kompakt 1
 DE | Sky Sport Mix | DE | Sky Sport Mix
 DE | Sky Sport News | DE | Sky Sport News
 DE | Sky Sport Premier League | DE | Sky Sport Premier League
 DE | Sky Sport Tennis | DE | Sky Sport Tennis
 DE | Sky Sport Top Event | DE | Sky Sport Top Event
+DE | Sportdigital EDGE | DE | Sportdigital EDGE
+DE | Sportdigital FUSSBALL | DE | Sportdigital FUSSBALL
+DE | Sportdigital FUSSBALL2 | DE | Sportdigital FUSSBALL2
 DE | Sportdigital1+ | DE | Sportdigital1+
 DE | eSports One | DE | eSports One
 DE | eSportsONE | DE | eSportsONE
+DE | scooore | DE | scooore
 DE | sport1 | DE | sport1
 DE | sport1+ | DE | sport1+
 DE | sportdigital | DE | sportdigital
@@ -1370,7 +1370,6 @@ PT | Sport TV 6 | PT | Sport TV 6
 PT | Sport TV 7 | PT | Sport TV 7
 PT | Sporting TV HD | PT | Sporting TV
 PT | TRACE Urban HD | PT | TRACE Urban
-PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
 PTV Málaga | PTV Málaga
