@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Oct 21 12:17:14 UTC 2026
+# Fecha: Thu Oct 22 00:28:40 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -337,6 +337,7 @@
 66e0b4a3f0f17500085cc268 | Hit Sitcoms
 66fedd65d7de140008dccd66 | El Reino Infantil
 66ff0cf663292d0008320cf8 | No Reservations
+66ff1d5a565d3a000892bdcd | Stingray Holidayscapes
 672e4d915534bb0008c50168 | Family Feud
 673247127d5da5000817b4d6 | Pluto TV Trending Now
 673248f9030a2c0008033af8 | CNN Noticias
