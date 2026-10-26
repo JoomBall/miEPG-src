@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Oct 25 12:14:50 UTC 2026
+# Fecha: Mon Oct 26 00:30:51 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -623,6 +623,7 @@ DAZN Bundesliga | DAZN Bundesliga
 DAZN F1 BAR | DAZN F1 BAR
 DAZN F1 HD | DAZN F1
 DAZN F1 | DAZN F1
+DAZN LALIGA EA SPORTS 2 | DAZN LALIGA EA SPORTS 2
 DAZN LALIGA EA SPORTS | DAZN LALIGA EA SPORTS
 DAZN LaLiga 2 HD | DAZN LaLiga 2
 DAZN LaLiga 3 | DAZN LaLiga 3
@@ -1016,6 +1017,7 @@ FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
 Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
@@ -1374,7 +1376,6 @@ PT | TRACE Urban HD | PT | TRACE Urban
 PTV Córdoba | PTV Córdoba
 PTV Granada | PTV Granada
 PTV Linares | PTV Linares
-PTV Málaga | PTV Málaga
 PTV Sevilla | PTV Sevilla
 Paramount.Network.es | Paramount Network
 Pelis Top (Rakuten TV) | Pelis Top (Rakuten TV)
