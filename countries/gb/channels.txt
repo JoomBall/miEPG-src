@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Oct 26 00:30:49 UTC 2026
+# Fecha: Mon Oct 26 13:41:07 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -101,7 +101,6 @@
 65a6a5e90c7ff50008cb9815 | Funny AF
 65a6a7a00c7ff50008cba07b | Pluto TV Crime Drama
 65a7ab137bdc8d0008487dfb | Pluto TV Erotica
-65a7af553af63d000828acca | Cash In The Attic
 65a7b01907e03a0008913e8f | Best of Dr. Phil
 65a7b0814a10d800085ff2df | Pluto TV PetrolHeads
 65b14aae0cb1a100087a216e | DAZN Ringside
