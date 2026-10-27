@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Oct 27 00:29:15 UTC 2026
+# Fecha: Tue Oct 27 12:18:11 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -796,6 +796,7 @@ ES300030ZT | Telemadrid
 ES300033TI | Viajes &amp; Sabores
 ES300034BT | Actualidad 360
 ES31000013F | INTER 24/7
+ES3100002GL | Terra Mater Wild
 ES3200001F1 | BBC Earth
 ES32000027M | CLIPS don't lie
 ES3200003OC | DFB Play TV
