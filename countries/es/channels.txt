@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Oct 31 00:19:15 UTC 2026
+# Fecha: Sat Oct 31 12:10:39 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -622,9 +622,7 @@ DAZN Bundesliga 3 | DAZN Bundesliga 3
 DAZN Bundesliga 4 | DAZN Bundesliga 4
 DAZN Bundesliga 5 | DAZN Bundesliga 5
 DAZN Bundesliga | DAZN Bundesliga
-DAZN F1 BAR | DAZN F1 BAR
 DAZN F1 HD | DAZN F1
-DAZN F1 | DAZN F1
 DAZN LALIGA EA SPORTS 2 | DAZN LALIGA EA SPORTS 2
 DAZN LALIGA EA SPORTS | DAZN LALIGA EA SPORTS
 DAZN LaLiga 2 HD | DAZN LaLiga 2
@@ -1038,7 +1036,6 @@ Global Telenovelas | Global Telenovelas
 Global Tendencias | Global Tendencias
 Global.Telenovelas.TV.es | Global Telenovelas TV
 Global.Tendencias.TV.es | Global Tendencias TV
-GolStadium BAR | GolStadium BAR
 Gulli | Gulli
 Gulli.es | Gulli
 HBO Max Avances | HBO Max Avances
@@ -1146,16 +1143,6 @@ LaLiga.TV.Hypermotion.es | LaLiga TV Hypermotion
 LaLiga.TV.es | LaLiga TV
 Levante TV | Levante TV
 Levante.TV.es | Levante TV
-Liga de Campeones BAR 10 | Liga de Campeones BAR 10
-Liga de Campeones BAR 11 | Liga de Campeones BAR 11
-Liga de Campeones BAR 12 | Liga de Campeones BAR 12
-Liga de Campeones BAR 2 | Liga de Campeones BAR 2
-Liga de Campeones BAR 3 | Liga de Campeones BAR 3
-Liga de Campeones BAR 4 | Liga de Campeones BAR 4
-Liga de Campeones BAR 5 | Liga de Campeones BAR 5
-Liga de Campeones BAR 6 | Liga de Campeones BAR 6
-Liga de Campeones BAR 8 | Liga de Campeones BAR 8
-Liga de Campeones BAR 9 | Liga de Campeones BAR 9
 Lleida TV | Lleida TV
 Lolly Kids | Lolly Kids
 Los Conciertos de Radio 3 | Los Conciertos de Radio 3
