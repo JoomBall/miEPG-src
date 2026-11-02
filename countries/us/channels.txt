@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sun Nov  1 12:10:28 UTC 2026
+# Fecha: Mon Nov  2 00:20:35 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -50,6 +50,7 @@
 5bb3fea0f711fd76340eebff | Pluto TV Military
 5bdcdf1e851dd5632e2c11d1 | QVC
 5bee1a7359ee03633e780238 | Dog the Bounty Hunter
+5bf48085851dd5632e2f7b4d | Crackling Fireplace
 5c2d64ffbdf11b71587184b8 | TV Land Sitcoms
 5c37d6712de254456f7ec340 | Cold Case Files by A&amp;E
 5c393cad2de254456f7ef8c2 | Spike Outdoors
@@ -99,6 +100,7 @@
 5d8d164d92e97a5e107638d2 | Cine adrenalina
 5d8d180092e97a5e107638d3 | Cine terror
 5d93b635b43dd1a399b39eee | Vevo Pop
+5d9ccd538661290009ecbdb7 | Pluto TV Mistletoe
 5da0c85bd2c9c10009370984 | Naruto
 5da0d75e84830900098a1ea0 | Vevo Country
 5da0d83f66c9700009b96d0e | Vevo R&amp;B
@@ -184,6 +186,7 @@
 6036e7c385749f00075dbd3b | Pluto TV Game Shows
 603fde9026ecbf0007752c2c | Pluto TV Competition
 604928d54a4f730007ff76bc | CSI en Español
+6049295e7dcef800073c2499 | Star Trek en español
 60492e6d7f3f560007ab0f62 | Estrella News
 60807fd5db701400078219c2 | Ink Master
 609bfa51fbecc1000733152e | Jersey Shore
@@ -210,6 +213,7 @@
 613260e4bdb71c00070d63fa | More TV Drama
 6132619f9ddaa50007e7dd86 | More TV Sitcoms
 61326275b3c86a00078e4833 | BET Throwbacks
+614501c653ceee000772b0ca | Festive Fireplace
 615b8ec39e878900073f419a | Antiques Road Trip
 6176f39e709f160007ec61c3 | 48 Hours
 6176fd25e83a5f0007a464c9 | Bounce XL
@@ -228,7 +232,7 @@
 6267352efcf21c0007c76642 | Let's Make A Deal
 627d355aa95efd00077afcc7 | Cheaters
 6283d51144ad8f0007fa382d | The Judge Judy Channel
-628e685ba3811100070551a8 | Hallmark Movies &amp; More
+628e685ba3811100070551a8 | Hallmark Movies &amp; More Holiday Favorites
 62ba60f059624e000781c436 | 00s Replay
 62cdc75b1a1cbd0007ed45dc | CBS News Chicago
 62f54c11b3af68000702c304 | CSI: Miami
@@ -238,7 +242,11 @@
 632b606e12a67b0007c9e371 | CSI: NY en español
 632b619c8d2a6c0007ff534e | KIRO Seattle
 633354b63df9700007f6a1b7 | Sitcom Legends
-63335b193583440007c859fb | Lifetime Movie Favorites
+63335b193583440007c859fb | Lifetime Holiday Movie Favorites
+63335df531a7590007c226b9 | Pluto TV Christmas
+6334a3355471ee0007609e21 | Home for the Holidays
+6334a3ffdc283500076acf92 | Vevo Holiday
+6334a4d7ae975100073994a2 | Cine navideño
 6334a574605f140007e233c4 | PFL MMA
 634dacf51d90320007fcd5fa | Star Trek: Voyager
 634ee8f95aa9870007248333 | Confess by Nosey
@@ -333,6 +341,7 @@
 66c638726838ee00085ac20d | Andromeda
 66df8a29b25d2b0008fc5fe0 | Love Nature
 66df8aa7abec540008ca8cb6 | Homeful
+66e0b265dd2d690008c5496b | Places &amp; Spaces
 66e0b4536ad04d0008fff4b2 | CNN Originals
 66e0b4866ad04d0008fff4d8 | MythBusters
 66e0b4a3f0f17500085cc268 | Hit Sitcoms
@@ -388,6 +397,7 @@
 68c32d88f56983aba40052bd | BET Comedy Movies
 68e9913c4a666b9054849832 | Bonanza
 68ee9a999938143525bfc385 | Shop LC
+68f690e7a25ba0aab32bed92 | BET Holiday Movies
 68fbf8101d26140175db8b58 | Pluto TV Franchise Favorites
 6913e381b6bf26bb6e798c13 | The X-Files
 691cf0410a78a9ce61ad2121 | America's Funniest Home Videos
@@ -434,5 +444,18 @@
 6aab1ec6f2eaa8924745678e | A&amp;E Live PD: Greatest Shifts
 6aab1ef220ec28a21adca712 | Torque by History
 6aab1f18c349e6a78bb489ad | Pawn Stars Plus by History
-6ab165fdeae99d62d7e541ff | Pluto TV Halloween
+6ad79d62a4021a92c79545a6 | Bizarre Foods with Andrew Zimmern
+6ad79f775db95e3dac2ae44c | Crime Scenes
+6ad7a07e13fe741bc260bfe0 | Extreme Expeditions
+6ad7a1a6887970b5070d3994 | How To
+6ad7a23d0f04c58afc0110ad | I (Almost) Got Away With It
+6ad7a32a91d45be5658a50fa | Mysterious Worlds
+6ad7a4b9e341f17f18906572 | Nikita
+6ad7a57b1190f084ae117fe7 | Nip/Tuck
+6ad7a6a1e341f17f18909399 | Survive or Die
+6ad7a739256eee83f133749e | The FBI
+6ad7a7be43496b8a1caf7082 | The Repair Shop
+6ad7a8411beb399aadd298d3 | Third Watch
+6ad7a903a4021a92c795cced | Strangely Addicting
+6ad7a97aa9b3de1ec8f609ad | Whose Line Is It Anyway
 metv | MeTV
