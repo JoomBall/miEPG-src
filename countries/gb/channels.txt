@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Nov  3 00:19:16 UTC 2026
+# Fecha: Tue Nov  3 12:10:53 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -190,6 +190,7 @@
 6a5646b29958da78eaa083bd | Sea Patrol
 6a5e2f0b7ac97ec200c8ab02 | The First 48 &amp; Beyond
 6a6a02ce1b1c90d8bf9556d8 | NFL Channel
+6a6a16539547fd4fec08fa33 | Pluto TV More 80's Action
 92.News.uk | 92 News
 A1TV.uk | A1TV
 AAJ.TAK.uk | AAJ TAK
