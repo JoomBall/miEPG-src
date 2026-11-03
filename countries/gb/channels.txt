@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Nov  2 12:15:09 UTC 2026
+# Fecha: Tue Nov  3 00:19:16 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -763,6 +763,7 @@ Racing.TV.HD.uk | Racing TV HD
 Racing.TV.uk | Racing TV
 Radio.X.uk | Radio X
 Really.uk | Really
+Rewind.TV.uk | Rewind TV
 S4C.HD.uk | S4C HD
 S4C.uk | S4C
 SONY.MAX.2.uk | SONY MAX 2
