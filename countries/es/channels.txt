@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Tue Nov  3 12:10:55 UTC 2026
+# Fecha: Wed Nov  4 00:19:41 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -967,7 +967,6 @@ EuroNews | EuroNews
 Euronews.es | Euronews
 Eurosport 1 HD | Eurosport 1
 Eurosport 2 | Eurosport 2
-Eurosport 4K | Eurosport 4K
 Eurosport.1.es | Eurosport 1
 Eurosport.2.es | Eurosport 2
 Eventos.3.es | Eventos 3
@@ -1017,6 +1016,7 @@ FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 FailArmy.es | FailArmy
 Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
@@ -1041,7 +1041,6 @@ Gulli | Gulli
 Gulli.es | Gulli
 HBO Max Avances | HBO Max Avances
 HBO.Max.Avances.es | HBO Max Avances
-Halloween by DARK | Halloween by DARK
 Heritage+.es | Heritage+
 Historia y Vida | Historia y Vida
 Historia | Historia
@@ -1132,7 +1131,7 @@ LaLiga TV BAR 2 | LaLiga TV BAR 2
 LaLiga TV BAR 3 | LaLiga TV BAR 3
 LaLiga TV BAR 4 | LaLiga TV BAR 4
 LaLiga TV BAR 5 | LaLiga TV BAR 5
-LaLiga TV BAR HD | LaLiga TV BAR
+LaLiga TV BAR | LaLiga TV BAR
 LaLiga TV Hypermotion 2 | LaLiga TV Hypermotion 2
 LaLiga TV Hypermotion 3 | LaLiga TV Hypermotion 3
 LaLiga TV Hypermotion 4 | LaLiga TV Hypermotion 4
@@ -1189,7 +1188,6 @@ M+ Liga de Campeones 11 | M+ Liga de Campeones 11
 M+ Liga de Campeones 12 | M+ Liga de Campeones 12
 M+ Liga de Campeones 13 | M+ Liga de Campeones 13
 M+ Liga de Campeones 2 HD | M+ Liga de Campeones 2
-M+ Liga de Campeones 2 HDR | M+ Liga de Campeones 2 HDR
 M+ Liga de Campeones 3 HD | M+ Liga de Campeones 3
 M+ Liga de Campeones 4 | M+ Liga de Campeones 4
 M+ Liga de Campeones 5 | M+ Liga de Campeones 5
@@ -1198,7 +1196,6 @@ M+ Liga de Campeones 7 | M+ Liga de Campeones 7
 M+ Liga de Campeones 8 | M+ Liga de Campeones 8
 M+ Liga de Campeones 9 | M+ Liga de Campeones 9
 M+ Liga de Campeones HD | M+ Liga de Campeones
-M+ Liga de Campeones HDR | M+ Liga de Campeones HDR
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
@@ -1563,8 +1560,6 @@ VE PLUS TV | VE PLUS TV
 VE.PLUS.TV.es | VE PLUS TV
 VOTV | VOTV
 Vallès Visió | Vallès Visió
-Vamos BAR 2 | Vamos BAR 2
-Vamos BAR | Vamos BAR
 Venevisión.Internacional.es | Venevisión Internacional
 Veo7 | Veo7
 Veo7.es | Veo7
