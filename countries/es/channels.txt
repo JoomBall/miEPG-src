@@ -1,18 +1,16 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Nov  5 12:11:31 UTC 2026
+# Fecha: Fri Nov  6 00:20:30 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
 24 Horas | 24 Horas
 24 horas Canarias | 24 horas Canarias
 24 horas Cataluña | 24 horas Cataluña
-324.es | 324
 33.es | 33
 3CatInfo Catalunya | 3CatInfo Catalunya
 3CatInfo | 3CatInfo
 3CatInfo.es | 3CatInfo
-4K.Travel.TV.es | 4K Travel TV
 5f1aa9bcd8160700076d45d1 | Pluto TV Junior
 5f1aab1d29b39600073e243f | Pluto TV Kids
 5f1aadf373bed3000794d1d7 | MTV Originals
@@ -431,10 +429,7 @@
 7.Región.de.Murcia.es | 7 Región de Murcia
 7TV.Andalucía.es | 7TV Andalucía
 7teleValencia | 7teleValencia
-8.Madrid.es | 8 Madrid
 8madrid TV | 8madrid TV
-A3CINE.es | A3CINE
-AM.es | AM
 AMC Anime | AMC Anime
 AMC Break | AMC Break
 AMC Crime | AMC Crime
@@ -449,7 +444,6 @@ AMC.Break.es | AMC Break
 AMC.es | AMC
 ATRESplayer PREMIUM | ATRESplayer PREMIUM
 ATV Andorra Televisión | ATV Andorra Televisión
-ATV.es | ATV
 AXN HD | AXN
 AXN Movies HD | AXN Movies
 AXN.Movies.es | AXN Movies
@@ -457,7 +451,6 @@ AXN.es | AXN
 AZ Corazón | AZ Corazón
 AZ.Corazón.es | AZ Corazón
 Acción.por.M+.es | Acción por M+
-Acontra+.es | Acontra+
 Al Jazeera English HD | Al Jazeera English
 Al cielo con ella | Al cielo con ella
 Al.Jazeera.English.es | Al Jazeera English
@@ -470,7 +463,6 @@ Anime Visión Classics | Anime Visión Classics
 Anime Visión | Anime Visión
 Antena 3 HD | Antena 3
 Antena Motor | Antena Motor
-Antena.3.Internacional.es | Antena 3 Internacional
 Antena.3.es | Antena 3
 Antena.Motor.es | Antena Motor
 Aquí no hay quién viva | Aquí no hay quién viva
@@ -482,7 +474,6 @@ Arirang TV HD | Arirang TV
 Atlántico TV | Atlántico TV
 Atrescine | Atrescine
 Atreseries | Atreseries
-Atreseries.Internacional.es | Atreseries Internacional
 Atreseries.es | Atreseries
 BBC Earth | BBC Earth
 BBC Food | BBC Food
@@ -492,10 +483,7 @@ BBC Series | BBC Series
 BBC Top Gear | BBC Top Gear
 BBC World News Europe HD | BBC World News Europe
 BBC.Earth.es | BBC Earth
-BBC.Food.es | BBC Food
-BBC.History.es | BBC History
 BBC.Lifestyle.es | BBC Lifestyle
-BBC.Series.es | BBC Series
 BBC.Top.Gear.es | BBC Top Gear
 BBC.World.es | BBC World
 BOM Cine | BOM Cine
@@ -506,7 +494,6 @@ Banyoles TV | Banyoles TV
 Be Mad | Be Mad
 Be.Mad.es | Be Mad
 Betevé | Betevé
-Betevé.es | Betevé
 Betis TV | Betis TV
 BetisTV.es | BetisTV
 Bloomberg TV Europe | Bloomberg TV Europe
@@ -514,14 +501,10 @@ Bloomberg.es | Bloomberg
 Boing | Boing
 Boing.es | Boing
 Bon Dia TV | Bon Dia TV
-Bon.Dia.TV.es | Bon Dia TV
-C.Hollywood.es | C Hollywood
 CGTN Documentary | CGTN Documentary
 CGTN Español | CGTN Español
-CGTN.Documentary.HD.es | CGTN Documentary HD
 CGTN.Español.es | CGTN Español
 CMM TV | CMM TV
-CMM.TV.es | CMM TV
 CNBC Europe HD | CNBC Europe
 CNBC.Europe.es | CNBC Europe
 CNN International Europe | CNN International Europe
@@ -549,18 +532,12 @@ Canal Terres de l'Ebre | Canal Terres de l'Ebre
 Canal de las Estrellas | Canal de las Estrellas
 Canal.24.horas.Cataluña.es | Canal 24 horas Cataluña
 Canal.24.horas.es | Canal 24 horas
-Canal.33.es | Canal 33
 Canal.4.Tenerife.es | Canal 4 Tenerife
 Canal.7.Televalencia.es | Canal 7 Televalencia
 Canal.Cocina.es | Canal Cocina
 Canal.Extremadura.SAT.es | Canal Extremadura SAT
-Canal.Extremadura.Sat.es | Canal Extremadura Sat
 Canal.Extremadura.TV.es | Canal Extremadura TV
-Canal.FlixOlé.1.es | Canal FlixOlé 1
-Canal.FlixOlé.2.es | Canal FlixOlé 2
-Canal.Fútbol.Replay.es | Canal Fútbol Replay
 Canal.HISTORIA.es | Canal HISTORIA
-Canal.Sur.2.es | Canal Sur 2
 Canal.Sur.Andalucía.es | Canal Sur Andalucía
 Canal.Sur.es | Canal Sur
 Canal.de.las.Estrellas.Europa.es | Canal de las Estrellas Europa
@@ -575,11 +552,8 @@ Cine Español (Rakuten TV) | Cine Español (Rakuten TV)
 Cine Feel Good | Cine Feel Good
 Cine Friki | Cine Friki
 Cine.Español.por.M+.es | Cine Español por M+
-Cine.Feel.Good.es | Cine Feel Good
 Cine.Friki.es | Cine Friki
-Cine.Western.es | Cine Western
 Cines Verdi TV | Cines Verdi TV
-Cines.Verdi.TV.es | Cines Verdi TV
 Clan | Clan
 Clan.TVE.es | Clan TVE
 Classica HD | Classica
@@ -657,8 +631,6 @@ DAZN.2.es | DAZN 2
 DAZN.3.es | DAZN 3
 DAZN.4.es | DAZN 4
 DAZN.F1.es | DAZN F1
-DAZN.LALIGA.2.es | DAZN LALIGA 2
-DAZN.LALIGA.es | DAZN LALIGA
 DAZN.LaLiga.2.es | DAZN LaLiga 2
 DAZN.LaLiga.es | DAZN LaLiga
 DBike | DBike
@@ -716,15 +688,12 @@ Distrito TV | Distrito TV
 Distrito.TV.es | Distrito TV
 Divinity | Divinity
 Divinity.es | Divinity
-Djazz.es | Djazz
 Documentales.por.M+.es | Documentales por M+
 Dpelis | Dpelis
 Drama.por.M+.es | Drama por M+
 DreamWorks.es | DreamWorks
 Dreamworks HD | Dreamworks
-Dreamworks.es | Dreamworks
 Dviaje | Dviaje
-EITB.BASQUE.es | EITB BASQUE
 EITB.Basque.es | EITB Basque
 ES1000001EF | SMTOWN
 ES1100001MT | Barça 24H
@@ -929,11 +898,7 @@ ETB.2.es | ETB 2
 ETB.3.es | ETB 3
 ETB.4.es | ETB 4
 ETB1.ON.es | ETB1 ON
-ETB1.es | ETB1
 ETB2.ON.es | ETB2 ON
-ETB2.es | ETB2
-ETB3.es | ETB3
-ETB4.es | ETB4
 ETV | ETV
 EWTN | EWTN
 EWTN.es | EWTN
@@ -942,9 +907,7 @@ El 9 TV | El 9 TV
 El Hormiguero | El Hormiguero
 El Toro TV | El Toro TV
 El club de la comedia | El club de la comedia
-El.Confidencial.es | El Confidencial
 El.Garage.TV.es | El Garage TV
-El.País.es | El País
 El.Toro.TV.es | El Toro TV
 El.Trece.Internacional.es | El Trece Internacional
 Elche 7 TV | Elche 7 TV
@@ -969,8 +932,6 @@ Eurosport 1 HD | Eurosport 1
 Eurosport 2 | Eurosport 2
 Eurosport.1.es | Eurosport 1
 Eurosport.2.es | Eurosport 2
-Eventos.3.es | Eventos 3
-Eventos.4.es | Eventos 4
 Extreme Channel | Extreme Channel
 Extreme.Channel.es | Extreme Channel
 FANPLAY TV Primera Federación 1 | FANPLAY TV Primera Federación 1
@@ -1014,13 +975,11 @@ FR · beIN SPORTS MAX 7 | FR · beIN SPORTS MAX 7
 FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
-FailArmy.es | FailArmy
 Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
 FightSports | FightSports
-Flamenco.Auditorio.es | Flamenco Auditorio
 Flooxer | Flooxer
 FoQ | FoQ
 France 2 | France 2
@@ -1040,12 +999,9 @@ Gulli | Gulli
 Gulli.es | Gulli
 HBO Max Avances | HBO Max Avances
 HBO.Max.Avances.es | HBO Max Avances
-Heritage+.es | Heritage+
 Historia y Vida | Historia y Vida
 Historia | Historia
-Historia.y.Vida.es | Historia y Vida
 Hits.Por.M+.es | Hits Por M+
-Hits.por.M+.es | Hits por M+
 Hollywood.es | Hollywood
 Horse TV | Horse TV
 Horse.TV.es | Horse TV
@@ -1060,7 +1016,6 @@ Iberalia pesca | Iberalia pesca
 Iberalia.Caza.es | Iberalia Caza
 Iberalia.Pesca.es | Iberalia Pesca
 Iberalia.es | Iberalia
-Imas.TV.es | Imas TV
 Imás TV | Imás TV
 Indie.por.M+.es | Indie por M+
 Infinity Comedia | Infinity Comedia
@@ -1072,13 +1027,9 @@ Información TV | Información TV
 Información.TV.es | Información TV
 Inquietos atresplayer | Inquietos atresplayer
 Kidz | Kidz
-LALIGA.Inside.es | LALIGA Inside
 LALIGA.TV.BAR.2.es | LALIGA TV BAR 2
 LALIGA.TV.BAR.3.es | LALIGA TV BAR 3
 LALIGA.TV.BAR.5.es | LALIGA TV BAR 5
-LALIGA.TV.HYPERMOTION.2.es | LALIGA TV HYPERMOTION 2
-LALIGA.TV.HYPERMOTION.3.es | LALIGA TV HYPERMOTION 3
-LALIGA.TV.HYPERMOTION.es | LALIGA TV HYPERMOTION
 LLALIGA.TV.BAR.4.es | LLALIGA TV BAR 4
 La 1 Canarias | La 1 Canarias
 La 1 Cataluña | La 1 Cataluña
@@ -1114,6 +1065,7 @@ La Otra | La Otra
 La Promesa | La Promesa
 La Revuelta | La Revuelta
 La Sexta HD | La Sexta
+La Séptima | La Séptima
 La.1.Canarias.es | La 1 Canarias
 La.1.Catalunya.es | La 1 Catalunya
 La.1.es | La 1
@@ -1126,6 +1078,7 @@ La.8.Burgos.es | La 8 Burgos
 La.8.es | La 8
 La.Ocho.mediterráneo.es | La Ocho mediterráneo
 La.Otra.es | La Otra
+La.Séptima.es | La Séptima
 LaLiga TV BAR 2 | LaLiga TV BAR 2
 LaLiga TV BAR 3 | LaLiga TV BAR 3
 LaLiga TV BAR 4 | LaLiga TV BAR 4
@@ -1147,8 +1100,6 @@ Lolly Kids | Lolly Kids
 Los Conciertos de Radio 3 | Los Conciertos de Radio 3
 Love Wine | Love Wine
 Love the Planet | Love the Planet
-Love.The.Planet.es | Love The Planet
-Love.Wine.es | Love Wine
 M+ Acción HD | M+ Acción
 M+ Baloncesto 2 | M+ Baloncesto 2
 M+ Baloncesto 3 | M+ Baloncesto 3
@@ -1204,51 +1155,14 @@ M+ Vamos 2 | M+ Vamos 2
 M+ Vamos 3 | M+ Vamos 3
 M+ Vamos HD | M+ Vamos
 M+ Wimbledon UHD | M+ Wimbledon
-M+.Acción.es | M+ Acción
-M+.Cine.Español.es | M+ Cine Español
-M+.Clásicos.es | M+ Clásicos
-M+.Comedia.es | M+ Comedia
 M+.Copa.del.Rey.es | M+ Copa del Rey
-M+.Deportes.2.es | M+ Deportes 2
-M+.Deportes.3.es | M+ Deportes 3
-M+.Deportes.4.es | M+ Deportes 4
-M+.Deportes.5.es | M+ Deportes 5
-M+.Deportes.6.es | M+ Deportes 6
-M+.Deportes.7.es | M+ Deportes 7
-M+.Deportes.es | M+ Deportes
-M+.Documentales.es | M+ Documentales
-M+.Drama.es | M+ Drama
-M+.Ellas.V.es | M+ Ellas V
-M+.Estrenos.es | M+ Estrenos
-M+.Golf.2.es | M+ Golf 2
-M+.Golf.es | M+ Golf
-M+.Hits.es | M+ Hits
-M+.Indie.es | M+ Indie
 M+.LALIGA.TV.2.es | M+ LALIGA TV 2
 M+.LALIGA.TV.3.es | M+ LALIGA TV 3
 M+.LALIGA.TV.4.es | M+ LALIGA TV 4
-M+.LALIGA.TV.UHD.es | M+ LALIGA TV UHD
 M+.LALIGA.TV.es | M+ LALIGA TV
-M+.Liga.de.Campeones..3.es | M+ Liga de Campeones  3
-M+.Liga.de.Campeones..4.es | M+ Liga de Campeones  4
-M+.Liga.de.Campeones.10.es | M+ Liga de Campeones 10
-M+.Liga.de.Campeones.11.es | M+ Liga de Campeones 11
-M+.Liga.de.Campeones.12.es | M+ Liga de Campeones 12
-M+.Liga.de.Campeones.13.es | M+ Liga de Campeones 13
-M+.Liga.de.Campeones.2.es | M+ Liga de Campeones 2
-M+.Liga.de.Campeones.5.es | M+ Liga de Campeones 5
-M+.Liga.de.Campeones.6.es | M+ Liga de Campeones 6
-M+.Liga.de.Campeones.7.es | M+ Liga de Campeones 7
-M+.Liga.de.Campeones.8.es | M+ Liga de Campeones 8
-M+.Liga.de.Campeones.9.es | M+ Liga de Campeones 9
 M+.Liga.de.Campeones.HDR.es | M+ Liga de Campeones HDR
-M+.Liga.de.Campeones.es | M+ Liga de Campeones
-M+.Liga.de.Campeones2.HDR.es | M+ Liga de Campeones2 HDR
-M+.Los.90.es | M+ Los 90
-M+.Originales.es | M+ Originales
 M+.Vamos.2.es | M+ Vamos 2
 M+.Vamos.3.es | M+ Vamos 3
-M+.Vamos.es | M+ Vamos
 M6 | M6
 MMA TV | MMA TV
 MTV España | MTV España
@@ -1264,7 +1178,6 @@ Mezzo Live HD | Mezzo Live
 Mezzo | Mezzo
 Mezzo.Español.es | Mezzo Español
 Mezzo.Live.Español.es | Mezzo Live Español
-Mezzo.Live.es | Mezzo Live
 Moto ADV | Moto ADV
 Moto.ADV.es | Moto ADV
 Motorvision | Motorvision
@@ -1281,28 +1194,21 @@ Movistar.Liga.de.Campeones.es | Movistar Liga de Campeones
 Movistar.Plus+.es | Movistar Plus+
 Mr Bean Animated | Mr Bean Animated
 Multicine atresplayer | Multicine atresplayer
-Musicales.por.M+.\n.es | Musicales por M+ \n
 MyPadel TV | MyPadel TV
 MyPadel.TV.es | MyPadel TV
 MyTime Movie Network (Rakuten TV) | MyTime Movie Network (Rakuten TV)
 MyZen.TV.es | MyZen TV
 Mírame TV | Mírame TV
 Mírame.TV.es | Mírame TV
-NATV.1.es | NATV 1
-NATV.2.es | NATV 2
 NBA TV | NBA TV
 NFL Network (DAZN) | NFL Network (DAZN)
 NHK WORLD | NHK WORLD
 NHK.World.Premium.es | NHK World Premium
-NOW.70's.es | NOW 70's
-NOW.80's.es | NOW 80's
-NOW.Rock.es | NOW Rock
 Nat Geo Wild HD | Nat Geo Wild
 National Geographic HD | National Geographic
 National.Geographic.Wild.HD.es | National Geographic Wild HD
 National.Geographic.es | National Geographic
 NatureTime | NatureTime
-NatureTime.es | NatureTime
 Nautical Channel | Nautical Channel
 Nautical.Channel.es | Nautical Channel
 Navarra TV 2 | Navarra TV 2
@@ -1312,7 +1218,6 @@ Negocios TV | Negocios TV
 Negocios.TV.es | Negocios TV
 Neox | Neox
 Neox.es | Neox
-Nesting.TV.es | Nesting TV
 Nick JR | Nick JR
 Nick.Junior.es | Nick Junior
 Nickelodeon HD | Nickelodeon
@@ -1325,7 +1230,6 @@ Náutica TV | Náutica TV
 Nós Televisión | Nós Televisión
 Odisea | Odisea
 Odisea.es | Odisea
-Oficios.perdidos.es | Oficios perdidos
 Olot TV | Olot TV
 Onda Algeciras TV | Onda Algeciras TV
 Onda Cádiz TV | Onda Cádiz TV
@@ -1370,7 +1274,6 @@ Películas de Drama (Rakuten TV) | Películas de Drama (Rakuten TV)
 Penedès TV | Penedès TV
 Pirineus TV | Pirineus TV
 Pirineus.TV.es | Pirineus TV
-Planeta.de.Cine.es | Planeta de Cine
 Playboy TV | Playboy TV
 Playboy.TV.es | Playboy TV
 Pocoyó | Pocoyó
@@ -1378,7 +1281,6 @@ Pop.Up.1.por.M+.es | Pop Up 1 por M+
 Pop.Up.2.por.M+.es | Pop Up 2 por M+
 Popular TV Cantabria | Popular TV Cantabria
 Popular TV Región de Murcia | Popular TV Región de Murcia
-Popular.TV.Cantabria.es | Popular TV Cantabria
 Popular.TV.Región.de.Murcia.es | Popular TV Región de Murcia
 Primera Federación (DAZN) | Primera Federación (DAZN)
 Primera Federación | Primera Federación
@@ -1386,12 +1288,9 @@ Primera.Federación.es | Primera Federación
 Pro TV | Pro TV
 Pro.TV.Internacional.es | Pro TV Internacional
 Punt 3 | Punt 3
-Punt.3.es | Punt 3
 Qello concerts | Qello concerts
 Qello.Concerts.es | Qello Concerts
 Qwest TV | Qwest TV
-Qwest.TV.es | Qwest TV
-RNA.es | RNA
 RTP Internacional | RTP Internacional
 Radio Televisión Ceuta | Radio Televisión Ceuta
 Real Madrid TV | Real Madrid TV
@@ -1412,28 +1311,22 @@ Runtime Crimen | Runtime Crimen
 Runtime Romance | Runtime Romance
 Runtime Series | Runtime Series
 Runtime Thriller-Terror | Runtime Thriller-Terror
-SELEKT.es | SELEKT
-SOL.Música.es | SOL Música
 STAR Channel HD | STAR Channel
 SX3 Catalunya | SX3 Catalunya
 SX3 | SX3
 SX3-33.es | SX3-33
-SX3.es | SX3
 Sangre Fría | Sangre Fría
 Sci-Fi (Rakuten TV) | Sci-Fi (Rakuten TV)
 SciFi HD | SciFi
-Sin.Filtros.es | Sin Filtros
+SciFi.es | SciFi
 Sky News International | Sky News International
 Sky Sports 16 | Sky Sports 16
 SkyShowtime | SkyShowtime
-SkyShowtime.1.es | SkyShowtime 1
 SkyShowtime.es | SkyShowtime
 Sol Música | Sol Música
 Sol.Música.es | Sol Música
 Solidaria TV Argentina | Solidaria TV Argentina
 Solidaria TV España | Solidaria TV España
-Solidaria.TV.Argentina.es | Solidaria TV Argentina
-Solidaria.TV.España.es | Solidaria TV España
 Somos Cine | Somos Cine
 Somos | Somos
 Somos.es | Somos
@@ -1453,7 +1346,6 @@ Stingray.Classica.es | Stingray Classica
 Sundance TV | Sundance TV
 Sundance.TV.es | Sundance TV
 Surf Channel | Surf Channel
-Syfy.es | Syfy
 TAC12 | TAC12
 TCM HD | TCM
 TCM.es | TCM
@@ -1463,7 +1355,6 @@ TPA.es | TPA
 TPA7 Asturias | TPA7 Asturias
 TPA8 Asturias | TPA8 Asturias
 TR3CE | TR3CE
-TR3CE.es | TR3CE
 TRACE Latina | TRACE Latina
 TRACE Sports Stars | TRACE Sports Stars
 TRACE Urban | TRACE Urban
@@ -1479,10 +1370,8 @@ TV Girona | TV Girona
 TV Melilla | TV Melilla
 TV Sabadell - Vallès | TV Sabadell - Vallès
 TV.Chile.es | TV Chile
-TV.Melilla.es | TV Melilla
 TV3 Catalunya | TV3 Catalunya
 TV3 | TV3
-TV3.CAT.es | TV3 CAT
 TV3.es | TV3
 TV3CAT Catalunya | TV3CAT Catalunya
 TV3CAT.es | TV3CAT
@@ -1511,7 +1400,6 @@ TelevisiónCanaria.es | TelevisiónCanaria
 Ten | Ten
 Tennis Channel | Tennis Channel
 Tennis+ | Tennis+
-The.Pet.Collective.es | The Pet Collective
 Thrillers (Rakuten TV) | Thrillers (Rakuten TV)
 Todo Crimen (Rakuten TV) | Todo Crimen (Rakuten TV)
 Todo Drama (Rakuten TV) | Todo Drama (Rakuten TV)
@@ -1576,8 +1464,6 @@ Warner TV HD | Warner TV
 Warner.TV.es | Warner TV
 XTRM | XTRM
 XTRM.es | XTRM
-ZUT.TV.es | ZUT TV
-ZenLIFE.es | ZenLIFE
 acontra+ | acontra+
 beIN SPORTS XTRA ñ | beIN SPORTS XTRA ñ
 beIN SPORTS en español | beIN SPORTS en español
@@ -1590,7 +1476,6 @@ etb2 euskera | etb2 euskera
 etb2 | etb2
 etb2ON euskera | etb2ON euskera
 etb2ON | etb2ON
-iConcerts.es | iConcerts
 interalmería TV | interalmería TV
 laSexta.es | laSexta
 teleSUR.es | teleSUR
@@ -1599,7 +1484,6 @@ tlnovelas | tlnovelas
 tvG2.es | tvG2
 tvmataró | tvmataró
 ¡Buenviaje!.es | ¡Buenviaje!
-¡HOLA!.TV.es | ¡HOLA! TV
 À Punt | À Punt
 À.Punt.Internet.es | À Punt Internet
 À.Punt.es | À Punt
