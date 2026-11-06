@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Nov  6 00:20:30 UTC 2026
+# Fecha: Fri Nov  6 12:11:40 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -11,6 +11,7 @@
 3CatInfo Catalunya | 3CatInfo Catalunya
 3CatInfo | 3CatInfo
 3CatInfo.es | 3CatInfo
+5f1aa7aab66c76000790ee7e | Big Time Rush
 5f1aa9bcd8160700076d45d1 | Pluto TV Junior
 5f1aab1d29b39600073e243f | Pluto TV Kids
 5f1aadf373bed3000794d1d7 | MTV Originals
@@ -72,6 +73,7 @@
 629a066860ef810008267b70 | Detective Conan
 62ac3d7dc23b400008ae5b5a | MTV Jerseys
 6304f530440dc90007f514d3 | Poirot &amp; Miss Marple
+6304f626d1a0ac00083a05c5 | Los padrinos mágicos
 632c6df43d2bc5000751f621 | Inazuma Eleven
 6335a6b6e6f7a600076e589e | Cazasubastas
 6385e82900ab2e000768a058 | Pluto TV Western
@@ -352,6 +354,7 @@
 64a3f200f238ce0008d47247 | Pluto TV True Crime
 64db2e0835425100080f2f5a | Pluto TV Diseño
 64ddcbb14c5ed80008fad416 | Crimen &amp; Historia
+6511a53f473a54000854e2ee | Zoey 101
 6523f672a6c38300088cb807 | El Reino Infantil
 65254e8d81f9420008342cee | La fiebre del Jade
 654a35ce346f420008d5c36e | Pluto TV Invasión Alien
