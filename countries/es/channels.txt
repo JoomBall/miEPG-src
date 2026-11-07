@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Nov  6 12:11:40 UTC 2026
+# Fecha: Sat Nov  7 00:17:57 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -355,6 +355,7 @@
 64db2e0835425100080f2f5a | Pluto TV Diseño
 64ddcbb14c5ed80008fad416 | Crimen &amp; Historia
 6511a53f473a54000854e2ee | Zoey 101
+6511a5d8d1f20c000864b951 | Victorious
 6523f672a6c38300088cb807 | El Reino Infantil
 65254e8d81f9420008342cee | La fiebre del Jade
 654a35ce346f420008d5c36e | Pluto TV Invasión Alien
