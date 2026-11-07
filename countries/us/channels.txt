@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Fri Nov  6 12:12:03 UTC 2026
+# Fecha: Sat Nov  7 00:17:34 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -444,6 +444,7 @@
 6aab1ef220ec28a21adca712 | Torque by History
 6aab1f18c349e6a78bb489ad | Pawn Stars Plus by History
 6ac5067030fb504db0658842 | See It Now Studios True Crime
+6ad12962e6621e77d3b88502 | BET Drama Hits
 6ad79d62a4021a92c79545a6 | Bizarre Foods with Andrew Zimmern
 6ad79f775db95e3dac2ae44c | Crime Scenes
 6ad7a07e13fe741bc260bfe0 | Extreme Expeditions
