@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Sat Nov  7 12:10:12 UTC 2026
+# Fecha: Sun Nov  8 00:21:33 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -597,6 +597,7 @@ DAZN Baloncesto | DAZN Baloncesto
 DAZN Bundesliga 2 | DAZN Bundesliga 2
 DAZN Bundesliga 3 | DAZN Bundesliga 3
 DAZN Bundesliga 4 | DAZN Bundesliga 4
+DAZN Bundesliga 5 | DAZN Bundesliga 5
 DAZN Bundesliga | DAZN Bundesliga
 DAZN F1 HD | DAZN F1
 DAZN LALIGA EA SPORTS 2 | DAZN LALIGA EA SPORTS 2
@@ -625,6 +626,7 @@ DAZN National League | DAZN National League
 DAZN Premier League 2 | DAZN Premier League 2
 DAZN Premier League 3 | DAZN Premier League 3
 DAZN Premier League 4 | DAZN Premier League 4
+DAZN Premier League 5 | DAZN Premier League 5
 DAZN Premier League | DAZN Premier League
 DAZN Serie A 2 | DAZN Serie A 2
 DAZN Serie A | DAZN Serie A
