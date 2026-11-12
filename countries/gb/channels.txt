@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Nov 11 12:12:22 UTC 2026
+# Fecha: Thu Nov 12 00:19:48 UTC 2026
 
 4seven.uk | 4seven
 5.USA.uk | 5 USA
@@ -455,8 +455,8 @@ GB300005ZR | Sony One Comedy TV
 GB3000061H | Sony One Thriller TV
 GB300007J7 | Sony One FAVES
 GB300008I8 | Sony One Dragons Den
-GB300032DX | Now 70's
-GB300033HI | Now 90's &amp; 00's
+GB300032DX | That's 70's
+GB300033HI | That's 90s00s
 GB30003577 | talkSPORT
 GB300036IM | PGA Tour
 GB3000370X | GREAT! Mystery
@@ -577,7 +577,7 @@ GBBC400000345 | Festive Hub
 GBBC430000128 | POP
 GBBC4300005AL | The LEGO Channel
 GBBC900001SC | Trace Urban
-GBBC900003B2 | Now 80s
+GBBC900003B2 | That's 80s
 GBBC900004G9 | The Wicked Tuna Channel
 GBBC9000062G | Come Dine With Me
 GBBC900007Q5 | Great! Movies
@@ -619,7 +619,7 @@ GBBD3200001E2 | Earth Touch
 GBBD3200003T6 | Tiny POP
 GBBD3600001NO | CNBC
 GBBD3700001AB | DATELINE 24/7
-GBBD4100006KV | Criminal Confessions
+GBBD4100006KV | Born to Kill
 GBBD4100010H1 | Crime Network
 GBBD4100011RE | K-Drama+
 GBBD4900001RG | Reuters
