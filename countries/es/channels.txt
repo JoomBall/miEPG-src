@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Mon Nov 16 00:24:50 UTC 2026
+# Fecha: Mon Nov 16 12:15:13 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -409,6 +409,7 @@
 68e8fe3bcba140ddfe903677 | Monster High
 690dd10a37b131228d76d5b1 | El Mueble
 69148c470155f9b136b5d856 | Pluto TV Snooker 900
+695fd9f0b7aaee65cc031463 | Slam Dunk
 6964d2179ba4ac18051a18ce | Léo Mattéï: Brigada de protección
 696e02423b9ce349c90edef9 | Rally TV
 697a33faf5c44526a1271d55 | Top Gear: Celebrities
