@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Nov 18 00:20:22 UTC 2026
+# Fecha: Wed Nov 18 12:10:32 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -706,6 +706,10 @@ ES1200003SI | Concerto
 ES120000498 | Quantum Makers
 ES1200005Z1 | H2O &amp; Friends
 ES1300001QC | DW
+ES1300002TA | Acción+
+ES13000040O | Books
+ES1300005HE | Alma
+ES1300006Z3 | Epic
 ES1400001T8 | Beyblade
 ES1400002CJ | CURIOSITY Now
 ES1600002QL | La Fiebre del Jade
@@ -785,6 +789,7 @@ ES34000039I | CNN en Español
 ES3400004SS | Sky News International
 ES3500003JZ | Real Madrid TV
 ES3600001Y7 | Rebelde
+ES3600002W5 | Vevo Navidad
 ES3800001V1 | Red Bull TV
 ES3800002V5 | Dhar Mann TV
 ES3900001QG | CJ ENM K-POP
@@ -980,7 +985,6 @@ FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
-FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
