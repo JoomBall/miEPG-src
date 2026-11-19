@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Nov 19 00:19:57 UTC 2026
+# Fecha: Thu Nov 19 12:10:32 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -985,7 +985,6 @@ FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
-FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
@@ -1156,11 +1155,11 @@ M+ Liga de Campeones 7 | M+ Liga de Campeones 7
 M+ Liga de Campeones 8 | M+ Liga de Campeones 8
 M+ Liga de Campeones 9 | M+ Liga de Campeones 9
 M+ Liga de Campeones HD | M+ Liga de Campeones
+M+ Navidad | M+ Terror
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
-M+ Romance | M+ Romance
-M+ Terror | M+ Terror
+M+ Thriller | M+ Romance
 M+ Vamos 2 | M+ Vamos 2
 M+ Vamos 3 | M+ Vamos 3
 M+ Vamos HD | M+ Vamos
