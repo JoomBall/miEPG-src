@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Nov 19 12:10:32 UTC 2026
+# Fecha: Fri Nov 20 00:18:01 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -1031,6 +1031,7 @@ Infinity Comedia | Infinity Comedia
 Infinity En la calle | Infinity En la calle
 Infinity Top Series | Infinity Top Series
 Infinity Viajes | Infinity Viajes
+Infinity mtmad | Infinity mtmad
 Infinity+ LQSA | Infinity+ LQSA
 Información TV | Información TV
 Información.TV.es | Información TV
@@ -1155,11 +1156,11 @@ M+ Liga de Campeones 7 | M+ Liga de Campeones 7
 M+ Liga de Campeones 8 | M+ Liga de Campeones 8
 M+ Liga de Campeones 9 | M+ Liga de Campeones 9
 M+ Liga de Campeones HD | M+ Liga de Campeones
-M+ Navidad | M+ Terror
+M+ Navidad | M+ Navidad
 M+ Originales HD | M+ Originales
 M+ PopUp 2 | M+ PopUp 2
 M+ PopUp | M+ PopUp
-M+ Thriller | M+ Romance
+M+ Thriller | M+ Thriller
 M+ Vamos 2 | M+ Vamos 2
 M+ Vamos 3 | M+ Vamos 3
 M+ Vamos HD | M+ Vamos
@@ -1349,7 +1350,7 @@ Squirrel 2 | Squirrel 2
 Squirrel TV | Squirrel TV
 Squirrel.2.es | Squirrel 2
 Squirrel.es | Squirrel
-Star TVE HD | Star TVE
+Star TVE | Star TVE
 Stingray Classica | Stingray Classica
 Stingray.Classica.es | Stingray Classica
 Sundance TV | Sundance TV
@@ -1386,6 +1387,7 @@ TV3CAT Catalunya | TV3CAT Catalunya
 TV3CAT.es | TV3CAT
 TV5 Monde Europe HD | TV5 Monde Europe
 TV5MONDE.es | TV5MONDE
+TVE Internacional Europa | TVE Internacional Europa
 TVG Europa HD | TVG Europa
 TVG | TVG
 TVG.Europa.es | TVG Europa
@@ -1479,6 +1481,7 @@ beIN SPORTS en español | beIN SPORTS en español
 betevé.es | betevé
 etb1 euskera | etb1 euskera
 etb1 | etb1
+etb1ON TDT euskera | etb1ON TDT euskera
 etb1ON euskera | etb1ON euskera
 etb1ON | etb1ON
 etb2 euskera | etb2 euskera
@@ -1487,6 +1490,7 @@ etb2ON euskera | etb2ON euskera
 etb2ON | etb2ON
 interalmería TV | interalmería TV
 laSexta.es | laSexta
+rtve | rtve
 teleSUR.es | teleSUR
 telemiño | telemiño
 tlnovelas | tlnovelas
