@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Wed Nov 25 00:19:39 UTC 2026
+# Fecha: Wed Nov 25 12:11:08 UTC 2026
 
 #Vamos.es | #Vamos
 1+1 International | 1+1 International
@@ -274,7 +274,6 @@
 643054b1fc3be59477853717-67294a601055ef3897c73477 | The Emeril Lagasse Channel
 643054b1fc3be59477853717-674f6a6cf44561420465f9f3 | Animation+
 643054b1fc3be59477853717-6761f91555e174e95ccc4e4c | Tennis+
-643054b1fc3be59477853717-67828ebf37cd7764c53489b3 | DFB Play TV
 643054b1fc3be59477853717-67884bd6d37f2fd48d6220db | Creator Television
 643054b1fc3be59477853717-678fe7959407a53556d3e8eb | FRANCE 24
 643054b1fc3be59477853717-67a1a8ef2358ef4dd5c3018e | Lucha Plus
@@ -813,7 +812,7 @@ ES500004NO | Sci-Fi - Rakuten TV
 ES500005BP | Águila Roja
 ES500008IU | FreeTV Clásico
 ES51000017V | Rally.TV FAST+
-ES700004C8 | Runtime Familia
+ES700004C8 | Runtime Christmas
 ES7000056Z | Yu-Gi-Oh!
 ES700006IP | Rolling Stones Takeover
 ES7000088K | Space Live
@@ -859,7 +858,6 @@ ESBC39000033J | El País
 ESBC3900004ED | Pocoyó
 ESBC400001QQ | Runtime
 ESBC40000248 | Action Movie Channel
-ESBC400003YM | NBC News NOW
 ESBC4100001NZ | La 1
 ESBC4100002AG | La 2
 ESBC4100003WE | Clan
@@ -885,7 +883,6 @@ ESBD3200001EG | Motorvision
 ESBD3200002V5 | La Abeja Maya
 ESBD3400001AA | Negocios TV
 ESBD36000026Z | CNBC
-ESBD3700001S0 | DATELINE 24/7
 ESBD4100001DU | K-Drama+
 ESBD5100001G0 | SuperToons TV
 ESBD800001RJ | Cine Friki
@@ -984,6 +981,7 @@ FR · beIN SPORTS MAX 8 | FR · beIN SPORTS MAX 8
 FR · beIN SPORTS MAX 9 | FR · beIN SPORTS MAX 9
 Factoría de Ficción | Factoría de Ficción
 Fashion TV (Rakuten TV) | Fashion TV (Rakuten TV)
+FashionTV | FashionTV
 Fast&amp;FunBox | Fast&amp;FunBox
 Fight Box HD | Fight Box
 Fight Time | Fight Time
