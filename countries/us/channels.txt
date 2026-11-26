@@ -1,6 +1,6 @@
 # Canales disponibles en las fuentes EPG
 # Formato: channel_id | display_name
-# Fecha: Thu Nov 26 00:19:15 UTC 2026
+# Fecha: Thu Nov 26 12:12:32 UTC 2026
 
 51c75f7bb6f26ba1cd00002f | Little Stars Universe
 5421f71da6af422839419cb3 | CNN HEADLINES
@@ -460,4 +460,5 @@
 6ad7a8411beb399aadd298d3 | Third Watch
 6ad7a903a4021a92c795cced | Strangely Addicting
 6ad7a97aa9b3de1ec8f609ad | Whose Line Is It Anyway
+6afb376f5db95e3dacdebad9 | Paw Patrol Holiday Fireplace
 metv | MeTV
